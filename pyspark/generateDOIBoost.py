@@ -41,7 +41,7 @@ if __name__=='__main__':
     microsoft = spark.read.load("/data/df/mag.parquet", format="parquet")
     microsoft = microsoft.select(*(col(x).alias(x + '_mag') for x in microsoft.columns))
     mag = microsoft.groupBy('doi_mag').agg(first('authors_mag').alias('author_mag'), first('abstract_mag').alias('abstract_mag'))
-    crossref = sc.textFile('/data/df/crossRef_df').map(eval).map(lambda x: (x['doi'].lower(), x))
+    crossref = spark.read.load('/data/df/crossRef_df', format="parquet")
     data = crossref.join(mag, crossref.doi == mag.doi_mag, how="left")
 
     print data.count()
