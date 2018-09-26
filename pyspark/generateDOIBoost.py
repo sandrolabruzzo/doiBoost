@@ -1,4 +1,8 @@
 from pyspark import SparkContext
+from pyspark.sql import SparkSession
+from pyspark import SparkContext
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col, collect_list, struct,length, first
 
 
 def levenshtein(s1, s2):
@@ -33,14 +37,11 @@ def similarity(a, b):
 
 if __name__=='__main__':
     sc = SparkContext(appName='generateDOIBoost')
+    spark = SparkSession(sc)
+    microsoft = spark.read.load("/data/df/mag.parquet", format="parquet")
+    microsoft = microsoft.select(*(col(x).alias(x + '_mag') for x in microsoft.columns))
+    mag = microsoft.groupBy('doi_mag').agg(first('authors_mag').alias('author_mag'), first('abstract_mag').alias('abstract_mag'))
+    crossref = sc.textFile('/data/df/crossRef_df').map(eval).map(lambda x: (x['doi'].lower(), x))
+    data = crossref.join(mag, crossref.doi == mag.doi_mag, how="left")
 
-    
-    mag = sc.textFile('/data/microsoft_df').map(eval).map(lambda x: (x['doi'].lower(), x))
-
-    crossref = sc.textFile('/data/crossRef_df').map(eval).map(lambda x: (x['doi'].lower(), x))
-
-
-    #join CrossRef with Mag
-    join = mag + crossref
-
-    print join.groupByKey().filter(lambda x: len(list(x[1])) > 1).count()
+    print data.count()
