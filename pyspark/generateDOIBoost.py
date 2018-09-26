@@ -1,47 +1,103 @@
 from pyspark import SparkContext
 from pyspark.sql import SparkSession
-from pyspark import SparkContext
-from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, collect_list, struct,length, first
-
-
-def levenshtein(s1, s2):
-    if len(s1) < len(s2):
-        return levenshtein(s2, s1)
-
-    # len(s1) >= len(s2)
-    if len(s2) == 0:
-        return len(s1)
-
-    previous_row = range(len(s2) + 1)
-    for i, c1 in enumerate(s1):
-        current_row = [i + 1]
-        for j, c2 in enumerate(s2):
-            insertions = previous_row[j + 1] + 1 # j+1 instead of j since previous_row and current_row are one character longer
-            deletions = current_row[j] + 1       # than s2
-            substitutions = previous_row[j] + (c1 != c2)
-            current_row.append(min(insertions, deletions, substitutions))
-        previous_row = current_row
-
-    return previous_row[-1]
+from pyspark.sql.functions import col, collect_list, struct,length, first, array, lit
+from difflib import SequenceMatcher
 
 def similarity(a, b):
-  if len(a)== 0 and len(b)==0:
-    return 0
-  c = max(len(a), len(b))
-  return float((c - levenshtein(a,b) ) / float(c))
+    return SequenceMatcher(None, a, b).ratio()
+
+
+def max_in_matrix(m, t):
+    m_values = []
+    for row in m:
+        m_values.append((max(row), row.index(max(row))))
+
+    mx =max(m_values)
+    if (mx[0]) < t:
+        return None
+    return (m_values.index(mx),mx[1])
 
 
 
+def matchAuthors(a, b, t):
+    row = len(a)
+    col = len(b)
+    matrix =[]
+    for r in range(row):
+        current_row = []
+        for c in range(col):
+            a1 = a[r]
+            a2 = b[c]
+            current_row.append(similarity(a1,a2))
+        matrix.append(current_row)
+    
+    mx = max_in_matrix(matrix, t)
+    similarities = []
+    while mx is not None:
+        similarities.append(mx)
+        matrix[mx[0]] = [0] * col
+        for item in matrix:
+            item[mx[1]] = 0
+        mx = max_in_matrix(matrix, t)
+    
+    return similarities
+    
+
+
+def extract_author(authors):
+    res = []
+    for item in authors:
+        if item['fullname'] is not None and len(item['fullname']) > 0:
+            res.append(item['fullname'])
+        elif item['given'] is not None or item['family'] is not None:
+            res.append("%s %s"%(item['given'],item['family'] ))
+    return res
 
 
 if __name__=='__main__':
     sc = SparkContext(appName='generateDOIBoost')
     spark = SparkSession(sc)
-    microsoft = spark.read.load("/data/df/mag.parquet", format="parquet")
-    microsoft = microsoft.select(*(col(x).alias(x + '_mag') for x in microsoft.columns))
-    mag = microsoft.groupBy('doi_mag').agg(first('authors_mag').alias('author_mag'), first('abstract_mag').alias('abstract_mag'))
-    crossref = spark.read.load('/data/df/crossRef_df', format="parquet")
-    data = crossref.join(mag, crossref.doi == mag.doi_mag, how="left")
 
-    print data.count()
+    #Loading CrossRef Dataframe
+    crossref = spark.read.load('/data/df/crossref.parquet', format="parquet")
+    
+    #Loading MAG Dataframe
+    microsoft = spark.read.load("/data/df/mag.parquet", format="parquet")
+
+    #Alias each column with _mag
+    microsoft = microsoft.select(*(col(x).alias(x + '_mag') for x in microsoft.columns))    
+
+    #Group By DOI since we have repeated doi with multiple abstract, at the moment we take the first One
+    mag = microsoft.groupBy('doi_mag').agg(first('authors_mag').alias('author_mag'), first('abstract_mag').alias('abstract_mag'),first('collectedFom_mag').alias('collectedFrom_mag') )
+    
+    #Load ORCID DataFrame
+    orcid = spark.read.load("/data/df/ORCID.parquet",format="parquet")
+  
+    #Fix missing value in collectedFrom
+    orcid =orcid.withColumn('collectedFrom',array(lit('ORCID')))
+
+    #Alias each column with _orchid
+    orcid = orcid.select(*(col(x).alias(x + '_orcid') for x in orcid.columns))
+
+
+    #Load UnpayWall DataFrame
+    uw= spark.read.load("/data/df/unpaywall.parquet",format="parquet")
+    
+    #Alias each column with _uw
+    uw =uw.select(*(col(x).alias(x + '_uw') for x in uw.columns))
+
+    #Fix missing value in collectedFrom
+    uw =uw.withColumn('collectedFrom',array(lit('UnpayWall')))
+
+
+    #Implement first join between crossref and MAG
+    fj = crossref.join(mag, crossref.doi == mag.doi_mag, how="left")
+
+    # Join the result of the previous Join with ORCID
+    sj = fj.join(orcid, fj.doi== orcid.doi_orcid, how='left')
+
+    # Join the result of the previous Join with UnpayWall
+    tj = sj.join(uw, sj.doi== uw.doi_uw, how='left')
+
+
+    print tj.count()
