@@ -19,7 +19,7 @@ def max_in_matrix(m, t):
 
 
 
-def matchAuthors(a, b, t):
+def matchAuthors(a, b, t):    
     row = len(a)
     col = len(b)
     matrix =[]
@@ -71,56 +71,63 @@ def merge_author_info(a1, a2):
     
     return (a1,add_info)
 
-def convert_record(x):
-    result = x.asDict(recursive=True)
-    tmp ={}
-    for item in result:
-        if '_' not in item:
-            tmp[item] = result[item]
-    
-    tmp['collectedFrom'] = ['CrossRef']
-    added_Mag = False
-    added_unpayWall = False
-    added_orcid= False
-    if result['abstract_mag'] is not None:
-        for item in result['abstract_mag']:
-            item['provenance'] = 'MAG'
-            item.pop('provenanve')
-            tmp['abstract'].append(item)
-        added_Mag = True
-    
-    if result['author_mag'] is not None and len(result['author_mag'])> 0:
-        a_mag = extract_author(result['author_mag'])
-        a_cross= extract_author(result['authors'])
-        similarities = matchAuthors( a_cross,a_mag, .65)
-        if similarities is not None:
-            for item in similarities:
-                r = merge_author_info(tmp['authors'][item[0]], result['author_mag'][item[1]])
-                tmp['authors'][item[0]] = r[0]        
-                added_Mag = added_Mag or r[1]
+def convert_record(x,sc):
+    try:
+        result = x.asDict(recursive=True)
+        tmp ={}
+        for item in result:
+            if '_' not in item:
+                tmp[item] = result[item]
+        
+        tmp['collectedFrom'] = ['CrossRef']
+        added_Mag = False
+        added_unpayWall = False
+        added_orcid= False
+        if result['abstract_mag'] is not None:
+            for item in result['abstract_mag']:
+                item['provenance'] = 'MAG'
+                item.pop('provenanve')
+                tmp['abstract'].append(item)
+            added_Mag = True
+        
+        if result['author_mag'] is not None and len(result['author_mag'])> 0:
+            a_mag = extract_author(result['author_mag'])
+            a_cross= extract_author(result['authors'])
+            similarities = matchAuthors( a_cross,a_mag, .65)
+            if similarities is not None:
+                for item in similarities:
+                    r = merge_author_info(tmp['authors'][item[0]], result['author_mag'][item[1]])
+                    tmp['authors'][item[0]] = r[0]        
+                    added_Mag = added_Mag or r[1]
 
-    if result['authors_orcid'] is not None and len(result['authors_orcid'])> 0:
-        a_mag = extract_author(result['authors_orcid'])
-        a_cross= extract_author(result['authors'])
-        similarities = matchAuthors( a_cross,a_mag, .65)
-        if similarities is not None:
-            for item in similarities:
-                r = merge_author_info(tmp['authors'][item[0]], result['authors_orcid'][item[1]])             
-                tmp['authors'][item[0]] = r[0]
-                added_orcid = added_Mag or r[1]
+        if result['authors_orcid'] is not None and len(result['authors_orcid'])> 0:
+            a_mag = extract_author(result['authors_orcid'])
+            a_cross= extract_author(result['authors'])
+            similarities = matchAuthors( a_cross,a_mag, .65)
+            if similarities is not None:
+                for item in similarities:
+                    r = merge_author_info(tmp['authors'][item[0]], result['authors_orcid'][item[1]])             
+                    tmp['authors'][item[0]] = r[0]
+                    added_orcid = added_Mag or r[1]
 
-    if result['license_uw'] is not None:
-        added_unpayWall = True
-        for item in result['license_uw']:
-            tmp['license'].append(item)
+        if result['license_uw'] is not None:
+            added_unpayWall = True
+            for item in result['license_uw']:
+                tmp['license'].append(item)
 
-    if added_Mag:
-        tmp['collectedFrom'].append('MAG')
-    if added_orcid:
-        tmp['collectedFrom'].append('ORCID')  
-    if added_unpayWall:
-        tmp['collectedFrom'].append('UnpayWall')  
-    return tmp
+        if added_Mag:
+            tmp['collectedFrom'].append('MAG')
+        if added_orcid:
+            tmp['collectedFrom'].append('ORCID')  
+        if added_unpayWall:
+            tmp['collectedFrom'].append('UnpayWall')  
+        return tmp
+    except:
+        log4jLogger = sc._jvm.org.apache.log4j
+        LOGGER = log4jLogger.LogManager.getLogger(__name__)
+        LOGGER.info("Error on converting record")
+        LOGGER.info(result)
+        raise Exception("ERROR")
 
 
 
@@ -170,4 +177,4 @@ if __name__=='__main__':
     tj = sj.join(uw, sj.doi== uw.doi_uw, how='left')
 
 
-    tj.rdd.map(convert_record).saveAsTextFile(path='/data/df/doiBoost',compressionCodecClass="org.apache.hadoop.io.compress.GzipCodec")
+    tj.rdd.map(convert_record, sc).saveAsTextFile(path='/data/df/doiBoost',compressionCodecClass="org.apache.hadoop.io.compress.GzipCodec")
