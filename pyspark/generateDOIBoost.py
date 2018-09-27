@@ -177,4 +177,4 @@ if __name__=='__main__':
     tj = sj.join(uw, sj.doi== uw.doi_uw, how='left')
 
 
-    tj.rdd.map(convert_record, sc).saveAsTextFile(path='/data/df/doiBoost',compressionCodecClass="org.apache.hadoop.io.compress.GzipCodec")
+    tj.rdd.map(lambda x: convert_record(x, sc)).saveAsTextFile(path='/data/df/doiBoost',compressionCodecClass="org.apache.hadoop.io.compress.GzipCodec")
