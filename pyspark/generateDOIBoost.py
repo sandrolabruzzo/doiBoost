@@ -2,6 +2,7 @@ from pyspark import SparkContext
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, collect_list, struct,length, first, array, lit
 from difflib import SequenceMatcher
+import copy 
 
 def similarity(a, b):
     return SequenceMatcher(None, a, b).ratio()
@@ -56,6 +57,12 @@ def extract_author(authors):
 
 def merge_author_info(a1, a2):    
     add_info = False
+    if a1['given'] is None and a2['given'] is not None:
+        a1['given'] = a2['given']
+    if a1['family'] is None and a2['family'] is not None:
+        a1['family'] = a2['family']    
+
+
     if a1['identifiers'] is None:
         a1['identifiers'] = a2['identifiers']
         add_info = True
@@ -91,24 +98,34 @@ def convert_record(x):
             added_Mag = True
         
         if result['author_mag'] is not None and len(result['author_mag'])> 0:
-            a_mag = extract_author(result['author_mag'])
-            a_cross= extract_author(result['authors'])
-            similarities = matchAuthors( a_cross,a_mag, .65)
-            if similarities is not None:
-                for item in similarities:
-                    r = merge_author_info(tmp['authors'][item[0]], result['author_mag'][item[1]])
-                    tmp['authors'][item[0]] = r[0]        
-                    added_Mag = added_Mag or r[1]
+            if result['authors'] is None or len(result['authors']) == 0:
+                result['authors'] = result['author_mag']
+                tmp['authors'] = copy.deepcopy(result['authors'])
+                added_Mag = True
+            else:
+                a_mag = extract_author(result['author_mag'])
+                a_cross= extract_author(result['authors'])
+                similarities = matchAuthors( a_cross,a_mag, .65)
+                if similarities is not None:
+                    for item in similarities:
+                        r = merge_author_info(tmp['authors'][item[0]], result['author_mag'][item[1]])
+                        tmp['authors'][item[0]] = r[0]        
+                        added_Mag = added_Mag or r[1]
 
         if result['authors_orcid'] is not None and len(result['authors_orcid'])> 0:
-            a_mag = extract_author(result['authors_orcid'])
-            a_cross= extract_author(result['authors'])
-            similarities = matchAuthors( a_cross,a_mag, .65)
-            if similarities is not None:
-                for item in similarities:
-                    r = merge_author_info(tmp['authors'][item[0]], result['authors_orcid'][item[1]])             
-                    tmp['authors'][item[0]] = r[0]
-                    added_orcid = added_Mag or r[1]
+            if result['authors'] is None or len(result['authors']) == 0:
+                result['authors'] = result['authors_orcid']
+                tmp['authors'] = copy.deepcopy(result['authors'])
+                added_orcid = True
+            else:
+                a_mag = extract_author(result['authors_orcid'])
+                a_cross= extract_author(result['authors'])
+                similarities = matchAuthors( a_cross,a_mag, .65)
+                if similarities is not None:
+                    for item in similarities:
+                        r = merge_author_info(tmp['authors'][item[0]], result['authors_orcid'][item[1]])             
+                        tmp['authors'][item[0]] = r[0]
+                        added_orcid = added_Mag or r[1]
 
         if result['license_uw'] is not None:
             added_unpayWall = True
@@ -122,10 +139,8 @@ def convert_record(x):
         if added_unpayWall:
             tmp['collectedFrom'].append('UnpayWall')  
         return tmp
-    except:        
-        raise Exception("ERROR "+x['doi'])
-
-
+    except:
+        raise Exception(x['doi'])
 
 if __name__=='__main__':
     sc = SparkContext(appName='generateDOIBoost')
