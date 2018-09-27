@@ -71,7 +71,7 @@ def merge_author_info(a1, a2):
     
     return (a1,add_info)
 
-def convert_record(x,sc):
+def convert_record(x):
     try:
         result = x.asDict(recursive=True)
         tmp ={}
@@ -122,12 +122,8 @@ def convert_record(x,sc):
         if added_unpayWall:
             tmp['collectedFrom'].append('UnpayWall')  
         return tmp
-    except:
-        log4jLogger = sc._jvm.org.apache.log4j
-        LOGGER = log4jLogger.LogManager.getLogger(__name__)
-        LOGGER.info("Error on converting record")
-        LOGGER.info(result)
-        raise Exception("ERROR")
+    except:        
+        raise Exception("ERROR "+x['doi'])
 
 
 
@@ -177,4 +173,4 @@ if __name__=='__main__':
     tj = sj.join(uw, sj.doi== uw.doi_uw, how='left')
 
 
-    tj.rdd.map(lambda x: convert_record(x, sc)).saveAsTextFile(path='/data/df/doiBoost',compressionCodecClass="org.apache.hadoop.io.compress.GzipCodec")
+    tj.rdd.map(convert_record).saveAsTextFile(path='/data/df/doiBoost',compressionCodecClass="org.apache.hadoop.io.compress.GzipCodec")
