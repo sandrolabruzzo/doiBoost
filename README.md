@@ -5,5 +5,5 @@ Therefore, a number of key pieces of information result scattered across diverse
 As a result of this fragmentation, researchers in this domain end up struggling with daily integration problems producing a plethora of ad-hoc datasets, therefore incurring in a waste of time, resources, and infringing open science best practices. 
 
 
-Here are deployed the spark script to generate DOIBoost, a metadata collection that enriches CrossRef with inputs from Microsoft Academic Graph, ORCID, and UnPayWall 
+Here are deployed the spark scripts to generate DOIBoost, a metadata collection that enriches CrossRef with inputs from Microsoft Academic Graph, ORCID, and UnPayWall 
 for the purpose of supporting high-quality and robust research. 
