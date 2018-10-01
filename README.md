@@ -1,4 +1,4 @@
-# doiBoost
+# DoiBoost Software Toolkit
 Research in information science and scholarly communication strongly relies on the availability of openly accessible datasets of metadata and, where possible, their relative payloads. 
 To this end, CrossRef plays a pivotal role by providing free access to its entire metadata collection, and allowing other initiatives to link and enrich its information. 
 Therefore, a number of key pieces of information result scattered across diverse datasets and resources freely available online. 
