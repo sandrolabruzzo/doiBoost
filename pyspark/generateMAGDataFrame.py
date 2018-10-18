@@ -62,6 +62,9 @@ def map_microsoft(x):
             current_affiliation['identifiers'].append(dict(schema="wikpedia",value=item['WikiPage_affiliation']))
         if item['GridID_affiliation'] is not None and  len(item['GridID_affiliation']) > 0:
             current_affiliation['identifiers'].append(dict(schema="grid.ac",value=item['GridID_affiliation']))
+        if item['AffiliationID'] is not None and  len(item['AffiliationID']) > 0:
+            current_affiliation['identifiers'].append(dict(schema="URL",value="https://academic.microsoft.com/#/detail/"+item['AffiliationID']))
+
         if current_affiliation['identifiers'] != []:
             author['affiliations'].append(current_affiliation)
         result['authors'].append(author)
