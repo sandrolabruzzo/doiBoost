@@ -116,4 +116,4 @@ if __name__=='__main__':
     #Grouping by Paper Id
     aggregation = complete_join.groupBy('PaperId_paper').agg(collect_list(struct('abstract', 'DOI_paper', 'AffiliationID', 'AuthorID', 'AuthorSequenceNumber', 'DisplayName_affiliation', 'GridID_affiliation', 'OfficialPage_affiliation',  'WikiPage_affiliation',  'DisplayName_author',  'NormalizedName_author')))
 
-    aggregation.rdd.map(map_microsoft).toDF(get_schema()).write.save("/data/mag.parquet", format="parquet")
+    aggregation.repartition(1000).rdd.map(map_microsoft).toDF(get_schema()).write.save("/data/mag.parquet", format="parquet")
