@@ -1,0 +1,2 @@
+@base <https://github.com/sandrolabruzzo/doiBoost/data/>.
+@prefix doi: <https://github.com/sandrolabruzzo/doiBoost/ontology/>.
