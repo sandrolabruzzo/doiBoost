@@ -16,12 +16,12 @@
                                  doib:affiliations  [ doib:provenance  "CrossRef" ;
                                                       doib:value       "Institute of Paper Science and Technology; School of Chemical and Biomolecular Engineering; Georgia Institute of Technology; 500 10th St.; NW Atlanta; GA; 30332"
                                                     ] ;
-                                 doib:family        "Krantz" ;
-                                 doib:fullname      "Alison L. Krantz" ;
-                                 doib:given         "Alison L." ;
+                                 doib:family        "Maxwell" ;
+                                 doib:fullname      "Kendra E. Maxwell" ;
+                                 doib:given         "Kendra E." ;
                                  doib:identifiers   [ doib:provenance  "MAG" ;
                                                       doib:schema      "URL" ;
-                                                      doib:value       "https://academic.microsoft.com/#/detail/2109419482"
+                                                      doib:value       "https://academic.microsoft.com/#/detail/2574891762"
                                                     ]
                                ] ;
         doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "wikpedia" ;
@@ -52,12 +52,12 @@
                                  doib:affiliations  [ doib:provenance  "CrossRef" ;
                                                       doib:value       "Institute of Paper Science and Technology; School of Chemical and Biomolecular Engineering; Georgia Institute of Technology; 500 10th St.; NW Atlanta; GA; 30332"
                                                     ] ;
-                                 doib:family        "Maxwell" ;
-                                 doib:fullname      "Kendra E. Maxwell" ;
-                                 doib:given         "Kendra E." ;
+                                 doib:family        "Krantz" ;
+                                 doib:fullname      "Alison L. Krantz" ;
+                                 doib:given         "Alison L." ;
                                  doib:identifiers   [ doib:provenance  "MAG" ;
                                                       doib:schema      "URL" ;
-                                                      doib:value       "https://academic.microsoft.com/#/detail/2574891762"
+                                                      doib:value       "https://academic.microsoft.com/#/detail/2109419482"
                                                     ]
                                ] ;
         doib:collectedFrom     "CrossRef" , "MAG" ;
@@ -93,11 +93,11 @@
         doib:instance         [ doib:provenance  "CrossRef" ;
                                 doib:url         "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fasna.18971420203"
                               ] ;
-        doib:issn             [ a           doib:electronic ;
-                                doib:value  "1521-3994"
-                              ] ;
         doib:issn             [ a           doib:print ;
                                 doib:value  "0004-6337"
+                              ] ;
+        doib:issn             [ a           doib:electronic ;
+                                doib:value  "1521-3994"
                               ] ;
         doib:issued           "1897-01-01"^^xsd:date ;
         doib:license          [ doib:content-version  "tdm" ;
@@ -107,6 +107,43 @@
         doib:published-print  "1897-01-01"^^xsd:date ;
         doib:subject          "Space and Planetary Science" , "Astronomy and Astrophysics" ;
         doib:title            "Bericht \\u00fcber Versuche zum Nachweis einer elektrodynamischen Sonnenstrahlung von J. Wilsing und J. Scheiner" .
+
+<http://dx.doi.org/10.1016/j.jacc.2017.03.270>
+        a                     doib:journal-article ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/Ministry_of_Health_of_the_People's_Republic_of_China"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.moh.gov.cn/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "Chinese Ministry of Health"
+                                                   ] ;
+                                doib:family        "Liu" ;
+                                doib:fullname      "Bing Liu" ;
+                                doib:given         "Bing" ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2606343796"
+                                                   ]
+                              ] ;
+        doib:collectedFrom    "MAG" , "CrossRef" ;
+        doib:doi              "10.1016/j.jacc.2017.03.270" ;
+        doib:instance         [ doib:provenance  "CrossRef" ;
+                                doib:url         "http://api.elsevier.com/content/article/PII:S0735109717363829?httpAccept=text/plain"
+                              ] ;
+        doib:instance         [ doib:provenance  "CrossRef" ;
+                                doib:url         "http://api.elsevier.com/content/article/PII:S0735109717363829?httpAccept=text/xml"
+                              ] ;
+        doib:issn             [ a           doib:print ;
+                                doib:value  "0735-1097"
+                              ] ;
+        doib:issued           "2017-04-01"^^xsd:date ;
+        doib:license          [ doib:content-version  "tdm" ;
+                                doib:date-time        "2017-04-01T00:00:00Z" ;
+                                doib:url              "http://www.elsevier.com/tdm/userlicense/1.0/"
+                              ] ;
+        doib:published-print  "2017-04-01"^^xsd:date ;
+        doib:subject          "Cardiology and Cardiovascular Medicine" ;
+        doib:title            "TCTAP C-047 LAD/D Bifurcation ISR After Crushed DES Implanted Treated with Kiss-balloon with Drug-coated Balloon" .
 
 <http://dx.doi.org/10.1002/1521-3994(199908)320:4/5%3c185::aid-asna185%3e3.0.co;2-k>
         a                     doib:journal-article ;
@@ -141,117 +178,140 @@
         doib:subject          "Astronomy and Astrophysics" , "Space and Planetary Science" ;
         doib:title            "Cluster gas temperature maps with ASCA and beyond" .
 
-<http://dx.doi.org/10.1001/archsurg.1985.01390350103033>
+<http://dx.doi.org/10.1016/s0197-4580(04)80305-01>
         a                     doib:journal-article ;
-        doib:abstract         [ doib:provenance  "MAG" ;
-                                doib:value       "This slim volume contains the proceedings of a conference on angioplasty held in London in 1983, at which numerous European authorities were speakers. The papers that were presented covered the topics of peripheral limb, abdominal, and coronary angioplasty and concentrated not only on results but also on techniques.  In a rapidly changing and advancing field such as this, it is obviously impossible for a book to present the latest results. But because the editor and publishers have done a commendably speedy job of putting the information together, an up-to-date review is presented that gives an excellent idea of what angioplasty can achieve.  A surgeon reads this book with mixed feelings. While reading the descriptions of successful multiple angioplasties, both in peripheral arteries and coronaries, he/she gets the feeling that, within a short time, many surgical vascular procedures will become unnecessary\\u00e2\\u0080\\u0094at least temporarily. It is hard to believe that merely enlarging"
-                              ] ;
-        doib:author           [ doib:family    "PATON" ;
-                                doib:fullname  "BRUCE C. PATON" ;
-                                doib:given     "BRUCE C."
-                              ] ;
-        doib:collectedFrom    "MAG" , "CrossRef" ;
-        doib:doi              "10.1001/archsurg.1985.01390350103033" ;
-        doib:issn             [ a           doib:print ;
-                                doib:value  "0004-0010"
-                              ] ;
-        doib:issued           "1985-11-01"^^xsd:date ;
-        doib:published-print  "1985-11-01"^^xsd:date ;
-        doib:subject          "Surgery" ;
-        doib:title            "Angioplasty: Proceedings of the Symposium on Angioplasty Held at the Royal College of Physicians of London, December 1983" .
-
-<http://dx.doi.org/10.1001/virtualmentor.2013.15.5.fred1-1305>
-        a                      doib:journal-article ;
-        doib:author            [ doib:fullname     "Kumar B" ;
-                                 doib:identifiers  [ doib:provenance  "MAG" ;
-                                                     doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/2555984316"
-                                                   ]
-                               ] ;
-        doib:collectedFrom     "CrossRef" , "MAG" ;
-        doib:doi               "10.1001/virtualmentor.2013.15.5.fred1-1305" ;
-        doib:issn              [ a           doib:electronic ;
-                                 doib:value  "1937-7010"
-                               ] ;
-        doib:issued            "2013-05-01"^^xsd:date ;
-        doib:published-online  "2013-05-01"^^xsd:date ;
-        doib:subject           "General Medicine" ;
-        doib:title             "Ethical Perspectives on Pain" .
-
-<http://dx.doi.org/10.1001/jama.1989.03430180078024>
-        a                     doib:journal-article ;
-        doib:abstract         [ doib:provenance  "MAG" ;
-                                doib:value       "To the Editor.\\u00e2\\u0080\\u0094  Doherty and Burge 1 reported 43 and 82 divorces per 1000 among male and female physicians, respectively. They compared these findings with the corresponding figures of 55 and 106 in the employed population and concluded that \"the marriages of physicians\\u00e2\\u0080\\u0094men and women alike\\u00e2\\u0080\\u0094 have a lower likelihood of ending in divorce than the rest of the employed population.\"  This conclusion could be misleading for the following reasons. These figures are based on a population 16 years of age and older. The fact that physicians have a tendency to marry at older ages than other employed populations, 1,2 coupled with the fact that the divorce rate is lower among older populations, 3 could lead to a spurious underestimation of divorce rates among physicians compared with other employed populations.  A better indicator of divorce rate among physicians is the percentage of marriages that eventually end in divorce (cohort approach)."
-                              ] ;
         doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
-                                                                           doib:value   "grid.265008.9"
+                                                                           doib:value   "grid.38142.3c"
                                                                          ] ;
                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                           doib:value   "http://en.wikipedia.org/wiki/Thomas_Jefferson_University"
+                                                                           doib:value   "http://en.wikipedia.org/wiki/Harvard_University"
                                                                          ] ;
-                                                     doib:official-page  "http://www.jefferson.edu/" ;
+                                                     doib:official-page  "http://www.harvard.edu/" ;
                                                      doib:provenance     "MAG" ;
-                                                     doib:value          "Thomas Jefferson University"
+                                                     doib:value          "Harvard University"
                                                    ] ;
-                                doib:family        "Hojat" ;
-                                doib:fullname      "Mohammadreza Hojat" ;
-                                doib:given         "Mohammadreza" ;
+                                doib:family        "Cataldo" ;
+                                doib:fullname      "Anne M. Cataldo" ;
+                                doib:given         "Anne M." ;
                                 doib:identifiers   [ doib:provenance  "MAG" ;
                                                      doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/1748905813"
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2109219733"
+                                                   ]
+                              ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.137628.9"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/New_York_University"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.nyu.edu/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "New York University"
+                                                   ] ;
+                                doib:family        "Grbovic" ;
+                                doib:fullname      "Olivera M. Grbovic" ;
+                                doib:given         "Olivera M." ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/1460701465"
+                                                   ]
+                              ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.250263.0"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/Nathan_Kline_Institute_for_Psychiatric_Research"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.rfmh.org/nki/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "Nathan Kline Institute for Psychiatric Research"
+                                                   ] ;
+                                doib:family        "Peterhoff" ;
+                                doib:fullname      "Corrinne M. Peterhoff" ;
+                                doib:given         "Corrinne M." ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2062982811"
+                                                   ]
+                              ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.137628.9"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/New_York_University"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.nyu.edu/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "New York University"
+                                                   ] ;
+                                doib:family        "Mathews" ;
+                                doib:fullname      "Paul M. Mathews" ;
+                                doib:given         "Paul M." ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/1993832364"
+                                                   ]
+                              ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.137628.9"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/New_York_University"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.nyu.edu/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "New York University"
+                                                   ] ;
+                                doib:family        "Nixon" ;
+                                doib:fullname      "Ralph A. Nixon" ;
+                                doib:given         "Ralph A." ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2161986744"
+                                                   ]
+                              ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.266683.f"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/University_of_Massachusetts_Amherst"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.umass.edu/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "University of Massachusetts Amherst"
+                                                   ] ;
+                                doib:family        "Jiang" ;
+                                doib:fullname      "Ying Jiang" ;
+                                doib:given         "Ying" ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2054979584"
                                                    ]
                               ] ;
         doib:collectedFrom    "CrossRef" , "MAG" ;
-        doib:doi              "10.1001/jama.1989.03430180078024" ;
+        doib:doi              "10.1016/s0197-4580(04)80305-01" ;
         doib:instance         [ doib:provenance  "CrossRef" ;
-                                doib:url         "http://jamanetwork.com/journals/jama/fullarticle/379332"
+                                doib:url         "http://api.elsevier.com/content/article/PII:S0197458004803051?httpAccept=text/xml"
+                              ] ;
+        doib:instance         [ doib:provenance  "CrossRef" ;
+                                doib:url         "http://api.elsevier.com/content/article/PII:S0197458004803051?httpAccept=text/plain"
                               ] ;
         doib:issn             [ a           doib:print ;
-                                doib:value  "0098-7484"
+                                doib:value  "0197-4580"
                               ] ;
-        doib:issued           "1989-11-10"^^xsd:date ;
-        doib:published-print  "1989-11-10"^^xsd:date ;
-        doib:subject          "General Medicine" ;
-        doib:title            "Divorce Among Physicians" .
+        doib:issued           "2004-07-01"^^xsd:date ;
+        doib:license          [ doib:content-version  "tdm" ;
+                                doib:date-time        "2004-07-01T00:00:00Z" ;
+                                doib:url              "http://www.elsevier.com/tdm/userlicense/1.0/"
+                              ] ;
+        doib:published-print  "2004-07-01"^^xsd:date ;
+        doib:subject          "Developmental Biology" , "Ageing" , "Geriatrics and Gerontology" , "Clinical Neurology" , "General Neuroscience" ;
+        doib:title            "S5-02-03 Endosomal pathology in early stage Alzheimer's disease" .
 
 <http://dx.doi.org/10.1002/9781119222736.ch2>
         a                      doib:book-chapter ;
         doib:abstract          [ doib:provenance  "MAG" ;
                                  doib:value       "As the world becomes increasingly interconnected, counselors must learn how to work across, through, and beyond cultural and continental differences (McFadden & Moore, 2002). McFadden (1999) suggested that 'confusion and shifts in political, social, and  economic problems that have never been greater than at this time present  themselves in every  aspect of our lives' (p. xviii). It is reasonable to believe that individuals throughout the world are likely to need assistance from professionals such as mental health counselors. The general consensus among counseling professionals who are consistently being exposed to diverse cultures is that there is a need to learn how to create a caring counseling environment that 'transcends cultural, ethnic, racial, and national boundaries' (McFadden, 1999, p. xvi)."
-                               ] ;
-        doib:author            [ doib:family       "Nassar-McMillan" ;
-                                 doib:fullname     "Sylvia C. Nassar-McMillan" ;
-                                 doib:given        "Sylvia C." ;
-                                 doib:identifiers  [ doib:provenance  "MAG" ;
-                                                     doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/2697648808"
-                                                   ]
-                               ] ;
-        doib:author            [ doib:family       "Warfield" ;
-                                 doib:fullname     "Heather A. Warfield" ;
-                                 doib:given        "Heather A." ;
-                                 doib:identifiers  [ doib:provenance  "MAG" ;
-                                                     doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/2798110633"
-                                                   ]
-                               ] ;
-        doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
-                                                                            doib:value   "grid.252754.3"
-                                                                          ] ;
-                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                            doib:value   "http://en.wikipedia.org/wiki/Ball_State_University"
-                                                                          ] ;
-                                                      doib:official-page  "http://www.bsu.edu/" ;
-                                                      doib:provenance     "MAG" ;
-                                                      doib:value          "Ball State University"
-                                                    ] ;
-                                 doib:family        "Mayes" ;
-                                 doib:fullname      "Renae D. Mayes" ;
-                                 doib:given         "Renae D." ;
-                                 doib:identifiers   [ doib:provenance  "MAG" ;
-                                                      doib:schema      "URL" ;
-                                                      doib:value       "https://academic.microsoft.com/#/detail/2259885710"
-                                                    ]
                                ] ;
         doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
                                                                             doib:value   "grid.261331.4"
@@ -271,6 +331,40 @@
                                                       doib:value       "https://academic.microsoft.com/#/detail/2276112726"
                                                     ]
                                ] ;
+        doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                            doib:value   "grid.252754.3"
+                                                                          ] ;
+                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                            doib:value   "http://en.wikipedia.org/wiki/Ball_State_University"
+                                                                          ] ;
+                                                      doib:official-page  "http://www.bsu.edu/" ;
+                                                      doib:provenance     "MAG" ;
+                                                      doib:value          "Ball State University"
+                                                    ] ;
+                                 doib:family        "Mayes" ;
+                                 doib:fullname      "Renae D. Mayes" ;
+                                 doib:given         "Renae D." ;
+                                 doib:identifiers   [ doib:provenance  "MAG" ;
+                                                      doib:schema      "URL" ;
+                                                      doib:value       "https://academic.microsoft.com/#/detail/2259885710"
+                                                    ]
+                               ] ;
+        doib:author            [ doib:family       "Warfield" ;
+                                 doib:fullname     "Heather A. Warfield" ;
+                                 doib:given        "Heather A." ;
+                                 doib:identifiers  [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2798110633"
+                                                   ]
+                               ] ;
+        doib:author            [ doib:family       "Nassar-McMillan" ;
+                                 doib:fullname     "Sylvia C. Nassar-McMillan" ;
+                                 doib:given        "Sylvia C." ;
+                                 doib:identifiers  [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2697648808"
+                                                   ]
+                               ] ;
         doib:collectedFrom     "MAG" , "CrossRef" ;
         doib:doi               "10.1002/9781119222736.ch2" ;
         doib:instance          [ doib:provenance  "CrossRef" ;
@@ -282,6 +376,24 @@
 
 <http://dx.doi.org/10.1002/bit.24556>
         a                      doib:journal-article ;
+        doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                            doib:value   "grid.27755.32"
+                                                                          ] ;
+                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                            doib:value   "http://en.wikipedia.org/wiki/University_of_Virginia"
+                                                                          ] ;
+                                                      doib:official-page  "http://www.virginia.edu/" ;
+                                                      doib:provenance     "MAG" ;
+                                                      doib:value          "University of Virginia"
+                                                    ] ;
+                                 doib:family        "Gainer" ;
+                                 doib:fullname      "John L. Gainer" ;
+                                 doib:given         "John L." ;
+                                 doib:identifiers   [ doib:provenance  "MAG" ;
+                                                      doib:schema      "URL" ;
+                                                      doib:value       "https://academic.microsoft.com/#/detail/2138478333"
+                                                    ]
+                               ] ;
         doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
                                                                             doib:value   "grid.27755.32"
                                                                           ] ;
@@ -316,24 +428,6 @@
                                  doib:identifiers   [ doib:provenance  "MAG" ;
                                                       doib:schema      "URL" ;
                                                       doib:value       "https://academic.microsoft.com/#/detail/2019137623"
-                                                    ]
-                               ] ;
-        doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
-                                                                            doib:value   "grid.27755.32"
-                                                                          ] ;
-                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                            doib:value   "http://en.wikipedia.org/wiki/University_of_Virginia"
-                                                                          ] ;
-                                                      doib:official-page  "http://www.virginia.edu/" ;
-                                                      doib:provenance     "MAG" ;
-                                                      doib:value          "University of Virginia"
-                                                    ] ;
-                                 doib:family        "Gainer" ;
-                                 doib:fullname      "John L. Gainer" ;
-                                 doib:given         "John L." ;
-                                 doib:identifiers   [ doib:provenance  "MAG" ;
-                                                      doib:schema      "URL" ;
-                                                      doib:value       "https://academic.microsoft.com/#/detail/2138478333"
                                                     ]
                                ] ;
         doib:collectedFrom     "CrossRef" , "MAG" ;
@@ -393,6 +487,85 @@
         doib:doi            "10.1002/9780470999295.ch120" ;
         doib:title          "Climate - Modelling using Fossil Plants" .
 
+<http://dx.doi.org/10.1016/j.jalz.2010.05.1175>
+        a                     doib:journal-article ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.222754.4"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/Korea_University"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.korea.edu/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "Korea University"
+                                                   ] ;
+                                doib:family        "Park" ;
+                                doib:fullname      "Moon Ho Park" ;
+                                doib:given         "Moon Ho" ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2156277566"
+                                                   ]
+                              ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.264381.a"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/Sungkyunkwan_University"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.skku.edu/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "Sungkyunkwan University"
+                                                   ] ;
+                                doib:family        "Na" ;
+                                doib:fullname      "Duk L. Na" ;
+                                doib:given         "Duk L." ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2328241152"
+                                                   ]
+                              ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.415273.6"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/Memorial_Hospital_of_South_Bend"
+                                                                         ] ;
+                                                     doib:official-page  "https://qualityoflife.org/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "Memorial Hospital of South Bend"
+                                                   ] ;
+                                doib:family        "Na" ;
+                                doib:fullname      "Hae Ri Na" ;
+                                doib:given         "Hae Ri" ;
+                                doib:identifiers   [ doib:provenance  "ORCID" ;
+                                                     doib:value       "https://orcid.org/0000-0002-3419-8428"
+                                                   ] ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2151169228"
+                                                   ]
+                              ] ;
+        doib:collectedFrom    "CrossRef" , "ORCID" , "MAG" ;
+        doib:doi              "10.1016/j.jalz.2010.05.1175" ;
+        doib:instance         [ doib:provenance  "CrossRef" ;
+                                doib:url         "http://api.elsevier.com/content/article/PII:S1552526010012951?httpAccept=text/plain"
+                              ] ;
+        doib:instance         [ doib:provenance  "CrossRef" ;
+                                doib:url         "http://api.elsevier.com/content/article/PII:S1552526010012951?httpAccept=text/xml"
+                              ] ;
+        doib:issn             [ a           doib:print ;
+                                doib:value  "1552-5260"
+                              ] ;
+        doib:issued           "2010-07-01"^^xsd:date ;
+        doib:license          [ doib:content-version  "tdm" ;
+                                doib:date-time        "2010-07-01T00:00:00Z" ;
+                                doib:url              "http://www.elsevier.com/tdm/userlicense/1.0/"
+                              ] ;
+        doib:published-print  "2010-07-01"^^xsd:date ;
+        doib:subject          "Cellular and Molecular Neuroscience" , "Epidemiology" , "Developmental Neuroscience" , "Psychiatry and Mental health" , "Health Policy" , "Geriatrics and Gerontology" , "Clinical Neurology" ;
+        doib:title            "Cardiovascular factors and white matter lesions affect on extrapyramidal signs in Alzheimer's disease" .
+
 <http://dx.doi.org/10.1002/(sici)1099-0496(199609)22:3%3c%3e1.0.co;2-a>
         a                     doib:journal-issue ;
         doib:collectedFrom    "CrossRef" ;
@@ -400,11 +573,11 @@
         doib:instance         [ doib:provenance  "CrossRef" ;
                                 doib:url         "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F(SICI)1099-0496(199609)22:3%3C%3E1.0.CO;2-A"
                               ] ;
-        doib:issn             [ a           doib:electronic ;
-                                doib:value  "1099-0496"
-                              ] ;
         doib:issn             [ a           doib:print ;
                                 doib:value  "8755-6863"
+                              ] ;
+        doib:issn             [ a           doib:electronic ;
+                                doib:value  "1099-0496"
                               ] ;
         doib:issued           "1996-09-01"^^xsd:date ;
         doib:license          [ doib:content-version  "tdm" ;
@@ -476,27 +649,6 @@
         doib:subject          "General Chemistry" , "Catalysis" ;
         doib:title            "Selected Abstracts" .
 
-<http://dx.doi.org/10.1001/jama.1940.02810330019007>
-        a                     doib:journal-article ;
-        doib:abstract         [ doib:provenance  "MAG" ;
-                                doib:value       "Fused vulva (synechia vulvae) designates the condition characterized by an embryonal midline sealing together of the labia minora; usually a minute unfused area is left well forward, and through this orifice the child urinates. The foregoing represents the incomplete variety of fusion which in statistical studies occurs in approximately a third of the cases; in complete fusion the vulvar union is total. Although I could find nothing in American medical literature of the past twenty-five years appertaining to this subject, surely this does not represent the true incidence of the condition. Yet the appearance of the anomaly is so striking that its correct recognition could scarcely fail to provoke at least a few case reports. Curiously, in none of the nine cases of this condition which I have seen during recent years was the anomaly recognized until some time after birth. All the cases that I have seen were thought"
-                              ] ;
-        doib:author           [ doib:family    "CAMPBELL" ;
-                                doib:fullname  "MEREDITH F. CAMPBELL" ;
-                                doib:given     "MEREDITH F."
-                              ] ;
-        doib:collectedFrom    "MAG" , "CrossRef" ;
-        doib:doi              "10.1001/jama.1940.02810330019007" ;
-        doib:instance         [ doib:provenance  "CrossRef" ;
-                                doib:url         "http://jamanetwork.com/journals/jama/fullarticle/307423"
-                              ] ;
-        doib:issn             [ a           doib:print ;
-                                doib:value  "0002-9955"
-                              ] ;
-        doib:issued           "1940-08-17"^^xsd:date ;
-        doib:published-print  "1940-08-17"^^xsd:date ;
-        doib:title            "VULVAR FUSION" .
-
 <http://dx.doi.org/10.1002/andp.19354130803>
         a                     doib:journal-article ;
         doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
@@ -522,11 +674,11 @@
         doib:instance         [ doib:provenance  "CrossRef" ;
                                 doib:url         "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fandp.19354130803"
                               ] ;
-        doib:issn             [ a           doib:electronic ;
-                                doib:value  "1521-3889"
-                              ] ;
         doib:issn             [ a           doib:print ;
                                 doib:value  "0003-3804"
+                              ] ;
+        doib:issn             [ a           doib:electronic ;
+                                doib:value  "1521-3889"
                               ] ;
         doib:issued           "1935-01-01"^^xsd:date ;
         doib:license          [ doib:content-version  "tdm" ;
@@ -588,6 +740,36 @@
         doib:published-online  "2001-05-01"^^xsd:date ;
         doib:title             "Nonisotopic Assays for Reporter Gene Activity" .
 
+<http://dx.doi.org/10.1017/s0362152900011582>
+        a                      doib:journal-article ;
+        doib:abstract          [ doib:provenance  "CrossRef" ;
+                                 doib:value       "<jats:p>Because Robert Grosseteste's translation of Aristotle's <jats:italic>Nicomachean Ethics</jats:italic> is now seen as having provided the framework for a dynamic study of Aristotle's moral philosophy, more significance must be attached to what itself became the standard translation in the Middle Ages. That Grosseteste was responsible both for the full translation of Aristotle's text and for the translation of the Greek commentaries which accompany the <jats:italic>Ethics</jats:italic> in twenty-one known manuscripts modern scholars are now in agreement. Grosseteste's work on the <jats:italic>Nicomachean Ethics</jats:italic> has been dated confidently to the 1240s, arguably to 1246\\u201347, and scholars have tended to stress the rapidity with which the Aristotelian ethics were assimilated in the thirteenth century, in contrast, for example, with the slow progress recorded by John of Salisbury on the <jats:italic>Posterior Analytics</jats:italic> in the twelfth. These results of recent research seem, it should be notd in passing, strangely at odds with the verdict of Roger Bacon, that there was comparatively little work on the <jats:italic>Ethics</jats:italic> in his period. He, Grosseteste's most ardent admirer, appears not to have known that this master translated the text and comments: \\u2018Tardius communicata est Ethica Aristotelis et nuper lecta a magistris et raro.\\u2019</jats:p>"
+                               ] ;
+        doib:author            [ doib:family       "Dunbabin" ;
+                                 doib:fullname     "Jean Dunbabin" ;
+                                 doib:given        "Jean" ;
+                                 doib:identifiers  [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2462753411"
+                                                   ]
+                               ] ;
+        doib:collectedFrom     "MAG" , "CrossRef" ;
+        doib:doi               "10.1017/s0362152900011582" ;
+        doib:instance          [ doib:provenance  "CrossRef" ;
+                                 doib:url         "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0362152900011582"
+                               ] ;
+        doib:issn              [ a           doib:electronic ;
+                                 doib:value  "2166-5508"
+                               ] ;
+        doib:issn              [ a           doib:print ;
+                                 doib:value  "0362-1529"
+                               ] ;
+        doib:issued            "1972-01-01"^^xsd:date ;
+        doib:published-online  "2016-07-29"^^xsd:date ;
+        doib:published-print   "1972-01-01"^^xsd:date ;
+        doib:subject           "Philosophy" , "Visual Arts and Performing Arts" , "Literature and Literary Theory" , "Religious studies" ;
+        doib:title             "Robert Grosseteste as Translator, Transmitter, and Commentator: The \\u2018Nicomachean Ethics\\u2019" .
+
 <http://dx.doi.org/10.1002/9781118702680.ch3>
         a                      doib:book-chapter ;
         doib:author            [ doib:family       "Mighten" ;
@@ -604,26 +786,58 @@
         doib:published-online  "2013-04-05"^^xsd:date ;
         doib:title             "Nursing Assessment, History Taking and Collaborative Working" .
 
-<http://dx.doi.org/10.1001/archneur.66.1.141>
+<http://dx.doi.org/10.1016/s0022-5347(17)31670-01>
         a                     doib:journal-article ;
-        doib:collectedFrom    "CrossRef" ;
-        doib:doi              "10.1001/archneur.66.1.141" ;
+        doib:abstract         [ doib:provenance  "MAG" ;
+                                doib:value       "Abstract   Since its introduction in the 1970s the addition of a complete covering layer over the newly constructed urethra has positively influenced the outcome of hypospadias repairs. Originally applied by Smith during the second stage of a planned 2-stage repair and then to fistula repairs, the de-epithelialized flap has contributed to a marked reduction in post-hypospadias repair complications. The influence of this contribution as well as its application to a variation of the pedicle onlay hypospadias repair is reviewed."
+                              ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.239560.b"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/Children's_National_Medical_Center"
+                                                                         ] ;
+                                                     doib:official-page  "http://childrensnational.org/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "Children's National Medical Center"
+                                                   ] ;
+                                doib:family        "Belman" ;
+                                doib:fullname      "A. Barry Belman" ;
+                                doib:given         "A. Barry" ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2787864718"
+                                                   ]
+                              ] ;
+        doib:collectedFrom    "MAG" , "CrossRef" ;
+        doib:doi              "10.1016/s0022-5347(17)31670-01" ;
         doib:instance         [ doib:provenance  "CrossRef" ;
-                                doib:url         "http://jamanetwork.com/journals/jamaneurology/fullarticle/796320"
+                                doib:url         "http://api.elsevier.com/content/article/PII:S0022534717316701?httpAccept=text/xml"
+                              ] ;
+        doib:instance         [ doib:provenance  "CrossRef" ;
+                                doib:url         "http://api.elsevier.com/content/article/PII:S0022534717316701?httpAccept=text/plain"
                               ] ;
         doib:issn             [ a           doib:print ;
-                                doib:value  "0003-9942"
+                                doib:value  "0022-5347"
                               ] ;
-        doib:issued           "2009-01-01"^^xsd:date ;
-        doib:published-print  "2009-01-01"^^xsd:date ;
-        doib:subject          "Clinical Neurology" , "Arts and Humanities (miscellaneous)" ;
-        doib:title            "Guidelines for Letters" .
+        doib:issued           "1994-12-01"^^xsd:date ;
+        doib:license          [ doib:content-version  "tdm" ;
+                                doib:date-time        "1994-12-01T00:00:00Z" ;
+                                doib:url              "http://www.elsevier.com/tdm/userlicense/1.0/"
+                              ] ;
+        doib:published-print  "1994-12-01"^^xsd:date ;
+        doib:subject          "Urology" ;
+        doib:title            "The De-Epithelialized Flap and its Influence on Hypospadias Repair" .
 
 <http://dx.doi.org/10.1002/1097-010x(20010201)289:2%3c130::aid-jez6%3e3.0.co;2-#>
         a                      doib:journal-article ;
         doib:author            [ doib:family    "H\\ufffdyer" ;
                                  doib:fullname  "Poul Erik H\\ufffdyer" ;
                                  doib:given     "Poul Erik"
+                               ] ;
+        doib:author            [ doib:family    "Byskov" ;
+                                 doib:fullname  "Anne Grete Byskov" ;
+                                 doib:given     "Anne Grete"
                                ] ;
         doib:author            [ doib:family    "Roed" ;
                                  doib:fullname  "Tiny Roed" ;
@@ -633,20 +847,16 @@
                                  doib:fullname  "Lars Kayser" ;
                                  doib:given     "Lars"
                                ] ;
-        doib:author            [ doib:family    "Byskov" ;
-                                 doib:fullname  "Anne Grete Byskov" ;
-                                 doib:given     "Anne Grete"
-                               ] ;
         doib:collectedFrom     "CrossRef" ;
         doib:doi               "10.1002/1097-010x(20010201)289:2<130::aid-jez6>3.0.co;2-#" ;
         doib:instance          [ doib:provenance  "CrossRef" ;
                                  doib:url         "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F1097-010X(20010201)289:2%3C130::AID-JEZ6%3E3.0.CO;2-#"
                                ] ;
-        doib:issn              [ a           doib:electronic ;
-                                 doib:value  "1097-010X"
-                               ] ;
         doib:issn              [ a           doib:print ;
                                  doib:value  "0022-104X"
+                               ] ;
+        doib:issn              [ a           doib:electronic ;
+                                 doib:value  "1097-010X"
                                ] ;
         doib:issued            "2001-01-01"^^xsd:date ;
         doib:license           [ doib:content-version  "tdm" ;

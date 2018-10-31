@@ -44,10 +44,11 @@ s{([\[\{]), }{$1}g;                           # remove leading comma delimiter
 s{, ([\]\}])}{$1}g;                           # remove trailing comma delimiter
 s{-(\d)-}{-0$1-}g;                            # fix dates to 2-digit month
 s{-(\d)'}{-0$1'}g;                            # fix dates to 2-digit day
-s{(': |, )([\[\{]*)u'}{$1$2'}g;               # remove strange unicode string marker
+s{u'(.*?)'}{"$1"}g;                           # JSON strings don't have a u'..' prefix and use double quotes. XXX: I haven't seen escaped \" but there might be some
+s{u\\"(.*?)\\"}{"$1"}g;                       # same as above line
+s{'([\w-]+)'}{"$1"}g;                         # JSON keys should use double quotes not single quotes
 s{\\x}{\\u00}g;                               # JSON uses unicode escapes \uXXXX rather than \xXX. Pray we get valid unicode chars
 s{\\\\\\\\u}{\\u}g;                           # fix quadruple backslashes to single backslashes
-s{'}{"}g;                                     # JSON strings/keys should use double quotes not single quotes. TODO: check what happens to some "O'Hara" name (in general O')
 s{(?<=http://dx.doi.org/)(\S+)}{              # URL-encode chars that are not allowed in URL
   local $_ = $1;
   s{([<>])}{sprintf("%%%2x",ord($1))}ge;
