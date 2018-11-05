@@ -54,7 +54,7 @@ s{\bu'(.*?)(?<!\\)'}{                         # JSON strings don't have a u'..' 
 }ge;
 s{\bu\\"(.*?)\\"}{"$1"}g;                     # same as above line
 s{'UnpayWall'}{"UnpayWall"}g;                 # sometimes 'UnpayWall' appears without prefix u'..'
-s{'([a-z-]+|collectedFrom)'}{"$1"}g;          # JSON keys should use double quotes not single quotes
+s{'([a-z-]+|collectedFrom)':}{"$1":}g;        # JSON fields/keys should use double quotes not single quotes
 s{(?<!\\)\\x}{\\u00}g;                        # JSON uses unicode escapes \uXXXX rather than \xXX. Pray we get valid unicode chars
 s{\\\\\\\\u(?=[0-9a-f]{4})}{\\u}g;            # fix quadruple-backslash unicode escape to single backslash, eg \\\\u0027Normative order
 s{\\\\u(?=[0-9a-f]{4})}{\\u}g;                # fix double-backslash unicode escape to single backslash, eg \\u2018juridique\\u2019
