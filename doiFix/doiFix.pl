@@ -56,8 +56,9 @@ s{\bu\\"(.*?)\\"}{"$1"}g;                     # same as above line
 s{'UnpayWall'}{"UnpayWall"}g;                 # sometimes 'UnpayWall' appears without prefix u'..'
 s{'([a-z-]+|collectedFrom)'}{"$1"}g;          # JSON keys should use double quotes not single quotes
 s{(?<!\\)\\x}{\\u00}g;                        # JSON uses unicode escapes \uXXXX rather than \xXX. Pray we get valid unicode chars
-s{\\\\\\\\u}{\\u}g;                           # fix quadruple backslashes to single backslashes
-s{\\\\u}{\\u}g;                               # fix double backslashes to single backslashes, eg in \\u2018juridique\\u2019
+s{\\\\\\\\u(?=[0-9a-f]{4})}{\\u}g;            # fix quadruple-backslash unicode escape to single backslash, eg \\\\u0027Normative order
+s{\\\\u(?=[0-9a-f]{4})}{\\u}g;                # fix double-backslash unicode escape to single backslash, eg \\u2018juridique\\u2019
+s{(?<!\\)\\\\([rn])}{\\$1}g;                  # fix double-backslash return/newline escape to single backslash
 s{(?<=http://dx.doi.org/)(\S+)}{
   local $_ = $1;
   $_ = lc if $opt_d;                          # normalize DOI by lowercasing it
