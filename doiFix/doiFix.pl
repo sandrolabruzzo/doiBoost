@@ -4,9 +4,10 @@ use strict;
 use Getopt::Std;
 our $opt_j, # convert to JSON by wrapping in array: [line1, line2, ...]
 our $opt_l; # convert to JSONLD by also prepending a context: {"@context": {...}, "@graph": [line1, line2, ...]}
+our $opt_d; # normalize DOIs by lowercasing them, see https://www.doi.org/doi_handbook/2_Numbering.html#2.4
 
 BEGIN {
-  getopts("jl");
+  getopts("jld");
   $opt_j ||= $opt_l;        # JSONLD *is* JSON
   print <<'EOF' if $opt_l;  # JSONLD context
 {
@@ -44,13 +45,16 @@ s{([\[\{]), }{$1}g;                           # remove leading comma delimiter
 s{, ([\]\}])}{$1}g;                           # remove trailing comma delimiter
 s{-(\d)-}{-0$1-}g;                            # fix dates to 2-digit month
 s{-(\d)'}{-0$1'}g;                            # fix dates to 2-digit day
+s{(?<='doi': u')([^']+)}{\L$1}g if $opt_d;    # normalize DOI by lowercasing it
 s{u'(.*?)'}{"$1"}g;                           # JSON strings don't have a u'..' prefix and use double quotes. XXX: I haven't seen escaped \" but there might be some
 s{u\\"(.*?)\\"}{"$1"}g;                       # same as above line
-s{'([\w-]+)'}{"$1"}g;                         # JSON keys should use double quotes not single quotes
+s{'UnpayWall'}{"UnpayWall"}g;                 # sometimes 'UnpayWall' appears without prefix u'..'
+s{'([a-z-]+|collectedFrom)'}{"$1"}g;          # JSON keys should use double quotes not single quotes
 s{\\x}{\\u00}g;                               # JSON uses unicode escapes \uXXXX rather than \xXX. Pray we get valid unicode chars
 s{\\\\\\\\u}{\\u}g;                           # fix quadruple backslashes to single backslashes
-s{(?<=http://dx.doi.org/)(\S+)}{              # URL-encode chars that are not allowed in URL
+s{(?<=http://dx.doi.org/)(\S+)}{
   local $_ = $1;
-  s{([<>])}{sprintf("%%%2x",ord($1))}ge;
+  $_ = lc if $opt_d;                          # normalize DOI by lowercasing it
+  s{([<>])}{sprintf("%%%2x",ord($1))}ge;      # URL-encode special chars
   $_
 }e;

@@ -1224,42 +1224,36 @@
       "type" : "journal-article"
    },
    {
-      "collectedFrom" : [
-         "CrossRef"
+      "authors" : [
+         {
+            "family" : "Prosser",
+            "fullname" : "David C. Prosser",
+            "given" : "David C."
+         }
       ],
-      "doi" : "10.1002/anie.196700981",
-      "doi-url" : "http://dx.doi.org/10.1002/anie.196700981",
+      "collectedFrom" : [
+         "CrossRef",
+         "UnpayWall"
+      ],
+      "doi" : "10.7557/3137",
+      "doi-url" : "http://dx.doi.org/10.7557/3137",
       "instances" : [
          {
-            "provenance" : "CrossRef",
-            "url" : "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fanie.196700981"
+            "access-rights" : "OPEN",
+            "provenance" : "UnpayWall",
+            "url" : "http://septentrio.uit.no/index.php/SCS/article/download/3137/2992"
          }
       ],
       "issn" : [
          {
-            "type" : "print",
-            "value" : "0570-0833"
-         },
-         {
             "type" : "electronic",
-            "value" : "1521-3773"
+            "value" : "2387-3086"
          }
       ],
-      "issued" : "1967-01-01",
-      "license" : [
-         {
-            "content-version" : "tdm",
-            "date-time" : "2015-09-01T00:00:00Z",
-            "url" : "http://doi.wiley.com/10.1002/tdm_license_1.1"
-         }
-      ],
-      "published-print" : "1967-01-01",
-      "subject" : [
-         "General Chemistry",
-         "Catalysis"
-      ],
+      "issued" : "2014-09-10",
+      "published-online" : "2014-09-10",
       "title" : [
-         "Selected Abstracts"
+         "What's 'Open' about Open Access? The Vital Role of Copyright and Licenses"
       ],
       "type" : "journal-article"
    },
