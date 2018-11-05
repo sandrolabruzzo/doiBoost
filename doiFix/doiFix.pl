@@ -46,22 +46,26 @@ s{, ([\]\}])}{$1}g;                           # remove trailing comma delimiter
 s{-(\d)-}{-0$1-}g;                            # fix dates to 2-digit month
 s{-(\d)'}{-0$1'}g;                            # fix dates to 2-digit day
 s{(?<='doi': u')([^']+)}{\L$1}g if $opt_d;    # normalize DOI by lowercasing it
+s{(?<=http://dx.doi.org/)(\S+)}{urlize($1)}e;
 s{\\\\'}{\\'}g;                               # double backslash escaping of apostrophe to single escaping
-s{\bu'(.*?)(?<!\\)'}{                         # JSON strings don't have a u'..' prefix
-  local $_ = $1;
-  s{\\'}{'}g;                                 # apostrophes in JSON don't need (nor admit) backslash escapes
-  qq{"$_"}                                    # delimit the string with double quotes
-}ge;
-s{\bu\\"(.*?)\\"}{"$1"}g;                     # same as above line
+s{\bu'(.*?)(?<!\\)'}{stringize($1)}ge;        # JSON strings don't have a u'..' prefix
+s{\bu\\"(.*?)\\"}{stringize($1)}ge;           # same as above line
 s{'UnpayWall'}{"UnpayWall"}g;                 # sometimes 'UnpayWall' appears without prefix u'..'
 s{'([a-z-]+|collectedFrom)':}{"$1":}g;        # JSON fields/keys should use double quotes not single quotes
 s{(?<!\\)\\x}{\\u00}g;                        # JSON uses unicode escapes \uXXXX rather than \xXX. Pray we get valid unicode chars
 s{\\\\\\\\u(?=[0-9a-f]{4})}{\\u}g;            # fix quadruple-backslash unicode escape to single backslash, eg \\\\u0027Normative order
 s{\\\\u(?=[0-9a-f]{4})}{\\u}g;                # fix double-backslash unicode escape to single backslash, eg \\u2018juridique\\u2019
 s{(?<!\\)\\\\([rn])}{\\$1}g;                  # fix double-backslash return/newline escape to single backslash
-s{(?<=http://dx.doi.org/)(\S+)}{
-  local $_ = $1;
-  $_ = lc if $opt_d;                          # normalize DOI by lowercasing it
-  s{([<>])}{sprintf("%%%2x",ord($1))}ge;      # URL-encode special chars
-  $_
-}e;
+
+sub stringize {
+  my $x = shift;
+  $x =~ s{\\+'}{'}g;                          # apostrophes in JSON don't need (nor admit) backslash escapes
+  qq{"$x"}                                    # delimit the string with double quotes
+}
+
+sub urlize {
+  my $x = shift;
+  $x = lc($x) if $opt_d;                       # normalize DOI by lowercasing it
+  $x =~ s{([<>])}{sprintf("%%%2x",ord($1))}ge; # URL-encode special chars
+  $x
+}
