@@ -53,6 +53,7 @@ s{'([a-z-]+|collectedFrom)'}{"$1"}g;          # JSON keys should use double quot
 s{\\x}{\\u00}g;                               # JSON uses unicode escapes \uXXXX rather than \xXX. Pray we get valid unicode chars
 s{\\\\\\\\u}{\\u}g;                           # fix quadruple backslashes to single backslashes
 s{\\\\u}{\\u}g;                               # fix double backslashes to single backslashes, eg in \\u2018juridique\\u2019
+s{\\\\'}{'}g;                                 # unnecessary double-backslash escaping of apostrophe
 s{(?<=http://dx.doi.org/)(\S+)}{
   local $_ = $1;
   $_ = lc if $opt_d;                          # normalize DOI by lowercasing it
