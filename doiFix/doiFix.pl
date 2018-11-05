@@ -46,14 +46,18 @@ s{, ([\]\}])}{$1}g;                           # remove trailing comma delimiter
 s{-(\d)-}{-0$1-}g;                            # fix dates to 2-digit month
 s{-(\d)'}{-0$1'}g;                            # fix dates to 2-digit day
 s{(?<='doi': u')([^']+)}{\L$1}g if $opt_d;    # normalize DOI by lowercasing it
-s{\bu'(.*?)'}{"$1"}g;                         # JSON strings don't have a u'..' prefix and use double quotes. XXX: I haven't seen escaped \" but there might be some
+s{\\\\'}{\\'}g;                               # double backslash escaping of apostrophe to single escaping
+s{\bu'(.*?)(?<!\\)'}{                         # JSON strings don't have a u'..' prefix
+  local $_ = $1;
+  s{\\'}{'}g;                                 # apostrophes in JSON don't need (nor admit) backslash escapes
+  qq{"$_"}                                    # delimit the string with double quotes
+}ge;
 s{\bu\\"(.*?)\\"}{"$1"}g;                     # same as above line
 s{'UnpayWall'}{"UnpayWall"}g;                 # sometimes 'UnpayWall' appears without prefix u'..'
 s{'([a-z-]+|collectedFrom)'}{"$1"}g;          # JSON keys should use double quotes not single quotes
 s{\\x}{\\u00}g;                               # JSON uses unicode escapes \uXXXX rather than \xXX. Pray we get valid unicode chars
 s{\\\\\\\\u}{\\u}g;                           # fix quadruple backslashes to single backslashes
 s{\\\\u}{\\u}g;                               # fix double backslashes to single backslashes, eg in \\u2018juridique\\u2019
-s{\\\\'}{'}g;                                 # unnecessary double-backslash escaping of apostrophe
 s{(?<=http://dx.doi.org/)(\S+)}{
   local $_ = $1;
   $_ = lc if $opt_d;                          # normalize DOI by lowercasing it

@@ -1506,5 +1506,67 @@
          "In memoriam-Elmer L. Gaden, Jr."
       ],
       "type" : "journal-article"
+   },
+   {
+      "abstract" : [
+         {
+            "provenance" : "MAG",
+            "value" : "I would make several comments on Sol Yurick's article, \"The Political Economy of Junk,\" in the December 1970 MR. I have no quarrel with his basic thesis that the current spread of, and alarm over, drug addiction must be viewed in the context of the political and economic system from which it springs. I think, though, that Mr. Yurick depicts its genesis too much as a conscious, deliberate act of Nixon or \"the ruling class.\" Furthermore I think he tends to oversimplify or overemphasize the impacts on the legal and illicit subeconomies which addiction affects. This article can also be found at the   Monthly Review  website , where most recent articles are published in full.   Click here to purchase a PDF version of this article at the  Monthly Review  website."
+         }
+      ],
+      "authors" : [
+         {
+            "family" : "Light",
+            "fullname" : "Donald Light",
+            "given" : "Donald",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2656039040"
+               }
+            ]
+         },
+         {
+            "family" : "Yurick",
+            "fullname" : "Sol Yurick",
+            "given" : "Sol",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2329510319"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.14452/mr-023-01-1971-05_4",
+      "doi-url" : "http://dx.doi.org/10.14452/mr-023-01-1971-05_4",
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0027-0520"
+         },
+         {
+            "type" : "electronic",
+            "value" : "0027-0520"
+         }
+      ],
+      "issued" : "1971-05-04",
+      "published-online" : "1971-05-04",
+      "subject" : [
+         "Geography, Planning and Development",
+         "Sociology and Political Science",
+         "Management, Monitoring, Policy and Law",
+         "Gender Studies"
+      ],
+      "title" : [
+         "Response to Sol Yurick's \"Political Economy of Junk\"; Response to a Response"
+      ],
+      "type" : "journal-article"
    }
 ]
