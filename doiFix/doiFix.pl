@@ -46,7 +46,7 @@ s{, ([\]\}])}{$1}g;                           # remove trailing comma delimiter
 s{-(\d)-}{-0$1-}g;                            # fix dates to 2-digit month
 s{-(\d)'}{-0$1'}g;                            # fix dates to 2-digit day
 s{(?<='doi': u')([^']+)}{\L$1}g if $opt_d;    # normalize DOI by lowercasing it
-s{(?<=http://dx.doi.org/)(\S+)}{urlize($1)}e;
+s{(?<=http://dx.doi.org/)([^' ]+)}{urlize($1)}e;
 s{\\\\'}{\\'}g;                               # double backslash escaping of apostrophe to single escaping
 s{\bu'(.*?)(?<!\\)'}{stringize($1)}ge;        # JSON strings don't have a u'..' prefix
 s{\bu\\"(.*?)\\"}{stringize($1)}ge;           # same as above line
