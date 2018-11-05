@@ -23,7 +23,25 @@
 <http://dx.doi.org/10.1002/aic.13811>
         a                      doib:journal-article ;
         doib:abstract          [ doib:provenance  "MAG" ;
-                                 doib:value       "Cationic polyacrylamides (c-PAMs) bind to starch granules and decrease the temperature for the onset of gelatinization by 8\\u00c2\\u00b0C. c-PAM increases the binding of \\u00ce\\u00b1-amylase to cornstarch; the rate of cornstarch hydrolysis also increases. By analogy to previous work on the c-PAM promoted hydrolysis of cellulose, it is proposed that the polymer reduces the charge on the surface of starch through a charge-patch mechanism. Because both enzyme and substrate are negatively charged, the bound c-PAM reduces the charge repulsion experienced by the approaching enzyme, which leads to stronger enzyme-substrate binding and faster hydrolysis. Overall, the c-PAM reduces enzyme dose by up to 62% under the conditions used. There is a mirror image relationship between the viscosity of the medium and the hydrolysis rate, which allows optimization of these parameters with enzyme and c-PAM dosage. Low c-PAM levels increase viscosity by agglomerating the substrate, but the viscosity drops at higher c-PAM concentration. \\u00c2\\u00a9 2012 American Institute of Chemical Engineers AIChE J, 59: 79\\u00e2\\u0080\\u009383, 2013"
+                                 doib:value       "Cationic polyacrylamides (c-PAMs) bind to starch granules and decrease the temperature for the onset of gelatinization by 8Â°C. c-PAM increases the binding of Î±-amylase to cornstarch; the rate of cornstarch hydrolysis also increases. By analogy to previous work on the c-PAM promoted hydrolysis of cellulose, it is proposed that the polymer reduces the charge on the surface of starch through a charge-patch mechanism. Because both enzyme and substrate are negatively charged, the bound c-PAM reduces the charge repulsion experienced by the approaching enzyme, which leads to stronger enzyme-substrate binding and faster hydrolysis. Overall, the c-PAM reduces enzyme dose by up to 62% under the conditions used. There is a mirror image relationship between the viscosity of the medium and the hydrolysis rate, which allows optimization of these parameters with enzyme and c-PAM dosage. Low c-PAM levels increase viscosity by agglomerating the substrate, but the viscosity drops at higher c-PAM concentration. Â© 2012 American Institute of Chemical Engineers AIChE J, 59: 79â83, 2013"
+                               ] ;
+        doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                            doib:value   "http://en.wikipedia.org/wiki/Institute_of_Paper_Science_and_Technology"
+                                                                          ] ;
+                                                      doib:official-page  "http://ipst.gatech.edu/" ;
+                                                      doib:provenance     "MAG" ;
+                                                      doib:value          "Institute of Paper Science and Technology"
+                                                    ] ;
+                                 doib:affiliations  [ doib:provenance  "CrossRef" ;
+                                                      doib:value       "Institute of Paper Science and Technology; School of Chemical and Biomolecular Engineering; Georgia Institute of Technology; 500 10th St.; NW Atlanta; GA; 30332"
+                                                    ] ;
+                                 doib:family        "Krantz" ;
+                                 doib:fullname      "Alison L. Krantz" ;
+                                 doib:given         "Alison L." ;
+                                 doib:identifiers   [ doib:provenance  "MAG" ;
+                                                      doib:schema      "URL" ;
+                                                      doib:value       "https://academic.microsoft.com/#/detail/2109419482"
+                                                    ]
                                ] ;
         doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "wikpedia" ;
                                                                             doib:value   "http://en.wikipedia.org/wiki/Institute_of_Paper_Science_and_Technology"
@@ -61,24 +79,6 @@
                                                       doib:value       "https://academic.microsoft.com/#/detail/2574891762"
                                                     ]
                                ] ;
-        doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                            doib:value   "http://en.wikipedia.org/wiki/Institute_of_Paper_Science_and_Technology"
-                                                                          ] ;
-                                                      doib:official-page  "http://ipst.gatech.edu/" ;
-                                                      doib:provenance     "MAG" ;
-                                                      doib:value          "Institute of Paper Science and Technology"
-                                                    ] ;
-                                 doib:affiliations  [ doib:provenance  "CrossRef" ;
-                                                      doib:value       "Institute of Paper Science and Technology; School of Chemical and Biomolecular Engineering; Georgia Institute of Technology; 500 10th St.; NW Atlanta; GA; 30332"
-                                                    ] ;
-                                 doib:family        "Krantz" ;
-                                 doib:fullname      "Alison L. Krantz" ;
-                                 doib:given         "Alison L." ;
-                                 doib:identifiers   [ doib:provenance  "MAG" ;
-                                                      doib:schema      "URL" ;
-                                                      doib:value       "https://academic.microsoft.com/#/detail/2109419482"
-                                                    ]
-                               ] ;
         doib:collectedFrom     "CrossRef" , "MAG" ;
         doib:doi               "10.1002/aic.13811" ;
         doib:instance          [ doib:provenance  "CrossRef" ;
@@ -112,11 +112,11 @@
         doib:instance         [ doib:provenance  "CrossRef" ;
                                 doib:url         "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fasna.18971420203"
                               ] ;
-        doib:issn             [ a           doib:electronic ;
-                                doib:value  "1521-3994"
-                              ] ;
         doib:issn             [ a           doib:print ;
                                 doib:value  "0004-6337"
+                              ] ;
+        doib:issn             [ a           doib:electronic ;
+                                doib:value  "1521-3994"
                               ] ;
         doib:issued           "1897-01-01"^^xsd:date ;
         doib:license          [ doib:content-version  "tdm" ;
@@ -125,7 +125,7 @@
                               ] ;
         doib:published-print  "1897-01-01"^^xsd:date ;
         doib:subject          "Space and Planetary Science" , "Astronomy and Astrophysics" ;
-        doib:title            "Bericht \\u00fcber Versuche zum Nachweis einer elektrodynamischen Sonnenstrahlung von J. Wilsing und J. Scheiner" .
+        doib:title            "Bericht über Versuche zum Nachweis einer elektrodynamischen Sonnenstrahlung von J. Wilsing und J. Scheiner" .
 
 <http://dx.doi.org/10.1016/j.jacc.2017.03.270>
         a                     doib:journal-article ;
@@ -147,10 +147,10 @@
         doib:collectedFrom    "MAG" , "CrossRef" ;
         doib:doi              "10.1016/j.jacc.2017.03.270" ;
         doib:instance         [ doib:provenance  "CrossRef" ;
-                                doib:url         "http://api.elsevier.com/content/article/PII:S0735109717363829?httpAccept=text/plain"
+                                doib:url         "http://api.elsevier.com/content/article/PII:S0735109717363829?httpAccept=text/xml"
                               ] ;
         doib:instance         [ doib:provenance  "CrossRef" ;
-                                doib:url         "http://api.elsevier.com/content/article/PII:S0735109717363829?httpAccept=text/xml"
+                                doib:url         "http://api.elsevier.com/content/article/PII:S0735109717363829?httpAccept=text/plain"
                               ] ;
         doib:issn             [ a           doib:print ;
                                 doib:value  "0735-1097"
@@ -182,11 +182,11 @@
         doib:instance         [ doib:provenance  "CrossRef" ;
                                 doib:url         "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F1521-3994(199908)320:4%2F5%3C185::AID-ASNA185%3E3.0.CO;2-K"
                               ] ;
-        doib:issn             [ a           doib:print ;
-                                doib:value  "0004-6337"
-                              ] ;
         doib:issn             [ a           doib:electronic ;
                                 doib:value  "1521-3994"
+                              ] ;
+        doib:issn             [ a           doib:print ;
+                                doib:value  "0004-6337"
                               ] ;
         doib:issued           "1999-08-01"^^xsd:date ;
         doib:license          [ doib:content-version  "tdm" ;
@@ -199,24 +199,6 @@
 
 <http://dx.doi.org/10.1016/s0197-4580(04)80305-01>
         a                     doib:journal-article ;
-        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
-                                                                           doib:value   "grid.266683.f"
-                                                                         ] ;
-                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                           doib:value   "http://en.wikipedia.org/wiki/University_of_Massachusetts_Amherst"
-                                                                         ] ;
-                                                     doib:official-page  "http://www.umass.edu/" ;
-                                                     doib:provenance     "MAG" ;
-                                                     doib:value          "University of Massachusetts Amherst"
-                                                   ] ;
-                                doib:family        "Jiang" ;
-                                doib:fullname      "Ying Jiang" ;
-                                doib:given         "Ying" ;
-                                doib:identifiers   [ doib:provenance  "MAG" ;
-                                                     doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/2054979584"
-                                                   ]
-                              ] ;
         doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
                                                                            doib:value   "grid.38142.3c"
                                                                          ] ;
@@ -233,24 +215,6 @@
                                 doib:identifiers   [ doib:provenance  "MAG" ;
                                                      doib:schema      "URL" ;
                                                      doib:value       "https://academic.microsoft.com/#/detail/2109219733"
-                                                   ]
-                              ] ;
-        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
-                                                                           doib:value   "grid.137628.9"
-                                                                         ] ;
-                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                           doib:value   "http://en.wikipedia.org/wiki/New_York_University"
-                                                                         ] ;
-                                                     doib:official-page  "http://www.nyu.edu/" ;
-                                                     doib:provenance     "MAG" ;
-                                                     doib:value          "New York University"
-                                                   ] ;
-                                doib:family        "Nixon" ;
-                                doib:fullname      "Ralph A. Nixon" ;
-                                doib:given         "Ralph A." ;
-                                doib:identifiers   [ doib:provenance  "MAG" ;
-                                                     doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/2161986744"
                                                    ]
                               ] ;
         doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
@@ -290,6 +254,24 @@
                                                    ]
                               ] ;
         doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.266683.f"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/University_of_Massachusetts_Amherst"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.umass.edu/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "University of Massachusetts Amherst"
+                                                   ] ;
+                                doib:family        "Jiang" ;
+                                doib:fullname      "Ying Jiang" ;
+                                doib:given         "Ying" ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2054979584"
+                                                   ]
+                              ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
                                                                            doib:value   "grid.137628.9"
                                                                          ] ;
                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
@@ -307,13 +289,31 @@
                                                      doib:value       "https://academic.microsoft.com/#/detail/1460701465"
                                                    ]
                               ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.137628.9"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/New_York_University"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.nyu.edu/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "New York University"
+                                                   ] ;
+                                doib:family        "Nixon" ;
+                                doib:fullname      "Ralph A. Nixon" ;
+                                doib:given         "Ralph A." ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2161986744"
+                                                   ]
+                              ] ;
         doib:collectedFrom    "CrossRef" , "MAG" ;
         doib:doi              "10.1016/s0197-4580(04)80305-01" ;
         doib:instance         [ doib:provenance  "CrossRef" ;
-                                doib:url         "http://api.elsevier.com/content/article/PII:S0197458004803051?httpAccept=text/plain"
+                                doib:url         "http://api.elsevier.com/content/article/PII:S0197458004803051?httpAccept=text/xml"
                               ] ;
         doib:instance         [ doib:provenance  "CrossRef" ;
-                                doib:url         "http://api.elsevier.com/content/article/PII:S0197458004803051?httpAccept=text/xml"
+                                doib:url         "http://api.elsevier.com/content/article/PII:S0197458004803051?httpAccept=text/plain"
                               ] ;
         doib:issn             [ a           doib:print ;
                                 doib:value  "0197-4580"
@@ -327,72 +327,6 @@
         doib:subject          "Developmental Biology" , "Ageing" , "Geriatrics and Gerontology" , "Clinical Neurology" , "General Neuroscience" ;
         doib:title            "S5-02-03 Endosomal pathology in early stage Alzheimer's disease" .
 
-<http://dx.doi.org/10.1002/9781119222736.ch2>
-        a                      doib:book-chapter ;
-        doib:abstract          [ doib:provenance  "MAG" ;
-                                 doib:value       "As the world becomes increasingly interconnected, counselors must learn how to work across, through, and beyond cultural and continental differences (McFadden & Moore, 2002). McFadden (1999) suggested that 'confusion and shifts in political, social, and  economic problems that have never been greater than at this time present  themselves in every  aspect of our lives' (p. xviii). It is reasonable to believe that individuals throughout the world are likely to need assistance from professionals such as mental health counselors. The general consensus among counseling professionals who are consistently being exposed to diverse cultures is that there is a need to learn how to create a caring counseling environment that 'transcends cultural, ethnic, racial, and national boundaries' (McFadden, 1999, p. xvi)."
-                               ] ;
-        doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
-                                                                            doib:value   "grid.261331.4"
-                                                                          ] ;
-                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                            doib:value   "http://en.wikipedia.org/wiki/Ohio_State_University"
-                                                                          ] ;
-                                                      doib:official-page  "http://www.osu.edu/" ;
-                                                      doib:provenance     "MAG" ;
-                                                      doib:value          "Ohio State University"
-                                                    ] ;
-                                 doib:family        "Moore" ;
-                                 doib:fullname      "James L. Moore" ;
-                                 doib:given         "James L." ;
-                                 doib:identifiers   [ doib:provenance  "MAG" ;
-                                                      doib:schema      "URL" ;
-                                                      doib:value       "https://academic.microsoft.com/#/detail/2276112726"
-                                                    ]
-                               ] ;
-        doib:author            [ doib:family       "Nassar-McMillan" ;
-                                 doib:fullname     "Sylvia C. Nassar-McMillan" ;
-                                 doib:given        "Sylvia C." ;
-                                 doib:identifiers  [ doib:provenance  "MAG" ;
-                                                     doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/2697648808"
-                                                   ]
-                               ] ;
-        doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
-                                                                            doib:value   "grid.252754.3"
-                                                                          ] ;
-                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                            doib:value   "http://en.wikipedia.org/wiki/Ball_State_University"
-                                                                          ] ;
-                                                      doib:official-page  "http://www.bsu.edu/" ;
-                                                      doib:provenance     "MAG" ;
-                                                      doib:value          "Ball State University"
-                                                    ] ;
-                                 doib:family        "Mayes" ;
-                                 doib:fullname      "Renae D. Mayes" ;
-                                 doib:given         "Renae D." ;
-                                 doib:identifiers   [ doib:provenance  "MAG" ;
-                                                      doib:schema      "URL" ;
-                                                      doib:value       "https://academic.microsoft.com/#/detail/2259885710"
-                                                    ]
-                               ] ;
-        doib:author            [ doib:family       "Warfield" ;
-                                 doib:fullname     "Heather A. Warfield" ;
-                                 doib:given        "Heather A." ;
-                                 doib:identifiers  [ doib:provenance  "MAG" ;
-                                                     doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/2798110633"
-                                                   ]
-                               ] ;
-        doib:collectedFrom     "MAG" , "CrossRef" ;
-        doib:doi               "10.1002/9781119222736.ch2" ;
-        doib:instance          [ doib:provenance  "CrossRef" ;
-                                 doib:url         "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F9781119222736.ch2"
-                               ] ;
-        doib:issued            "2015-09-25"^^xsd:date ;
-        doib:published-online  "2015-09-25"^^xsd:date ;
-        doib:title             "Global Diversity Issues in Counseling" .
-
 <http://dx.doi.org/10.1002/bit.24556>
         a                      doib:journal-article ;
         doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
@@ -405,12 +339,12 @@
                                                       doib:provenance     "MAG" ;
                                                       doib:value          "University of Virginia"
                                                     ] ;
-                                 doib:family        "Gainer" ;
-                                 doib:fullname      "John L. Gainer" ;
-                                 doib:given         "John L." ;
+                                 doib:family        "Kirwan" ;
+                                 doib:fullname      "Donald J. Kirwan" ;
+                                 doib:given         "Donald J." ;
                                  doib:identifiers   [ doib:provenance  "MAG" ;
                                                       doib:schema      "URL" ;
-                                                      doib:value       "https://academic.microsoft.com/#/detail/2138478333"
+                                                      doib:value       "https://academic.microsoft.com/#/detail/2019137623"
                                                     ]
                                ] ;
         doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
@@ -441,12 +375,12 @@
                                                       doib:provenance     "MAG" ;
                                                       doib:value          "University of Virginia"
                                                     ] ;
-                                 doib:family        "Kirwan" ;
-                                 doib:fullname      "Donald J. Kirwan" ;
-                                 doib:given         "Donald J." ;
+                                 doib:family        "Gainer" ;
+                                 doib:fullname      "John L. Gainer" ;
+                                 doib:given         "John L." ;
                                  doib:identifiers   [ doib:provenance  "MAG" ;
                                                       doib:schema      "URL" ;
-                                                      doib:value       "https://academic.microsoft.com/#/detail/2019137623"
+                                                      doib:value       "https://academic.microsoft.com/#/detail/2138478333"
                                                     ]
                                ] ;
         doib:collectedFrom     "CrossRef" , "MAG" ;
@@ -469,8 +403,8 @@
 
 <http://dx.doi.org/10.1002/9780470145241.ch85>
         a                      doib:book-chapter ;
-        doib:author            [ doib:family       "R\\u00f6sch" ;
-                                 doib:fullname     "L. R\\u00f6sch" ;
+        doib:author            [ doib:family       "Rösch" ;
+                                 doib:fullname     "L. Rösch" ;
                                  doib:given        "L." ;
                                  doib:identifiers  [ doib:provenance  "MAG" ;
                                                      doib:schema      "URL" ;
@@ -480,10 +414,10 @@
         doib:collectedFrom     "MAG" , "CrossRef" ;
         doib:doi               "10.1002/9780470145241.ch85" ;
         doib:instance          [ doib:provenance  "CrossRef" ;
-                                 doib:url         "http://onlinelibrary.wiley.com/wol1/doi/10.1002/9780470145241.ch85/fullpdf"
+                                 doib:url         "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F9780470145241.ch85"
                                ] ;
         doib:instance          [ doib:provenance  "CrossRef" ;
-                                 doib:url         "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F9780470145241.ch85"
+                                 doib:url         "http://onlinelibrary.wiley.com/wol1/doi/10.1002/9780470145241.ch85/fullpdf"
                                ] ;
         doib:issn              [ a           doib:electronic ;
                                  doib:value  "1934-5100"
@@ -530,24 +464,6 @@
                                                    ]
                               ] ;
         doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
-                                                                           doib:value   "grid.264381.a"
-                                                                         ] ;
-                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                           doib:value   "http://en.wikipedia.org/wiki/Sungkyunkwan_University"
-                                                                         ] ;
-                                                     doib:official-page  "http://www.skku.edu/" ;
-                                                     doib:provenance     "MAG" ;
-                                                     doib:value          "Sungkyunkwan University"
-                                                   ] ;
-                                doib:family        "Na" ;
-                                doib:fullname      "Duk L. Na" ;
-                                doib:given         "Duk L." ;
-                                doib:identifiers   [ doib:provenance  "MAG" ;
-                                                     doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/2328241152"
-                                                   ]
-                              ] ;
-        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
                                                                            doib:value   "grid.222754.4"
                                                                          ] ;
                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
@@ -563,6 +479,24 @@
                                 doib:identifiers   [ doib:provenance  "MAG" ;
                                                      doib:schema      "URL" ;
                                                      doib:value       "https://academic.microsoft.com/#/detail/2156277566"
+                                                   ]
+                              ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.264381.a"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/Sungkyunkwan_University"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.skku.edu/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "Sungkyunkwan University"
+                                                   ] ;
+                                doib:family        "Na" ;
+                                doib:fullname      "Duk L. Na" ;
+                                doib:given         "Duk L." ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2328241152"
                                                    ]
                               ] ;
         doib:collectedFrom    "CrossRef" , "ORCID" , "MAG" ;
@@ -592,11 +526,11 @@
         doib:instance         [ doib:provenance  "CrossRef" ;
                                 doib:url         "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F(SICI)1099-0496(199609)22:3%3C%3E1.0.CO;2-A"
                               ] ;
-        doib:issn             [ a           doib:electronic ;
-                                doib:value  "1099-0496"
-                              ] ;
         doib:issn             [ a           doib:print ;
                                 doib:value  "8755-6863"
+                              ] ;
+        doib:issn             [ a           doib:electronic ;
+                                doib:value  "1099-0496"
                               ] ;
         doib:issued           "1996-09-01"^^xsd:date ;
         doib:license          [ doib:content-version  "tdm" ;
@@ -671,11 +605,11 @@
         doib:instance         [ doib:provenance  "CrossRef" ;
                                 doib:url         "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fandp.19354130803"
                               ] ;
-        doib:issn             [ a           doib:print ;
-                                doib:value  "0003-3804"
-                              ] ;
         doib:issn             [ a           doib:electronic ;
                                 doib:value  "1521-3889"
+                              ] ;
+        doib:issn             [ a           doib:print ;
+                                doib:value  "0003-3804"
                               ] ;
         doib:issued           "1935-01-01"^^xsd:date ;
         doib:license          [ doib:content-version  "tdm" ;
@@ -684,7 +618,7 @@
                               ] ;
         doib:published-print  "1935-01-01"^^xsd:date ;
         doib:subject          "General Physics and Astronomy" ;
-        doib:title            "Viskosit\\u00e4tsmessungen bei hohen Temperaturen mittels frei fallender Kugeln" .
+        doib:title            "Viskositätsmessungen bei hohen Temperaturen mittels frei fallender Kugeln" .
 
 <http://dx.doi.org/10.1002/9783527623273>
         a                     doib:book ;
@@ -740,7 +674,7 @@
 <http://dx.doi.org/10.1017/s0362152900011582>
         a                      doib:journal-article ;
         doib:abstract          [ doib:provenance  "CrossRef" ;
-                                 doib:value       "<jats:p>Because Robert Grosseteste's translation of Aristotle's <jats:italic>Nicomachean Ethics</jats:italic> is now seen as having provided the framework for a dynamic study of Aristotle's moral philosophy, more significance must be attached to what itself became the standard translation in the Middle Ages. That Grosseteste was responsible both for the full translation of Aristotle's text and for the translation of the Greek commentaries which accompany the <jats:italic>Ethics</jats:italic> in twenty-one known manuscripts modern scholars are now in agreement. Grosseteste's work on the <jats:italic>Nicomachean Ethics</jats:italic> has been dated confidently to the 1240s, arguably to 1246\\u201347, and scholars have tended to stress the rapidity with which the Aristotelian ethics were assimilated in the thirteenth century, in contrast, for example, with the slow progress recorded by John of Salisbury on the <jats:italic>Posterior Analytics</jats:italic> in the twelfth. These results of recent research seem, it should be notd in passing, strangely at odds with the verdict of Roger Bacon, that there was comparatively little work on the <jats:italic>Ethics</jats:italic> in his period. He, Grosseteste's most ardent admirer, appears not to have known that this master translated the text and comments: \\u2018Tardius communicata est Ethica Aristotelis et nuper lecta a magistris et raro.\\u2019</jats:p>"
+                                 doib:value       "<jats:p>Because Robert Grosseteste's translation of Aristotle's <jats:italic>Nicomachean Ethics</jats:italic> is now seen as having provided the framework for a dynamic study of Aristotle's moral philosophy, more significance must be attached to what itself became the standard translation in the Middle Ages. That Grosseteste was responsible both for the full translation of Aristotle's text and for the translation of the Greek commentaries which accompany the <jats:italic>Ethics</jats:italic> in twenty-one known manuscripts modern scholars are now in agreement. Grosseteste's work on the <jats:italic>Nicomachean Ethics</jats:italic> has been dated confidently to the 1240s, arguably to 1246–47, and scholars have tended to stress the rapidity with which the Aristotelian ethics were assimilated in the thirteenth century, in contrast, for example, with the slow progress recorded by John of Salisbury on the <jats:italic>Posterior Analytics</jats:italic> in the twelfth. These results of recent research seem, it should be notd in passing, strangely at odds with the verdict of Roger Bacon, that there was comparatively little work on the <jats:italic>Ethics</jats:italic> in his period. He, Grosseteste's most ardent admirer, appears not to have known that this master translated the text and comments: ‘Tardius communicata est Ethica Aristotelis et nuper lecta a magistris et raro.’</jats:p>"
                                ] ;
         doib:author            [ doib:family       "Dunbabin" ;
                                  doib:fullname     "Jean Dunbabin" ;
@@ -755,17 +689,17 @@
         doib:instance          [ doib:provenance  "CrossRef" ;
                                  doib:url         "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0362152900011582"
                                ] ;
-        doib:issn              [ a           doib:print ;
-                                 doib:value  "0362-1529"
-                               ] ;
         doib:issn              [ a           doib:electronic ;
                                  doib:value  "2166-5508"
+                               ] ;
+        doib:issn              [ a           doib:print ;
+                                 doib:value  "0362-1529"
                                ] ;
         doib:issued            "1972-01-01"^^xsd:date ;
         doib:published-online  "2016-07-29"^^xsd:date ;
         doib:published-print   "1972-01-01"^^xsd:date ;
         doib:subject           "Philosophy" , "Visual Arts and Performing Arts" , "Literature and Literary Theory" , "Religious studies" ;
-        doib:title             "Robert Grosseteste as Translator, Transmitter, and Commentator: The \\u2018Nicomachean Ethics\\u2019" .
+        doib:title             "Robert Grosseteste as Translator, Transmitter, and Commentator: The ‘Nicomachean Ethics’" .
 
 <http://dx.doi.org/10.1002/9781118702680.ch3>
         a                      doib:book-chapter ;
@@ -828,32 +762,32 @@
 
 <http://dx.doi.org/10.1002/1097-010x(20010201)289:2%3c130::aid-jez6%3e3.0.co;2-#>
         a                      doib:journal-article ;
-        doib:author            [ doib:family    "Kayser" ;
-                                 doib:fullname  "Lars Kayser" ;
-                                 doib:given     "Lars"
-                               ] ;
         doib:author            [ doib:family    "Roed" ;
                                  doib:fullname  "Tiny Roed" ;
                                  doib:given     "Tiny"
                                ] ;
-        doib:author            [ doib:family    "H\\ufffdyer" ;
-                                 doib:fullname  "Poul Erik H\\ufffdyer" ;
+        doib:author            [ doib:family    "H�yer" ;
+                                 doib:fullname  "Poul Erik H�yer" ;
                                  doib:given     "Poul Erik"
                                ] ;
         doib:author            [ doib:family    "Byskov" ;
                                  doib:fullname  "Anne Grete Byskov" ;
                                  doib:given     "Anne Grete"
                                ] ;
+        doib:author            [ doib:family    "Kayser" ;
+                                 doib:fullname  "Lars Kayser" ;
+                                 doib:given     "Lars"
+                               ] ;
         doib:collectedFrom     "CrossRef" ;
         doib:doi               "10.1002/1097-010x(20010201)289:2<130::aid-jez6>3.0.co;2-#" ;
         doib:instance          [ doib:provenance  "CrossRef" ;
                                  doib:url         "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F1097-010X(20010201)289:2%3C130::AID-JEZ6%3E3.0.CO;2-#"
                                ] ;
-        doib:issn              [ a           doib:print ;
-                                 doib:value  "0022-104X"
-                               ] ;
         doib:issn              [ a           doib:electronic ;
                                  doib:value  "1097-010X"
+                               ] ;
+        doib:issn              [ a           doib:print ;
+                                 doib:value  "0022-104X"
                                ] ;
         doib:issued            "2001-01-01"^^xsd:date ;
         doib:license           [ doib:content-version  "tdm" ;
@@ -864,3 +798,64 @@
         doib:published-print   "2001-02-01"^^xsd:date ;
         doib:subject           "General Medicine" , "Animal Science and Zoology" ;
         doib:title             "Glucose and pyruvate metabolism during mouse gonadal sex differentiation" .
+
+<http://dx.doi.org/10.1353/jls.2006.0024>
+        a                      doib:journal-article ;
+        doib:abstract          [ doib:provenance  "CrossRef" ;
+                                 doib:value       "<jats:title>Résumé</jats:title><jats:p>Cet article explore les dimensions variées du bureau (<jats:italic>office</jats:italic>) professoral comme espace ‘juridique’. Dans l'une de ses dimensions, l'office d'un professeur n'est qu'un endroit géométrique générique, sans objectif ou occupant, une potentialité formelle. Or, c'est également un site dans la mesure que sa localisation, taille et organisation reflètent une fonctionnalité—des valeurs, processus et institutions décisionnelles qui déterminent son occupation. En plus, l'office exprime un rôle et une scène sur laquelle les occupants interagissent avec des collègues, des étudiants, des étrangers de manière à confirmer ou infirmer des relations de pouvoir et de subordination. L'office professoral a aussi une dimension performative dans laquelle la normativité d'une communauté—de professeurs, employés et étudiants—est imaginée et agie. Par ailleurs, dans une autre dimension, il s'agit d'un espace rituel où des professeurs travaillent, se détendent, réfléchissent et contemplent réflexivement des modèles et formes de pensées. Un tel office existe où que ses occupants choisissent de le tenir. Finalement, l'office est un non-lieu de découverte personnelle—l'indication d'un espace qui n'est que dans les relations qu'il crée et qui le créent.</jats:p>"
+                               ] ;
+        doib:abstract          [ doib:provenance  "MAG" ;
+                                 doib:value       "In the late 1980s one of us wrote a paper entitled 'Office Politics' for the Law and Leviathan symposium sponsored by the Law Reform Commission of Canada. The paper was the lead contribution to a panel addressing 'Normative order in the administrative state.' Conceived as a parable, the paper was composed as an exchange of memos among a dean and several professors in a law faculty about how offices should be allocated in an environment dominated by scarcity and non-substitutability of goods. While the terrain of inquiry thus evoked distributive justice, the primary ambition of the paper was to explore the complexities of normativity, and in particular what might be called 'implicit and inferential normativity' in organizations and public institutions."
+                               ] ;
+        doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                            doib:value   "grid.14709.3b"
+                                                                          ] ;
+                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                            doib:value   "http://en.wikipedia.org/wiki/McGill_University"
+                                                                          ] ;
+                                                      doib:official-page  "http://mcgill.ca/" ;
+                                                      doib:provenance     "MAG" ;
+                                                      doib:value          "McGill University"
+                                                    ] ;
+                                 doib:family        "Widell" ;
+                                 doib:fullname      "Jonathan Widell" ;
+                                 doib:given         "Jonathan" ;
+                                 doib:identifiers   [ doib:provenance  "MAG" ;
+                                                      doib:schema      "URL" ;
+                                                      doib:value       "https://academic.microsoft.com/#/detail/2614177322"
+                                                    ]
+                               ] ;
+        doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                            doib:value   "grid.14709.3b"
+                                                                          ] ;
+                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                            doib:value   "http://en.wikipedia.org/wiki/McGill_University"
+                                                                          ] ;
+                                                      doib:official-page  "http://mcgill.ca/" ;
+                                                      doib:provenance     "MAG" ;
+                                                      doib:value          "McGill University"
+                                                    ] ;
+                                 doib:family        "Macdonald" ;
+                                 doib:fullname      "Roderick A. Macdonald" ;
+                                 doib:given         "Roderick A." ;
+                                 doib:identifiers   [ doib:provenance  "MAG" ;
+                                                      doib:schema      "URL" ;
+                                                      doib:value       "https://academic.microsoft.com/#/detail/2106821258"
+                                                    ]
+                               ] ;
+        doib:collectedFrom     "MAG" , "CrossRef" ;
+        doib:doi               "10.1353/jls.2006.0024" ;
+        doib:instance          [ doib:provenance  "CrossRef" ;
+                                 doib:url         "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0829320100008541"
+                               ] ;
+        doib:issn              [ a           doib:print ;
+                                 doib:value  "0829-3201"
+                               ] ;
+        doib:issn              [ a           doib:electronic ;
+                                 doib:value  "1911-0227"
+                               ] ;
+        doib:issued            "2005-08-01"^^xsd:date ;
+        doib:published-online  "2014-07-18"^^xsd:date ;
+        doib:published-print   "2005-08-01"^^xsd:date ;
+        doib:subject           "Law" , "Sociology and Political Science" ;
+        doib:title             "Office Politics (Again)!." .
