@@ -66,6 +66,6 @@ sub stringize {
 sub urlize {
   my $x = shift;
   $x = lc($x) if $opt_d;                       # normalize DOI by lowercasing it
-  $x =~ s{([<>])}{sprintf("%%%2x",ord($1))}ge; # URL-encode special chars
+  $x =~ s{([<>\[\]])}{sprintf("%%%2x",ord($1))}ge; # URL-encode special chars
   $x
 }
