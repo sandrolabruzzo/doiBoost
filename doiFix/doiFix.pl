@@ -48,8 +48,8 @@ s{-(\d)'}{-0$1'}g;                            # fix dates to 2-digit day
 s{(?<='doi': u')([^']+)}{\L$1}g if $opt_d;    # normalize DOI by lowercasing it
 s{(?<=http://dx.doi.org/)([^' ]+)}{urlize($1)}e;
 s{\\\\'}{\\'}g;                               # double backslash escaping of apostrophe to single escaping
-s{\bu'(.*?)(?<!\\)'}{stringize($1)}ge;        # JSON strings don't have a u'..' prefix
-s{\bu\\"(.*?)\\"}{stringize($1)}ge;           # same as above line
+s{(?<=[\[ ])u'(.*?)(?<!\\)'}{stringize($1)}ge;# JSON strings don't have a u'..' prefix
+s{(?<=[\[ ])u\\"(.*?)\\"}{stringize($1)}ge;   # JSON strings don't have a u\"..\" prefix
 s{'UnpayWall'}{"UnpayWall"}g;                 # sometimes 'UnpayWall' appears without prefix u'..'
 s{'([a-z-]+|collectedFrom)':}{"$1":}g;        # JSON fields/keys should use double quotes not single quotes
 s{(?<!\\)\\x}{\\u00}g;                        # JSON uses unicode escapes \uXXXX rather than \xXX. Pray we get valid unicode chars

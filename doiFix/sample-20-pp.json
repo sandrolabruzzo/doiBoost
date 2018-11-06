@@ -2306,5 +2306,122 @@
          "Milk - An Effective Low-Attenuation Computed Tomography Oral Contrast Medium"
       ],
       "type" : "journal-article"
+   },
+   {
+      "abstract" : [
+         {
+            "provenance" : "MAG",
+            "value" : "As in the (k,l)-RSK (Robinson-Schensted-Knuth) of A. Berele and A. Regev (1987, Adv. Math.64, 118-175), other super-RSK algorithms can be applied to sequences of variables from the set {t\"1,...,t\"k,u\"1,...,u\"l}, where t\"1<..."
+         }
+      ],
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Weizmann_Institute_of_Science"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.13992.30"
+                     }
+                  ],
+                  "official-page" : "http://www.weizmann.ac.il/",
+                  "provenance" : "MAG",
+                  "value" : "Weizmann Institute of Science"
+               }
+            ],
+            "family" : "Regev",
+            "fullname" : "Amitai Regev",
+            "given" : "Amitai",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/1850544109"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Weizmann_Institute_of_Science"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.13992.30"
+                     }
+                  ],
+                  "official-page" : "http://www.weizmann.ac.il/",
+                  "provenance" : "MAG",
+                  "value" : "Weizmann Institute of Science"
+               }
+            ],
+            "family" : "Seeman",
+            "fullname" : "Tamar Seeman",
+            "given" : "Tamar",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2143215056"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG",
+         "UnpayWall"
+      ],
+      "doi" : "10.1006/aama.2001.0767",
+      "doi-url" : "http://dx.doi.org/10.1006/aama.2001.0767",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://api.elsevier.com/content/article/PII:S0196885801907675?httpAccept=text/xml"
+         },
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://api.elsevier.com/content/article/PII:S0196885801907675?httpAccept=text/plain"
+         },
+         {
+            "access-rights" : "OPEN",
+            "provenance" : "UnpayWall",
+            "url" : "http://doi.org/10.1006/aama.2001.0767"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0196-8858"
+         }
+      ],
+      "issued" : "2002-01-01",
+      "license" : [
+         {
+            "content-version" : "tdm",
+            "date-time" : "2002-01-01T00:00:00Z",
+            "url" : "http://www.elsevier.com/tdm/userlicense/1.0/"
+         },
+         {
+            "content-version" : "vor",
+            "date-time" : "2013-07-17T00:00:00Z",
+            "url" : "http://www.elsevier.com/open-access/userlicense/1.0/"
+         }
+      ],
+      "published-print" : "2002-01-01",
+      "subject" : [
+         "Applied Mathematics"
+      ],
+      "title" : [
+         "Shuffle Invariance of the Super-RSK Algorithm"
+      ],
+      "type" : "journal-article"
    }
 ]
