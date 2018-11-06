@@ -35,37 +35,38 @@ END {
   print "}" if $opt_l;  # JSONLD end
 }
 
-print ",\n" if ($opt_j || $opt_l) && $. > 1;  # JSON array separator
+print ",\n" if ($opt_j || $opt_l) && $. > 1;         # JSON array separator
 
-s{^"(.*)"$}{$1};                              # strip surrounding quotes
-s{'\\"delay-in-days'}{'delay-in-days'}g;      # this field name starts with double quote (wicked)
-s{['\w-]+': (None|\[\]|u'UNKNOWN')}{}g;       # kill null/empty/useless values
-s{, (?=,)}{}g;                                # remove doubled comma delimiters resulting from prev step
-s{([\[\{]), }{$1}g;                           # remove leading comma delimiter
-s{, ([\]\}])}{$1}g;                           # remove trailing comma delimiter
-s{-(\d)-}{-0$1-}g;                            # fix dates to 2-digit month
-s{-(\d)'}{-0$1'}g;                            # fix dates to 2-digit day
-s{(?<='doi': u')([^']+)}{\L$1}g if $opt_d;    # normalize DOI by lowercasing it
-s{(?<=http://dx.doi.org/)([^' ]+)}{urlize($1)}e;
-s{\\\\'}{\\'}g;                               # double backslash escaping of apostrophe to single escaping
-s{(?<=[\[ ])u'(.*?)(?<!\\)'}{stringize($1)}ge;# JSON strings don't have a u'..' prefix
-s{(?<=[\[ ])u\\"(.*?)\\"}{stringize($1)}ge;   # JSON strings don't have a u\"..\" prefix
-s{'UnpayWall'}{"UnpayWall"}g;                 # sometimes 'UnpayWall' appears without prefix u'..'
-s{'([a-z-]+|collectedFrom)':}{"$1":}g;        # JSON fields/keys should use double quotes not single quotes
-s{(?<!\\)\\x}{\\u00}g;                        # JSON uses unicode escapes \uXXXX rather than \xXX. Pray we get valid unicode chars
-s{\\\\\\\\u(?=[0-9a-f]{4})}{\\u}g;            # fix quadruple-backslash unicode escape to single backslash, eg \\\\u0027Normative order
-s{\\\\u(?=[0-9a-f]{4})}{\\u}g;                # fix double-backslash unicode escape to single backslash, eg \\u2018juridique\\u2019
-s{(?<!\\)\\\\([rn])}{\\$1}g;                  # fix double-backslash return/newline escape to single backslash
+s{^"(.*)"$}{$1};                                     # strip surrounding quotes
+s{'\\"delay-in-days'}{'delay-in-days'}g;             # this field name starts with double quote (wicked)
+s{['\w-]+': (None|\[\]|u'UNKNOWN')}{}g;              # kill null/empty/useless values
+s{, (?=,)}{}g;                                       # remove doubled comma delimiters resulting from prev step
+s{([\[\{]), }{$1}g;                                  # remove leading comma delimiter
+s{, ([\]\}])}{$1}g;                                  # remove trailing comma delimiter
+s{-(\d)-}{-0$1-}g;                                   # fix dates to 2-digit month
+s{-(\d)'}{-0$1'}g;                                   # fix dates to 2-digit day
+s{(?<='doi': u')([^']+)}{\L$1}g if $opt_d;           # normalize DOI by lowercasing it
+s{(?<=http://dx.doi.org/)([^' ]+)}{urlize($1)}e;     # URL-escape special chars in URL
+s{\\\\'}{\\'}g;                                      # double backslash escaping of apostrophe to single escaping
+s{(?<=[\[ ])u'(.*?)(?<!\\)'}{stringize($1)}ge;       # JSON strings don't have a u'..' prefix
+s{(?<=[\[ ])u\\"(.*?)\\"}{stringize($1)}ge;          # JSON strings don't have a u\"..\" prefix
+s{'UnpayWall'}{"UnpayWall"}g;                        # sometimes 'UnpayWall' appears without prefix u'..'
+s{(?<=[\[\{])'([a-z-]+|collectedFrom)':}{"$1":}g;    # JSON fields/keys (preceded by "{", "[") use double quotes not single quotes
+s{(?<=, )'([a-z-]+|collectedFrom)':}{"$1":}g;        # JSON fields/keys (preceded by ", ") use double quotes not single quotes
+s{(?<!\\)\\x}{\\u00}g;                               # JSON uses unicode escapes \uXXXX rather than \xXX. Pray we get valid unicode chars
+s{\\\\\\\\u(?=[0-9a-f]{4})}{\\u}g;                   # fix quadruple-backslash unicode escape to single backslash, eg \\\\u0027Normative order
+s{\\\\u(?=[0-9a-f]{4})}{\\u}g;                       # fix double-backslash unicode escape to single backslash, eg \\u2018juridique\\u2019
+s{(?<!\\)\\\\([rn])}{\\$1}g;                         # fix double-backslash return/newline escape to single backslash
 
 sub stringize {
   my $x = shift;
-  $x =~ s{\\+'}{'}g;                          # apostrophes in JSON don't need (nor admit) backslash escapes
-  qq{"$x"}                                    # delimit the string with double quotes
+  $x =~ s{\\+'}{'}g;                                 # apostrophes in JSON don't need (nor admit) backslash escapes
+  qq{"$x"}                                           # delimit the string with double quotes
 }
 
 sub urlize {
   my $x = shift;
-  $x = lc($x) if $opt_d;                       # normalize DOI by lowercasing it
-  $x =~ s{([<>\[\]])}{sprintf("%%%2x",ord($1))}ge; # URL-encode special chars
+  $x = lc($x) if $opt_d;                             # normalize DOI by lowercasing it
+  $x =~ s{([<>\[\]])}{sprintf("%%%2x",ord($1))}ge;   # URL-encode special chars
   $x
 }

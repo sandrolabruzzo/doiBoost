@@ -16,6 +16,24 @@
                                  doib:affiliations  [ doib:provenance  "CrossRef" ;
                                                       doib:value       "Institute of Paper Science and Technology; School of Chemical and Biomolecular Engineering; Georgia Institute of Technology; 500 10th St.; NW Atlanta; GA; 30332"
                                                     ] ;
+                                 doib:family        "Banerjee" ;
+                                 doib:fullname      "Sujit Banerjee" ;
+                                 doib:given         "Sujit" ;
+                                 doib:identifiers   [ doib:provenance  "MAG" ;
+                                                      doib:schema      "URL" ;
+                                                      doib:value       "https://academic.microsoft.com/#/detail/2585294961"
+                                                    ]
+                               ] ;
+        doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                            doib:value   "http://en.wikipedia.org/wiki/Institute_of_Paper_Science_and_Technology"
+                                                                          ] ;
+                                                      doib:official-page  "http://ipst.gatech.edu/" ;
+                                                      doib:provenance     "MAG" ;
+                                                      doib:value          "Institute of Paper Science and Technology"
+                                                    ] ;
+                                 doib:affiliations  [ doib:provenance  "CrossRef" ;
+                                                      doib:value       "Institute of Paper Science and Technology; School of Chemical and Biomolecular Engineering; Georgia Institute of Technology; 500 10th St.; NW Atlanta; GA; 30332"
+                                                    ] ;
                                  doib:family        "Krantz" ;
                                  doib:fullname      "Alison L. Krantz" ;
                                  doib:given         "Alison L." ;
@@ -40,24 +58,6 @@
                                  doib:identifiers   [ doib:provenance  "MAG" ;
                                                       doib:schema      "URL" ;
                                                       doib:value       "https://academic.microsoft.com/#/detail/2574891762"
-                                                    ]
-                               ] ;
-        doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                            doib:value   "http://en.wikipedia.org/wiki/Institute_of_Paper_Science_and_Technology"
-                                                                          ] ;
-                                                      doib:official-page  "http://ipst.gatech.edu/" ;
-                                                      doib:provenance     "MAG" ;
-                                                      doib:value          "Institute of Paper Science and Technology"
-                                                    ] ;
-                                 doib:affiliations  [ doib:provenance  "CrossRef" ;
-                                                      doib:value       "Institute of Paper Science and Technology; School of Chemical and Biomolecular Engineering; Georgia Institute of Technology; 500 10th St.; NW Atlanta; GA; 30332"
-                                                    ] ;
-                                 doib:family        "Banerjee" ;
-                                 doib:fullname      "Sujit Banerjee" ;
-                                 doib:given         "Sujit" ;
-                                 doib:identifiers   [ doib:provenance  "MAG" ;
-                                                      doib:schema      "URL" ;
-                                                      doib:value       "https://academic.microsoft.com/#/detail/2585294961"
                                                     ]
                                ] ;
         doib:collectedFrom     "CrossRef" , "MAG" ;
@@ -108,12 +108,12 @@
                                                       doib:provenance     "MAG" ;
                                                       doib:value          "University of Virginia"
                                                     ] ;
-                                 doib:family        "Kirwan" ;
-                                 doib:fullname      "Donald J. Kirwan" ;
-                                 doib:given         "Donald J." ;
+                                 doib:family        "Carta" ;
+                                 doib:fullname      "Giorgio Carta" ;
+                                 doib:given         "Giorgio" ;
                                  doib:identifiers   [ doib:provenance  "MAG" ;
                                                       doib:schema      "URL" ;
-                                                      doib:value       "https://academic.microsoft.com/#/detail/2019137623"
+                                                      doib:value       "https://academic.microsoft.com/#/detail/2068273244"
                                                     ]
                                ] ;
         doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
@@ -126,12 +126,12 @@
                                                       doib:provenance     "MAG" ;
                                                       doib:value          "University of Virginia"
                                                     ] ;
-                                 doib:family        "Carta" ;
-                                 doib:fullname      "Giorgio Carta" ;
-                                 doib:given         "Giorgio" ;
+                                 doib:family        "Kirwan" ;
+                                 doib:fullname      "Donald J. Kirwan" ;
+                                 doib:given         "Donald J." ;
                                  doib:identifiers   [ doib:provenance  "MAG" ;
                                                       doib:schema      "URL" ;
-                                                      doib:value       "https://academic.microsoft.com/#/detail/2068273244"
+                                                      doib:value       "https://academic.microsoft.com/#/detail/2019137623"
                                                     ]
                                ] ;
         doib:collectedFrom     "CrossRef" , "MAG" ;
@@ -178,10 +178,10 @@
         doib:collectedFrom    "MAG" , "CrossRef" ;
         doib:doi              "10.1016/s0022-5347(17)31670-01" ;
         doib:instance         [ doib:provenance  "CrossRef" ;
-                                doib:url         "http://api.elsevier.com/content/article/PII:S0022534717316701?httpAccept=text/xml"
+                                doib:url         "http://api.elsevier.com/content/article/PII:S0022534717316701?httpAccept=text/plain"
                               ] ;
         doib:instance         [ doib:provenance  "CrossRef" ;
-                                doib:url         "http://api.elsevier.com/content/article/PII:S0022534717316701?httpAccept=text/plain"
+                                doib:url         "http://api.elsevier.com/content/article/PII:S0022534717316701?httpAccept=text/xml"
                               ] ;
         doib:issn             [ a           doib:print ;
                                 doib:value  "0022-5347"
@@ -199,6 +199,42 @@
         a                     doib:journal-article ;
         doib:abstract         [ doib:provenance  "MAG" ;
                                 doib:value       "The value of 'mesothelium-associated' antibodies in distinguishing between metastatic renal cell carcinomas and mesotheliomas Aim: Despite increasing usage of mesothelium-associated antibodies in diagnosis, a meta-analysis of studies analysing these antibodies in relation to distinguishing mesothelioma from renal cell carcinoma shows a paucity of published data. Given the clinical importance of elucidating this differential diagnosis, we compared the phenotypes of these two tumours using a panel of antibodies comprising recently described 'mesothelium-associated' antibodies and the more established 'epithelium-associated' antibodies.  Methods and results: We applied an antibody panel comprising calretinin, cytokeratin (CK)5/6, thrombomodulin, carcinoembryonic antigen (CEA), BerEP4 and BCA225 to 37 cases of pleural mesotheliomas and 40 cases of renal cell carcinoma (27 primary tumours and 13 metastatic to the pleura). All mesotheliomas were either purely epithelioid or of mixed type. Cases of renal cell carcinoma were graded and classified as to cell type and architecture. For mesotheliomas, 0% stained for CEA, 16% for BerEP4, 83% for BCA225, 78% for CK5/6, 86% for thrombomodulin and 97% showed nuclear staining for calretinin. For renal cell carcinomas, 0% stained for CEA, 50% for BerEP4, 88% for BCA225, 5% for CK5/6, 32% for thrombomodulin and 10% showed nuclear staining for calretinin.   Conclusion: Calretinin, CK5/6 and BerEP4 appear the most useful antibodies in helping to distinguish between renal cell carcinomas and mesotheliomas, although BerEP4 was not particularly sensitive for renal cell carcinomas. Thrombomodulin was not as specific as the other 'mesothelium-associated' antibodies in this study, reflecting how staining for mesothelium-associated antibodies varies in carcinomas from different primary sites, and such variations should be taken into account when assessing the differential diagnosis of mesothelioma. In cases where doubt remains over distinguishing metastatic renal cell carcinoma from mesothelioma, data from such a panel should be viewed with caution and assessed in association with clinical, imaging and morphological features."
+                              ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.5072.0"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/The_Royal_Marsden_NHS_Foundation_Trust"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.royalmarsden.nhs.uk/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "The Royal Marsden NHS Foundation Trust"
+                                                   ] ;
+                                doib:family        "Fisher" ;
+                                doib:fullname      "C Fisher" ;
+                                doib:given         "C" ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2217194653"
+                                                   ]
+                              ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.94365.3d"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/National_Institutes_of_Health"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.nih.gov/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "National Institutes of Health"
+                                                   ] ;
+                                doib:family        "Nicholson" ;
+                                doib:fullname      "A G Nicholson" ;
+                                doib:given         "A G" ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2106811908"
+                                                   ]
                               ] ;
         doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
                                                                            doib:value   "grid.416526.2"
@@ -233,42 +269,6 @@
                                                     doib:schema      "URL" ;
                                                     doib:value       "https://academic.microsoft.com/#/detail/2678719667"
                                                   ]
-                              ] ;
-        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
-                                                                           doib:value   "grid.94365.3d"
-                                                                         ] ;
-                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                           doib:value   "http://en.wikipedia.org/wiki/National_Institutes_of_Health"
-                                                                         ] ;
-                                                     doib:official-page  "http://www.nih.gov/" ;
-                                                     doib:provenance     "MAG" ;
-                                                     doib:value          "National Institutes of Health"
-                                                   ] ;
-                                doib:family        "Nicholson" ;
-                                doib:fullname      "A G Nicholson" ;
-                                doib:given         "A G" ;
-                                doib:identifiers   [ doib:provenance  "MAG" ;
-                                                     doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/2106811908"
-                                                   ]
-                              ] ;
-        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
-                                                                           doib:value   "grid.5072.0"
-                                                                         ] ;
-                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                           doib:value   "http://en.wikipedia.org/wiki/The_Royal_Marsden_NHS_Foundation_Trust"
-                                                                         ] ;
-                                                     doib:official-page  "http://www.royalmarsden.nhs.uk/" ;
-                                                     doib:provenance     "MAG" ;
-                                                     doib:value          "The Royal Marsden NHS Foundation Trust"
-                                                   ] ;
-                                doib:family        "Fisher" ;
-                                doib:fullname      "C Fisher" ;
-                                doib:given         "C" ;
-                                doib:identifiers   [ doib:provenance  "MAG" ;
-                                                     doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/2217194653"
-                                                   ]
                               ] ;
         doib:collectedFrom    "CrossRef" , "MAG" ;
         doib:doi              "10.1046/j.1365-2559.2002.01527.x" ;
@@ -310,10 +310,10 @@
         doib:collectedFrom    "MAG" , "CrossRef" ;
         doib:doi              "10.1016/j.jacc.2017.03.270" ;
         doib:instance         [ doib:provenance  "CrossRef" ;
-                                doib:url         "http://api.elsevier.com/content/article/PII:S0735109717363829?httpAccept=text/plain"
+                                doib:url         "http://api.elsevier.com/content/article/PII:S0735109717363829?httpAccept=text/xml"
                               ] ;
         doib:instance         [ doib:provenance  "CrossRef" ;
-                                doib:url         "http://api.elsevier.com/content/article/PII:S0735109717363829?httpAccept=text/xml"
+                                doib:url         "http://api.elsevier.com/content/article/PII:S0735109717363829?httpAccept=text/plain"
                               ] ;
         doib:issn             [ a           doib:print ;
                                 doib:value  "0735-1097"
@@ -332,10 +332,6 @@
         doib:abstract          [ doib:provenance  "MAG" ;
                                  doib:value       "Non-local quantum correlations between distant particles cannot be explained by signals propagating slower than the speed of light. It is now shown that they cannot be explained by hidden influences propagating faster than the speed of light either, because that would permit faster-than-light communication."
                                ] ;
-        doib:author            [ doib:family    "Ac\\xedn" ;
-                                 doib:fullname  "A. Ac\\xedn" ;
-                                 doib:given     "A."
-                               ] ;
         doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
                                                                             doib:value   "grid.8591.5"
                                                                           ] ;
@@ -352,6 +348,28 @@
                                  doib:identifiers   [ doib:provenance  "MAG" ;
                                                       doib:schema      "URL" ;
                                                       doib:value       "https://academic.microsoft.com/#/detail/2028337704"
+                                                    ]
+                               ] ;
+        doib:author            [ doib:family    "Ac\\xedn" ;
+                                 doib:fullname  "A. Ac\\xedn" ;
+                                 doib:given     "A."
+                               ] ;
+        doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                            doib:value   "grid.4989.c"
+                                                                          ] ;
+                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                            doib:value   "http://en.wikipedia.org/wiki/Universit\\xe9_libre_de_Bruxelles"
+                                                                          ] ;
+                                                      doib:official-page  "http://www.ulb.ac.be/" ;
+                                                      doib:provenance     "MAG" ;
+                                                      doib:value          "Universit\\xe9 libre de Bruxelles"
+                                                    ] ;
+                                 doib:family        "Pironio" ;
+                                 doib:fullname      "S. Pironio" ;
+                                 doib:given         "S." ;
+                                 doib:identifiers   [ doib:provenance  "MAG" ;
+                                                      doib:schema      "URL" ;
+                                                      doib:value       "https://academic.microsoft.com/#/detail/2796584932"
                                                     ]
                                ] ;
         doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
@@ -397,24 +415,6 @@
                                                       doib:value       "https://academic.microsoft.com/#/detail/2162237343"
                                                     ]
                                ] ;
-        doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
-                                                                            doib:value   "grid.4989.c"
-                                                                          ] ;
-                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                            doib:value   "http://en.wikipedia.org/wiki/Universit\\xe9_libre_de_Bruxelles"
-                                                                          ] ;
-                                                      doib:official-page  "http://www.ulb.ac.be/" ;
-                                                      doib:provenance     "MAG" ;
-                                                      doib:value          "Universit\\xe9 libre de Bruxelles"
-                                                    ] ;
-                                 doib:family        "Pironio" ;
-                                 doib:fullname      "S. Pironio" ;
-                                 doib:given         "S." ;
-                                 doib:identifiers   [ doib:provenance  "MAG" ;
-                                                      doib:schema      "URL" ;
-                                                      doib:value       "https://academic.microsoft.com/#/detail/2796584932"
-                                                    ]
-                               ] ;
         doib:collectedFrom     "CrossRef" , "ORCID" , "MAG" ;
         doib:doi               "10.1038/nphys2460" ;
         doib:instance          [ doib:provenance  "CrossRef" ;
@@ -426,11 +426,11 @@
         doib:instance          [ doib:provenance  "CrossRef" ;
                                  doib:url         "http://www.nature.com/articles/nphys2460"
                                ] ;
-        doib:issn              [ a           doib:print ;
-                                 doib:value  "1745-2473"
-                               ] ;
         doib:issn              [ a           doib:electronic ;
                                  doib:value  "1745-2481"
+                               ] ;
+        doib:issn              [ a           doib:print ;
+                                 doib:value  "1745-2473"
                                ] ;
         doib:issued            "2012-10-28"^^xsd:date ;
         doib:license           [ doib:content-version  "unspecified" ;
@@ -482,10 +482,87 @@
         doib:subject          "Agricultural and Biological Sciences (miscellaneous)" , "Anatomy" ;
         doib:title            "Demonstration of the nerve to the levator glandulae thyreoideae muscle" .
 
+<http://dx.doi.org/10.1107/s0108767313098334>
+        a                     doib:journal-article ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.4305.2"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/University_of_Edinburgh"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.ed.ac.uk/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "University of Edinburgh"
+                                                   ] ;
+                                doib:family        "Morrison" ;
+                                doib:fullname      "Carole A. Morrison" ;
+                                doib:given         "Carole A." ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2330516693"
+                                                   ]
+                              ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.4372.2"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/Max_Planck_Society"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.mpg.de/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "Max Planck Society"
+                                                   ] ;
+                                doib:family        "Kochman" ;
+                                doib:fullname      "Michal A. Kochman" ;
+                                doib:given         "Michal A." ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2135585169"
+                                                   ]
+                              ] ;
+        doib:collectedFrom    "MAG" , "CrossRef" ;
+        doib:doi              "10.1107/s0108767313098334" ;
+        doib:instance         [ doib:provenance  "CrossRef" ;
+                                doib:url         "http://journals.iucr.org/a/issues/2013/a1/00/a50866/a50866.pdf"
+                              ] ;
+        doib:instance         [ doib:provenance  "CrossRef" ;
+                                doib:url         "http://journals.iucr.org/a/issues/2013/a1/00/a50866/a50866.pdf"
+                              ] ;
+        doib:issn             [ a           doib:print ;
+                                doib:value  "0108-7673"
+                              ] ;
+        doib:issued           "2013-08-25"^^xsd:date ;
+        doib:license          [ doib:content-version  "tdm" ;
+                                doib:date-time        "2013-08-25T00:00:00Z" ;
+                                doib:url              "http://journals.iucr.org/services/copyrightpolicy.html#TDM"
+                              ] ;
+        doib:license          [ doib:content-version  "vor" ;
+                                doib:date-time        "2013-08-25T00:00:00Z" ;
+                                doib:url              "http://journals.iucr.org/services/copyrightpolicy.html"
+                              ] ;
+        doib:published-print  "2013-08-25"^^xsd:date ;
+        doib:title            "Exciting 'stuff': modelling photochemical reactions in the condensed phase. Applications in time-resolved diffraction" .
+
 <http://dx.doi.org/10.3329/jemc.v3i2.16126>
         a                      doib:journal-article ;
         doib:abstract          [ doib:provenance  "MAG" ;
                                  doib:value       "Background:  To evaluate gastrointestinal pathology in computed tomography (CT) scan, optimum distention, mural visualization and gastrointestinal tract discrimination are necessary. High attenuation oral contrast material in the form of iodine solution has drawbacks in mural visualization and tolerance. Milk can be used as a low attenuation CT oral contrast agent in gastrointestinal tract discrimination and mural visualization with better tolerance.    Objective:  The purpose of our study was to compare the effectiveness, cost, and tolerance of milk and iopamiro (iodinated positive contrast medium) in patients undergoing abdominal CT with oral and IV contrast media.    Materials and Methods:  Two hundred and twelve patients were purposively assigned to receive either whole milk (n = 110) or iopamiro (n = 100). Results were independently reviewed by radiologists. Degree of bowel distention, mural visualization and gastrointestinal tract discrimination were qualitatively scored on a 4- point scale. A questionnaire regarding oral contrast tolerability was provided to each patient. Cost comparison of the two agents was performed.    Results:  No statistically significant differences were seen between whole milk and iopamiro with respect to degree of bowel distention and gastrointestinal tract discrimination for all segments of bowel studied (p > 0.05). Mural visualization is better with whole milk compared with iopamiro (p < 0.05). Significantly more patients ranked milk as pleasant in taste compared with iopamiro (p < 0.05). Milk was better tolerated than iopamiro, with fewer gastrointestinal side effects, including abdominal discomfort (p = 0.065), cramping (p = 0.309), nausea (p = 0.001), vomiting (p = 0.003) and diarrhea (p = 0.347). The cost per patient for iopamiro is 900 BDT compared with 60 BDT for milk.    Conclusion:  Whole milk is comparable to iopamiro with respect to bowel distention and gastrointestinal tract discrimination and better in bowel wall visualization and has better patient acceptance, and fewer adverse symptoms. Milk is a costeffective alternative to iopamiro as a low-attenuation CT oral contrast agent.   Journal of Enam Medical  College; Vol 3 No 2 July 2013; Page 71-76   DOI:  http://dx.doi.org/10.3329/jemc.v3i2.16126"
+                               ] ;
+        doib:author            [ doib:family       "Rupa" ;
+                                 doib:fullname     "Sharmin Akhtar Rupa" ;
+                                 doib:given        "Sharmin Akhtar" ;
+                                 doib:identifiers  [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2642176486"
+                                                   ]
+                               ] ;
+        doib:author            [ doib:family       "Chakraborty" ;
+                                 doib:fullname     "Nehar Ranjan Chakraborty" ;
+                                 doib:given        "Nehar Ranjan" ;
+                                 doib:identifiers  [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2340254121"
+                                                   ]
                                ] ;
         doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
                                                                             doib:value   "grid.411509.8"
@@ -504,22 +581,6 @@
                                                       doib:schema      "URL" ;
                                                       doib:value       "https://academic.microsoft.com/#/detail/2246846485"
                                                     ]
-                               ] ;
-        doib:author            [ doib:family       "Chakraborty" ;
-                                 doib:fullname     "Nehar Ranjan Chakraborty" ;
-                                 doib:given        "Nehar Ranjan" ;
-                                 doib:identifiers  [ doib:provenance  "MAG" ;
-                                                     doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/2340254121"
-                                                   ]
-                               ] ;
-        doib:author            [ doib:family       "Rupa" ;
-                                 doib:fullname     "Sharmin Akhtar Rupa" ;
-                                 doib:given        "Sharmin Akhtar" ;
-                                 doib:identifiers  [ doib:provenance  "MAG" ;
-                                                     doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/2642176486"
-                                                   ]
                                ] ;
         doib:collectedFrom     "MAG" , "CrossRef" , "UnpayWall" ;
         doib:doi               "10.3329/jemc.v3i2.16126" ;
@@ -555,6 +616,14 @@
 
 <http://dx.doi.org/10.1002/1097-010x(20010201)289:2%3c130::aid-jez6%3e3.0.co;2-#>
         a                      doib:journal-article ;
+        doib:author            [ doib:family    "Byskov" ;
+                                 doib:fullname  "Anne Grete Byskov" ;
+                                 doib:given     "Anne Grete"
+                               ] ;
+        doib:author            [ doib:family    "Roed" ;
+                                 doib:fullname  "Tiny Roed" ;
+                                 doib:given     "Tiny"
+                               ] ;
         doib:author            [ doib:family    "Kayser" ;
                                  doib:fullname  "Lars Kayser" ;
                                  doib:given     "Lars"
@@ -562,14 +631,6 @@
         doib:author            [ doib:family    "H�yer" ;
                                  doib:fullname  "Poul Erik H�yer" ;
                                  doib:given     "Poul Erik"
-                               ] ;
-        doib:author            [ doib:family    "Roed" ;
-                                 doib:fullname  "Tiny Roed" ;
-                                 doib:given     "Tiny"
-                               ] ;
-        doib:author            [ doib:family    "Byskov" ;
-                                 doib:fullname  "Anne Grete Byskov" ;
-                                 doib:given     "Anne Grete"
                                ] ;
         doib:collectedFrom     "CrossRef" ;
         doib:doi               "10.1002/1097-010x(20010201)289:2<130::aid-jez6>3.0.co;2-#" ;
@@ -609,6 +670,21 @@
                                                      doib:provenance     "MAG" ;
                                                      doib:value          "Technology College"
                                                    ] ;
+                                doib:family        "Wang" ;
+                                doib:fullname      "Han- Bing Wang" ;
+                                doib:given         "Han- Bing" ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2708810919"
+                                                   ]
+                              ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/Technology_College"
+                                                                         ] ;
+                                                     doib:official-page  "" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "Technology College"
+                                                   ] ;
                                 doib:family        "Xu" ;
                                 doib:fullname      "Bing Xu" ;
                                 doib:given         "Bing" ;
@@ -624,21 +700,6 @@
                                                     doib:schema      "URL" ;
                                                     doib:value       "https://academic.microsoft.com/#/detail/2652750929"
                                                   ]
-                              ] ;
-        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                           doib:value   "http://en.wikipedia.org/wiki/Technology_College"
-                                                                         ] ;
-                                                     doib:official-page  "" ;
-                                                     doib:provenance     "MAG" ;
-                                                     doib:value          "Technology College"
-                                                   ] ;
-                                doib:family        "Wang" ;
-                                doib:fullname      "Han- Bing Wang" ;
-                                doib:given         "Han- Bing" ;
-                                doib:identifiers   [ doib:provenance  "MAG" ;
-                                                     doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/2708810919"
-                                                   ]
                               ] ;
         doib:collectedFrom    "MAG" , "CrossRef" ;
         doib:doi              "10.2991/ipemec-15.2015.27" ;
@@ -692,11 +753,11 @@
         doib:instance         [ doib:provenance  "CrossRef" ;
                                 doib:url         "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fandp.19354130803"
                               ] ;
-        doib:issn             [ a           doib:print ;
-                                doib:value  "0003-3804"
-                              ] ;
         doib:issn             [ a           doib:electronic ;
                                 doib:value  "1521-3889"
+                              ] ;
+        doib:issn             [ a           doib:print ;
+                                doib:value  "0003-3804"
                               ] ;
         doib:issued           "1935-01-01"^^xsd:date ;
         doib:license          [ doib:content-version  "tdm" ;
@@ -725,11 +786,11 @@
         doib:instance         [ doib:provenance  "CrossRef" ;
                                 doib:url         "http://www.springerlink.com/index/pdf/10.1007/BF01788926"
                               ] ;
-        doib:issn             [ a           doib:electronic ;
-                                doib:value  "1573-8795"
-                              ] ;
         doib:issn             [ a           doib:print ;
                                 doib:value  "0090-4104"
+                              ] ;
+        doib:issn             [ a           doib:electronic ;
+                                doib:value  "1573-8795"
                               ] ;
         doib:issued           "1984-04-01"^^xsd:date ;
         doib:published-print  "1984-04-01"^^xsd:date ;
@@ -754,11 +815,11 @@
         doib:instance         [ doib:provenance  "CrossRef" ;
                                 doib:url         "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F1521-3994(199908)320:4%2F5%3C185::AID-ASNA185%3E3.0.CO;2-K"
                               ] ;
-        doib:issn             [ a           doib:print ;
-                                doib:value  "0004-6337"
-                              ] ;
         doib:issn             [ a           doib:electronic ;
                                 doib:value  "1521-3994"
+                              ] ;
+        doib:issn             [ a           doib:print ;
+                                doib:value  "0004-6337"
                               ] ;
         doib:issued           "1999-08-01"^^xsd:date ;
         doib:license          [ doib:content-version  "tdm" ;
@@ -812,12 +873,12 @@
                               ] ;
         doib:collectedFrom    "MAG" , "CrossRef" , "UnpayWall" ;
         doib:doi              "10.1006/aama.2001.0767" ;
+        doib:instance         [ doib:provenance  "CrossRef" ;
+                                doib:url         "http://api.elsevier.com/content/article/PII:S0196885801907675?httpAccept=text/plain"
+                              ] ;
         doib:instance         [ doib:access-rights  "OPEN" ;
                                 doib:provenance     "UnpayWall" ;
                                 doib:url            "http://doi.org/10.1006/aama.2001.0767"
-                              ] ;
-        doib:instance         [ doib:provenance  "CrossRef" ;
-                                doib:url         "http://api.elsevier.com/content/article/PII:S0196885801907675?httpAccept=text/plain"
                               ] ;
         doib:instance         [ doib:provenance  "CrossRef" ;
                                 doib:url         "http://api.elsevier.com/content/article/PII:S0196885801907675?httpAccept=text/xml"
@@ -871,6 +932,24 @@
 <http://dx.doi.org/10.1016/j.jalz.2010.05.1175>
         a                     doib:journal-article ;
         doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.222754.4"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/Korea_University"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.korea.edu/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "Korea University"
+                                                   ] ;
+                                doib:family        "Park" ;
+                                doib:fullname      "Moon Ho Park" ;
+                                doib:given         "Moon Ho" ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2156277566"
+                                                   ]
+                              ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
                                                                            doib:value   "grid.415273.6"
                                                                          ] ;
                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
@@ -889,24 +968,6 @@
                                 doib:identifiers   [ doib:provenance  "MAG" ;
                                                      doib:schema      "URL" ;
                                                      doib:value       "https://academic.microsoft.com/#/detail/2151169228"
-                                                   ]
-                              ] ;
-        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
-                                                                           doib:value   "grid.222754.4"
-                                                                         ] ;
-                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                           doib:value   "http://en.wikipedia.org/wiki/Korea_University"
-                                                                         ] ;
-                                                     doib:official-page  "http://www.korea.edu/" ;
-                                                     doib:provenance     "MAG" ;
-                                                     doib:value          "Korea University"
-                                                   ] ;
-                                doib:family        "Park" ;
-                                doib:fullname      "Moon Ho Park" ;
-                                doib:given         "Moon Ho" ;
-                                doib:identifiers   [ doib:provenance  "MAG" ;
-                                                     doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/2156277566"
                                                    ]
                               ] ;
         doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
@@ -950,24 +1011,6 @@
 <http://dx.doi.org/10.1016/s0197-4580(04)80305-01>
         a                     doib:journal-article ;
         doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
-                                                                           doib:value   "grid.250263.0"
-                                                                         ] ;
-                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                           doib:value   "http://en.wikipedia.org/wiki/Nathan_Kline_Institute_for_Psychiatric_Research"
-                                                                         ] ;
-                                                     doib:official-page  "http://www.rfmh.org/nki/" ;
-                                                     doib:provenance     "MAG" ;
-                                                     doib:value          "Nathan Kline Institute for Psychiatric Research"
-                                                   ] ;
-                                doib:family        "Peterhoff" ;
-                                doib:fullname      "Corrinne M. Peterhoff" ;
-                                doib:given         "Corrinne M." ;
-                                doib:identifiers   [ doib:provenance  "MAG" ;
-                                                     doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/2062982811"
-                                                   ]
-                              ] ;
-        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
                                                                            doib:value   "grid.137628.9"
                                                                          ] ;
                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
@@ -1004,21 +1047,39 @@
                                                    ]
                               ] ;
         doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
-                                                                           doib:value   "grid.38142.3c"
+                                                                           doib:value   "grid.250263.0"
                                                                          ] ;
                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                           doib:value   "http://en.wikipedia.org/wiki/Harvard_University"
+                                                                           doib:value   "http://en.wikipedia.org/wiki/Nathan_Kline_Institute_for_Psychiatric_Research"
                                                                          ] ;
-                                                     doib:official-page  "http://www.harvard.edu/" ;
+                                                     doib:official-page  "http://www.rfmh.org/nki/" ;
                                                      doib:provenance     "MAG" ;
-                                                     doib:value          "Harvard University"
+                                                     doib:value          "Nathan Kline Institute for Psychiatric Research"
                                                    ] ;
-                                doib:family        "Cataldo" ;
-                                doib:fullname      "Anne M. Cataldo" ;
-                                doib:given         "Anne M." ;
+                                doib:family        "Peterhoff" ;
+                                doib:fullname      "Corrinne M. Peterhoff" ;
+                                doib:given         "Corrinne M." ;
                                 doib:identifiers   [ doib:provenance  "MAG" ;
                                                      doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/2109219733"
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2062982811"
+                                                   ]
+                              ] ;
+        doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                           doib:value   "grid.137628.9"
+                                                                         ] ;
+                                                     doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                           doib:value   "http://en.wikipedia.org/wiki/New_York_University"
+                                                                         ] ;
+                                                     doib:official-page  "http://www.nyu.edu/" ;
+                                                     doib:provenance     "MAG" ;
+                                                     doib:value          "New York University"
+                                                   ] ;
+                                doib:family        "Mathews" ;
+                                doib:fullname      "Paul M. Mathews" ;
+                                doib:given         "Paul M." ;
+                                doib:identifiers   [ doib:provenance  "MAG" ;
+                                                     doib:schema      "URL" ;
+                                                     doib:value       "https://academic.microsoft.com/#/detail/1993832364"
                                                    ]
                               ] ;
         doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
@@ -1040,21 +1101,21 @@
                                                    ]
                               ] ;
         doib:author           [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
-                                                                           doib:value   "grid.137628.9"
+                                                                           doib:value   "grid.38142.3c"
                                                                          ] ;
                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                           doib:value   "http://en.wikipedia.org/wiki/New_York_University"
+                                                                           doib:value   "http://en.wikipedia.org/wiki/Harvard_University"
                                                                          ] ;
-                                                     doib:official-page  "http://www.nyu.edu/" ;
+                                                     doib:official-page  "http://www.harvard.edu/" ;
                                                      doib:provenance     "MAG" ;
-                                                     doib:value          "New York University"
+                                                     doib:value          "Harvard University"
                                                    ] ;
-                                doib:family        "Mathews" ;
-                                doib:fullname      "Paul M. Mathews" ;
-                                doib:given         "Paul M." ;
+                                doib:family        "Cataldo" ;
+                                doib:fullname      "Anne M. Cataldo" ;
+                                doib:given         "Anne M." ;
                                 doib:identifiers   [ doib:provenance  "MAG" ;
                                                      doib:schema      "URL" ;
-                                                     doib:value       "https://academic.microsoft.com/#/detail/1993832364"
+                                                     doib:value       "https://academic.microsoft.com/#/detail/2109219733"
                                                    ]
                               ] ;
         doib:collectedFrom    "CrossRef" , "MAG" ;
@@ -1184,11 +1245,11 @@
         doib:instance         [ doib:provenance  "CrossRef" ;
                                 doib:url         "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fasna.18971420203"
                               ] ;
-        doib:issn             [ a           doib:electronic ;
-                                doib:value  "1521-3994"
-                              ] ;
         doib:issn             [ a           doib:print ;
                                 doib:value  "0004-6337"
+                              ] ;
+        doib:issn             [ a           doib:electronic ;
+                                doib:value  "1521-3994"
                               ] ;
         doib:issued           "1897-01-01"^^xsd:date ;
         doib:license          [ doib:content-version  "tdm" ;
@@ -1252,29 +1313,11 @@
 
 <http://dx.doi.org/10.1353/jls.2006.0024>
         a                      doib:journal-article ;
-        doib:abstract          [ doib:provenance  "CrossRef" ;
-                                 doib:value       "<jats:title>R\\xe9sum\\xe9</jats:title><jats:p>Cet article explore les dimensions vari\\xe9es du bureau (<jats:italic>office</jats:italic>) professoral comme espace ‘juridique’. Dans l'une de ses dimensions, l'office d'un professeur n'est qu'un endroit g\\xe9om\\xe9trique g\\xe9n\\xe9rique, sans objectif ou occupant, une potentialit\\xe9 formelle. Or, c'est \\xe9galement un site dans la mesure que sa localisation, taille et organisation refl\\xe8tent une fonctionnalit\\xe9—des valeurs, processus et institutions d\\xe9cisionnelles qui d\\xe9terminent son occupation. En plus, l'office exprime un r\\xf4le et une sc\\xe8ne sur laquelle les occupants interagissent avec des coll\\xe8gues, des \\xe9tudiants, des \\xe9trangers de mani\\xe8re \\xe0 confirmer ou infirmer des relations de pouvoir et de subordination. L'office professoral a aussi une dimension performative dans laquelle la normativit\\xe9 d'une communaut\\xe9—de professeurs, employ\\xe9s et \\xe9tudiants—est imagin\\xe9e et agie. Par ailleurs, dans une autre dimension, il s'agit d'un espace rituel o\\xf9 des professeurs travaillent, se d\\xe9tendent, r\\xe9fl\\xe9chissent et contemplent r\\xe9flexivement des mod\\xe8les et formes de pens\\xe9es. Un tel office existe o\\xf9 que ses occupants choisissent de le tenir. Finalement, l'office est un non-lieu de d\\xe9couverte personnelle—l'indication d'un espace qui n'est que dans les relations qu'il cr\\xe9e et qui le cr\\xe9ent.</jats:p>"
-                               ] ;
         doib:abstract          [ doib:provenance  "MAG" ;
                                  doib:value       "In the late 1980s one of us wrote a paper entitled 'Office Politics' for the Law and Leviathan symposium sponsored by the Law Reform Commission of Canada. The paper was the lead contribution to a panel addressing 'Normative order in the administrative state.' Conceived as a parable, the paper was composed as an exchange of memos among a dean and several professors in a law faculty about how offices should be allocated in an environment dominated by scarcity and non-substitutability of goods. While the terrain of inquiry thus evoked distributive justice, the primary ambition of the paper was to explore the complexities of normativity, and in particular what might be called 'implicit and inferential normativity' in organizations and public institutions."
                                ] ;
-        doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
-                                                                            doib:value   "grid.14709.3b"
-                                                                          ] ;
-                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
-                                                                            doib:value   "http://en.wikipedia.org/wiki/McGill_University"
-                                                                          ] ;
-                                                      doib:official-page  "http://mcgill.ca/" ;
-                                                      doib:provenance     "MAG" ;
-                                                      doib:value          "McGill University"
-                                                    ] ;
-                                 doib:family        "Widell" ;
-                                 doib:fullname      "Jonathan Widell" ;
-                                 doib:given         "Jonathan" ;
-                                 doib:identifiers   [ doib:provenance  "MAG" ;
-                                                      doib:schema      "URL" ;
-                                                      doib:value       "https://academic.microsoft.com/#/detail/2614177322"
-                                                    ]
+        doib:abstract          [ doib:provenance  "CrossRef" ;
+                                 doib:value       "<jats:title>R\\xe9sum\\xe9</jats:title><jats:p>Cet article explore les dimensions vari\\xe9es du bureau (<jats:italic>office</jats:italic>) professoral comme espace ‘juridique’. Dans l'une de ses dimensions, l'office d'un professeur n'est qu'un endroit g\\xe9om\\xe9trique g\\xe9n\\xe9rique, sans objectif ou occupant, une potentialit\\xe9 formelle. Or, c'est \\xe9galement un site dans la mesure que sa localisation, taille et organisation refl\\xe8tent une fonctionnalit\\xe9—des valeurs, processus et institutions d\\xe9cisionnelles qui d\\xe9terminent son occupation. En plus, l'office exprime un r\\xf4le et une sc\\xe8ne sur laquelle les occupants interagissent avec des coll\\xe8gues, des \\xe9tudiants, des \\xe9trangers de mani\\xe8re \\xe0 confirmer ou infirmer des relations de pouvoir et de subordination. L'office professoral a aussi une dimension performative dans laquelle la normativit\\xe9 d'une communaut\\xe9—de professeurs, employ\\xe9s et \\xe9tudiants—est imagin\\xe9e et agie. Par ailleurs, dans une autre dimension, il s'agit d'un espace rituel o\\xf9 des professeurs travaillent, se d\\xe9tendent, r\\xe9fl\\xe9chissent et contemplent r\\xe9flexivement des mod\\xe8les et formes de pens\\xe9es. Un tel office existe o\\xf9 que ses occupants choisissent de le tenir. Finalement, l'office est un non-lieu de d\\xe9couverte personnelle—l'indication d'un espace qui n'est que dans les relations qu'il cr\\xe9e et qui le cr\\xe9ent.</jats:p>"
                                ] ;
         doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
                                                                             doib:value   "grid.14709.3b"
@@ -1294,16 +1337,34 @@
                                                       doib:value       "https://academic.microsoft.com/#/detail/2106821258"
                                                     ]
                                ] ;
+        doib:author            [ doib:affiliations  [ doib:identifiers    [ doib:schema  "grid.ac" ;
+                                                                            doib:value   "grid.14709.3b"
+                                                                          ] ;
+                                                      doib:identifiers    [ doib:schema  "wikpedia" ;
+                                                                            doib:value   "http://en.wikipedia.org/wiki/McGill_University"
+                                                                          ] ;
+                                                      doib:official-page  "http://mcgill.ca/" ;
+                                                      doib:provenance     "MAG" ;
+                                                      doib:value          "McGill University"
+                                                    ] ;
+                                 doib:family        "Widell" ;
+                                 doib:fullname      "Jonathan Widell" ;
+                                 doib:given         "Jonathan" ;
+                                 doib:identifiers   [ doib:provenance  "MAG" ;
+                                                      doib:schema      "URL" ;
+                                                      doib:value       "https://academic.microsoft.com/#/detail/2614177322"
+                                                    ]
+                               ] ;
         doib:collectedFrom     "MAG" , "CrossRef" ;
         doib:doi               "10.1353/jls.2006.0024" ;
         doib:instance          [ doib:provenance  "CrossRef" ;
                                  doib:url         "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0829320100008541"
                                ] ;
-        doib:issn              [ a           doib:electronic ;
-                                 doib:value  "1911-0227"
-                               ] ;
         doib:issn              [ a           doib:print ;
                                  doib:value  "0829-3201"
+                               ] ;
+        doib:issn              [ a           doib:electronic ;
+                                 doib:value  "1911-0227"
                                ] ;
         doib:issued            "2005-08-01"^^xsd:date ;
         doib:published-online  "2014-07-18"^^xsd:date ;
@@ -1313,37 +1374,37 @@
 
 <http://dx.doi.org/10.19026/ajfst.9.1653>
         a                      doib:journal-article ;
-        doib:author            [ doib:family    "Yang" ;
-                                 doib:fullname  "Zhengliang Yang" ;
-                                 doib:given     "Zhengliang"
-                               ] ;
         doib:author            [ doib:family    "Zhu" ;
                                  doib:fullname  "Lin Zhu" ;
                                  doib:given     "Lin"
-                               ] ;
-        doib:author            [ doib:family    "Sun" ;
-                                 doib:fullname  "Xiulan Sun" ;
-                                 doib:given     "Xiulan"
-                               ] ;
-        doib:author            [ doib:family    "Li" ;
-                                 doib:fullname  "Cenglong Li" ;
-                                 doib:given     "Cenglong"
-                               ] ;
-        doib:author            [ doib:family    "Zhan" ;
-                                 doib:fullname  "Lijuan Zhan" ;
-                                 doib:given     "Lijuan"
                                ] ;
         doib:author            [ doib:family    "Liu" ;
                                  doib:fullname  "Baolin Liu" ;
                                  doib:given     "Baolin"
                                ] ;
+        doib:author            [ doib:family    "Yang" ;
+                                 doib:fullname  "Zhengliang Yang" ;
+                                 doib:given     "Zhengliang"
+                               ] ;
+        doib:author            [ doib:family    "Li" ;
+                                 doib:fullname  "Cenglong Li" ;
+                                 doib:given     "Cenglong"
+                               ] ;
+        doib:author            [ doib:family    "Sun" ;
+                                 doib:fullname  "Xiulan Sun" ;
+                                 doib:given     "Xiulan"
+                               ] ;
+        doib:author            [ doib:family    "Zhan" ;
+                                 doib:fullname  "Lijuan Zhan" ;
+                                 doib:given     "Lijuan"
+                               ] ;
         doib:collectedFrom     "CrossRef" ;
         doib:doi               "10.19026/ajfst.9.1653" ;
-        doib:issn              [ a           doib:print ;
-                                 doib:value  "2042-4868"
-                               ] ;
         doib:issn              [ a           doib:electronic ;
                                  doib:value  "2042-4876"
+                               ] ;
+        doib:issn              [ a           doib:print ;
+                                 doib:value  "2042-4868"
                                ] ;
         doib:issued            "2015-09-20"^^xsd:date ;
         doib:published-online  "2015-09-20"^^xsd:date ;

@@ -2423,5 +2423,107 @@
          "Shuffle Invariance of the Super-RSK Algorithm"
       ],
       "type" : "journal-article"
+   },
+   {
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/University_of_Edinburgh"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.4305.2"
+                     }
+                  ],
+                  "official-page" : "http://www.ed.ac.uk/",
+                  "provenance" : "MAG",
+                  "value" : "University of Edinburgh"
+               }
+            ],
+            "family" : "Morrison",
+            "fullname" : "Carole A. Morrison",
+            "given" : "Carole A.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2330516693"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Max_Planck_Society"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.4372.2"
+                     }
+                  ],
+                  "official-page" : "http://www.mpg.de/",
+                  "provenance" : "MAG",
+                  "value" : "Max Planck Society"
+               }
+            ],
+            "family" : "Kochman",
+            "fullname" : "Michal A. Kochman",
+            "given" : "Michal A.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2135585169"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1107/s0108767313098334",
+      "doi-url" : "http://dx.doi.org/10.1107/s0108767313098334",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://journals.iucr.org/a/issues/2013/a1/00/a50866/a50866.pdf"
+         },
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://journals.iucr.org/a/issues/2013/a1/00/a50866/a50866.pdf"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0108-7673"
+         }
+      ],
+      "issued" : "2013-08-25",
+      "license" : [
+         {
+            "content-version" : "vor",
+            "date-time" : "2013-08-25T00:00:00Z",
+            "url" : "http://journals.iucr.org/services/copyrightpolicy.html"
+         },
+         {
+            "content-version" : "tdm",
+            "date-time" : "2013-08-25T00:00:00Z",
+            "url" : "http://journals.iucr.org/services/copyrightpolicy.html#TDM"
+         }
+      ],
+      "published-print" : "2013-08-25",
+      "title" : [
+         "Exciting 'stuff': modelling photochemical reactions in the condensed phase. Applications in time-resolved diffraction"
+      ],
+      "type" : "journal-article"
    }
 ]
