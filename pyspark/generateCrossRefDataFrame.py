@@ -19,7 +19,7 @@ def convert_date(x):
 
 def generate_crossRefBoost(x):
     #Initializing Object
-    result = dict(title=[], authors =[], issued=convert_date(x.get('issued', '')), abstract= [],subject=x.get('subject',[]),type =x.get('type',''), license=[],instances=[], accepted=convert_date(x.get('accepted','')),publihser=x.get('publisher'), doi=x['DOI'], issn=[], collectedFrom =['CrossRef'])
+    result = dict(title=[], authors =[], issued=convert_date(x.get('issued', '')), abstract= [],subject=x.get('subject',[]),type =x.get('type',''), license=[],instances=[], accepted=convert_date(x.get('accepted','')),publisher=x.get('publisher'), doi=x['DOI'], issn=[], collectedFrom =['CrossRef'])
     result['doi-url'] = "http://dx.doi.org/" + x['DOI']   
     result["published-online"] =convert_date(x.get('published-online'))
     result["published-print"] = convert_date(x.get('published-print'))
