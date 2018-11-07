@@ -36,22 +36,18 @@ def get_schema():
     return schemaType
 
 
-def generate_line(line):
-    result =[]
-    for l in  csv.reader(line, quotechar='"', delimiter=',',
-                          quoting=csv.QUOTE_ALL, skipinitialspace=True):
-        result.append(l)
-    return result
+def try_decode(x):
+    try:
+        return json.loads(x)
+    except 
+        return None    
 
 
 def generate_record(x):
-    return dict(doi=x[0], instances=[{  "url":x[3],  "access-rights":"OPEN", "provenance":"UnpayWall" }])
+    return dict(doi=x['doi'], instances=[{  "url":x['best_oa_location'], "access-rights":"OPEN", "provenance":"UnpayWall" }])
 
 if __name__ == '__main__':
     sc = SparkContext(appName='generateUnPayWallDataFrame')
     spark = SparkSession(sc)
-    sc.textFile('/data/oa_doi.csv').flatMap(lambda x: generate_line([x.encode('utf-8')])).filter(lambda x: len(x) == 14 and x[1]=='t').map(generate_record).toDF(get_schema()).write.save("/data/unpaywall.parquet", format="parquet")
-    
-    
-    # .saveAsTextFile(path="/data/unpaywall_df",compressionCodecClass="org.apache.hadoop.io.compress.GzipCodec")
+    sc.textFile('/data/unpaywall').map(try_decode).filter(lambda x: x is not None and x['is_oa'] is True).map(generate_record).toDF(get_schema()).write.save("/data/unpaywall.parquet", format="parquet")
 
