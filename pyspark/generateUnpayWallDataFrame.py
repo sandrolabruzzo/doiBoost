@@ -39,7 +39,7 @@ def get_schema():
 def try_decode(x):
     try:
         return json.loads(x)
-    except 
+    except: 
         return None    
 
 
