@@ -2,6 +2,8 @@ from pyspark import SparkContext
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, collect_list, struct,length
 from pyspark.sql.types import *
+import json
+import zlib
 
 
 def get_schema():
@@ -37,14 +39,15 @@ def get_schema():
 
 def createAbstract(x):    
     if 'IndexedAbstract' in x:
-        p = eval(x['IndexedAbstract'])
+        p = json.loads(x['IndexedAbstract'])
         if 'IndexLength' not in p:
             return None        
         result = [""]* p['IndexLength']
         for key, value in p['InvertedIndex'].iteritems():
             for item in value:                
-                result[item] = key
-        return dict(PaperID=x['PaperID'],abstract=" ".join(result))
+                result[item] = unicode(key)
+        abstract = u" ".join(result)
+        return dict(PaperID=x['PaperID'],abstract= zlib.compress(abstract.encode('utf8')).encode('base64'))
     return None
 
 def map_microsoft(x):
@@ -52,6 +55,7 @@ def map_microsoft(x):
     result["collected-from"]=[ "MAG"]    
     for item in x[1]:
         result['doi'] = item['DOI_paper'].lower()
+        result['issued'] = item['Date_paper'].lower()
         if item['abstract'] is not None and len(item['abstract'])>0 and 'abstract' not in result:
             result['abstract']= [{  "value":item['abstract'], "provenance":"MAG" }]
         author = dict(fullname=item['DisplayName_author'], identifiers = [], affiliations=[])
@@ -64,10 +68,11 @@ def map_microsoft(x):
             current_affiliation['identifiers'].append(dict(schema="grid.ac",value=item['GridID_affiliation']))
         if item['AffiliationID'] is not None and  len(item['AffiliationID']) > 0:
             current_affiliation['identifiers'].append(dict(schema="URL",value="https://academic.microsoft.com/#/detail/"+item['AffiliationID']))
-
         if current_affiliation['identifiers'] != []:
             author['affiliations'].append(current_affiliation)
         result['authors'].append(author)
+        result['instances']=[{  "url":"https://academic.microsoft.com/#/detail/"+x[0], "access-rights":"UNKNOWN", "provenance":"MAG" }]
+
     return result
 
 
@@ -114,6 +119,6 @@ if __name__=='__main__':
     complete_join = af_join.join(author, author.AuthorID_author == af_join.AuthorID,how='left')
 
     #Grouping by Paper Id
-    aggregation = complete_join.groupBy('PaperId_paper').agg(collect_list(struct('abstract', 'DOI_paper', 'AffiliationID', 'AuthorID', 'AuthorSequenceNumber', 'DisplayName_affiliation', 'GridID_affiliation', 'OfficialPage_affiliation',  'WikiPage_affiliation',  'DisplayName_author',  'NormalizedName_author')))
+    aggregation = complete_join.groupBy('PaperId_paper').agg(collect_list(struct('abstract', 'DOI_paper', 'Date_paper', 'AffiliationID', 'AuthorID', 'AuthorSequenceNumber', 'DisplayName_affiliation', 'GridID_affiliation', 'OfficialPage_affiliation',  'WikiPage_affiliation',  'DisplayName_author',  'NormalizedName_author')))
 
     aggregation.repartition(1000).rdd.map(map_microsoft).toDF(get_schema()).write.save("/data/mag.parquet", format="parquet")
