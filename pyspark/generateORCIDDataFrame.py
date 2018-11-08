@@ -46,7 +46,7 @@ def get_schema():
 def map_item(x):
     authors = {}
     for item in x[1]:
-        authors[item['orcid_w']] =dict(fullname='%s %s'%(item['firstname'], item['lastname']), identifiers = [dict(scheme='ORCID', value="https://orcid.org/"+item['orcid_w'], provenance='ORCID')], affiliations=[], given= item['firstname'], family=item['lastname'])
+        authors[item['orcid_w']] =dict(fullname='%s %s'%(item['firstname'], item['lastname']), identifiers = [dict(schema='ORCID', value="https://orcid.org/"+item['orcid_w'], provenance='ORCID')], affiliations=[], given= item['firstname'], family=item['lastname'])
     return dict(doi=x[0].lower(), authors=authors.values())    
 
    
