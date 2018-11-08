@@ -2,7 +2,15 @@ from pyspark import SparkContext
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, collect_list, struct,length
 from pyspark.sql.types import *
-import json
+import re
+
+regex = r"\b(10[.][0-9]{4,}(?:[.][0-9]+)*/(?:(?![\"&\'])\S)+)\b"
+
+def fix_doi(x):
+    matches = re.search(regex, x[1])
+    if matches:
+        return dict(orcid=x[0].strip(),doi = matches.group(0))
+    return None
 
 
 def get_schema():
@@ -34,20 +42,37 @@ def get_schema():
         StructField('collectedFrom', ArrayType(StringType(),True),True)])
     return schemaType
 
-def map_ORCID(x):
-    result = []
-    author = dict(fullname='', identifiers = [dict(scheme='ORCID', value="https://orcid.org/"+x['orcid'], provenance='ORCID')], affiliations=[], given= x.get('firstname',''), family=x.get('lastname',''))
-    fullname= "%s %s"%(author['given'], author['family'])
-    author['fullname'] = fullname.strip()
-    for item in x['publications']:
-        if item['doi'] is not None and len(item['doi'])> 0:
-            result.append((item['doi'].lower(), [author]))
-    return result
-    
+
+def map_item(x):
+    authors = {}
+    for item in x[1]:
+        authors[item['orcid_w']] =dict(fullname='%s %s'%(item['firstname'], item['lastname']), identifiers = [dict(scheme='ORCID', value="https://orcid.org/"+item['orcid_w'], provenance='ORCID')], affiliations=[], given= item['firstname'], family=item['lastname'])
+    return dict(doi=x[0].lower(), authors=authors.values())    
+
+   
 
 if __name__ == '__main__':
-    sc = SparkContext(appName='generateORCIDDataFrame')
+    sc = SparkContext(appName='generateORCIDDataFrame')    
     spark = SparkSession(sc)
-    sc.textFile('/data/orciddump.txt').map(json.loads).flatMap(map_ORCID).reduceByKey(lambda a, b : a+b).map(lambda x: dict(doi=x[0], authors= x[1])).toDF(get_schema()).write.save("/data/ORCID.parquet", format="parquet")
-    # .saveAsTextFile(path="/data/ORCID_df",compressionCodecClass="org.apache.hadoop.io.compress.GzipCodec")
+
+
+    #create dataFrame for ORCID WORKS a set of (ORCID, DOI) and save in hdfs
+    sc.textFile('/tmp/orcid_works').map(eval).map(fix_doi).filter(lambda x: x is not None).toDF().write.save('/tmp/works_orcid.parquet', format='parquet')
+
+    #create dataFrame for ORCID People info: a set of (ORCID, firstname, lastname) and save in hdfs
+    sc.textFile('/tmp/person_orcid').map(eval).map(lambda x: dict(orcid=x[0],firstname=x[1], lastname=x[2])).toDF().write.save('/tmp/person_orcid.parquet', format='parquet')
+
+    p_df = spark.read.load('/tmp/person_orcid.parquet', format='parquet')
+
+    w_df = spark.read.load('/tmp/works_orcid.parquet', format='parquet')
+
+    w_df = w_df.select(*(col(x).alias(x + '_w') for x in w_df.columns))
+
+    p_w_join = p_df.join(w_df, p_df.orcid ==w_df.orcid_w).select(w_df.orcid_w, w_df.doi_w, p_df.firstname, p_df.lastname)
+
+    aggregation = p_w_join.groupBy('doi_w').agg(collect_list(struct('orcid_w', 'firstname', 'lastname')))
+
+    aggregation.rdd.map(map_item).toDF(get_schema()).write.save("/data/ORCID.parquet", format="parquet")
+    
+    
     
