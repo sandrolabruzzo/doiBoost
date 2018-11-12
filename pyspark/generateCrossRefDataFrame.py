@@ -1,6 +1,7 @@
 from pyspark import SparkContext
 from pyspark.sql import SparkSession
 from pyspark.sql.types import *
+import json
 
 def convert_date(x):
     if type(x)== dict and 'date-parts' in x:
@@ -16,6 +17,9 @@ def convert_date(x):
                 return"-".join([str(k) for k in date_parts])
     return None
 
+def get_first(x):
+    for item in x[1]:
+        return item
 
 def generate_crossRefBoost(x):
     #Initializing Object
@@ -96,4 +100,4 @@ if __name__ == '__main__':
 
     sc = SparkContext(appName='generateCrossRefDataFrame')
     spark = SparkSession(sc)
-    sc.textFile('/data/crossRefDump').map(eval).map(generate_crossRefBoost).toDF(schemaType).write.save("/data/crossref.parquet", format="parquet")
+    sc.textFile('/data/crossref_2018_11').map(json.loads).map(lambda x: (x['_source']['DOI'],generate_crossRefBoost(x['_source'])).groupByKey().map(get_first).toDF(schemaType).write.save("/data/crossref_2018_11.parquet", format="parquet")
