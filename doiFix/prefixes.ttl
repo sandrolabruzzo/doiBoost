@@ -1,2 +1,4 @@
-@base <https://github.com/sandrolabruzzo/doiBoost/data/>.
-@prefix doi: <https://github.com/sandrolabruzzo/doiBoost/ontology/>.
+@base         <https://github.com/sandrolabruzzo/doiBoost/data/>.
+@prefix doib: <https://github.com/sandrolabruzzo/doiBoost/ontology/>.
+
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.

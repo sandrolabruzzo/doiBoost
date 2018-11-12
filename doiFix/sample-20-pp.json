@@ -787,8 +787,8 @@
    {
       "authors" : [
          {
-            "family" : "R\\xf6sch",
-            "fullname" : "L. R\\xf6sch",
+            "family" : "RÃ¶sch",
+            "fullname" : "L. RÃ¶sch",
             "given" : "L.",
             "identifiers" : [
                {
@@ -886,7 +886,7 @@
       "abstract" : [
          {
             "provenance" : "CrossRef",
-            "value" : "<jats:title>R\\xe9sum\\xe9</jats:title><jats:p>Cet article explore les dimensions vari\\xe9es du bureau (<jats:italic>office</jats:italic>) professoral comme espace âjuridiqueâ. Dans l'une de ses dimensions, l'office d'un professeur n'est qu'un endroit g\\xe9om\\xe9trique g\\xe9n\\xe9rique, sans objectif ou occupant, une potentialit\\xe9 formelle. Or, c'est \\xe9galement un site dans la mesure que sa localisation, taille et organisation refl\\xe8tent une fonctionnalit\\xe9âdes valeurs, processus et institutions d\\xe9cisionnelles qui d\\xe9terminent son occupation. En plus, l'office exprime un r\\xf4le et une sc\\xe8ne sur laquelle les occupants interagissent avec des coll\\xe8gues, des \\xe9tudiants, des \\xe9trangers de mani\\xe8re \\xe0 confirmer ou infirmer des relations de pouvoir et de subordination. L'office professoral a aussi une dimension performative dans laquelle la normativit\\xe9 d'une communaut\\xe9âde professeurs, employ\\xe9s et \\xe9tudiantsâest imagin\\xe9e et agie. Par ailleurs, dans une autre dimension, il s'agit d'un espace rituel o\\xf9 des professeurs travaillent, se d\\xe9tendent, r\\xe9fl\\xe9chissent et contemplent r\\xe9flexivement des mod\\xe8les et formes de pens\\xe9es. Un tel office existe o\\xf9 que ses occupants choisissent de le tenir. Finalement, l'office est un non-lieu de d\\xe9couverte personnelleâl'indication d'un espace qui n'est que dans les relations qu'il cr\\xe9e et qui le cr\\xe9ent.</jats:p>"
+            "value" : "<jats:title>RÃ©sumÃ©</jats:title><jats:p>Cet article explore les dimensions variÃ©es du bureau (<jats:italic>office</jats:italic>) professoral comme espace âjuridiqueâ. Dans l'une de ses dimensions, l'office d'un professeur n'est qu'un endroit gÃ©omÃ©trique gÃ©nÃ©rique, sans objectif ou occupant, une potentialitÃ© formelle. Or, c'est Ã©galement un site dans la mesure que sa localisation, taille et organisation reflÃ¨tent une fonctionnalitÃ©âdes valeurs, processus et institutions dÃ©cisionnelles qui dÃ©terminent son occupation. En plus, l'office exprime un rÃ´le et une scÃ¨ne sur laquelle les occupants interagissent avec des collÃ¨gues, des Ã©tudiants, des Ã©trangers de maniÃ¨re Ã  confirmer ou infirmer des relations de pouvoir et de subordination. L'office professoral a aussi une dimension performative dans laquelle la normativitÃ© d'une communautÃ©âde professeurs, employÃ©s et Ã©tudiantsâest imaginÃ©e et agie. Par ailleurs, dans une autre dimension, il s'agit d'un espace rituel oÃ¹ des professeurs travaillent, se dÃ©tendent, rÃ©flÃ©chissent et contemplent rÃ©flexivement des modÃ¨les et formes de pensÃ©es. Un tel office existe oÃ¹ que ses occupants choisissent de le tenir. Finalement, l'office est un non-lieu de dÃ©couverte personnelleâl'indication d'un espace qui n'est que dans les relations qu'il crÃ©e et qui le crÃ©ent.</jats:p>"
          },
          {
             "provenance" : "MAG",
@@ -1017,7 +1017,7 @@
       "abstract" : [
          {
             "provenance" : "MAG",
-            "value" : "Cationic polyacrylamides (c-PAMs) bind to starch granules and decrease the temperature for the onset of gelatinization by 8\\xc2\\xb0C. c-PAM increases the binding of \\xce\\xb1-amylase to cornstarch; the rate of cornstarch hydrolysis also increases. By analogy to previous work on the c-PAM promoted hydrolysis of cellulose, it is proposed that the polymer reduces the charge on the surface of starch through a charge-patch mechanism. Because both enzyme and substrate are negatively charged, the bound c-PAM reduces the charge repulsion experienced by the approaching enzyme, which leads to stronger enzyme-substrate binding and faster hydrolysis. Overall, the c-PAM reduces enzyme dose by up to 62% under the conditions used. There is a mirror image relationship between the viscosity of the medium and the hydrolysis rate, which allows optimization of these parameters with enzyme and c-PAM dosage. Low c-PAM levels increase viscosity by agglomerating the substrate, but the viscosity drops at higher c-PAM concentration. \\xc2\\xa9 2012 American Institute of Chemical Engineers AIChE J, 59: 79\\xe2\\x80\\x9383, 2013"
+            "value" : "Cationic polyacrylamides (c-PAMs) bind to starch granules and decrease the temperature for the onset of gelatinization by 8ÃÂ°C. c-PAM increases the binding of ÃÂ±-amylase to cornstarch; the rate of cornstarch hydrolysis also increases. By analogy to previous work on the c-PAM promoted hydrolysis of cellulose, it is proposed that the polymer reduces the charge on the surface of starch through a charge-patch mechanism. Because both enzyme and substrate are negatively charged, the bound c-PAM reduces the charge repulsion experienced by the approaching enzyme, which leads to stronger enzyme-substrate binding and faster hydrolysis. Overall, the c-PAM reduces enzyme dose by up to 62% under the conditions used. There is a mirror image relationship between the viscosity of the medium and the hydrolysis rate, which allows optimization of these parameters with enzyme and c-PAM dosage. Low c-PAM levels increase viscosity by agglomerating the substrate, but the viscosity drops at higher c-PAM concentration. ÃÂ© 2012 American Institute of Chemical Engineers AIChE J, 59: 79Ã¢ÂÂ83, 2013"
          }
       ],
       "authors" : [
@@ -1214,7 +1214,7 @@
          "General Physics and Astronomy"
       ],
       "title" : [
-         "Viskosit\\xe4tsmessungen bei hohen Temperaturen mittels frei fallender Kugeln"
+         "ViskositÃ¤tsmessungen bei hohen Temperaturen mittels frei fallender Kugeln"
       ],
       "type" : "journal-article"
    },
@@ -1375,7 +1375,7 @@
          "Astronomy and Astrophysics"
       ],
       "title" : [
-         "Bericht \\xfcber Versuche zum Nachweis einer elektrodynamischen Sonnenstrahlung von J. Wilsing und J. Scheiner"
+         "Bericht Ã¼ber Versuche zum Nachweis einer elektrodynamischen Sonnenstrahlung von J. Wilsing und J. Scheiner"
       ],
       "type" : "journal-article"
    },
@@ -1573,7 +1573,7 @@
       "abstract" : [
          {
             "provenance" : "MAG",
-            "value" : "For an array {V nk ,k\\xe2\\x89\\xa51,n\\xe2\\x89\\xa51} of rowwise independent random elements in a real separable Banach space \\\\(X\\\\) with almost surely convergent row sums \\\\(S_n = \\\\sum {_{k = 1}^\\\\infty {\\\\text{ }}V_{nk} ,n \\\\geqslant 1} \\\\), we provide criteria for S n \\xe2\\x88\\x92A n to be stochastically bounded or for the weak law of large numbers \\\\(S_n - A_n \\\\xrightarrow{P}0\\\\) to hold where {A n ,n\\xe2\\x89\\xa51} is a (nonrandom) sequence in \\\\(X\\\\)."
+            "value" : "For an array {V nk ,kÃ¢ÂÂ¥1,nÃ¢ÂÂ¥1} of rowwise independent random elements in a real separable Banach space \\\\(X\\\\) with almost surely convergent row sums \\\\(S_n = \\\\sum {_{k = 1}^\\\\infty {\\\\text{ }}V_{nk} ,n \\\\geqslant 1} \\\\), we provide criteria for S n Ã¢ÂÂA n to be stochastically bounded or for the weak law of large numbers \\\\(S_n - A_n \\\\xrightarrow{P}0\\\\) to hold where {A n ,nÃ¢ÂÂ¥1} is a (nonrandom) sequence in \\\\(X\\\\)."
          }
       ],
       "authors" : [
@@ -1664,7 +1664,7 @@
       "abstract" : [
          {
             "provenance" : "MAG",
-            "value" : "For the pair (A,B), where A is a differential operator and B is a boundary operator in sections of bundles over the manifold M with boundary \\xce\\x93, one indicates the construction of a complex of sheaves of germs of sections of the bundles Ei, over M and Gi over \\xce\\x93 and of differential-boundary operators\r\n\r\n$$\\\\underset{\\\\raise0.3em\\\\hbox{$\\\\smash{\\\\scriptscriptstyle-}$}}{E} _o \\\\xrightarrow{{(A, B)}} \\\\underset{\\\\raise0.3em\\\\hbox{$\\\\smash{\\\\scriptscriptstyle-}$}}{E} _1 \\\\times \\\\underset{\\\\raise0.3em\\\\hbox{$\\\\smash{\\\\scriptscriptstyle-}$}}{G} _1 \\\\to \\\\underset{\\\\raise0.3em\\\\hbox{$\\\\smash{\\\\scriptscriptstyle-}$}}{E} _2 \\\\times \\\\underset{\\\\raise0.3em\\\\hbox{$\\\\smash{\\\\scriptscriptstyle-}$}}{G} _2 \\\\to \\\\ldots \\\\to 0 .$$\r\n\r\nIn the real analytic case the cohomology of this complex in the termE 1 \\xc3\\x97G 1 is equal to zero (the local solvability of the boundary value problem under the compatibility conditions) if the conormal to the boundary \\xce\\x93 is in the direction of the least degeneracy of the symbol of the operator A, while the complex is exact if the degeneracy of the symbol is the same in all directions (for example, if A is elliptic)."
+            "value" : "For the pair (A,B), where A is a differential operator and B is a boundary operator in sections of bundles over the manifold M with boundary ÃÂ, one indicates the construction of a complex of sheaves of germs of sections of the bundles Ei, over M and Gi over ÃÂ and of differential-boundary operators\r\n\r\n$$\\\\underset{\\\\raise0.3em\\\\hbox{$\\\\smash{\\\\scriptscriptstyle-}$}}{E} _o \\\\xrightarrow{{(A, B)}} \\\\underset{\\\\raise0.3em\\\\hbox{$\\\\smash{\\\\scriptscriptstyle-}$}}{E} _1 \\\\times \\\\underset{\\\\raise0.3em\\\\hbox{$\\\\smash{\\\\scriptscriptstyle-}$}}{G} _1 \\\\to \\\\underset{\\\\raise0.3em\\\\hbox{$\\\\smash{\\\\scriptscriptstyle-}$}}{E} _2 \\\\times \\\\underset{\\\\raise0.3em\\\\hbox{$\\\\smash{\\\\scriptscriptstyle-}$}}{G} _2 \\\\to \\\\ldots \\\\to 0 .$$\r\n\r\nIn the real analytic case the cohomology of this complex in the termE 1 ÃÂG 1 is equal to zero (the local solvability of the boundary value problem under the compatibility conditions) if the conormal to the boundary ÃÂ is in the direction of the least degeneracy of the symbol of the operator A, while the complex is exact if the degeneracy of the symbol is the same in all directions (for example, if A is elliptic)."
          }
       ],
       "authors" : [
@@ -1919,7 +1919,7 @@
                   "identifiers" : [
                      {
                         "schema" : "wikpedia",
-                        "value" : "http://en.wikipedia.org/wiki/Universit\\xe9_libre_de_Bruxelles"
+                        "value" : "http://en.wikipedia.org/wiki/UniversitÃ©_libre_de_Bruxelles"
                      },
                      {
                         "schema" : "grid.ac",
@@ -1928,7 +1928,7 @@
                   ],
                   "official-page" : "http://www.ulb.ac.be/",
                   "provenance" : "MAG",
-                  "value" : "Universit\\xe9 libre de Bruxelles"
+                  "value" : "UniversitÃ© libre de Bruxelles"
                }
             ],
             "family" : "Pironio",
@@ -1943,8 +1943,8 @@
             ]
          },
          {
-            "family" : "Ac\\xedn",
-            "fullname" : "A. Ac\\xedn",
+            "family" : "AcÃ­n",
+            "fullname" : "A. AcÃ­n",
             "given" : "A."
          },
          {
