@@ -156,7 +156,7 @@ if __name__=='__main__':
     microsoft = microsoft.select(*(col(x).alias(x + '_mag') for x in microsoft.columns))    
 
     #Group By DOI since we have repeated doi with multiple abstract, at the moment we take the first One
-    mag = microsoft.groupBy('doi_mag').agg(first('authors_mag').alias('author_mag'), first('abstract_mag').alias('abstract_mag'),first('collectedFom_mag').alias('collectedFrom_mag') )
+    mag = microsoft.groupBy('doi_mag').agg(first('authors_mag').alias('author_mag'), first('abstract_mag').alias('abstract_mag'),first('collectedFrom_mag').alias('collectedFrom_mag') )
 
     #Load ORCID DataFrame
     orcid = spark.read.load("/data/ORCID.parquet",format="parquet")

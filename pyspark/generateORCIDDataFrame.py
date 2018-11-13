@@ -9,7 +9,7 @@ regex = r"\b(10[.][0-9]{4,}(?:[.][0-9]+)*/(?:(?![\"&\'])\S)+)\b"
 def fix_doi(x):
     matches = re.search(regex, x[1])
     if matches:
-        return dict(orcid=x[0].strip(),doi = matches.group(0))
+        return dict(orcid=x[0].strip().lower(),doi = matches.group(0).strip().lower())
     return None
 
 
@@ -57,7 +57,7 @@ if __name__ == '__main__':
 
 
     #create dataFrame for ORCID WORKS a set of (ORCID, DOI) and save in hdfs
-    sc.textFile('/tmp/orcid_works').map(eval).map(fix_doi).filter(lambda x: x is not None).toDF().write.save('/tmp/works_orcid.parquet', format='parquet')
+    sc.textFile('/tmp/orcid_works').map(eval).map(fix_doi).filter(lambda x: x is not None).toDF().write.save('/tmp/works_orcid_1.parquet', format='parquet')
 
     #create dataFrame for ORCID People info: a set of (ORCID, firstname, lastname) and save in hdfs
     sc.textFile('/tmp/person_orcid').map(eval).map(lambda x: dict(orcid=x[0],firstname=x[1], lastname=x[2])).toDF().write.save('/tmp/person_orcid.parquet', format='parquet')
