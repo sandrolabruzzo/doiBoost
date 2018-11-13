@@ -139,8 +139,8 @@ def convert_record(x):
         if added_unpayWall:
             tmp['collectedFrom'].append('UnpayWall')  
         return tmp
-    except:
-        raise Exception(x['doi'])
+    except Exception as e:
+        raise Exception(x['doi'], e.message)
 
 if __name__=='__main__':
     sc = SparkContext(appName='generateDOIBoost')
