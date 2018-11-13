@@ -94,8 +94,7 @@ def convert_record(x):
             tmp['issude'] = result['issued_mag']
         if result['abstract_mag'] is not None:
             for item in result['abstract_mag']:
-                item['provenance'] = 'MAG'
-                item.pop('provenanve')
+                item['provenance'] = 'MAG'                
                 tmp['abstract'].append(item)
             added_Mag = True
         if result['author_mag'] is not None and len(result['author_mag'])> 0:
