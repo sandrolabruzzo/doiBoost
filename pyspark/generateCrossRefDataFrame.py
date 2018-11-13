@@ -40,7 +40,7 @@ def generate_crossRefBoost(x):
         at = dict(given= item.get('given'), family =item.get('family'))
         at['fullname'] = "%s %s"%(at['given'], at['family'])
         if len(item.get('ORCID','')) > 0:
-            at['identifiers'] = [dict(scheme='ORCID', value=item['ORCID'], provenance='CrossRef')]
+            at['identifiers'] = [dict(schema='ORCID', value=item['ORCID'], provenance='CrossRef')]
         if len(item.get('affiliation',[])) > 0:
             at['affiliations'] = [dict(value=aff['name'], identifiers =[], provenance='CrossRef') for aff in item['affiliation']]
         result['authors'].append(at)    
@@ -68,9 +68,7 @@ def generate_crossRefBoost(x):
                 result['license'].append(current_license)
     return result
     
-
-if __name__ == '__main__':
-
+def get_schema():
     title_field =StructField('title',ArrayType(StringType(),True),True)
     identifiers_type = StructType([StructField('schema',StringType(),True), StructField('value', StringType(), True),StructField('provenance', StringType(), True)])
     affiliation_identifier_type= StructType([StructField('schema',StringType(),True), StructField('value', StringType(), True)])
@@ -97,7 +95,11 @@ if __name__ == '__main__':
         StructField('doi-url',StringType(),True),    
         StructField('issn', ArrayType(issn_type,True),True), 
         StructField('collectedFrom', ArrayType(StringType(),True),True)])
+    return schemaType
+
+
+if __name__ == '__main__':
 
     sc = SparkContext(appName='generateCrossRefDataFrame')
     spark = SparkSession(sc)
-    sc.textFile('/data/crossref_2018_11').map(json.loads).map(lambda x: (x['_source']['DOI'],generate_crossRefBoost(x['_source'])).groupByKey().map(get_first).toDF(schemaType).write.save("/data/crossref_2018_11.parquet", format="parquet")
+    sc.textFile('/data/crossref_2018_11').map(json.loads).map(lambda x: generate_crossRefBoost(x['_source'])).toDF(get_schema()).write.save("/data/crossref_2018_11.parquet", format="parquet")

@@ -90,15 +90,16 @@ def convert_record(x):
         added_Mag = False
         added_unpayWall = False
         added_orcid= False
+        if result['issued_mag'] is not None and len(result['issued_mag']) == 10:
+            tmp['issude'] = result['issued_mag']
         if result['abstract_mag'] is not None:
             for item in result['abstract_mag']:
                 item['provenance'] = 'MAG'
                 item.pop('provenanve')
                 tmp['abstract'].append(item)
             added_Mag = True
-        
         if result['author_mag'] is not None and len(result['author_mag'])> 0:
-            if result['authors'] is None or len(result['authors']) == 0:
+            if result['authors'] is None or len(result['authors']) == 0 or len(result['authors']) > 300:
                 result['authors'] = result['author_mag']
                 tmp['authors'] = copy.deepcopy(result['authors'])
                 added_Mag = True
@@ -111,13 +112,12 @@ def convert_record(x):
                         r = merge_author_info(tmp['authors'][item[0]], result['author_mag'][item[1]])
                         tmp['authors'][item[0]] = r[0]        
                         added_Mag = added_Mag or r[1]
-
         if result['authors_orcid'] is not None and len(result['authors_orcid'])> 0:
             if result['authors'] is None or len(result['authors']) == 0:
                 result['authors'] = result['authors_orcid']
                 tmp['authors'] = copy.deepcopy(result['authors'])
                 added_orcid = True
-            else:
+            elif len(result['authors']) <300:
                 a_mag = extract_author(result['authors_orcid'])
                 a_cross= extract_author(result['authors'])
                 similarities = matchAuthors( a_cross,a_mag, .65)
@@ -127,9 +127,9 @@ def convert_record(x):
                         tmp['authors'][item[0]] = r[0]
                         added_orcid = added_Mag or r[1]
 
-        if result['license_uw'] is not None:
+        if result['instances_uw'] is not None:
             added_unpayWall = True
-            for item in result['license_uw']:
+            for item in result['instances_uw']:
                 tmp['license'].append(item)
 
         if added_Mag:
@@ -147,10 +147,10 @@ if __name__=='__main__':
     spark = SparkSession(sc)
 
     #Loading CrossRef Dataframe
-    crossref = spark.read.load('/data/df/crossref.parquet', format="parquet")
+    crossref = spark.read.load('/data/crossref_2018_11.parquet', format="parquet")
 
     #Loading MAG Dataframe
-    microsoft = spark.read.load("/data/df/mag.parquet", format="parquet")
+    microsoft = spark.read.load("/data/mag.parquet", format="parquet")
 
     #Alias each column with _mag
     microsoft = microsoft.select(*(col(x).alias(x + '_mag') for x in microsoft.columns))    
@@ -159,7 +159,7 @@ if __name__=='__main__':
     mag = microsoft.groupBy('doi_mag').agg(first('authors_mag').alias('author_mag'), first('abstract_mag').alias('abstract_mag'),first('collectedFom_mag').alias('collectedFrom_mag') )
 
     #Load ORCID DataFrame
-    orcid = spark.read.load("/data/df/ORCID.parquet",format="parquet")
+    orcid = spark.read.load("/data/ORCID.parquet",format="parquet")
 
     #Fix missing value in collectedFrom
     orcid =orcid.withColumn('collectedFrom',array(lit('ORCID')))
@@ -169,7 +169,7 @@ if __name__=='__main__':
 
 
     #Load UnpayWall DataFrame
-    uw= spark.read.load("/data/df/unpaywall.parquet",format="parquet")
+    uw= spark.read.load("/data/unpaywall.parquet",format="parquet")
 
     #Alias each column with _uw
     uw =uw.select(*(col(x).alias(x + '_uw') for x in uw.columns))
@@ -188,4 +188,4 @@ if __name__=='__main__':
     tj = sj.join(uw, sj.doi== uw.doi_uw, how='left')
 
 
-    tj.rdd.map(convert_record).saveAsTextFile(path='/data/df/doiBoost',compressionCodecClass="org.apache.hadoop.io.compress.GzipCodec")
+    tj.rdd.map(convert_record).saveAsTextFile(path='/data/doiBoost',compressionCodecClass="org.apache.hadoop.io.compress.GzipCodec")

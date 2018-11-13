@@ -44,7 +44,7 @@ def try_decode(x):
 
 
 def generate_record(x):
-    return dict(doi=x['doi'], instances=[{  "url":x['best_oa_location'], "access-rights":"OPEN", "provenance":"UnpayWall" }])
+    return dict(doi=x['doi'], instances=[{  "url":x['best_oa_location']['url'], "access-rights":"OPEN", "provenance":"UnpayWall" }],collectedFrom=['UnpayWall'])
 
 if __name__ == '__main__':
     sc = SparkContext(appName='generateUnPayWallDataFrame')
