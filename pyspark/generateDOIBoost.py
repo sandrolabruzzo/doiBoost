@@ -90,7 +90,7 @@ def convert_record(x):
         added_Mag = False
         added_unpayWall = False
         added_orcid= False
-        if result['issued_mag'] is not None and len(result['issued_mag']) == 10:
+        if result.get('issued_mag') is not None and len(result.get('issued_mag') == 10:
             tmp['issude'] = result['issued_mag']
         if result['abstract_mag'] is not None:
             for item in result['abstract_mag']:
