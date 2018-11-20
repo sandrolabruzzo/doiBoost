@@ -248,8 +248,8 @@
          "CrossRef",
          "MAG"
       ],
-      "doi" : "10.1016/s0022-5347(17)31670-01",
-      "doi-url" : "http://dx.doi.org/10.1016/s0022-5347(17)31670-01",
+      "doi" : "10.1016/s0022-5347(17)31670-1",
+      "doi-url" : "http://dx.doi.org/10.1016/s0022-5347(17)31670-1",
       "instances" : [
          {
             "provenance" : "CrossRef",
@@ -464,8 +464,8 @@
          "CrossRef",
          "MAG"
       ],
-      "doi" : "10.1016/s0197-4580(04)80305-01",
-      "doi-url" : "http://dx.doi.org/10.1016/s0197-4580(04)80305-01",
+      "doi" : "10.1016/s0197-4580(04)80305-1",
+      "doi-url" : "http://dx.doi.org/10.1016/s0197-4580(04)80305-1",
       "instances" : [
          {
             "provenance" : "CrossRef",
@@ -2525,5 +2525,59 @@
          "Exciting 'stuff': modelling photochemical reactions in the condensed phase. Applications in time-resolved diffraction"
       ],
       "type" : "journal-article"
+   },
+   {
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/University_of_Helsinki"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.7737.4"
+                     }
+                  ],
+                  "official-page" : "https://www.helsinki.fi/en",
+                  "provenance" : "MAG",
+                  "value" : "University of Helsinki"
+               }
+            ],
+            "fullname" : "Ismo StrandÃ©n",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2291716478"
+               }
+            ]
+         },
+         {
+            "fullname" : "Riitta Kempe",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2324632299"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.3920/978-90-8686-859-9",
+      "doi-url" : "http://dx.doi.org/10.3920/978-90-8686-859-9",
+      "issued" : "2017-07-25",
+      "published-online" : "2017-07-25",
+      "published-print" : "2017-08-29",
+      "title" : [
+         "Book of Abstracts of the 68th Annual Meeting of the European Association for Animal Production"
+      ],
+      "type" : "proceedings"
    }
 ]

@@ -43,8 +43,7 @@ s{['\w-]+': (None|\[\]|u'UNKNOWN')}{}g;              # kill null/empty/useless v
 s{, (?=,)}{}g;                                       # remove doubled comma delimiters resulting from prev step
 s{([\[\{]), }{$1}g;                                  # remove leading comma delimiter
 s{, ([\]\}])}{$1}g;                                  # remove trailing comma delimiter
-s{-(\d)-}{-0$1-}g;                                   # fix dates to 2-digit month
-s{-(\d)'}{-0$1'}g;                                   # fix dates to 2-digit day
+s{u'(\d{4})-(\d{1,2})-(\d{1,2})'}{sprintf('"%d-%02d-%02d"',$1,$2,$3)}eg; # fix dates to 2-digit month/day
 s{(?<='doi': u')([^']+)}{\L$1}g if $opt_d;           # normalize DOI by lowercasing it
 s{(?<=http://dx.doi.org/)([^' ]+)}{urlize($1)}e;     # URL-escape special chars in URL
 s{\\\\'}{\\'}g;                                      # double backslash escaping of apostrophe to single escaping
