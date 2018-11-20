@@ -4,19 +4,25 @@ def empty_str(x):
 
 def filter_record(x):
 	if x['title'] is None or len(x['title']) == 0:
-		return False	
+		x['record-quality-report'] = 'incomplete'
+		return json.dumps(x, ensure_ascii=False)   
+
 	for t in x['title']:
 		if len(t.lower().replace('test', '').strip()) <3:
-			return False
+			x['record-quality-report'] = 'mock'
+			return json.dumps(x, ensure_ascii=False)   
 
 	if x['authors'] is None or len(x['authors']) == 0:
-		return False
+		x['record-quality-report'] = 'incomplete'
+		return json.dumps(x, ensure_ascii=False)   
 
 
 	if empty_str(x['accepted']) and empty_str(x['issued']) and empty_str(x['published-print']) and empty_str(x['published-online']):
-		return False
+		x['record-quality-report'] = 'incomplete'
+		return json.dumps(x, ensure_ascii=False)   
 
-	return True
+	x['record-quality-report'] = 'complete'
+	return json.dumps(x, ensure_ascii=False)   
 
 
 
