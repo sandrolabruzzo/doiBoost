@@ -46,6 +46,7 @@ s{, ([\]\}])}{$1}g;                                  # remove trailing comma del
 s{u'(\d{4})-(\d{1,2})-(\d{1,2})'}{sprintf('"%d-%02d-%02d"',$1,$2,$3)}eg; # fix dates to 2-digit month/day
 s{(?<='doi': u')([^']+)}{\L$1}g if $opt_d;           # normalize DOI by lowercasing it
 s{(?<=http://dx.doi.org/)([^' ]+)}{urlize($1)}e;     # URL-escape special chars in URL
+s{\\\\\\\\'([\]\}])}{'$1}g;                          # remove trailing backslash escape (just before the closing of a string)
 s{\\\\'}{\\'}g;                                      # double backslash escaping of apostrophe to single escaping
 s{(?<=[\[ ])u'(.*?)(?<!\\)'}{stringize($1)}ge;       # JSON strings don't have a u'..' prefix
 s{(?<=[\[ ])u\\"(.*?)\\"}{stringize($1)}ge;          # JSON strings don't have a u\"..\" prefix
