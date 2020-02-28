@@ -1,4 +1,4 @@
-import csv
+import json
 from pyspark import SparkContext
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, collect_list, struct,length
@@ -49,5 +49,5 @@ def generate_record(x):
 if __name__ == '__main__':
     sc = SparkContext(appName='generateUnPayWallDataFrame')
     spark = SparkSession(sc)
-    sc.textFile('/data/unpaywall').map(try_decode).filter(lambda x: x is not None and x['is_oa'] is True).map(generate_record).toDF(get_schema()).write.save("/data/unpaywall.parquet", format="parquet")
+    sc.textFile('/data/doiboost/input/unpaywall_snapshot_2019-08-16').map(try_decode).filter(lambda x: x is not None and x['is_oa'] is True).map(generate_record).toDF(get_schema()).write.mode('overwrite').save("/data/doiboost/dataframe/unpaywall2019-08.parquet", format="parquet")
 
