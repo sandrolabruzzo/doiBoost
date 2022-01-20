@@ -1,0 +1,62 @@
+Crossref Field,Type,Required,Description (from Crossref),OAF field,Comments
+publisher,String,Yes,Name of work's publisher,Result/Publisher,
+title,Array of String,Yes,"Work titles, including translated titles","Result/Title with Qualifier(""main title"", ""dnet:dataCite_title"")",
+original-title,Array of String,No,Work titles in the work's original publication language,"Result/Title with Qualifier(""alternative title"", ""dnet:dataCite_title"")",
+short-title,Array of String,No,Short or abbreviated work titles,"Result/Title with Qualifier(""alternative title"", ""dnet:dataCite_title"")",
+abstract,XML String,No,Abstract as a JSON string or a JATS XML snippet encoded into a JSON string,Result/description,
+reference-count,Number,Yes,Deprecated Same as references-count,"- ",
+references-count,Number,Yes,Count of outbound references deposited with Crossref,N/A,
+is-referenced-by-count,Number,Yes,Count of inbound references deposited with Crossref,N/A,
+source,String,Yes,Currently always Crossref,Result/source,
+prefix,String,Yes,DOI prefix identifier of the form http://id.crossref.org/prefix/DOI_PREFIX,N/A,
+DOI,String,Yes,DOI of the work,OafEntity/originalId,
+,,,,OafEntity/PID,
+,,,,"Oaf/id ",Use to generate the OpenAIRE id in the form 50|doiboost____::md5(DOI)
+URL,URL,Yes,URL form of the work's DOI,Instance/url,
+member,String,Yes,Member identifier of the form http://id.crossref.org/member/MEMBER_ID,N/A,
+type,String,Yes,"Enumeration, one of the type ids from https://api.crossref.org/v1/types",Instance/instancetype,Also use to map the record as OAF Publication or Dataset according to the mapping defined in eu/dnetlib/doiboost/crossref/Crossref2Oaf.scala eu/dnetlib/doiboost/crossref/Crossref2Oaf.scala
+created,Date,Yes,Date on which the DOI was first registered,"Result/relevantDate with Qualifier(""created"", ""dnet:dataCite_date"")",
+,,,,"Result/dateofacceptance
+Instance/dateofacceptance",If crossref.issued is blank
+deposited,Date,Yes,Date on which the work metadata was most recently updated,N/A,
+indexed,Date,Yes,"Date on which the work metadata was most recently indexed. Re-indexing does not imply a metadata change, see deposited for the most recent metadata change date",Result/lastupdatetimestamp,
+issued,Partial Date,Yes,Earliest of published-print and published-online,Result/dateofacceptance,OAF dateofacceptance is used also for the publishing date. It's the date visualised in the OpenAIRE EXPLORE portal.
+,,,,Instance/dateofacceptance,
+posted,Partial Date,No,Date on which posted content was made available online,"Result/relevantDate with Qualifier(""available"", ""dnet:dataCite_date"")",
+accepted,Partial Date,No,"Date on which a work was accepted, after being submitted, during a submission process","Result/relevantDate with Qualifier(""accepted"", ""dnet:dataCite_date"")",
+subtitle,Array of String,No,"Work subtitles, including original language and translated","Result/Title with Qualifier(""subtitle"", ""dnet:dataCite_title"")",
+container-title,Array of String,No,Full titles of the containing work (usually a book or journal),Publication/Journal/name only in case of Journal title for book title see ISBN Mapping,
+short-container-title,Array of String,No,Abbreviated titles of the containing work,N/A,
+group-title,String,No,Group title for posted content,N/A,
+issue,String,No,Issue number of an article's journal,Publication/Journal/iss,
+volume,String,No,Volume number of an article's journal,Publication/Journal/vol,
+page,String,No,Pages numbers of an article within its journal,"Publication/Journal/sp
+Publication/Journal/ep",Obtain start and end page by splitting by '-'
+article-number,String,No,,N/A,
+published-print,Partial Date,No,Date on which the work was published in print,"Result/relevantDate with Qualifier(""published-print"", ""dnet:dataCite_date"")",
+published-online,Partial Date,No,Date on which the work was published online,"Result/relevantDate with Qualifier(""published-online"", ""dnet:dataCite_date"")",
+subject,Array of String,No,"Subject category names, a controlled vocabulary from Sci-Val. Available for most journal articles","Result/subject with Qualifier(""keywords"", ""dnet:subject_classification_typologies""). ","Future improvements: map the controlled vocabulary instead of using the generic ""keywords"" qualifier"
+ISSN,Array of String,No,,"Publication/Journal/issn
+Publication/Journal/lissn
+Publication/Journal/eissn",The mapping depends on the value of issn-type
+issn-type,Array of ISSN with Type,No,List of ISSNs with ISSN type information,N/A,Its value guides the setting of the properties in Journal (see row above)
+ISBN,Array of String,No,,Publication/source,"In case of Book We can map ISBN and container title on Publication/source using this syntax container-title + ""ISBN: "" + ISBN"
+archive,Array of String,No,,N/A,
+license,Array of License,No,,Result/Instance/License,
+funder,Array of Funder,No,,Relation,Whenever we are able to link to a funder or project integrated into OpenAIRE. Mapping to OpenAIRE funders and projects is in eu/dnetlib/doiboost/crossref/Crossref2Oaf.scala.generateSimpleRelationFromAward
+assertion,Array of Assertion,No,,N/A,
+author,Array of Contributor,No,,Result/author (with orcid if available),
+editor,Array of Contributor,No,,N/A,
+chair,Array of Contributor,No,,N/A,
+translator,Array of Contributor,No,,N/A,
+update-to,Array of Update,No,,N/A,
+update-policy,URL,No,Link to an update policy covering Crossmark updates for this work,N/A,
+link,Array of Resource Link,No,URLs to full-text locations,Result/Instance/url,
+clinical-trial-number,Array of Clinical Trial Number,No,,OafEntity/originalId,
+alternative-id,String,No,Other identifiers for the work provided by the depositing member,OafEntity/originalId,
+reference,Array of Reference,No,List of references made by the work,,Future improvement: map to references
+content-domain,Content Domain,No,Information on domains that support Crossmark for this work,N/A,
+relation,Relations,No,Relations to other works,Result/Instance/refereed,"if(relation.has-review) instance.refereed = ""peerReviewed"". "
+review,Review,No,Peer review metadata,N/A,
+funder,Array of Funder,No,,Relation between Result and Project,"The mapping between Crossref funder elements and OpenAIRE projects is implemented in eu.dnetlib.doiboost.crossref.Crossref2Oaf.mappingFunderToRelations.
+The matching is based on Funder DOIs, Funder names, and grant codes. Different mapping approaches are applied to cover the different cases in Crossref records."

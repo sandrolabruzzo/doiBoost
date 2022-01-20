@@ -1,0 +1,6 @@
+[
+  {"paramName":"n",   "paramLongName":"hdfsServerUri",	"paramDescription": "the server uri",   "paramRequired": true},
+  {"paramName":"w",   "paramLongName":"workingPath",	"paramDescription": "the default work path",	"paramRequired": true},
+  {"paramName":"f",   "paramLongName":"summariesFileNameTarGz",	"paramDescription": "the name of the summaries orcid file",	"paramRequired": true},
+  {"paramName":"o",   "paramLongName":"outputAuthorsPath",	"paramDescription": "the relative folder of the sequencial file to write",	"paramRequired": true}
+]

@@ -1,0 +1,7 @@
+[
+ {"paramName":"n",   "paramLongName":"hdfsServerUri",	"paramDescription": "the server uri",   "paramRequired": true},
+ {"paramName":"w",   "paramLongName":"workingPath",	"paramDescription": "the default work path",	"paramRequired": true},
+ {"paramName":"f",   "paramLongName":"activitiesFileNameTarGz",	"paramDescription": "the name of the activities orcid file",	"paramRequired": true},
+ {"paramName":"ow",   "paramLongName":"outputWorksPath",	"paramDescription": "the relative folder of the sequencial file to write",	"paramRequired": true},
+ {"paramName":"oew",   "paramLongName":"outputEnrichedWorksPath",	"paramDescription": "the relative folder of the sequencial file to write the data",	"paramRequired": true}
+]

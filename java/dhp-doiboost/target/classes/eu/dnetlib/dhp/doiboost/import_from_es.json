@@ -1,0 +1,7 @@
+[
+  {"paramName":"t",   "paramLongName":"targetPath",    "paramDescription": "the path of the sequencial file to write",   "paramRequired": true},
+  {"paramName":"n",   "paramLongName":"namenode",      "paramDescription": "the hive metastore uris",                    "paramRequired": true},
+  {"paramName":"ts",  "paramLongName":"timestamp",     "paramDescription": "timestamp",                                  "paramRequired": false},
+  {"paramName":"ess", "paramLongName":"esServer",     "paramDescription": "elasticsearch server url",                   "paramRequired": true},
+  {"paramName":"esi", "paramLongName":"esIndex",      "paramDescription": "elasticsearch index name",                   "paramRequired": true}
+]

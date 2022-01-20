@@ -1,0 +1,104 @@
+{
+  "DOI": "10.17848/9780880992299.vol1ch4",
+  "ISBN": [
+    "9780880992299"
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2001,
+        12,
+        1
+      ]
+    ]
+  },
+  "prefix": "10.17848",
+  "author": [
+    {
+      "affiliation": [
+      ],
+      "given": "William E.",
+      "family": "Even",
+      "authenticated-orcid": false
+    },
+    {
+      "affiliation": [
+      ],
+      "given": "David A.",
+      "family": "Macpherson"
+    }
+  ],
+  "reference-count": 0,
+  "member": "7312",
+  "source": "Crossref",
+  "score": 1.0,
+  "deposited": {
+    "timestamp": 1461687244000,
+    "date-parts": [
+      [
+        2016,
+        4,
+        26
+      ]
+    ],
+    "date-time": "2016-04-26T16:14:04Z"
+  },
+  "indexed": {
+    "timestamp": 1502548826285,
+    "date-parts": [
+      [
+        2017,
+        8,
+        12
+      ]
+    ],
+    "date-time": "2017-08-12T14:40:26Z"
+  },
+  "type": "book-chapter",
+  "published-online": {
+    "date-parts": [
+      [
+        2010,
+        5,
+        27
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.17848/9780880992299.vol1ch4",
+  "is-referenced-by-count": 0,
+  "download_ts": 1508079092.874343,
+  "published-print": {
+    "date-parts": [
+      [
+        2001,
+        12,
+        1
+      ]
+    ]
+  },
+  "references-count": 0,
+  "publisher": "W.E. Upjohn Institute",
+  "content-domain": {
+    "domain": [
+    ],
+    "crossmark-restriction": false
+  },
+  "created": {
+    "timestamp": 1434034139000,
+    "date-parts": [
+      [
+        2015,
+        6,
+        11
+      ]
+    ],
+    "date-time": "2015-06-11T14:48:59Z"
+  },
+  "title": [
+    "Children\\'s Effects on Women\\'s Labor Market Attachment and Earnings"
+  ],
+  "container-title": [
+    "Working Time in Comparative Perspective - Volume II: Life-Cycle Working Time and Nonstandard Hours"
+  ],
+  "page": "99-128"
+}

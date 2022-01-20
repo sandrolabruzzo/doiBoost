@@ -1,0 +1,6 @@
+[
+  {"paramName":"s",   "paramLongName":"sourcePath", "paramDescription": "the base path of MAG input",  "paramRequired": true},
+  {"paramName":"t",   "paramLongName":"targetPath", "paramDescription": "the working dir path",                      "paramRequired": true},
+  {"paramName":"m",   "paramLongName":"master",     "paramDescription": "the master name",                          "paramRequired": true}
+
+]

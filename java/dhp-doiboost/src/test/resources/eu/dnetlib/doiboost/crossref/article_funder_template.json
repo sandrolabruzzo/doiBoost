@@ -1,0 +1,175 @@
+{
+  "DOI": "10.26850/1678-4618EQJ.v35.1.2010.p41-46",
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        1,
+        15
+      ]
+    ]
+  },
+  "abstract": "<jats:p>A qualitative spot-test and tandem quantitative analysis of dipyrone in the bulk drugand in pharmaceutical preparations is proposed. The formation of a reddish-violet\u00a0 color indicates a positive result. In sequence a quantitative procedure can be performed in the same flask. The quantitative results obtained were statistically compared with those obtained with the method indicated by the Brazilian\u00a0 Pharmacopoeia, using the Student\u2019s t and the F tests. Considering the concentration in a 100 \u03bcL aliquot, the qualitative visual limit of detection is about 5\u00d710-6 g; instrumental LOD \u2245 1.4\u00d710-4 mol L-1 ; LOQ \u2245 4.5\u00d710-4 mol L-1.</jats:p>",
+  "prefix": "10.26850",
+  "author": [
+    {
+      "authenticated-orcid": false,
+      "given": "Matthieu",
+      "family": "Tubino",
+      "sequence": "first",
+      "affiliation": [],
+      "ORCID": "http://orcid.org/0000-0002-1987-3907"
+    },
+    {
+      "affiliation": [],
+      "given": "A. C.",
+      "family": "Biondo",
+      "sequence": "additional"
+    },
+    {
+      "authenticated-orcid": false,
+      "given": "Marta Maria Duarte Carvalho",
+      "family": "Vila",
+      "sequence": "additional",
+      "affiliation": [],
+      "ORCID": "http://orcid.org/0000-0002-0198-7076"
+    },
+    {
+      "authenticated-orcid": false,
+      "given": "Leonardo",
+      "family": "Pezza",
+      "sequence": "additional",
+      "affiliation": [],
+      "ORCID": "http://orcid.org/0000-0003-0197-7369"
+    },
+    {
+      "authenticated-orcid": false,
+      "given": "Helena Redigolo",
+      "family": "Pezza",
+      "sequence": "additional",
+      "affiliation": [],
+      "ORCID": "http://orcid.org/0000-0001-5564-1639"
+    }
+  ],
+  "reference-count": 0,
+  "ISSN": [
+    "1678-4618"
+  ],
+  "member": "11395",
+  "source": "Crossref",
+  "score": 1.0,
+  "deposited": {
+    "timestamp": 1540823529000,
+    "date-time": "2018-10-29T14:32:09Z",
+    "date-parts": [
+      [
+        2018,
+        10,
+        29
+      ]
+    ]
+  },
+  "indexed": {
+    "timestamp": 1540825815212,
+    "date-time": "2018-10-29T15:10:15Z",
+    "date-parts": [
+      [
+        2018,
+        10,
+        29
+      ]
+    ]
+  },
+  "type": "journal-article",
+  "published-online": {
+    "date-parts": [
+      [
+        2018,
+        1,
+        15
+      ]
+    ]
+  },
+  "URL": "http://dx.doi.org/10.26850/1678-4618eqj.v35.1.2010.p41-46",
+  "is-referenced-by-count": 0,
+  "volume": "35",
+  "issn-type": [
+    {
+      "type": "electronic",
+      "value": "1678-4618"
+    }
+  ],
+  "link": [
+    {
+      "URL": "http://revista.iq.unesp.br/ojs/index.php/ecletica/article/viewFile/191/149",
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "application/pdf"
+    },
+    {
+      "URL": "http://revista.iq.unesp.br/ojs/index.php/ecletica/article/viewFile/191/149",
+      "intended-application": "similarity-checking",
+      "content-version": "vor",
+      "content-type": "unspecified"
+    }
+  ],
+  "journal-issue": {
+    "issue": "1",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          15
+        ]
+      ]
+    }
+  },
+  "references-count": 0,
+  "short-container-title": [
+    "Eclet. Quim. J."
+  ],
+  "publisher": "Ecletica Quimica Journal",
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "license": [
+    {
+      "URL": "http://creativecommons.org/licenses/by/4.0",
+      "start": {
+        "timestamp": 1515974400000,
+        "date-time": "2018-01-15T00:00:00Z",
+        "date-parts": [
+          [
+            2018,
+            1,
+            15
+          ]
+        ]
+      },
+      "content-version": "unspecified",
+      "delay-in-days": 0
+    }
+  ],
+  "created": {
+    "timestamp": 1517590842000,
+    "date-time": "2018-02-02T17:00:42Z",
+    "date-parts": [
+      [
+        2018,
+        2,
+        2
+      ]
+    ]
+  },
+  "issue": "1",
+  "title": [
+    "Spot-test identification and rapid quantitative sequential analys is of dipyrone"
+  ],
+  "container-title": [
+    "Ecl\u00e9tica Qu\u00edmica Journal"
+  ],
+  %s
+  "page": "41-50"
+}

@@ -1,0 +1,11 @@
+Unpaywall field,Description,OAF Mapping,Comment
+doi,The DOI of this resource.,Result/pid,
+is_oa,Is there an OA copy of this resource.,N/A,Add a Result/Instance only if is_oa is true
+best_oa_location,The best OA Location Object we could find for this DOI.,,Create one Result/Instance with Open Access right
+best_oa_location.url,The url_for_pdf if there is one; otherwise landing page URL.,Result/instance/url,
+best_oa_location.license,The license under which this copy is published.,Result/instance/license,
+oa_status,"The OA status, or color, of this resource. Classifies OA resources by location and license terms as one of: gold, hybrid, bronze, green or closed.",N/A,New field to be introduced in the OpenAIRE data model
+published_date,"The date this resource was published. As reported by the publishers, who unfortunately have inconsistent definitions of what counts as officially ""published.""",N/A,"Not used in the mapping. Could be used to improve the coverage of dates, if needed."
+title,The title of this resource.,N/A,
+oa_locations,List of all the OA Location objects associated with this resource.,N/A,"Coud be useful if we plan to ""patch"" existing instances. If the instance URL is a URL of a oa_location, then it's Open. 
+"

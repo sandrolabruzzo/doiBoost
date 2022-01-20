@@ -1,0 +1,167 @@
+<workflow-app name="Generate DOIBoost ActionSet - PREPROCESS" xmlns="uri:oozie:workflow:0.5">
+    <parameters>
+        <property>
+            <name>sparkDriverMemory</name>
+            <description>memory for driver process</description>
+        </property>
+        <property>
+            <name>sparkExecutorMemory</name>
+            <description>memory for individual executor</description>
+        </property>
+        <property>
+            <name>sparkExecutorCores</name>
+            <description>number of cores used by single executor</description>
+        </property>
+
+        <!-- Crossref Parameters -->
+        <property>
+            <name>inputPathCrossref</name>
+            <description>the Crossref input path</description>
+        </property>
+        <property>
+            <name>crossrefDumpPath</name>
+            <description>the Crossref dump path</description>
+        </property>
+
+        <!--    MAG Parameters    -->
+        <property>
+            <name>MAGDumpPath</name>
+            <description>the MAG dump working path</description>
+        </property>
+
+        <property>
+            <name>inputPathMAG</name>
+            <description>the MAG working path</description>
+        </property>
+
+
+        <!--    ORCID Parameters    -->
+        <property>
+            <name>inputPathOrcid</name>
+            <description>the ORCID input path</description>
+        </property>
+
+        <property>
+            <name>workingPathOrcid</name>
+            <description>the ORCID working path</description>
+        </property>
+
+    </parameters>
+
+    <global>
+        <job-tracker>${jobTracker}</job-tracker>
+        <name-node>${nameNode}</name-node>
+        <configuration>
+            <property>
+                <name>oozie.action.sharelib.for.spark</name>
+                <value>${oozieActionShareLibForSpark2}</value>
+            </property>
+        </configuration>
+    </global>
+
+    <start to="resume_from"/>
+
+    <decision name="resume_from">
+        <switch>
+            <case to="ResetMagWorkingPath">${wf:conf('resumeFrom') eq 'ResetMagWorkingPath'}</case>
+            <case to="ConvertMagToDataset">${wf:conf('resumeFrom') eq 'ConvertMagToDataset'}</case>
+            <case to="PreProcessORCID">${wf:conf('resumeFrom') eq 'PreProcessORCID'}</case>
+            <default to="GenerateCrossrefDataset"/> <!-- first action to be done when downloadDump is to be performed -->
+        </switch>
+    </decision>
+
+    <kill name="Kill">
+        <message>Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+    </kill>
+
+
+    <action name="GenerateCrossrefDataset">
+        <spark xmlns="uri:oozie:spark-action:0.2">
+            <master>yarn-cluster</master>
+            <mode>cluster</mode>
+            <name>SparkGenerateCrossrefDataset</name>
+            <class>eu.dnetlib.doiboost.crossref.GenerateCrossrefDataset</class>
+            <jar>dhp-doiboost-${projectVersion}.jar</jar>
+            <spark-opts>
+                --executor-memory=7G
+                --executor-cores=2
+                --driver-memory=7G
+                --conf spark.sql.shuffle.partitions=3840
+                --conf spark.extraListeners=${spark2ExtraListeners}
+                --conf spark.sql.queryExecutionListeners=${spark2SqlQueryExecutionListeners}
+                --conf spark.yarn.historyServer.address=${spark2YarnHistoryServerAddress}
+                --conf spark.eventLog.dir=${nameNode}${spark2EventLogDir}
+            </spark-opts>
+            <arg>--master</arg><arg>yarn-cluster</arg>
+            <arg>--sourcePath</arg><arg>${crossrefDumpPath}/crossref_unpack/</arg>
+            <arg>--targetPath</arg><arg>${inputPathCrossref}/crossref_ds</arg>
+
+        </spark>
+        <ok to="ResetMagWorkingPath"/>
+        <error to="Kill"/>
+    </action>
+
+
+
+    <!-- MAG SECTION -->
+    <action name="ResetMagWorkingPath">
+        <fs>
+            <delete path="${inputPathMAG}/dataset"/>
+        </fs>
+        <ok to="ConvertMagToDataset"/>
+        <error to="Kill"/>
+    </action>
+
+    <action name="ConvertMagToDataset">
+        <spark xmlns="uri:oozie:spark-action:0.2">
+            <master>yarn-cluster</master>
+            <mode>cluster</mode>
+            <name>Convert Mag to Dataset</name>
+            <class>eu.dnetlib.doiboost.mag.SparkImportMagIntoDataset</class>
+            <jar>dhp-doiboost-${projectVersion}.jar</jar>
+            <spark-opts>
+                --executor-memory=${sparkExecutorMemory}
+                --executor-cores=${sparkExecutorCores}
+                --driver-memory=${sparkDriverMemory}
+                --conf spark.sql.shuffle.partitions=3840
+                --conf spark.extraListeners=${spark2ExtraListeners}
+                --conf spark.sql.queryExecutionListeners=${spark2SqlQueryExecutionListeners}
+                --conf spark.yarn.historyServer.address=${spark2YarnHistoryServerAddress}
+                --conf spark.eventLog.dir=${nameNode}${spark2EventLogDir}
+            </spark-opts>
+            <arg>--sourcePath</arg><arg>${MAGDumpPath}</arg>
+            <arg>--targetPath</arg><arg>${inputPathMAG}/dataset</arg>
+            <arg>--master</arg><arg>yarn-cluster</arg>
+        </spark>
+        <ok to="PreProcessORCID"/>
+        <error to="Kill"/>
+    </action>
+
+    <!--  ORCID  SECTION -->
+    <action name="PreProcessORCID">
+        <spark xmlns="uri:oozie:spark-action:0.2">
+            <master>yarn-cluster</master>
+            <mode>cluster</mode>
+            <name>Convert ORCID to Dataset</name>
+            <class>eu.dnetlib.doiboost.orcid.SparkPreprocessORCID</class>
+            <jar>dhp-doiboost-${projectVersion}.jar</jar>
+            <spark-opts>
+                --executor-memory=${sparkExecutorMemory}
+                --executor-cores=${sparkExecutorCores}
+                --driver-memory=${sparkDriverMemory}
+                --conf spark.sql.shuffle.partitions=3840
+                --conf spark.extraListeners=${spark2ExtraListeners}
+                --conf spark.sql.queryExecutionListeners=${spark2SqlQueryExecutionListeners}
+                --conf spark.yarn.historyServer.address=${spark2YarnHistoryServerAddress}
+                --conf spark.eventLog.dir=${nameNode}${spark2EventLogDir}
+            </spark-opts>
+            <arg>--sourcePath</arg><arg>${inputPathOrcid}</arg>
+            <arg>--workingPath</arg><arg>${workingPathOrcid}</arg>
+            <arg>--master</arg><arg>yarn-cluster</arg>
+        </spark>
+        <ok to="End"/>
+        <error to="Kill"/>
+    </action>
+
+    <end name="End"/>
+</workflow-app>

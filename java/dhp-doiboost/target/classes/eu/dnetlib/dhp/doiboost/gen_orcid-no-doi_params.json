@@ -1,0 +1,6 @@
+[
+ {"paramName":"n",   "paramLongName":"hdfsServerUri",	"paramDescription": "the server uri",   "paramRequired": true},
+ {"paramName":"w",   "paramLongName":"workingPath",	"paramDescription": "the default work path",	"paramRequired": true},
+ {"paramName":"i",   "paramLongName":"orcidDataFolder",	"paramDescription": "the folder of orcid data",	"paramRequired": true},
+ {"paramName":"oew",   "paramLongName":"outputEnrichedWorksPath",	"paramDescription": "the relative folder of the sequencial file to write the data",	"paramRequired": true}
+]

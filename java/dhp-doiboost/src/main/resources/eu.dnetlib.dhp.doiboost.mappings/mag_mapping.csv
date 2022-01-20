@@ -1,0 +1,37 @@
+Micorsoft Academic Graph Field,OAF field,Comments
+Papers/DOI,OafEntity/originalId,
+,OafEntity/PID,
+,Oaf/id in the form 50|doiboost____::md5(DOI),
+Papers/PaperId,OafEntity/originalId,
+Papers/PaperTitle,"Result/Title with Qualifier(""main title"", ""dnet:dataCite_title"")",
+Papers/OriginalTitle,"Result/Title with Qualifier(""alternative title"", ""dnet:dataCite_title"")",
+Papers/BookTitle,Publication/Source,
+Papers/Year,N/A,
+Papers/Date,Result/dateofacceptance,
+Papers/Publisher,Result/Publisher,Possibly overridden by Journal/Publisher
+Papers/JournalId,N/A,
+Journal/Rank,N/A,
+Journal/NormalizedName,N/A,
+Journal/DisplayName,Publication/Journal/Name,
+Journal/Issn,Publication/Journal/issnPrinted,
+Journal/Publisher,Result/publisher,"If avalable, it overrides value in Papers/Publisher"
+Journal/Webpage,N/A,
+Journal/PaperCount,N/A,
+Journal/CitationCount,N/A,
+Journal/CreatedDate,N/A,
+ConferenceInstances/DisplayName,Publication/Journal/Name,
+ConferenceInstances/Location,Publication/Journal/Conferenceplace,
+ConferenceInstances/StartDate,Publication/Journal/Conferencedate,subjectTo be constructed as StartDate - EndDate (only the first 10 chars ofthe dates are kept)
+ConferenceInstances/EndDate,Publication/Journal/Conferencedate,To be constructed as StartDate - EndDate (only the first 10 chars ofthe dates are kept)
+Papers/Volume,Publication/Journal/vol,
+Papers/Issue,Publication/Journal/iss,
+Papers/FirstPage,Publication/Journal/sp,
+Papers/LastPage,Publication/Journal/ep,
+Papers/ReferenceCount,N/A,
+Papers/CitationCount,N/A,
+Papers/EstimatedCitation,N/A,
+Papers/OriginalVenue,N/A,
+Papers/FamilyId,N/A,
+Papers/CreatedDate,Result/LastUpdateTimeStamp,
+Papers/FieldOfStudy/DisplayName,"Result/subject with Qualifier(""keyword"", ""dnet:subject_classification_typologies"")",Some FieldOfStudy come from the UMLS controlled vocabulary. Future releases of DOIBoost will include such terms with a specific Qualifier (i.e. not as generic keywords)
+Papers/FieldOfStudy/MainType,"Result/subject with Qualifier(""keyword"", ""dnet:subject_classification_typologies"")","If MainType is splittable on . (like 'food.type_of_dish', 'aviation.airport', 'soccer.team'), then the first token (i.e. food, aviation, soccer) is also added as additional subject."

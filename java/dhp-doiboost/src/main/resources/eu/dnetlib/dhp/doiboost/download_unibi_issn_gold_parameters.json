@@ -1,0 +1,39 @@
+[
+
+  {
+    "paramName": "fu",
+    "paramLongName" : "fileURL",
+    "paramDescription" : "the url of the file to download",
+    "paramRequired" : true
+  },
+  {
+    "paramName": "hp",
+    "paramLongName" : "hdfsPath",
+    "paramDescription" : "where to save the file",
+    "paramRequired" : true
+  },
+  {
+    "paramName": "hnn",
+    "paramLongName" : "hdfsNameNode",
+    "paramDescription" : "the name node",
+    "paramRequired" : true
+  },
+  {
+  "paramName": "cfn",
+  "paramLongName" : "classForName",
+  "paramDescription" : "the name of the class to deserialize the csv to",
+  "paramRequired" : true
+}, {
+  "paramName": "sn",
+  "paramLongName" : "sheetName",
+  "paramDescription" : "the name of the sheet in case the file is excel",
+  "paramRequired" : false
+}, {
+  "paramName": "d",
+  "paramLongName" : "delimiter",
+  "paramDescription" : "the delimiter between fields in case it is not ;",
+  "paramRequired" : false
+}
+
+
+]

@@ -1,0 +1,108 @@
+{
+  "title":"My Title",
+  "authors":[
+    {
+      "given":"Marco",
+      "family":"Rossi",
+      "fullname":"Marco Rossi",
+      "identifiers":[
+        {
+          "schema":"ORCID",
+          "value":"https://..../0000-0002-3337-2025",
+          "provenance":"ORCID"
+        },
+        {
+          "schema":"URL",
+          "value":"https://.../1278293695",
+          "provenance":"MAG"
+        }
+      ],
+      "affiliations":[
+        {
+          "value":"My Affiliation Name",
+          "official-page":"www.affiliation.org",
+          "identifiers":[
+            {
+              "schema":"grid.ac",
+              "value":"https://.../grid.12345.a"
+            },
+            {
+              "schema":"microsoftID",
+              "value":"https://.../4213412341"
+            },
+            {
+              "schema":"wikipedia",
+              "value":"https:///wiki/my_affiliation"
+            }
+          ],
+          "provenance":"MAG"
+        }
+      ]
+    },
+    {
+      "given":"Giuseppe",
+      "family":"Trovato",
+      "fullname":"Giuseppe Trovato",
+      "identifiers":[
+
+      ],
+      "affiliations":[
+
+      ]
+    }
+  ],
+  "issued":"2016-07-01",
+  "abstract":[
+    {
+      "value":"Abstract Text",
+      "provenance":"MAG"
+    },
+    {
+      "value":"Abstract Text",
+      "provenance":"CrossRef"
+    }
+  ],
+  "subject":[
+    "Agronomy and Crop Science",
+    "Forestry"
+  ],
+  "type":"journal-article",
+  "license":[
+    {
+      "url":"http://www.elsevier.com/tdm/userlicense/1.0/",
+      "date-time":"2011-07-01T00:00:00Z",
+      "content-version":"tdm",
+      "delay-in-days":0
+    }
+  ],
+  "instances":[
+    {
+      "url":"http://unkonwonInstance.org",
+      "access-rights":"UNKNOWN",
+      "provenance":"CrossRef"
+    },
+    {
+      "url":"http://openAccessInstance.org",
+      "access-rights":"OPEN",
+      "provenance":"Unpaywall"
+    }
+  ],
+  "published-online":"2016-08-01",
+  "published-print":"2016-07-01",
+  "accepted":"2016-01-01",
+  "publisher":"Publisher Name",
+  "doi":"10.1016/j.ffhfhgfhf",
+  "doi-url":"http://dx.doi.org/10.1016/j.ffhfhgfhf",
+  "issn":[
+    {
+      "type":"print",
+      "value":"01234-5678"
+    }
+  ],
+  "collected-from":[
+    "CrossRef",
+    "MAG",
+    "Unpaywall",
+    "ORCID"
+  ]
+}

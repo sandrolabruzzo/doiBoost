@@ -1,0 +1,146 @@
+{
+  "DOI": "10.1101/030080",
+  "issued": {
+    "date-parts": [
+      [
+        2015,
+        10,
+        28
+      ]
+    ]
+  },
+  "abstract": "<jats:p>Abstract Key Message<jats:italic>Agrobacterium tumefaciens</jats:italic>was used to transform radiata pine shoots and to efficiently produce stable genetically modified pine plants. Abstract Micropropagated shoot explants from<jats:italic>Pinus radiata</jats:italic>D. Don were used to produce stable transgenic plants by<jats:italic>Agrobacterium tumefaciens</jats:italic>mediated transformation. Using this method any genotype that can be micropropagated could produce stable transgenic lines. As over 80% of<jats:italic>P. radiata</jats:italic>genotypes tested can be micropropagated, this effectively means that any line chosen for superior characteristics could be transformed. There are well established protocols for progressing such germplasm to field deployment. Here we used open and control pollinated seed lines and embryogenic clones. The method developed was faster than other methods previously developed using mature cotyledons. PCR positive shoots could be obtain within 6 months of<jats:italic>Agrobacterium</jats:italic>cocultivation compared with 12 months for cotyledon methods. Transformed shoots were obtained using either kanamycin or geneticin as the selectable marker gene. Shoots were recovered from selection, were tested and were not chimeric, indicating that the selection pressure was optimal for this explant type. GFP was used as a vital marker, and the bar gene, (for resistance to the herbicide Buster\\u00ae/Basta\\u00ae) was used to produce lines that could potentially be used in commercial application. As expected, a range of expression phenotypes were identified for both these reporter genes and the analyses for expression were relatively easy.</jats:p>",
+  "prefix": "10.1101",
+  "author": [
+    {
+      "affiliation": [],
+      "given": "Jan E",
+      "family": "Grant",
+      "sequence": "first"
+    },
+    {
+      "affiliation": [],
+      "given": "Pauline A",
+      "family": "Cooper",
+      "sequence": "additional"
+    },
+    {
+      "affiliation": [],
+      "given": "Tracy M",
+      "family": "Dale",
+      "sequence": "additional"
+    }
+  ],
+  "reference-count": 0,
+  "member": "246",
+  "source": "Crossref",
+  "score": 1.0,
+  "deposited": {
+    "timestamp": 1483495053000,
+    "date-time": "2017-01-04T01:57:33Z",
+    "date-parts": [
+      [
+        2017,
+        1,
+        4
+      ]
+    ]
+  },
+  "indexed": {
+    "timestamp": 1550234353119,
+    "date-time": "2019-02-15T12:39:13Z",
+    "date-parts": [
+      [
+        2019,
+        2,
+        15
+      ]
+    ]
+  },
+  "type": "posted-content",
+  "URL": "http://dx.doi.org/10.1101/030080",
+  "is-referenced-by-count": 2,
+  "link": [
+    {
+      "URL": "https://syndication.highwire.org/content/doi/10.1101/030080",
+      "intended-application": "similarity-checking",
+      "content-version": "vor",
+      "content-type": "unspecified"
+    }
+  ],
+  "accepted": {
+    "date-parts": [
+      [
+        2015,
+        10,
+        28
+      ]
+    ]
+  },
+  "references-count": 0,
+  "institution": {
+    "acronym": [
+      "-"
+    ],
+    "place": [
+      "-"
+    ],
+    "name": "bioRxiv"
+  },
+  "posted": {
+    "date-parts": [
+      [
+        2015,
+        10,
+        28
+      ]
+    ]
+  },
+  "publisher": "Cold Spring Harbor Laboratory",
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "created": {
+    "timestamp": 1446095513000,
+    "date-time": "2015-10-29T05:11:53Z",
+    "date-parts": [
+      [
+        2015,
+        10,
+        29
+      ]
+    ]
+  },
+  "published-print": {
+    "timestamp": 1446095513000,
+    "date-time": "2015-10-29T05:11:53Z",
+    "date-parts": [
+      [
+        2015,
+        2,
+        29
+      ]
+    ]
+  },
+  "published-online": {
+        "date-parts": [
+      [
+        2015,
+        2,
+        2
+      ]
+    ]
+  },
+  "title": [
+    "Genetic transformation of micropropagated shoots ofPinus radiataD.Don"
+  ],
+  "original-title": [
+    "OR TITLE"
+  ],
+  "short-title": [
+    "SHORT TITLE"
+  ],
+  "group-title": "Plant Biology",
+  "subtype": "preprint"
+}

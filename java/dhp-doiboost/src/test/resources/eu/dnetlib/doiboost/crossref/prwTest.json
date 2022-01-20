@@ -1,0 +1,1029 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2020,
+        5,
+        5
+      ]
+    ],
+    "date-time": "2020-05-05T11:24:12Z",
+    "timestamp": 1588677852676
+  },
+  "reference-count": 59,
+  "publisher": "eLife Sciences Publications, Ltd",
+  "license": [
+    {
+      "URL": "http:\/\/creativecommons.org\/licenses\/by\/3.0\/",
+      "start": {
+        "date-parts": [
+          [
+            2014,
+            3,
+            18
+          ]
+        ],
+        "date-time": "2014-03-18T00:00:00Z",
+        "timestamp": 1395100800000
+      },
+      "delay-in-days": 0,
+      "content-version": "vor"
+    },
+    {
+      "URL": "http:\/\/creativecommons.org\/licenses\/by\/3.0\/",
+      "start": {
+        "date-parts": [
+          [
+            2014,
+            3,
+            18
+          ]
+        ],
+        "date-time": "2014-03-18T00:00:00Z",
+        "timestamp": 1395100800000
+      },
+      "delay-in-days": 0,
+      "content-version": "am"
+    },
+    {
+      "URL": "http:\/\/creativecommons.org\/licenses\/by\/3.0\/",
+      "start": {
+        "date-parts": [
+          [
+            2014,
+            3,
+            18
+          ]
+        ],
+        "date-time": "2014-03-18T00:00:00Z",
+        "timestamp": 1395100800000
+      },
+      "delay-in-days": 0,
+      "content-version": "tdm"
+    },
+    {
+      "URL": "http:\/\/creativecommons.org\/licenses\/by\/3.0\/",
+      "start": {
+        "date-parts": [
+          [
+            2014,
+            3,
+            18
+          ]
+        ],
+        "date-time": "2014-03-18T00:00:00Z",
+        "timestamp": 1395100800000
+      },
+      "delay-in-days": 0,
+      "content-version": "vor"
+    },
+    {
+      "URL": "http:\/\/creativecommons.org\/licenses\/by\/3.0\/",
+      "start": {
+        "date-parts": [
+          [
+            2014,
+            3,
+            18
+          ]
+        ],
+        "date-time": "2014-03-18T00:00:00Z",
+        "timestamp": 1395100800000
+      },
+      "delay-in-days": 0,
+      "content-version": "am"
+    },
+    {
+      "URL": "http:\/\/creativecommons.org\/licenses\/by\/3.0\/",
+      "start": {
+        "date-parts": [
+          [
+            2014,
+            3,
+            18
+          ]
+        ],
+        "date-time": "2014-03-18T00:00:00Z",
+        "timestamp": 1395100800000
+      },
+      "delay-in-days": 0,
+      "content-version": "tdm"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039\/100000002",
+      "name": "National Institutes of Health",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "GM56169",
+        "AG39420",
+        "T32 GM007276"
+      ]
+    },
+    {
+      "DOI": "10.13039\/100000968",
+      "name": "American Heart Association",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "Postdoctoral Fellowship"
+      ]
+    },
+    {
+      "DOI": "10.13039\/501100000024",
+      "name": "Canadian Institutes of Health Research",
+      "doi-asserted-by": "crossref",
+      "award": [
+        "Postdoctoral Fellowship"
+      ]
+    },
+    {
+      "DOI": "10.13039\/100000002",
+      "name": "National Institutes of Health",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "GM56169",
+        "AG39420",
+        "T32 GM007276"
+      ]
+    },
+    {
+      "DOI": "10.13039\/100000968",
+      "name": "American Heart Association",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "Postdoctoral Fellowship"
+      ]
+    },
+    {
+      "DOI": "10.13039\/501100000024",
+      "name": "Canadian Institutes of Health Research",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "Postdoctoral Fellowship"
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "www.elifesciences.org"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "abstract": "<jats:p>Glycogen synthase kinase-3 (GSK-3) is a key regulator of many cellular signaling pathways. Unlike most kinases, GSK-3 is controlled by inhibition rather than by specific activation. In the insulin and several other signaling pathways, phosphorylation of a serine present in a conserved sequence near the amino terminus of GSK-3 generates an auto-inhibitory peptide. In contrast, Wnt\/\u03b2-catenin signal transduction requires phosphorylation of Ser\/Pro rich sequences present in the Wnt co-receptors LRP5\/6, and these motifs inhibit GSK-3 activity. We present crystal structures of GSK-3 bound to its phosphorylated N-terminus and to two of the phosphorylated LRP6 motifs. A conserved loop unique to GSK-3 undergoes a dramatic conformational change that clamps the bound pseudo-substrate peptides, and reveals the mechanism of primed substrate recognition. The structures rationalize target sequence preferences and suggest avenues for the design of inhibitors selective for a subset of pathways regulated by GSK-3.<\/jats:p>",
+  "DOI": "10.7554\/elife.01998",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2014,
+        3,
+        18
+      ]
+    ],
+    "date-time": "2014-03-18T15:23:32Z",
+    "timestamp": 1395156212000
+  },
+  "source": "Crossref",
+  "is-referenced-by-count": 56,
+  "title": [
+    "Structural basis of GSK-3 inhibition by N-terminal phosphorylation and by the Wnt receptor LRP6"
+  ],
+  "prefix": "10.7554",
+  "volume": "3",
+  "author": [
+    {
+      "given": "Jennifer L",
+      "family": "Stamos",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Structural Biology, Stanford University, Stanford, United States"
+        },
+        {
+          "name": "Department of Molecular and Cellular Physiology, Stanford University, Stanford, United States"
+        }
+      ]
+    },
+    {
+      "given": "Matthew Ling-Hon",
+      "family": "Chu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Structural Biology, Stanford University, Stanford, United States"
+        },
+        {
+          "name": "Department of Molecular and Cellular Physiology, Stanford University, Stanford, United States"
+        }
+      ]
+    },
+    {
+      "given": "Michael D",
+      "family": "Enos",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Structural Biology, Stanford University, Stanford, United States"
+        },
+        {
+          "name": "Department of Molecular and Cellular Physiology, Stanford University, Stanford, United States"
+        }
+      ]
+    },
+    {
+      "given": "Niket",
+      "family": "Shah",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Structural Biology, Stanford University, Stanford, United States"
+        },
+        {
+          "name": "Department of Molecular and Cellular Physiology, Stanford University, Stanford, United States"
+        }
+      ]
+    },
+    {
+      "given": "William I",
+      "family": "Weis",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Structural Biology, Stanford University, Stanford, United States"
+        },
+        {
+          "name": "Department of Molecular and Cellular Physiology, Stanford University, Stanford, United States"
+        }
+      ]
+    }
+  ],
+  "member": "4374",
+  "published-online": {
+    "date-parts": [
+      [
+        2014,
+        3,
+        18
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "bib1",
+      "doi-asserted-by": "publisher",
+      "first-page": "213",
+      "DOI": "10.1107\/S0907444909052925",
+      "article-title": "PHENIX: a comprehensive Python-based system for macromolecular structure solution",
+      "volume": "66",
+      "author": "Adams",
+      "year": "2010",
+      "journal-title": "Acta Crystallographica Section D Biological Crystallography"
+    },
+    {
+      "key": "bib2",
+      "doi-asserted-by": "publisher",
+      "first-page": "2527",
+      "DOI": "10.1021\/cr000110o",
+      "article-title": "Glycogen synthase kinase-3: properties, functions, and regulation",
+      "volume": "101",
+      "author": "Ali",
+      "year": "2001",
+      "journal-title": "Chemical Reviews"
+    },
+    {
+      "key": "bib3",
+      "doi-asserted-by": "publisher",
+      "first-page": "2264",
+      "DOI": "10.2174\/138161211797052484",
+      "article-title": "The possible involvement of glycogen synthase kinase-3 (GSK-3) in diabetes, cancer and central nervous system diseases",
+      "volume": "17",
+      "author": "Amar",
+      "year": "2011",
+      "journal-title": "Current Pharmaceutical Design"
+    },
+    {
+      "key": "bib4",
+      "doi-asserted-by": "publisher",
+      "first-page": "1143",
+      "DOI": "10.1016\/S0969-2126(01)00679-7",
+      "article-title": "The structure of phosphorylated GSK-3beta complexed with a peptide, FRATtide, that inhibits beta-catenin phosphorylation",
+      "volume": "9",
+      "author": "Bax",
+      "year": "2001",
+      "journal-title": "Structure"
+    },
+    {
+      "key": "bib5",
+      "doi-asserted-by": "publisher",
+      "first-page": "393",
+      "DOI": "10.1016\/j.jmb.2003.08.031",
+      "article-title": "Structural characterization of the GSK-3beta active site using selective and non-selective ATP-mimetic inhibitors",
+      "volume": "333",
+      "author": "Bertrand",
+      "year": "2003",
+      "journal-title": "Journal of Molecular Biology"
+    },
+    {
+      "key": "bib6",
+      "doi-asserted-by": "publisher",
+      "first-page": "1619",
+      "DOI": "10.1126\/science.1137065",
+      "article-title": "Wnt induces LRP6 signalosomes and promotes dishevelled-dependent LRP6 phosphorylation",
+      "volume": "316",
+      "author": "Bilic",
+      "year": "2007",
+      "journal-title": "Science"
+    },
+    {
+      "key": "bib7",
+      "doi-asserted-by": "publisher",
+      "first-page": "438",
+      "DOI": "10.1038\/15674",
+      "article-title": "The structural basis for specificity of substrate and recruitment peptides for cyclin-dependent kinases",
+      "volume": "1",
+      "author": "Brown",
+      "year": "1999",
+      "journal-title": "Nature Cell Biology"
+    },
+    {
+      "key": "bib8",
+      "doi-asserted-by": "publisher",
+      "first-page": "179",
+      "DOI": "10.1128\/MCB.00550-10",
+      "article-title": "Mitogen-activated protein kinases promote WNT\/\u03b2-catenin signaling via phosphorylation of LRP6",
+      "volume": "31",
+      "author": "Cervenka",
+      "year": "2011",
+      "journal-title": "Molecular and Cellular Biology"
+    },
+    {
+      "key": "bib9",
+      "doi-asserted-by": "publisher",
+      "first-page": "35040",
+      "DOI": "10.1074\/jbc.M109.047456",
+      "article-title": "G Protein-coupled receptor kinases phosphorylate LRP6 in the Wnt pathway",
+      "volume": "284",
+      "author": "Chen",
+      "year": "2009",
+      "journal-title": "The Journal of Biological Chemistry"
+    },
+    {
+      "key": "bib10",
+      "doi-asserted-by": "publisher",
+      "first-page": "12",
+      "DOI": "10.1107\/S0907444909042073",
+      "article-title": "MolProbity: all-atom structure validation for macromolecular crystallography",
+      "volume": "66",
+      "author": "Chen",
+      "year": "2010",
+      "journal-title": "Acta Crystallographica Section D Biological Crystallography"
+    },
+    {
+      "key": "bib11",
+      "doi-asserted-by": "publisher",
+      "first-page": "1188",
+      "DOI": "10.1101\/gr.849004",
+      "article-title": "WebLogo: a sequence logo generator",
+      "volume": "14",
+      "author": "Crooks",
+      "year": "2004",
+      "journal-title": "Genome Research"
+    },
+    {
+      "key": "bib12",
+      "doi-asserted-by": "publisher",
+      "first-page": "785",
+      "DOI": "10.1038\/378785a0",
+      "article-title": "Inhibition of glycogen synthase kinase-3 by insulin mediated by protein kinase B",
+      "volume": "378",
+      "author": "Cross",
+      "year": "1995",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "bib13",
+      "doi-asserted-by": "publisher",
+      "first-page": "494",
+      "DOI": "10.1093\/emboj\/cdg068",
+      "article-title": "Structural basis for recruitment of glycogen synthase kinase 3beta to the axin-APC scaffold complex",
+      "volume": "22",
+      "author": "Dajani",
+      "year": "2003",
+      "journal-title": "The EMBO Journal"
+    },
+    {
+      "key": "bib14",
+      "doi-asserted-by": "publisher",
+      "first-page": "721",
+      "DOI": "10.1016\/S0092-8674(01)00374-9",
+      "article-title": "Crystal structure of glycogen synthase kinase 3 beta: structural basis for phosphate-primed substrate specificity and autoinhibition",
+      "volume": "105",
+      "author": "Dajani",
+      "year": "2001",
+      "journal-title": "Cell"
+    },
+    {
+      "key": "bib15",
+      "doi-asserted-by": "publisher",
+      "first-page": "867",
+      "DOI": "10.1038\/nature04170",
+      "article-title": "Casein kinase 1 gamma couples Wnt receptor activation to cytoplasmic signal transduction",
+      "volume": "438",
+      "author": "Davidson",
+      "year": "2005",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "bib16",
+      "doi-asserted-by": "publisher",
+      "first-page": "4395",
+      "DOI": "10.1111\/j.1742-4658.2009.07147.x",
+      "article-title": "Structural recognition of an optimized substrate for the ephrin family of receptor tyrosine kinaes",
+      "volume": "276",
+      "author": "Davis",
+      "year": "2009",
+      "journal-title": "The FEBS Journal"
+    },
+    {
+      "key": "bib17",
+      "doi-asserted-by": "publisher",
+      "first-page": "32475",
+      "DOI": "10.1074\/jbc.M005342200",
+      "article-title": "Differential regulation of glycogen synthase kinase 3beta by insulin and Wnt signaling",
+      "volume": "275",
+      "author": "Ding",
+      "year": "2000",
+      "journal-title": "The Journal of Biological Chemistry"
+    },
+    {
+      "key": "bib18",
+      "doi-asserted-by": "publisher",
+      "first-page": "957",
+      "DOI": "10.1016\/j.devcel.2007.04.001",
+      "article-title": "Functional redundancy of GSK-3alpha and GSK-3beta in Wnt\/beta-catenin signaling shown by using an allelic series of embryonic stem cell lines",
+      "volume": "12",
+      "author": "Doble",
+      "year": "2007",
+      "journal-title": "Developmental Cell"
+    },
+    {
+      "key": "bib19",
+      "doi-asserted-by": "publisher",
+      "first-page": "2126",
+      "DOI": "10.1107\/S0907444904019158",
+      "article-title": "Coot: model-building tools for molecular graphics",
+      "volume": "60",
+      "author": "Emsley",
+      "year": "2004",
+      "journal-title": "Acta Crystallographica Section D Biological Crystallography"
+    },
+    {
+      "key": "bib20",
+      "doi-asserted-by": "publisher",
+      "first-page": "1204",
+      "DOI": "10.1107\/S0907444913000061",
+      "article-title": "How good are my data and what is the resolution?",
+      "volume": "69",
+      "author": "Evans",
+      "year": "2013",
+      "journal-title": "Acta Crystallographica Section D Biological Crystallography"
+    },
+    {
+      "key": "bib21",
+      "first-page": "14042",
+      "article-title": "Formation of protein kinase recognition sites by covalent modification of the substrate. Molecular mechanism for the synergistic action of casein kinase II and glycogen synthase kinase 3",
+      "volume": "262",
+      "author": "Fiol",
+      "year": "1987",
+      "journal-title": "The Journal of Biological Chemistry"
+    },
+    {
+      "key": "bib22",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1042\/0264-6021:3590001",
+      "article-title": "GSK3 takes centre stage more than 20 years after its discovery",
+      "volume": "359",
+      "author": "Frame",
+      "year": "2001",
+      "journal-title": "Biochemical Journal"
+    },
+    {
+      "key": "bib23",
+      "doi-asserted-by": "publisher",
+      "first-page": "1321",
+      "DOI": "10.1016\/j.febslet.2006.06.035",
+      "article-title": "A common phosphate binding site explains the unique substrate specificity of GSK3 and its inactivation by phosphorylation",
+      "volume": "7",
+      "author": "Frame",
+      "year": "2001",
+      "journal-title": "Molecular Cell"
+    },
+    {
+      "key": "bib24",
+      "doi-asserted-by": "publisher",
+      "first-page": "5572",
+      "DOI": "10.1093\/emboj\/16.18.5572",
+      "article-title": "Crystal structure of the activated insulin receptor tyrosine kinase in complex with peptide substrate and ATP analog",
+      "volume": "16",
+      "author": "Hubbard",
+      "year": "1997",
+      "journal-title": "The EMBO Journal"
+    },
+    {
+      "key": "bib25",
+      "doi-asserted-by": "publisher",
+      "first-page": "30621",
+      "DOI": "10.1074\/jbc.M604633200",
+      "article-title": "Identification of novel glycogen synthase kinase-3beta substrate-interacting residues suggests a common mechanism for substrate recognition",
+      "volume": "281",
+      "author": "Ilouz",
+      "year": "2006",
+      "journal-title": "The Journal of Biological Chemistry"
+    },
+    {
+      "key": "bib26",
+      "doi-asserted-by": "publisher",
+      "first-page": "95",
+      "DOI": "10.1016\/j.tibs.2003.12.004",
+      "article-title": "The glamour and gloom of glycogen synthase kinase-3",
+      "volume": "29",
+      "author": "Jope",
+      "year": "2004",
+      "journal-title": "Trends in Biochemical Sciences"
+    },
+    {
+      "key": "bib27",
+      "doi-asserted-by": "publisher",
+      "first-page": "9",
+      "DOI": "10.1016\/j.molcel.2011.03.004",
+      "article-title": "Catalytic control in the EGF receptor and its connection to general kinase regulatory mechanisms",
+      "volume": "42",
+      "author": "Jura",
+      "year": "2011",
+      "journal-title": "Molecular Cell"
+    },
+    {
+      "key": "bib28",
+      "doi-asserted-by": "publisher",
+      "first-page": "125",
+      "DOI": "10.1107\/S0907444909047337",
+      "article-title": "Xds",
+      "volume": "66",
+      "author": "Kabsch",
+      "year": "2010",
+      "journal-title": "Acta Crystallographica Section D Biological Crystallography"
+    },
+    {
+      "key": "bib29",
+      "doi-asserted-by": "publisher",
+      "first-page": "35",
+      "DOI": "10.1186\/1756-6606-2-35",
+      "article-title": "Abnormalities in brain structure and behavior in GSK-3alpha mutant mice",
+      "volume": "2",
+      "author": "Kaidanovich-Beilin",
+      "year": "2009",
+      "journal-title": "Molecular Brain"
+    },
+    {
+      "key": "bib30",
+      "doi-asserted-by": "publisher",
+      "first-page": "40",
+      "DOI": "10.3389\/fnmol.2011.00040",
+      "article-title": "GSK-3: functional insights from cell biology and animal models",
+      "volume": "4",
+      "author": "Kaidanovich-Beilin",
+      "year": "2011",
+      "journal-title": "Frontiers in Molecular Neuroscience"
+    },
+    {
+      "key": "bib31",
+      "doi-asserted-by": "publisher",
+      "first-page": "735",
+      "DOI": "10.1016\/j.bbrc.2013.03.103",
+      "article-title": "Development of Akt-activated GSK3beta inhibitory peptide",
+      "volume": "434",
+      "author": "Kim",
+      "year": "2013a",
+      "journal-title": "Biochemical and Biophysical Research"
+    },
+    {
+      "key": "bib32",
+      "doi-asserted-by": "publisher",
+      "first-page": "867",
+      "DOI": "10.1126\/science.1232389",
+      "article-title": "Wnt stabilization of beta-catenin reveals principles for morphogen receptor-scaffold assemblies",
+      "volume": "340",
+      "author": "Kim",
+      "year": "2013b",
+      "journal-title": "Science"
+    },
+    {
+      "key": "bib33",
+      "doi-asserted-by": "publisher",
+      "first-page": "3359",
+      "DOI": "10.1016\/j.bmcl.2008.04.034",
+      "article-title": "Synthesis and structure based optimization of novel Akt inhibitors",
+      "volume": "18",
+      "author": "Lippa",
+      "year": "2008",
+      "journal-title": "Bioorganic & Medicinal Chemistry Letters"
+    },
+    {
+      "key": "bib34",
+      "doi-asserted-by": "publisher",
+      "first-page": "627",
+      "DOI": "10.1016\/j.molcel.2006.10.009",
+      "article-title": "A chaperone-dependent GSK3beta transitional intermediate mediates activation-loop autophosphorylation",
+      "volume": "24",
+      "author": "Lochhead",
+      "year": "2006",
+      "journal-title": "Molecular Cell"
+    },
+    {
+      "key": "bib35",
+      "doi-asserted-by": "publisher",
+      "first-page": "3171",
+      "DOI": "10.1096\/fj.09-143743",
+      "article-title": "New potent dual inhibitors of CK2 and Pim kinases: discovery and structural insights",
+      "volume": "24",
+      "author": "Lopez-Ramos",
+      "year": "2010",
+      "journal-title": "The FASEB Journal"
+    },
+    {
+      "key": "bib36",
+      "doi-asserted-by": "publisher",
+      "first-page": "6646",
+      "DOI": "10.1093\/emboj\/16.22.6646",
+      "article-title": "The crystal structure of a phosphorylase kinase peptide substrate complex: kinase substrate recognition",
+      "volume": "16",
+      "author": "Lowe",
+      "year": "1997",
+      "journal-title": "The EMBO Journal"
+    },
+    {
+      "key": "bib37",
+      "doi-asserted-by": "publisher",
+      "first-page": "a007880",
+      "DOI": "10.1101\/cshperspect.a007880",
+      "article-title": "Frizzled and LRP5\/6 receptors for Wnt\/beta-catenin signaling",
+      "volume": "4",
+      "author": "MacDonald",
+      "year": "2012",
+      "journal-title": "Cold Spring Harbour Perspectives in Biology"
+    },
+    {
+      "key": "bib38",
+      "doi-asserted-by": "publisher",
+      "first-page": "16115",
+      "DOI": "10.1074\/jbc.M800327200",
+      "article-title": "Wnt signal amplification via activity, cooperativity, and regulation of multiple intracellular PPPSP motifs in the Wnt co-receptor LRP6",
+      "volume": "283",
+      "author": "MacDonald",
+      "year": "2008",
+      "journal-title": "The Journal of Biological Chemistry"
+    },
+    {
+      "key": "bib39",
+      "doi-asserted-by": "publisher",
+      "first-page": "273",
+      "DOI": "10.1038\/nsb780",
+      "article-title": "Crystal structure of a transition state mimic of the catalytic subunit of cAMP-dependent protein kinase",
+      "volume": "9",
+      "author": "Madhusudan",
+      "year": "2002",
+      "journal-title": "Nature Structural Biology"
+    },
+    {
+      "key": "bib40",
+      "doi-asserted-by": "publisher",
+      "first-page": "176",
+      "DOI": "10.1002\/pro.5560030203",
+      "article-title": "cAMP-dependent protein kinase: crystallographic insights into substrate recognition and phosphotransfer",
+      "volume": "3",
+      "author": "Madhusudan",
+      "year": "1994",
+      "journal-title": "Protein Science"
+    },
+    {
+      "key": "bib41",
+      "doi-asserted-by": "publisher",
+      "first-page": "821",
+      "DOI": "10.1038\/nchembio.452",
+      "article-title": "Dynamics connect substrate recognition to catalysis in protein kinase A",
+      "volume": "6",
+      "author": "Masterson",
+      "year": "2010",
+      "journal-title": "Nature Chemical Biology"
+    },
+    {
+      "key": "bib42",
+      "doi-asserted-by": "publisher",
+      "first-page": "6969",
+      "DOI": "10.1073\/pnas.1102701108",
+      "article-title": "Dynamically committed, uncommitted, and quenched states encoded in protein kinase A revealed by NMR spectroscopy",
+      "volume": "108",
+      "author": "Masterson",
+      "year": "2011",
+      "journal-title": "Proceedings of the National Academy of Sciences of the United States of America"
+    },
+    {
+      "key": "bib43",
+      "doi-asserted-by": "publisher",
+      "first-page": "1571",
+      "DOI": "10.1038\/sj.emboj.7600633",
+      "article-title": "Role that phosphorylation of GSK3 plays in insulin and Wnt signalling defined by knockin analysis",
+      "volume": "24",
+      "author": "McManus",
+      "year": "2005",
+      "journal-title": "The EMBO Journal"
+    },
+    {
+      "key": "bib44",
+      "first-page": "533",
+      "article-title": "Glycogen synthase kinase-3 (GSK-3) inhibitors reach the clinic",
+      "volume": "11",
+      "author": "Medina",
+      "year": "2008",
+      "journal-title": "Current Opinion in Drug Discovery and Development"
+    },
+    {
+      "key": "bib45",
+      "doi-asserted-by": "publisher",
+      "first-page": "921",
+      "DOI": "10.1016\/S0969-2126(97)00246-3",
+      "article-title": "A binary complex of the catalytic subunit of cAMP-dependent protein kinase and adenosine further defines conformational flexibility",
+      "volume": "5",
+      "author": "Narayana",
+      "year": "1997",
+      "journal-title": "Structure"
+    },
+    {
+      "key": "bib46",
+      "doi-asserted-by": "publisher",
+      "first-page": "2551",
+      "DOI": "10.1007\/s00018-010-0329-3",
+      "article-title": "Regulation of Lrp6 phosphorylation",
+      "volume": "67",
+      "author": "Niehrs",
+      "year": "2010",
+      "journal-title": "Cellular and Molecular Life Sciences"
+    },
+    {
+      "key": "bib47",
+      "doi-asserted-by": "publisher",
+      "first-page": "6314",
+      "DOI": "10.1128\/MCB.00763-08",
+      "article-title": "Tissue-specific role of glycogen synthase kinase 3beta in glucose homeostasis and insulin action",
+      "volume": "28",
+      "author": "Patel",
+      "year": "2008",
+      "journal-title": "Molecular and Cellular Biology"
+    },
+    {
+      "key": "bib48",
+      "doi-asserted-by": "publisher",
+      "first-page": "e4046",
+      "DOI": "10.1371\/journal.pone.0004046",
+      "article-title": "Direct inhibition of GSK3beta by the phosphorylated cytoplasmic domain of LRP6 in Wnt\/beta-catenin signaling",
+      "volume": "3",
+      "author": "Piao",
+      "year": "2008",
+      "journal-title": "PLOS ONE"
+    },
+    {
+      "key": "bib49",
+      "doi-asserted-by": "publisher",
+      "first-page": "986",
+      "DOI": "10.1016\/j.str.2013.03.012",
+      "article-title": "Structures of Down syndrome kinases, DYRKs, reveal mechanisms of kinase activation and substrate recognition",
+      "volume": "21",
+      "author": "Soundararajan",
+      "year": "2013",
+      "journal-title": "Structure"
+    },
+    {
+      "key": "bib50",
+      "doi-asserted-by": "publisher",
+      "first-page": "a007898",
+      "DOI": "10.1101\/cshperspect.a007898",
+      "article-title": "The beta-catenin destruction complex",
+      "volume": "5",
+      "author": "Stamos",
+      "year": "2013",
+      "journal-title": "Cold Spring Harbour Perspectives in Biology"
+    },
+    {
+      "key": "bib51",
+      "doi-asserted-by": "publisher",
+      "first-page": "505607",
+      "DOI": "10.4061\/2011\/505607",
+      "article-title": "What are the bona fide GSK3 substrates?",
+      "volume": "2011",
+      "author": "Sutherland",
+      "year": "2011",
+      "journal-title": "International Journal of Alzheimer\u2019s Disease"
+    },
+    {
+      "key": "bib52",
+      "doi-asserted-by": "publisher",
+      "first-page": "9312",
+      "DOI": "10.1021\/jm301034u",
+      "article-title": "Selectivity, cocrystal structures, and neuroprotective properties of leucettines, a family of protein kinase inhibitors derived from the marine sponge alkaloid leucettamine B",
+      "volume": "55",
+      "author": "Tahtouh",
+      "year": "2012",
+      "journal-title": "Journal of Medicinal Chemistry"
+    },
+    {
+      "key": "bib53",
+      "doi-asserted-by": "publisher",
+      "first-page": "179",
+      "DOI": "10.1254\/jphs.08R28FM",
+      "article-title": "Drug development targeting the glycogen synthase kinase-3beta (GSK-3beta)-mediated signal transduction pathway: inhibitors of the Wnt\/beta-catenin signaling pathway as novel anticancer drugs",
+      "volume": "109",
+      "author": "Takahashi-Yanaga",
+      "year": "2009",
+      "journal-title": "Journal of Pharmacological Sciences"
+    },
+    {
+      "key": "bib54",
+      "doi-asserted-by": "publisher",
+      "first-page": "593",
+      "DOI": "10.1038\/89624",
+      "article-title": "Structure of GSK3beta reveals a primed phosphorylation mechanism",
+      "volume": "8",
+      "author": "ter Haar",
+      "year": "2001",
+      "journal-title": "Nature Structural Biology"
+    },
+    {
+      "key": "bib55",
+      "doi-asserted-by": "publisher",
+      "first-page": "1558",
+      "DOI": "10.2741\/3324",
+      "article-title": "GSK-3 inhibitors and insulin receptor signaling in health, disease, and therapeutics",
+      "volume": "14",
+      "author": "Wada",
+      "year": "2009",
+      "journal-title": "Frontiers in Bioscience"
+    },
+    {
+      "key": "bib56",
+      "first-page": "14566",
+      "article-title": "Glycogen synthase kinase-3 beta is a dual specificity kinase differentially regulated by tyrosine and serine\/threonine phosphorylation",
+      "volume": "269",
+      "author": "Wang",
+      "year": "1994",
+      "journal-title": "The Journal of Biological Chemistry"
+    },
+    {
+      "key": "bib57",
+      "doi-asserted-by": "publisher",
+      "first-page": "e4926",
+      "DOI": "10.1371\/journal.pone.0004926",
+      "article-title": "Inhibition of GSK3 phosphorylation of beta-catenin via phosphorylated PPPSPXS motifs of Wnt coreceptor LRP6",
+      "volume": "4",
+      "author": "Wu",
+      "year": "2009",
+      "journal-title": "PLOS ONE"
+    },
+    {
+      "key": "bib58",
+      "doi-asserted-by": "publisher",
+      "first-page": "873",
+      "DOI": "10.1038\/nature04185",
+      "article-title": "A dual-kinase mechanism for Wnt co-receptor phosphorylation and activation",
+      "volume": "438",
+      "author": "Zeng",
+      "year": "2005",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "bib59",
+      "doi-asserted-by": "publisher",
+      "first-page": "7797",
+      "DOI": "10.1074\/jbc.272.12.7797",
+      "article-title": "Target protease specificity of the viral serpin CrmA. Analysis of five caspases",
+      "volume": "272",
+      "author": "Zhou",
+      "year": "1997",
+      "journal-title": "The Journal of Biological Chemistry"
+    }
+  ],
+  "container-title": [
+    "eLife"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https:\/\/cdn.elifesciences.org\/articles\/01998\/elife-01998-v1.pdf",
+      "content-type": "application\/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https:\/\/cdn.elifesciences.org\/articles\/01998\/elife-01998-v1.xml",
+      "content-type": "application\/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2018,
+        8,
+        23
+      ]
+    ],
+    "date-time": "2018-08-23T13:49:30Z",
+    "timestamp": 1535032170000
+  },
+  "score": 1.0,
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2014,
+        3,
+        18
+      ]
+    ]
+  },
+  "references-count": 59,
+  "alternative-id": [
+    "10.7554\/eLife.01998"
+  ],
+  "URL": "http:\/\/dx.doi.org\/10.7554\/elife.01998",
+  "archive": [
+    "CLOCKSS"
+  ],
+  "relation": {
+    "has-review": [
+      {
+        "id-type": "doi",
+        "id": "10.7554\/eLife.01998.014",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.7554\/eLife.01998.015",
+        "asserted-by": "object"
+      }
+    ],
+    "cites": []
+  },
+  "ISSN": [
+    "2050-084X"
+  ],
+  "issn-type": [
+    {
+      "value": "2050-084X",
+      "type": "electronic"
+    }
+  ],
+  "subject": [
+    "General Biochemistry, Genetics and Molecular Biology",
+    "General Immunology and Microbiology",
+    "General Neuroscience",
+    "General Medicine"
+  ],
+  "assertion": [
+    {
+      "value": "2013-12-03",
+      "order": 0,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2014-02-17",
+      "order": 1,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    },
+    {
+      "value": "2014-03-18",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

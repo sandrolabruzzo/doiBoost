@@ -1,0 +1,10 @@
+[
+  {"paramName": "m",    "paramLongName":"master",                           "paramDescription": "the master name",                 "paramRequired": true},
+  {"paramName": "dp",   "paramLongName":"dbPublicationPath",                "paramDescription": "the Crossref Publication Path",   "paramRequired": true},
+  {"paramName": "dd",   "paramLongName":"dbDatasetPath",                    "paramDescription": "the Crossref Dataset Path",       "paramRequired": true},
+  {"paramName": "cr",   "paramLongName":"crossRefRelation",                 "paramDescription": "the UnpayWall Publication Path",  "paramRequired": true},
+  {"paramName": "da",   "paramLongName":"dbaffiliationRelationPath",        "paramDescription": "the MAG Publication Path",        "paramRequired": true},
+  {"paramName": "do",   "paramLongName":"dbOrganizationPath",               "paramDescription": "the MAG Publication Path",        "paramRequired": true},
+  {"paramName": "w",    "paramLongName":"targetPath",                       "paramDescription": "the Working Path",                "paramRequired": true},
+  {"paramName": "sp",    "paramLongName":"sFilePath",                       "paramDescription": "the Sequence file Path",          "paramRequired": true}
+]

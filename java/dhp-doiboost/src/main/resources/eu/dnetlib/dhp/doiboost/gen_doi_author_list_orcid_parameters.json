@@ -1,0 +1,5 @@
+[{"paramName":"w",   "paramLongName":"workingPath",	"paramDescription": "the working path",	"paramRequired": true},
+ {"paramName":"a",   "paramLongName":"authorsPath",	"paramDescription": "the path of the authors seq file",	"paramRequired": true},
+ {"paramName":"xw",   "paramLongName":"xmlWorksPath",	"paramDescription": "the path of the works xml seq file",	"paramRequired": true},
+ {"paramName":"o",   "paramLongName":"outputDoiAuthorListPath",	"paramDescription": "the relative folder of the sequencial file to write the data",	"paramRequired": true}
+]

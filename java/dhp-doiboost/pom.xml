@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>eu.dnetlib.dhp</groupId>
+    <artifactId>doiboost</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <licenses>
+		<license>
+			<name>GNU Affero General Public License v3.0 or later</name>
+			<url>https://spdx.org/licenses/AGPL-3.0-or-later.html#licenseText</url>
+			<distribution>repo</distribution>
+			<comments>This program is free software: you can redistribute it and/or modify it under the terms of the
+				GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the
+				License, or (at your option) any later version.</comments>
+		</license>
+	</licenses>
+    <repositories>
+		<repository>
+			<id>dnet45-releases</id>
+			<name>D-Net 45 releases</name>
+			<url>https://maven.d4science.org/nexus/content/repositories/dnet45-releases</url>
+			<layout>default</layout>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+		<repository>
+			<id>dnet45-snapshots</id>
+			<name>D-Net 45 snapshots</name>
+			<url>https://maven.d4science.org/nexus/content/repositories/dnet45-snapshots</url>
+			<layout>default</layout>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+		</repository>
+		<repository>
+			<id>dnet45-bootstrap-snapshot</id>
+			<name>D-Net 45 Bootstrap Snapshot</name>
+			<url>https://maven.d4science.org/nexus/content/repositories/dnet45-bootstrap-snapshot/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<layout>default</layout>
+		</repository>
+		<repository>
+			<id>dnet45-bootstrap-release</id>
+			<name>D-Net 45 Bootstrap Release</name>
+			<url>https://maven.d4science.org/nexus/content/repositories/dnet45-bootstrap-release/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<layout>default</layout>
+		</repository>
+		<repository>
+			<id>cloudera</id>
+			<name>Cloudera Repository</name>
+			<url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.plugin.version}</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>net.alchim31.maven</groupId>
+                <artifactId>scala-maven-plugin</artifactId>
+                <version>${net.alchim31.maven.version}</version>
+                <executions>
+                    <execution>
+                        <id>scala-compile-first</id>
+                        <phase>initialize</phase>
+                        <goals>
+                            <goal>add-source</goal>
+                            <goal>compile</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>scala-test-compile</id>
+                        <phase>process-test-resources</phase>
+                        <goals>
+                            <goal>testCompile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <scalaVersion>${scala.version}</scalaVersion>
+                </configuration>
+            </plugin>
+        </plugins>
+
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-client</artifactId>
+            <version>${dhp.hadoop.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>${org.apache.httpcomponents.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>eu.dnetlib.dhp</groupId>
+            <artifactId>dhp-common</artifactId>
+            <version>1.2.4-SNAPSHOT</version>
+           <exclusions>
+               <exclusion>
+                   <groupId>org.apache.cxf</groupId>
+                   <artifactId>cxf-rt-transports-http</artifactId>
+               </exclusion>
+           </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path</artifactId>
+            <version>2.4.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.11</artifactId>
+            <version>${dhp.spark.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.11</artifactId>
+            <version>${dhp.spark.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+            <version>${common.text.version}</version>
+        </dependency>
+
+    </dependencies>
+
+    <properties>
+        <dhp.cdh.version>cdh5.9.2</dhp.cdh.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+        <dhp.hadoop.version>2.6.0-${dhp.cdh.version}</dhp.hadoop.version>
+        <dhp.spark.version>2.4.0.cloudera2</dhp.spark.version>
+        <common.text.version>1.8</common.text.version>
+        <org.apache.httpcomponents.version>4.5.3</org.apache.httpcomponents.version>
+        <maven.compiler.plugin.version>3.6.0</maven.compiler.plugin.version>
+        <net.alchim31.maven.version>4.0.1</net.alchim31.maven.version>
+    </properties>
+
+
+</project>

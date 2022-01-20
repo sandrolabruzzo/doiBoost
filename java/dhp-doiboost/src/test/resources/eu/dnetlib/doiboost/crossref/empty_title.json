@@ -1,0 +1,121 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2020,
+        4,
+        7
+      ]
+    ],
+    "date-time": "2020-04-07T15:54:28Z",
+    "timestamp": 1586274868901
+  },
+  "reference-count": 0,
+  "publisher": "Japan Society of Mechanical Engineers",
+  "issue": "432",
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "JSMET"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        1982
+      ]
+    ]
+  },
+  "DOI": "10.1299\/kikaib.48.1474",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2011,
+        9,
+        13
+      ]
+    ],
+    "date-time": "2011-09-13T05:59:01Z",
+    "timestamp": 1315893541000
+  },
+  "page": "1474-1482",
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "title": [
+    ""
+  ],
+  "prefix": "10.1299",
+  "volume": "48",
+  "author": [
+    {
+      "given": "Hiroshi",
+      "family": "KATO",
+      "sequence": "first",
+      "affiliation": []
+    },
+    {
+      "given": "Yoshichika",
+      "family": "MIZUNO",
+      "sequence": "additional",
+      "affiliation": []
+    }
+  ],
+  "member": "124",
+  "container-title": [
+    "Transactions of the Japan Society of Mechanical Engineers Series B"
+  ],
+  "original-title": [
+    "\u5e0c\u8584\u9ad8\u5206\u5b50\u6eb6\u6db2\u4e2d\u306e\u6709\u9650\u9577\u5186\u67f1\u306e\u62b5\u6297"
+  ],
+  "language": "ja",
+  "deposited": {
+    "date-parts": [
+      [
+        2011,
+        9,
+        13
+      ]
+    ],
+    "date-time": "2011-09-13T06:01:33Z",
+    "timestamp": 1315893693000
+  },
+  "score": 1.0,
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        1982
+      ]
+    ]
+  },
+  "references-count": 0,
+  "journal-issue": {
+    "published-print": {
+      "date-parts": [
+        [
+          1982
+        ]
+      ]
+    },
+    "issue": "432"
+  },
+  "URL": "http:\/\/dx.doi.org\/10.1299\/kikaib.48.1474",
+  "relation": {},
+  "ISSN": [
+    "0387-5016",
+    "1884-8346"
+  ],
+  "issn-type": [
+    {
+      "value": "0387-5016",
+      "type": "print"
+    },
+    {
+      "value": "1884-8346",
+      "type": "electronic"
+    }
+  ]
+}

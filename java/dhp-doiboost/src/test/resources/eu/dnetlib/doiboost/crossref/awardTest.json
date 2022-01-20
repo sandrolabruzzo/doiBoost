@@ -1,0 +1,193 @@
+{
+  "DOI": "10.1016/j.infbeh.2016.11.001",
+  "issued": {
+    "date-parts": [
+      [
+        2017,
+        8
+      ]
+    ]
+  },
+  "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+  "prefix": "10.1016",
+  "subject": [
+    "Developmental and Educational Psychology"
+  ],
+  "author": [
+    {
+      "affiliation": [],
+      "given": "Dora",
+      "family": "Kampis",
+      "sequence": "first"
+    },
+    {
+      "affiliation": [],
+      "given": "D\u00f3ra",
+      "family": "Fogd",
+      "sequence": "additional"
+    },
+    {
+      "affiliation": [],
+      "given": "\u00c1gnes Melinda",
+      "family": "Kov\u00e1cs",
+      "sequence": "additional"
+    }
+  ],
+  "reference-count": 109,
+  "ISSN": [
+    "0163-6383"
+  ],
+  "assertion": [
+    {
+      "name": "publisher",
+      "value": "Elsevier",
+      "label": "This article is maintained by"
+    },
+    {
+      "name": "articletitle",
+      "value": "Nonverbal components of Theory of Mind in typical and atypical development",
+      "label": "Article Title"
+    },
+    {
+      "name": "journaltitle",
+      "value": "Infant Behavior and Development",
+      "label": "Journal Title"
+    },
+    {
+      "name": "articlelink",
+      "value": "https://doi.org/10.1016/j.infbeh.2016.11.001",
+      "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "name": "content_type",
+      "value": "article",
+      "label": "Content Type"
+    },
+    {
+      "name": "copyright",
+      "value": "\u00a9 2016 Elsevier Inc. All rights reserved.",
+      "label": "Copyright"
+    }
+  ],
+  "member": "78",
+  "source": "Crossref",
+  "score": 1.0,
+  "deposited": {
+    "timestamp": 1565383284000,
+    "date-parts": [
+      [
+        2019,
+        8,
+        9
+      ]
+    ],
+    "date-time": "2019-08-09T20:41:24Z"
+  },
+  "indexed": {
+    "timestamp": 1565385055278,
+    "date-parts": [
+      [
+        2019,
+        8,
+        9
+      ]
+    ],
+    "date-time": "2019-08-09T21:10:55Z"
+  },
+  "type": "journal-article",
+  "URL": "http://dx.doi.org/10.1016/j.infbeh.2016.11.001",
+  "is-referenced-by-count": 1,
+  "volume": "48",
+  "issn-type": [
+    {
+      "type": "print",
+      "value": "0163-6383"
+    }
+  ],
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0163638315300059?httpAccept=text/xml",
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/xml"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0163638315300059?httpAccept=text/plain",
+      "intended-application": "text-mining",
+      "content-version": "vor",
+      "content-type": "text/plain"
+    }
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2017,
+        8
+      ]
+    ]
+  },
+  "references-count": 109,
+  "short-container-title": [
+    "Infant Behavior and Development"
+  ],
+  "publisher": "Elsevier BV",
+  "content-domain": {
+    "domain": [
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "license": [
+    {
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+      "start": {
+        "timestamp": 1501545600000,
+        "date-parts": [
+          [
+            2017,
+            8,
+            1
+          ]
+        ],
+        "date-time": "2017-08-01T00:00:00Z"
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0
+    }
+  ],
+  "language": "en",
+  "created": {
+    "timestamp": 1479142046000,
+    "date-parts": [
+      [
+        2016,
+        11,
+        14
+      ]
+    ],
+    "date-time": "2016-11-14T16:47:26Z"
+  },
+  "title": [
+    "Nonverbal components of Theory of Mind in typical and atypical development"
+  ],
+  "alternative-id": [
+    "S0163638315300059"
+  ],
+  "container-title": [
+    "Infant Behavior and Development"
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001711",
+      "name": "Swiss National Science Foundation (Schweizerische Nationalfonds)",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "CR32I3_156724",
+        "31003A_173281/1",
+        "200021_165850"
+      ]
+    }
+  ],
+  "page": "54-62"
+}

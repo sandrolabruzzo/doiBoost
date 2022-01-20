@@ -1,0 +1,1537 @@
+{
+"indexed": {
+"date-parts": [
+[
+2021,
+7,
+2
+]
+],
+"date-time": "2021-07-02T07:30:10Z",
+"timestamp": 1625211010708
+},
+"reference-count": 83,
+"publisher": "Springer Science and Business Media LLC",
+"issue": "5",
+"license": [
+{
+"URL": "https://www.springer.com/tdm",
+"start": {
+"date-parts": [
+[
+2021,
+2,
+22
+]
+],
+"date-time": "2021-02-22T00:00:00Z",
+"timestamp": 1613952000000
+},
+"delay-in-days": 0,
+"content-version": "tdm"
+},
+{
+"URL": "https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model",
+"start": {
+"date-parts": [
+[
+2021,
+2,
+22
+]
+],
+"date-time": "2021-02-22T00:00:00Z",
+"timestamp": 1613952000000
+},
+"delay-in-days": 0,
+"content-version": "vor"
+}
+],
+"content-domain": {
+"domain": [
+"link.springer.com"
+],
+"crossmark-restriction": false
+},
+"short-container-title": [
+"Nat Astron"
+],
+"published-print": {
+"date-parts": [
+[
+2021,
+5
+]
+]
+},
+"DOI": "10.1038/s41550-020-01295-8",
+"type": "journal-article",
+"created": {
+"date-parts": [
+[
+2021,
+2,
+22
+]
+],
+"date-time": "2021-02-22T17:03:42Z",
+"timestamp": 1614013422000
+},
+"page": "510-518",
+"update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+"source": "Crossref",
+"is-referenced-by-count": 6,
+"title": [
+"A tidal disruption event coincident with a high-energy neutrino"
+],
+"prefix": "10.1038",
+"volume": "5",
+"author": [
+{
+"ORCID": "http://orcid.org/0000-0003-2434-0387",
+"authenticated-orcid": false,
+"given": "Robert",
+"family": "Stein",
+"sequence": "first",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0002-3859-8074",
+"authenticated-orcid": false,
+"given": "Sjoert van",
+"family": "Velzen",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0001-8594-8666",
+"authenticated-orcid": false,
+"given": "Marek",
+"family": "Kowalski",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Anna",
+"family": "Franckowiak",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0003-3703-5154",
+"authenticated-orcid": false,
+"given": "Suvi",
+"family": "Gezari",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0003-3124-2814",
+"authenticated-orcid": false,
+"given": "James C. A.",
+"family": "Miller-Jones",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Sara",
+"family": "Frederick",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0003-0466-3779",
+"authenticated-orcid": false,
+"given": "Itai",
+"family": "Sfaradi",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Michael F.",
+"family": "Bietenholz",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0002-5936-1156",
+"authenticated-orcid": false,
+"given": "Assaf",
+"family": "Horesh",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Rob",
+"family": "Fender",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0003-2403-4582",
+"authenticated-orcid": false,
+"given": "Simone",
+"family": "Garrappa",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0002-2184-6430",
+"authenticated-orcid": false,
+"given": "Tomás",
+"family": "Ahumada",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Igor",
+"family": "Andreoni",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Justin",
+"family": "Belicki",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0001-8018-5348",
+"authenticated-orcid": false,
+"given": "Eric C.",
+"family": "Bellm",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Markus",
+"family": "Böttcher",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Valery",
+"family": "Brinnel",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Rick",
+"family": "Burruss",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0003-1673-970X",
+"authenticated-orcid": false,
+"given": "S. Bradley",
+"family": "Cenko",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0002-8262-2924",
+"authenticated-orcid": false,
+"given": "Michael W.",
+"family": "Coughlin",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0003-2292-0441",
+"authenticated-orcid": false,
+"given": "Virginia",
+"family": "Cunningham",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Andrew",
+"family": "Drake",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Glennys R.",
+"family": "Farrar",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Michael",
+"family": "Feeney",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Ryan J.",
+"family": "Foley",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0002-3653-5598",
+"authenticated-orcid": false,
+"given": "Avishay",
+"family": "Gal-Yam",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "V. Zach",
+"family": "Golkhou",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0002-4163-4996",
+"authenticated-orcid": false,
+"given": "Ariel",
+"family": "Goobar",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0002-3168-0139",
+"authenticated-orcid": false,
+"given": "Matthew J.",
+"family": "Graham",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Erica",
+"family": "Hammerstein",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0003-3367-3415",
+"authenticated-orcid": false,
+"given": "George",
+"family": "Helou",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0002-9878-7889",
+"authenticated-orcid": false,
+"given": "Tiara",
+"family": "Hung",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Mansi M.",
+"family": "Kasliwal",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0002-5740-7747",
+"authenticated-orcid": false,
+"given": "Charles D.",
+"family": "Kilpatrick",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0002-5105-344X",
+"authenticated-orcid": false,
+"given": "Albert K. H.",
+"family": "Kong",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0002-6540-1484",
+"authenticated-orcid": false,
+"given": "Thomas",
+"family": "Kupfer",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0003-2451-5482",
+"authenticated-orcid": false,
+"given": "Russ R.",
+"family": "Laher",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0003-2242-0244",
+"authenticated-orcid": false,
+"given": "Ashish A.",
+"family": "Mahabal",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0002-8532-9395",
+"authenticated-orcid": false,
+"given": "Frank J.",
+"family": "Masci",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0003-0280-7484",
+"authenticated-orcid": false,
+"given": "Jannis",
+"family": "Necker",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0001-8342-6274",
+"authenticated-orcid": false,
+"given": "Jakob",
+"family": "Nordin",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Daniel A.",
+"family": "Perley",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0002-8121-2560",
+"authenticated-orcid": false,
+"given": "Mickael",
+"family": "Rigault",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0002-7788-628X",
+"authenticated-orcid": false,
+"given": "Simeon",
+"family": "Reusch",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Hector",
+"family": "Rodriguez",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0002-7559-315X",
+"authenticated-orcid": false,
+"given": "César",
+"family": "Rojas-Bravo",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0001-7648-4142",
+"authenticated-orcid": false,
+"given": "Ben",
+"family": "Rusholme",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0003-4401-0430",
+"authenticated-orcid": false,
+"given": "David L.",
+"family": "Shupe",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0001-9898-5597",
+"authenticated-orcid": false,
+"given": "Leo P.",
+"family": "Singer",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0003-1546-6615",
+"authenticated-orcid": false,
+"given": "Jesper",
+"family": "Sollerman",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Maayane T.",
+"family": "Soumagnac",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Daniel",
+"family": "Stern",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Kirsty",
+"family": "Taggart",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Jakob",
+"family": "van Santen",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Charlotte",
+"family": "Ward",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"given": "Patrick",
+"family": "Woudt",
+"sequence": "additional",
+"affiliation": [
+
+]
+},
+{
+"ORCID": "http://orcid.org/0000-0001-6747-8509",
+"authenticated-orcid": false,
+"given": "Yuhan",
+"family": "Yao",
+"sequence": "additional",
+"affiliation": [
+
+]
+}
+],
+"member": "297",
+"published-online": {
+"date-parts": [
+[
+2021,
+2,
+22
+]
+]
+},
+"reference": [
+{
+"key": "1295_CR1",
+"doi-asserted-by": "crossref",
+"first-page": "P03012",
+"DOI": "10.1088/1748-0221/12/03/P03012",
+"volume": "12",
+"author": "MG Aartsen",
+"year": "2017",
+"unstructured": "Aartsen, M. G. et al. The IceCube Neutrino Observatory: instrumentation and online systems. J. Instrum. 12, P03012 (2017).",
+"journal-title": "J. Instrum."
+},
+{
+"key": "1295_CR2",
+"unstructured": "Stein, R. IceCube-191001A—IceCube observation of a high-energy neutrino candidate event. GCN Circ. 25913 (2019)."
+},
+{
+"key": "1295_CR3",
+"doi-asserted-by": "crossref",
+"first-page": "018002",
+"DOI": "10.1088/1538-3873/aaecbe",
+"volume": "131",
+"author": "EC Bellm",
+"year": "2019",
+"unstructured": "Bellm, E. C. et al. The Zwicky Transient Facility: system overview, performance, and first results. Publ. Astron. Soc. Pac. 131, 018002 (2019).",
+"journal-title": "Publ. Astron. Soc. Pac."
+},
+{
+"key": "1295_CR4",
+"doi-asserted-by": "crossref",
+"first-page": "533",
+"DOI": "10.1016/j.astropartphys.2007.03.005",
+"volume": "27",
+"author": "M Kowalski",
+"year": "2007",
+"unstructured": "Kowalski, M. & Mohr, A. Detecting neutrino transients with optical follow-up observations. Astropart. Phys. 27, 533–538 (2007).",
+"journal-title": "Astropart. Phys."
+},
+{
+"key": "1295_CR5",
+"doi-asserted-by": "crossref",
+"first-page": "329",
+"DOI": "10.1088/0004-637X/693/1/329",
+"volume": "693",
+"author": "GR Farrar",
+"year": "2009",
+"unstructured": "Farrar, G. R. & Gruzinov, A. Giant AGN flares and cosmic ray bursts. Astrophys. J. 693, 329–332 (2009).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR6",
+"doi-asserted-by": "crossref",
+"first-page": "1354",
+"DOI": "10.1093/mnras/stx863",
+"volume": "469",
+"author": "L Dai",
+"year": "2017",
+"unstructured": "Dai, L. & Fang, K. Can tidal disruption events produce the IceCube neutrinos? Mon. Not. R. Astron. Soc. 469, 1354–1359 (2017).",
+"journal-title": "Mon. Not. R. Astron. Soc."
+},
+{
+"key": "1295_CR7",
+"doi-asserted-by": "crossref",
+"first-page": "114",
+"DOI": "10.3847/1538-4357/ab44ca",
+"volume": "886",
+"author": "K Hayasaki",
+"year": "2019",
+"unstructured": "Hayasaki, K. & Yamazaki, R. Neutrino emissions from tidal disruption remnants. Astrophys. J. 886, 114 (2019).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR8",
+"unstructured": "Farrar, G. R. & Piran, T. Tidal disruption jets as the source of Ultra-High Energy Cosmic Rays. Preprint at https://arxiv.org/abs/1411.0704 (2014)."
+},
+{
+"key": "1295_CR9",
+"doi-asserted-by": "crossref",
+"first-page": "3",
+"DOI": "10.3847/1538-4357/aa6344",
+"volume": "838",
+"author": "N Senno",
+"year": "2017",
+"unstructured": "Senno, N., Murase, K. & Mészáros, P. High-energy neutrino flares from X-ray bright and dark tidal disruption events. Astrophys. J. 838, 3 (2017).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR10",
+"doi-asserted-by": "crossref",
+"first-page": "083005",
+"DOI": "10.1103/PhysRevD.93.083005",
+"volume": "93",
+"author": "XY Wang",
+"year": "2016",
+"unstructured": "Wang, X. Y. & Liu, R. Y. Tidal disruption jets of supermassive black holes as hidden sources of cosmic rays: explaining the IceCube TeV–PeV neutrinos. Phys. Rev. D 93, 083005 (2016).",
+"journal-title": "Phys. Rev. D"
+},
+{
+"key": "1295_CR11",
+"doi-asserted-by": "crossref",
+"first-page": "123001",
+"DOI": "10.1103/PhysRevD.95.123001",
+"volume": "95",
+"author": "C Lunardini",
+"year": "2017",
+"unstructured": "Lunardini, C. & Winter, W. High energy neutrinos from the tidal disruption of stars. Phys. Rev. D 95, 123001 (2017).",
+"journal-title": "Phys. Rev. D"
+},
+{
+"key": "1295_CR12",
+"unstructured": "Stein, R., Franckowiak, A., Necker, J., Gezari, S. & Velzen, S. V. Candidate counterparts to IceCube-191001A with ZTF. Astron. Telegr. 13160 (2019)."
+},
+{
+"key": "1295_CR13",
+"doi-asserted-by": "crossref",
+"first-page": "078001",
+"DOI": "10.1088/1538-3873/ab006c",
+"volume": "131",
+"author": "MJ Graham",
+"year": "2019",
+"unstructured": "Graham, M. J. et al. The Zwicky Transient Facility: science objectives. Publ. Astron. Soc. Pac. 131, 078001 (2019).",
+"journal-title": "Publ. Astron. Soc. Pac."
+},
+{
+"key": "1295_CR14",
+"unstructured": "Nordin, J. et al. TNS Astronomical Transient Report 33340 (2019)."
+},
+{
+"key": "1295_CR15",
+"unstructured": "Nicholl, M. et al. ePESSTO+ classification of optical transients. Astron. Telegr. 12752 (2019)."
+},
+{
+"key": "1295_CR16",
+"unstructured": "van Velzen, S. et al. Seventeen tidal disruption events from the first half of ZTF survey observations: entering a new era of population studies. Preprint at https://arxiv.org/abs/2001.01409 (2020)."
+},
+{
+"key": "1295_CR17",
+"doi-asserted-by": "crossref",
+"first-page": "82",
+"DOI": "10.3847/1538-4357/ab1844",
+"volume": "878",
+"author": "S van Velzen",
+"year": "2019",
+"unstructured": "van Velzen, S. et al. Late-time UV observations of tidal disruption flares reveal unobscured, compact accretion disks. Astrophys. J. 878, 82 (2019).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR18",
+"doi-asserted-by": "crossref",
+"first-page": "5655",
+"DOI": "10.1093/mnras/staa192",
+"volume": "492",
+"author": "A Mummery",
+"year": "2020",
+"unstructured": "Mummery, A. & Balbus, S. A. The spectral evolution of disc dominated tidal disruption events. Mon. Not. R. Astron. Soc. 492, 5655–5674 (2020).",
+"journal-title": "Mon. Not. R. Astron. Soc."
+},
+{
+"key": "1295_CR19",
+"doi-asserted-by": "crossref",
+"first-page": "184",
+"DOI": "10.1088/0004-637X/764/2/184",
+"volume": "764",
+"author": "NJ McConnell",
+"year": "2013",
+"unstructured": "McConnell, N. J. & Ma, C. P. Revisiting the scaling relations of black hole masses and host galaxy properties. Astrophys. J. 764, 184 (2013).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR20",
+"doi-asserted-by": "crossref",
+"first-page": "149",
+"DOI": "10.3847/1538-4357/aa633b",
+"volume": "838",
+"author": "K Auchettl",
+"year": "2017",
+"unstructured": "Auchettl, K., Guillochon, J. & Ramirez-Ruiz, E. New physical insights about tidal disruption events from a comprehensive observational inventory at X-ray wavelengths. Astrophys. J. 838, 149 (2017).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR21",
+"doi-asserted-by": "crossref",
+"first-page": "4136",
+"DOI": "10.1093/mnras/stz1602",
+"volume": "487",
+"author": "T Wevers",
+"year": "2019",
+"unstructured": "Wevers, T. et al. Black hole masses of tidal disruption event host galaxies II. Mon. Not. R. Astron. Soc. 487, 4136–4152 (2019).",
+"journal-title": "Mon. Not. R. Astron. Soc."
+},
+{
+"key": "1295_CR22",
+"doi-asserted-by": "crossref",
+"first-page": "198",
+"DOI": "10.3847/1538-4357/aafe0c",
+"volume": "872",
+"author": "S van Velzen",
+"year": "2019",
+"unstructured": "van Velzen, S. et al. The first tidal disruption flare in ZTF: from photometric selection to multi-wavelength characterization. Astrophys. J. 872, 198 (2019).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR23",
+"doi-asserted-by": "crossref",
+"first-page": "A81",
+"DOI": "10.1051/0004-6361/201117855",
+"volume": "538",
+"author": "G Morlino",
+"year": "2012",
+"unstructured": "Morlino, G. & Caprioli, D. Strong evidence for hadron acceleration in Tycho’s supernova remnant. Astron. Astrophys. 538, A81 (2012).",
+"journal-title": "Astron. Astrophys."
+},
+{
+"key": "1295_CR24",
+"doi-asserted-by": "crossref",
+"first-page": "86",
+"DOI": "10.3847/1538-4357/aaa8e0",
+"volume": "854",
+"author": "T Eftekhari",
+"year": "2018",
+"unstructured": "Eftekhari, T., Berger, E., Zauderer, B. A., Margutti, R. & Alexander, K. D. Radio monitoring of the tidal disruption event Swift J164449.3+573451. III. Late-time jet energetics and a deviation from equipartition. Astrophys. J. 854, 86 (2018).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR25",
+"doi-asserted-by": "crossref",
+"first-page": "1258",
+"DOI": "10.1093/mnras/stt1645",
+"volume": "436",
+"author": "A Horesh",
+"year": "2013",
+"unstructured": "Horesh, A. et al. An early and comprehensive millimetre and centimetre wave and X-ray study of SN 2011dh: a non-equipartition blast wave expanding into a massive stellar wind. Mon. Not. R. Astron. Soc. 436, 1258–1267 (2013).",
+"journal-title": "Mon. Not. R. Astron. Soc."
+},
+{
+"key": "1295_CR26",
+"doi-asserted-by": "crossref",
+"first-page": "78",
+"DOI": "10.1088/0004-637X/772/1/78",
+"volume": "772",
+"author": "R Barniol Duran",
+"year": "2013",
+"unstructured": "Barniol Duran, R., Nakar, E. & Piran, T. Radius constraints and minimal equipartition energy of relativistically moving synchrotron sources. Astrophys. J. 772, 78 (2013).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR27",
+"doi-asserted-by": "crossref",
+"first-page": "69",
+"DOI": "10.1071/AS02053",
+"volume": "20",
+"author": "AG Polatidis",
+"year": "2003",
+"unstructured": "Polatidis, A. G. & Conway, J. E. Proper motions in compact symmetric objects. Publ. Astron. Soc. Aust. 20, 69–74 (2003).",
+"journal-title": "Publ. Astron. Soc. Aust."
+},
+{
+"key": "1295_CR28",
+"doi-asserted-by": "crossref",
+"first-page": "L25",
+"DOI": "10.3847/2041-8205/819/2/L25",
+"volume": "819",
+"author": "KD Alexander",
+"year": "2016",
+"unstructured": "Alexander, K. D., Berger, E., Guillochon, J., Zauderer, B. A. & Williams, P. K. G. Discovery of an outflow from radio observations of the tidal disruption event ASASSN-14li. Astrophys. J. Lett. 819, L25 (2016).",
+"journal-title": "Astrophys. J. Lett."
+},
+{
+"key": "1295_CR29",
+"doi-asserted-by": "crossref",
+"first-page": "127",
+"DOI": "10.3847/0004-637X/827/2/127",
+"volume": "827",
+"author": "J Krolik",
+"year": "2016",
+"unstructured": "Krolik, J., Piran, T., Svirski, G. & Cheng, R. M. ASASSN-14li: a model tidal disruption event. Astrophys. J. 827, 127 (2016).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR30",
+"doi-asserted-by": "crossref",
+"first-page": "1",
+"DOI": "10.3847/1538-4357/aab361",
+"volume": "856",
+"author": "DR Pasham",
+"year": "2018",
+"unstructured": "Pasham, D. R. & van Velzen, S. Discovery of a time lag between the soft X-ray and radio emission of the tidal disruption flare ASASSN-14li: evidence for linear disk–jet coupling. Astrophys. J. 856, 1 (2018).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR31",
+"doi-asserted-by": "crossref",
+"first-page": "L9",
+"DOI": "10.1051/0004-6361/201834750",
+"volume": "622",
+"author": "NL Strotjohann",
+"year": "2019",
+"unstructured": "Strotjohann, N. L., Kowalski, M. & Franckowiak, A. Eddington bias for cosmic neutrino sources. Astron. Astrophys. 622, L9 (2019).",
+"journal-title": "Astron. Astrophys."
+},
+{
+"key": "1295_CR32",
+"doi-asserted-by": "crossref",
+"first-page": "425",
+"DOI": "10.1146/annurev.aa.22.090184.002233",
+"volume": "22",
+"author": "AM Hillas",
+"year": "1984",
+"unstructured": "Hillas, A. M. The origin of ultra-high-energy cosmic rays. Annu. Rev. Astron. Astrophys. 22, 425–444 (1984).",
+"journal-title": "Annu. Rev. Astron. Astrophys."
+},
+{
+"key": "1295_CR33",
+"doi-asserted-by": "crossref",
+"first-page": "eaat1378",
+"DOI": "10.1126/science.aat1378",
+"volume": "361",
+"author": "IceCube Collaboration",
+"year": "2018",
+"unstructured": "IceCube Collaboration et al. Multimessenger observations of a flaring blazar coincident with high-energy neutrino IceCube-170922A. Science 361, eaat1378 (2018).",
+"journal-title": "Science"
+},
+{
+"key": "1295_CR34",
+"unstructured": "Blaufuss, E., Kintscher, T., Lu, L. & Tung, C. F. The next generation of IceCube real-time neutrino alerts. In Proc. 36th International Cosmic Ray Conference (ICRC2019) 1021 (PoS, 2019)."
+},
+{
+"key": "1295_CR35",
+"doi-asserted-by": "crossref",
+"first-page": "071101",
+"DOI": "10.1103/PhysRevLett.116.071101",
+"volume": "116",
+"author": "K Murase",
+"year": "2016",
+"unstructured": "Murase, K., Guetta, D. & Ahlers, M. Hidden cosmic-ray accelerators as an origin of TeV–PeV cosmic neutrinos. Phys. Rev. Lett. 116, 071101 (2016).",
+"journal-title": "Phys. Rev. Lett."
+},
+{
+"key": "1295_CR36",
+"unstructured": "Stein, R. Search for neutrinos from populations of optical transients. In Proc. 36th International Cosmic Ray Conference (ICRC2019) 1016 (PoS, 2019).",
+"DOI": "10.22323/1.358.1016",
+"doi-asserted-by": "crossref"
+},
+{
+"key": "1295_CR37",
+"doi-asserted-by": "crossref",
+"first-page": "048001",
+"DOI": "10.1088/1538-3873/aaff99",
+"volume": "131",
+"author": "MW Coughlin",
+"year": "2019",
+"unstructured": "Coughlin, M. W. et al. 2900 square degree search for the optical counterpart of short gamma-ray burst GRB 180523B with the Zwicky Transient Facility. Publ. Astron. Soc. Pac. 131, 048001 (2019).",
+"journal-title": "Publ. Astron. Soc. Pac."
+},
+{
+"key": "1295_CR38",
+"unstructured": "Stein, R. IceCube-200107A: IceCube observation of a high-energy neutrino candidate event. GCN Circ. 26655 (2020)."
+},
+{
+"key": "1295_CR39",
+"doi-asserted-by": "crossref",
+"first-page": "018003",
+"DOI": "10.1088/1538-3873/aae8ac",
+"volume": "131",
+"author": "FJ Masci",
+"year": "2019",
+"unstructured": "Masci, F. J. et al. The Zwicky Transient Facility: data processing, products, and archive. Publ. Astron. Soc. Pac. 131, 018003 (2019).",
+"journal-title": "Publ. Astron. Soc. Pac."
+},
+{
+"key": "1295_CR40",
+"doi-asserted-by": "crossref",
+"first-page": "018001",
+"DOI": "10.1088/1538-3873/aae904",
+"volume": "131",
+"author": "MT Patterson",
+"year": "2019",
+"unstructured": "Patterson, M. T. et al. The Zwicky Transient Facility Alert Distribution System. Publ. Astron. Soc. Pac. 131, 018001 (2019).",
+"journal-title": "Publ. Astron. Soc. Pac."
+},
+{
+"key": "1295_CR41",
+"unstructured": "Stein, R. & Reusch, S. robertdstein/ampel_followup_pipeline: V1.1 Release (Zenodo, 2020); https://doi.org/10.5281/zenodo.4048336",
+"DOI": "10.5281/zenodo.4048336",
+"doi-asserted-by": "publisher"
+},
+{
+"key": "1295_CR42",
+"doi-asserted-by": "crossref",
+"first-page": "A147",
+"DOI": "10.1051/0004-6361/201935634",
+"volume": "631",
+"author": "J Nordin",
+"year": "2019",
+"unstructured": "Nordin, J. et al. Transient processing and analysis using AMPEL: alert management, photometry, and evaluation of light curves. Astron. Astrophys. 631, A147 (2019).",
+"journal-title": "Astron. Astrophys."
+},
+{
+"key": "1295_CR43",
+"doi-asserted-by": "crossref",
+"first-page": "038002",
+"DOI": "10.1088/1538-3873/aaf3fa",
+"volume": "131",
+"author": "A Mahabal",
+"year": "2019",
+"unstructured": "Mahabal, A. et al. Machine learning for the Zwicky Transient Facility. Publ. Astron. Soc. Pac. 131, 038002 (2019).",
+"journal-title": "Publ. Astron. Soc. Pac."
+},
+{
+"key": "1295_CR44",
+"doi-asserted-by": "crossref",
+"first-page": "075002",
+"DOI": "10.1088/1538-3873/aac410",
+"volume": "130",
+"author": "MT Soumagnac",
+"year": "2018",
+"unstructured": "Soumagnac, M. T. & Ofek, E. O. catsHTM: a tool for fast accessing and cross-matching large astronomical catalogs. Publ. Astron. Soc. Pac. 130, 075002 (2018).",
+"journal-title": "Publ. Astron. Soc. Pac."
+},
+{
+"key": "1295_CR45",
+"doi-asserted-by": "crossref",
+"first-page": "A1",
+"DOI": "10.1051/0004-6361/201833051",
+"volume": "616",
+"author": "Gaia Collaboration",
+"year": "2018",
+"unstructured": "Gaia Collaboration et al. Gaia Data Release 2. Summary of the contents and survey properties. Astron. Astrophys. 616, A1 (2018).",
+"journal-title": "Astron. Astrophys."
+},
+{
+"key": "1295_CR46",
+"doi-asserted-by": "crossref",
+"first-page": "128001",
+"DOI": "10.1088/1538-3873/aae3d9",
+"volume": "130",
+"author": "Y Tachibana",
+"year": "2018",
+"unstructured": "Tachibana, Y. & Miller, A. A. A morphological classification model to identify unresolved PanSTARRS1 sources: application in the ZTF real-time pipeline. Publ. Astron. Soc. Pac. 130, 128001 (2018).",
+"journal-title": "Publ. Astron. Soc. Pac."
+},
+{
+"key": "1295_CR47",
+"unstructured": "Chambers, K. C. et al. The Pan-STARRS1 Surveys. Preprint at https://arxiv.org/abs/1612.05560 (2016)."
+},
+{
+"key": "1295_CR48",
+"doi-asserted-by": "crossref",
+"first-page": "1868",
+"DOI": "10.1088/0004-6256/140/6/1868",
+"volume": "140",
+"author": "EL Wright",
+"year": "2010",
+"unstructured": "Wright, E. L. et al. The Wide-field Infrared Survey Explorer (WISE): mission description and initial on-orbit performance. Astron. J. 140, 1868–1881 (2010).",
+"journal-title": "Astron. J."
+},
+{
+"key": "1295_CR49",
+"doi-asserted-by": "crossref",
+"first-page": "051103",
+"DOI": "10.1103/PhysRevLett.124.051103",
+"volume": "124",
+"author": "MG Aartsen",
+"year": "2020",
+"unstructured": "Aartsen, M. G. et al. Time-integrated neutrino source searches with 10 years of IceCube data. Phys. Rev. Lett. 124, 051103 (2020).",
+"journal-title": "Phys. Rev. Lett."
+},
+{
+"key": "1295_CR50",
+"unstructured": "Steele, I. A. et al. The Liverpool Telescope: performance and first results. Proc. SPIE 5489, https://doi.org/10.1117/12.551456 (2004).",
+"DOI": "10.1117/12.551456",
+"doi-asserted-by": "publisher"
+},
+{
+"key": "1295_CR51",
+"doi-asserted-by": "crossref",
+"first-page": "035003",
+"DOI": "10.1088/1538-3873/aaa53f",
+"volume": "130",
+"author": "N Blagorodnova",
+"year": "2018",
+"unstructured": "Blagorodnova, N. et al. The SED Machine: a robotic spectrograph for fast transient classification. Publ. Astron. Soc. Pac. 130, 035003 (2018).",
+"journal-title": "Publ. Astron. Soc. Pac."
+},
+{
+"key": "1295_CR52",
+"doi-asserted-by": "crossref",
+"first-page": "A115",
+"DOI": "10.1051/0004-6361/201935344",
+"volume": "627",
+"author": "M Rigault",
+"year": "2019",
+"unstructured": "Rigault, M. et al. Fully automated integral field spectrograph pipeline for the SEDMachine: pysedm. Astron. Astrophys. 627, A115 (2019).",
+"journal-title": "Astron. Astrophys."
+},
+{
+"key": "1295_CR53",
+"doi-asserted-by": "crossref",
+"first-page": "A68",
+"DOI": "10.1051/0004-6361/201628275",
+"volume": "593",
+"author": "C Fremling",
+"year": "2016",
+"unstructured": "Fremling, C. et al. PTF12os and iPTF13bvn. Two stripped-envelope supernovae from low-mass progenitors in NGC 5806. Astron. Astrophys. 593, A68 (2016).",
+"journal-title": "Astron. Astrophys."
+},
+{
+"key": "1295_CR54",
+"doi-asserted-by": "crossref",
+"first-page": "72",
+"DOI": "10.3847/1538-4357/aa998e",
+"volume": "852",
+"author": "S van Velzen",
+"year": "2018",
+"unstructured": "van Velzen, S. On the mass and luminosity functions of tidal disruption flares: rate suppression due to black hole event horizons. Astrophys. J. 852, 72 (2018).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR55",
+"doi-asserted-by": "crossref",
+"first-page": "95",
+"DOI": "10.1007/s11214-005-5095-4",
+"volume": "120",
+"author": "PWA Roming",
+"year": "2005",
+"unstructured": "Roming, P. W. A. et al. The Swift Ultra-Violet/Optical Telescope. Space Sci. Rev. 120, 95–142 (2005).",
+"journal-title": "Space Sci. Rev."
+},
+{
+"key": "1295_CR56",
+"doi-asserted-by": "crossref",
+"first-page": "1005",
+"DOI": "10.1086/422091",
+"volume": "611",
+"author": "N Gehrels",
+"year": "2004",
+"unstructured": "Gehrels, N. et al. The Swift Gamma-Ray Burst Mission. Astrophys. J. 611, 1005–1020 (2004).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR57",
+"doi-asserted-by": "crossref",
+"first-page": "19",
+"DOI": "10.3847/0004-637X/829/1/19",
+"volume": "829",
+"author": "S van Velzen",
+"year": "2016",
+"unstructured": "van Velzen, S., Mendez, A. J., Krolik, J. H. & Gorjian, V. Discovery of transient infrared emission from dust heated by stellar tidal disruption flares. Astrophys. J. 829, 19 (2016).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR58",
+"doi-asserted-by": "crossref",
+"first-page": "575",
+"DOI": "10.1093/mnras/stw307",
+"volume": "458",
+"author": "W Lu",
+"year": "2016",
+"unstructured": "Lu, W., Kumar, P. & Evans, N. J. Infrared emission from tidal disruption events—probing the pc-scale dust content around galactic nuclei. Mon. Not. R. Astron. Soc. 458, 575–581 (2016).",
+"journal-title": "Mon. Not. R. Astron. Soc."
+},
+{
+"key": "1295_CR59",
+"unstructured": "Miller, J. S. & Stone, R. P. S. The Kast Double Spectrograph. Technical Report No. 66 (Lick Observatory, 1993)."
+},
+{
+"key": "1295_CR60",
+"doi-asserted-by": "crossref",
+"first-page": "375",
+"DOI": "10.1086/133562",
+"volume": "107",
+"author": "JB Oke",
+"year": "1995",
+"unstructured": "Oke, J. B. et al. The Keck Low-Resolution Imaging Spectrometer. Publ. Astron. Soc. Pac. 107, 375–385 (1995).",
+"journal-title": "Publ. Astron. Soc. Pac."
+},
+{
+"key": "1295_CR61",
+"doi-asserted-by": "crossref",
+"first-page": "765",
+"DOI": "10.1111/j.1365-2966.2005.08957.x",
+"volume": "359",
+"author": "A Garcia-Rissmann",
+"year": "2005",
+"unstructured": "Garcia-Rissmann, A. et al. An atlas of calcium triplet spectra of active galaxies. Mon. Not. R. Astron. Soc. 359, 765–780 (2005).",
+"journal-title": "Mon. Not. R. Astron. Soc."
+},
+{
+"key": "1295_CR62",
+"doi-asserted-by": "crossref",
+"first-page": "165",
+"DOI": "10.1007/s11214-005-5097-2",
+"volume": "120",
+"author": "DN Burrows",
+"year": "2005",
+"unstructured": "Burrows, D. N. et al. The Swift X-Ray Telescope. Space Sci. Rev. 120, 165–195 (2005).",
+"journal-title": "Space Sci. Rev."
+},
+{
+"key": "1295_CR63",
+"doi-asserted-by": "crossref",
+"first-page": "L1",
+"DOI": "10.1051/0004-6361:20000036",
+"volume": "365",
+"author": "F Jansen",
+"year": "2001",
+"unstructured": "Jansen, F. et al. XMM-Newton Observatory. I. The spacecraft and operations. Astron. Astrophys. 365, L1–L6 (2001).",
+"journal-title": "Astron. Astrophys."
+},
+{
+"key": "1295_CR64",
+"unstructured": "HI4PI Collaboration et al. HI4PI: a full-sky H i survey based on EBHIS and GASS. Astron. Astrophys. 594, A116 (2016).",
+"DOI": "10.1051/0004-6361/201629178",
+"doi-asserted-by": "crossref"
+},
+{
+"key": "1295_CR65",
+"unstructured": "Arnaud, K. A. in Astronomical Data Analysis Software and Systems V (eds Jacoby, G. H. & Barnes, J.) 17 (Astronomical Society of the Pacific, 1996)."
+},
+{
+"key": "1295_CR66",
+"doi-asserted-by": "crossref",
+"first-page": "1545",
+"DOI": "10.1111/j.1365-2966.2008.13953.x",
+"volume": "391",
+"author": "JTL Zwart",
+"year": "2008",
+"unstructured": "Zwart, J. T. L. et al. The Arcminute Microkelvin Imager. Mon. Not. R. Astron. Soc. 391, 1545–1558 (2008).",
+"journal-title": "Mon. Not. R. Astron. Soc."
+},
+{
+"key": "1295_CR67",
+"doi-asserted-by": "crossref",
+"first-page": "5677",
+"DOI": "10.1093/mnras/sty074",
+"volume": "475",
+"author": "J Hickish",
+"year": "2018",
+"unstructured": "Hickish, J. et al. A digital correlator upgrade for the Arcminute MicroKelvin Imager. Mon. Not. R. Astron. Soc. 475, 5677–5687 (2018).",
+"journal-title": "Mon. Not. R. Astron. Soc."
+},
+{
+"key": "1295_CR68",
+"doi-asserted-by": "crossref",
+"first-page": "1396",
+"DOI": "10.1093/mnras/stv1728",
+"volume": "453",
+"author": "YC Perrott",
+"year": "2015",
+"unstructured": "Perrott, Y. C. et al. AMI galactic plane survey at 16 GHz—II. Full data release with extended coverage and improved processing. Mon. Not. R. Astron. Soc. 453, 1396–1403 (2015).",
+"journal-title": "Mon. Not. R. Astron. Soc."
+},
+{
+"key": "1295_CR69",
+"unstructured": "McMullin, J. P., Waters, B., Schiebel, D., Young, W. & Golap, K. in Astronomical Data Analysis Software and Systems XVI (eds Shaw, R. A. et al.) 127 (Astronomical Society of the Pacific, 2007)."
+},
+{
+"key": "1295_CR70",
+"doi-asserted-by": "crossref",
+"first-page": "1071",
+"DOI": "10.1088/0004-637X/697/2/1071",
+"volume": "697",
+"author": "WB Atwood",
+"year": "2009",
+"unstructured": "Atwood, W. B. et al. The Large Area Telescope on the Fermi Gamma-ray Space Telescope mission. Astrophys. J. 697, 1071–1102 (2009).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR71",
+"unstructured": "Wood, M. et al. Fermipy: an open-source Python package for analysis of Fermi-LAT Data. In Proc. 35th International Cosmic Ray Conference (ICRC2017) 824 (PoS, 2017).",
+"DOI": "10.22323/1.301.0824",
+"doi-asserted-by": "crossref"
+},
+{
+"key": "1295_CR72",
+"unstructured": "Garrappa, S. & Buson, S. Fermi-LAT gamma-ray observations of IceCube-191001A. GCN Circ. 25932 (2019)."
+},
+{
+"key": "1295_CR73",
+"unstructured": "The Fermi-LAT collaboration. Fermi Large Area Telescope Fourth Source Catalog. Astrophys. J. Suppl. Ser. 247, 33 (2020)."
+},
+{
+"key": "1295_CR74",
+"doi-asserted-by": "crossref",
+"first-page": "14",
+"DOI": "10.1088/0004-637X/767/1/14",
+"volume": "767",
+"author": "T Pursimo",
+"year": "2013",
+"unstructured": "Pursimo, T. et al. The Micro-Arcsecond Scintillation-Induced Variability (MASIV) survey. III. Optical identifications and new redshifts. Astrophys. J. 767, 14 (2013).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR75",
+"unstructured": "Garrappa, S., Buson, S. & Fermi-LAT Collaboration. Fermi-LAT gamma-ray observations of IceCube-191001A. GCN Circ. 25932 (2019)."
+},
+{
+"key": "1295_CR76",
+"doi-asserted-by": "crossref",
+"first-page": "133",
+"DOI": "10.1088/0004-637X/802/2/133",
+"volume": "802",
+"author": "C Diltz",
+"year": "2015",
+"unstructured": "Diltz, C., Böttcher, M. & Fossati, G. Time dependent hadronic modeling of flat spectrum radio quasars. Astrophys. J. 802, 133 (2015).",
+"journal-title": "Astrophys. J."
+},
+{
+"key": "1295_CR77",
+"doi-asserted-by": "crossref",
+"first-page": "88",
+"DOI": "10.1038/s41550-018-0610-1",
+"volume": "3",
+"author": "S Gao",
+"year": "2019",
+"unstructured": "Gao, S., Fedynitch, A., Winter, W. & Pohl, M. Modelling the coincident observation of a high-energy neutrino and a bright blazar flare. Nat. Astron. 3, 88–92 (2019).",
+"journal-title": "Nat. Astron."
+},
+{
+"key": "1295_CR78",
+"unstructured": "Ayala, H. IceCube-191001A: HAWC follow-up. GCN Circ. 25936 (2019)."
+},
+{
+"key": "1295_CR79",
+"doi-asserted-by": "crossref",
+"first-page": "62",
+"DOI": "10.1126/science.aad1182",
+"volume": "351",
+"author": "S van Velzen",
+"year": "2016",
+"unstructured": "van Velzen, S. et al. A radio jet from the optical and x-ray bright stellar tidal disruption flare ASASSN-14li. Science 351, 62–65 (2016).",
+"journal-title": "Science"
+},
+{
+"key": "1295_CR80",
+"doi-asserted-by": "crossref",
+"first-page": "306",
+"DOI": "10.1086/670067",
+"volume": "125",
+"author": "D Foreman-Mackey",
+"year": "2013",
+"unstructured": "Foreman-Mackey, D., Hogg, D. W., Lang, D. & Goodman, J. emcee: the MCMC Hammer. Publ. Astron. Soc. Pac. 125, 306 (2013).",
+"journal-title": "Publ. Astron. Soc. Pac."
+},
+{
+"key": "1295_CR81",
+"doi-asserted-by": "crossref",
+"first-page": "6",
+"DOI": "10.3847/1538-4365/aab761",
+"volume": "236",
+"author": "J Guillochon",
+"year": "2018",
+"unstructured": "Guillochon, J. et al. MOSFiT: Modular Open Source Fitter for Transients. Astrophys. J. Suppl. Ser. 236, 6 (2018).",
+"journal-title": "Astrophys. J. Suppl. Ser."
+},
+{
+"key": "1295_CR82",
+"doi-asserted-by": "crossref",
+"first-page": "e008",
+"DOI": "10.1017/pasa.2013.44",
+"volume": "31",
+"author": "J Granot",
+"year": "2014",
+"unstructured": "Granot, J. & van der Horst, A. J. Gamma-ray burst jets and their radio observations. Publ. Astron. Soc. Aust. 31, e008 (2014).",
+"journal-title": "Publ. Astron. Soc. Aust."
+},
+{
+"key": "1295_CR83",
+"doi-asserted-by": "crossref",
+"first-page": "102",
+"DOI": "10.1088/0004-637X/815/2/102",
+"volume": "815",
+"author": "W Fong",
+"year": "2015",
+"unstructured": "Fong, W., Berger, E., Margutti, R. & Zauderer, B. A. A decade of short-duration gamma-ray burst broadband afterglows: energetics, circumburst densities, and jet opening angles. Astrophys. J. 815, 102 (2015).",
+"journal-title": "Astrophys. J."
+}
+],
+"container-title": [
+"Nature Astronomy"
+],
+"original-title": [
+
+],
+"language": "en",
+"link": [
+{
+"URL": "http://www.nature.com/articles/s41550-020-01295-8.pdf",
+"content-type": "application/pdf",
+"content-version": "vor",
+"intended-application": "text-mining"
+},
+{
+"URL": "http://www.nature.com/articles/s41550-020-01295-8",
+"content-type": "text/html",
+"content-version": "vor",
+"intended-application": "text-mining"
+},
+{
+"URL": "http://www.nature.com/articles/s41550-020-01295-8.pdf",
+"content-type": "application/pdf",
+"content-version": "vor",
+"intended-application": "similarity-checking"
+}
+],
+"deposited": {
+"date-parts": [
+[
+2021,
+5,
+17
+]
+],
+"date-time": "2021-05-17T15:08:12Z",
+"timestamp": 1621264092000
+},
+"score": 1.0,
+"subtitle": [
+
+],
+"short-title": [
+
+],
+"issued": {
+"date-parts": [
+[
+2021,
+2,
+22
+]
+]
+},
+"references-count": 83,
+"journal-issue": {
+"published-print": {
+"date-parts": [
+[
+2021,
+5
+]
+]
+},
+"issue": "5"
+},
+"alternative-id": [
+"1295"
+],
+"URL": "http://dx.doi.org/10.1038/s41550-020-01295-8",
+"relation": {
+"cites": [
+
+]
+},
+"ISSN": [
+"2397-3366"
+],
+"issn-type": [
+{
+"value": "2397-3366",
+"type": "electronic"
+}
+],
+"assertion": [
+{
+"value": "21 July 2020",
+"order": 1,
+"name": "received",
+"label": "Received",
+"group": {
+"name": "ArticleHistory",
+"label": "Article History"
+}
+},
+{
+"value": "16 December 2020",
+"order": 2,
+"name": "accepted",
+"label": "Accepted",
+"group": {
+"name": "ArticleHistory",
+"label": "Article History"
+}
+},
+{
+"value": "22 February 2021",
+"order": 3,
+"name": "first_online",
+"label": "First Online",
+"group": {
+"name": "ArticleHistory",
+"label": "Article History"
+}
+},
+{
+"value": "The authors declare no competing interests.",
+"order": 1,
+"name": "Ethics",
+"group": {
+"name": "EthicsHeading",
+"label": "Competing interests"
+}
+}
+]
+}
+}

@@ -1,0 +1,5 @@
+[
+  {"paramName":"w",   "paramLongName":"workingPath", "paramDescription": "the working dir path",                      "paramRequired": true},
+  {"paramName":"m",   "paramLongName":"master",     "paramDescription": "the master name",                          "paramRequired": true}
+
+]

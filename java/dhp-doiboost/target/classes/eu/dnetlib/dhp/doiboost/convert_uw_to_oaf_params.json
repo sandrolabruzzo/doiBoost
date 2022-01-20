@@ -1,0 +1,6 @@
+[
+  {"paramName":"t",   "paramLongName":"targetPath", "paramDescription": "the path of the OAF Orcid transformed",  "paramRequired": true},
+  {"paramName":"s",   "paramLongName":"sourcePath", "paramDescription": "the source path ",  "paramRequired": false},
+  {"paramName":"m",   "paramLongName":"master",     "paramDescription": "the master name",  "paramRequired": true}
+
+]

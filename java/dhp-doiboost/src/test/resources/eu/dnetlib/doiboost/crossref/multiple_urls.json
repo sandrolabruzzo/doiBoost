@@ -1,0 +1,614 @@
+
+{
+"indexed": {
+"date-parts": [
+[
+2021,
+10,
+31
+]
+],
+"date-time": "2021-10-31T15:48:01Z",
+"timestamp": 1635695281393
+},
+"reference-count": 39,
+"publisher": "Elsevier BV",
+"license": [
+{
+"start": {
+"date-parts": [
+[
+2019,
+12,
+1
+]
+],
+"date-time": "2019-12-01T00:00:00Z",
+"timestamp": 1575158400000
+},
+"content-version": "tdm",
+"delay-in-days": 0,
+"URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+},
+{
+"start": {
+"date-parts": [
+[
+2019,
+9,
+13
+]
+],
+"date-time": "2019-09-13T00:00:00Z",
+"timestamp": 1568332800000
+},
+"content-version": "vor",
+"delay-in-days": 0,
+"URL": "http://creativecommons.org/licenses/by/4.0/"
+}
+],
+"funder": [
+{
+"DOI": "10.13039/100001182",
+"name": "INSTAP",
+"doi-asserted-by": "publisher"
+},
+{
+"DOI": "10.13039/100014440",
+"name": "Ministry of Science, Innovation and Universities",
+"doi-asserted-by": "publisher",
+"award": [
+"RYC-2016-19637"
+]
+},
+{
+"DOI": "10.13039/100010661",
+"name": "European Union’s Horizon 2020",
+"doi-asserted-by": "publisher",
+"award": [
+"746446"
+]
+}
+],
+"content-domain": {
+"domain": [
+"elsevier.com",
+"sciencedirect.com"
+],
+"crossmark-restriction": true
+},
+"short-container-title": [
+"Journal of Archaeological Science"
+],
+"published-print": {
+"date-parts": [
+[
+2019,
+12
+]
+]
+},
+"DOI": "10.1016/j.jas.2019.105013",
+"type": "journal-article",
+"created": {
+"date-parts": [
+[
+2019,
+9,
+25
+]
+],
+"date-time": "2019-09-25T20:05:08Z",
+"timestamp": 1569441908000
+},
+"page": "105013",
+"update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+"source": "Crossref",
+"is-referenced-by-count": 21,
+"title": [
+"A brave new world for archaeological survey: Automated machine learning-based potsherd detection using high-resolution drone imagery"
+],
+"prefix": "10.1016",
+"volume": "112",
+"author": [
+{
+"given": "H.A.",
+"family": "Orengo",
+"sequence": "first",
+"affiliation": [
+
+]
+},
+{
+"given": "A.",
+"family": "Garcia-Molsosa",
+"sequence": "additional",
+"affiliation": [
+
+]
+}
+],
+"member": "78",
+"reference": [
+{
+"key": "10.1016/j.jas.2019.105013_bib1",
+"doi-asserted-by": "crossref",
+"first-page": "85",
+"DOI": "10.1080/17538947.2016.1250829",
+"article-title": "Remote sensing heritage in a petabyte-scale: satellite data and heritage Earth Engine© applications",
+"volume": "10",
+"author": "Agapiou",
+"year": "2017",
+"journal-title": "Int. J. Digit. Earth"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib2",
+"series-title": "Extracting Meaning from Ploughsoil Assemblages",
+"first-page": "1",
+"article-title": "Extracting meaning from ploughsoil assemblages: assessments of the past, strategies for the future",
+"author": "Alcock",
+"year": "2000"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib3",
+"series-title": "Side-by-Side Survey. Comparative Regional Studies in the Mediterranean World",
+"first-page": "1",
+"article-title": "Introduction",
+"author": "Alcock",
+"year": "2004"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib4",
+"doi-asserted-by": "crossref",
+"first-page": "93",
+"DOI": "10.1111/j.1538-4632.1995.tb00338.x",
+"article-title": "Local indicators of spatial association—LISA",
+"volume": "27",
+"author": "Anselin",
+"year": "1995",
+"journal-title": "Geogr. Anal."
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib5",
+"series-title": "Archaeological Survey",
+"author": "Banning",
+"year": "2002"
+},
+{
+"issue": "1/2",
+"key": "10.1016/j.jas.2019.105013_bib6",
+"doi-asserted-by": "crossref",
+"first-page": "123",
+"DOI": "10.2307/3181488",
+"article-title": "GIS, archaeological survey and landscape archaeology on the island of Kythera, Greece",
+"volume": "29",
+"author": "Bevan",
+"year": "2004",
+"journal-title": "J. Field Archaeol."
+},
+{
+"issue": "1",
+"key": "10.1016/j.jas.2019.105013_bib8",
+"doi-asserted-by": "crossref",
+"first-page": "5",
+"DOI": "10.1023/A:1010933404324",
+"article-title": "Random forests",
+"volume": "45",
+"author": "Breiman",
+"year": "2001",
+"journal-title": "Mach. Learn."
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib9",
+"series-title": "Sampling in Contemporary British Archaeology",
+"author": "Cherry",
+"year": "1978"
+},
+{
+"issue": "3",
+"key": "10.1016/j.jas.2019.105013_bib10",
+"doi-asserted-by": "crossref",
+"first-page": "273",
+"DOI": "10.1016/0734-189X(84)90197-X",
+"article-title": "Segmentation of a high-resolution urban scene using texture operators",
+"volume": "25",
+"author": "Conners",
+"year": "1984",
+"journal-title": "Comput. Vis. Graph Image Process"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib11",
+"first-page": "31",
+"article-title": "Old land surfaces and modern ploughsoil: implications of recent work at Maxey, Cambridgeshire",
+"volume": "2",
+"author": "Crowther",
+"year": "1983",
+"journal-title": "Scott. Archaeol. Rev."
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib12",
+"series-title": "Settlement Pattern Studies in the Americas: Fifty Years since Virú",
+"first-page": "203",
+"article-title": "Conclusions: the settlement pattern concept from an Americanist perspective",
+"author": "Fish",
+"year": "1999"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib13",
+"doi-asserted-by": "crossref",
+"first-page": "21",
+"DOI": "10.3390/geosciences9010021",
+"article-title": "Remote sensing and historical morphodynamics of alluvial plains. The 1909 indus flood and the city of Dera Gazhi Khan (province of Punjab, Pakistan)",
+"volume": "9",
+"author": "Garcia",
+"year": "2019",
+"journal-title": "Geosciences"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib14",
+"unstructured": "Georgiadis, M.; Garcia-Molsosa, A.; Orengo, H.A.; Kefalidou, E. and Kallintzi, K. In Preparation. APAX Project 2015-2018: A Preliminary Report. (Hesperia)."
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib15",
+"series-title": "Geographical Information Systems and Landscape Archaeology",
+"first-page": "35",
+"article-title": "Regional survey and GIS: the boeotia project",
+"author": "Gillings",
+"year": "1999"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib16",
+"doi-asserted-by": "crossref",
+"first-page": "18",
+"DOI": "10.1016/j.rse.2017.06.031",
+"article-title": "Google Earth engine: planetary-scale geospatial analysis for everyone",
+"volume": "202",
+"author": "Gorelick",
+"year": "2017",
+"journal-title": "Remote Sens. Environ."
+},
+{
+"issue": "107",
+"key": "10.1016/j.jas.2019.105013_bib17",
+"doi-asserted-by": "crossref",
+"first-page": "177",
+"DOI": "10.1111/j.0031-868X.2004.00278.x",
+"article-title": "Photogrammetric reconstruction of the great buddha of Bamiyan, Afghanistan",
+"volume": "19",
+"author": "Grün",
+"year": "2004",
+"journal-title": "Photogramm. Rec."
+},
+{
+"issue": "6",
+"key": "10.1016/j.jas.2019.105013_bib18",
+"doi-asserted-by": "crossref",
+"first-page": "610",
+"DOI": "10.1109/TSMC.1973.4309314",
+"article-title": "Textural features for image classification",
+"author": "Haralick",
+"year": "1973",
+"journal-title": "IEEE Trans. Syst., Man, Cybernet., SMC-3"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib19",
+"doi-asserted-by": "crossref",
+"first-page": "76",
+"DOI": "10.1558/jmea.v14i1.76",
+"article-title": "Excavating to excess? Implications of the last decade of archaeology in Israel",
+"volume": "14",
+"author": "Kletter",
+"year": "2001",
+"journal-title": "J. Mediterr. Archaeol."
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib20",
+"first-page": "299",
+"article-title": "Testing Google Earth Engine for the automatic identification and vectorization of archaeological features: a case study from Faynan, Jordan",
+"volume": "15",
+"author": "Liss",
+"year": "2017",
+"journal-title": "J. Archaeol. Sci.: Report"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib21",
+"series-title": "Geographical Information Systems and Landscape Archaeology",
+"first-page": "55",
+"article-title": "Towards a methodology for modelling surface survey data: the sangro valley project",
+"author": "Lock",
+"year": "1999"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib22",
+"series-title": "Extracting Meaning from Ploughsoil Assemblages",
+"first-page": "5",
+"article-title": "Methods of collection recording and quantification",
+"author": "Mattingly",
+"year": "2000"
+},
+{
+"issue": "14",
+"key": "10.1016/j.jas.2019.105013_bib23",
+"doi-asserted-by": "crossref",
+"first-page": "E778",
+"DOI": "10.1073/pnas.1115472109",
+"article-title": "Mapping patterns of long-term settlement in Northern Mesopotamia at a large scale",
+"volume": "109",
+"author": "Menze",
+"year": "2012",
+"journal-title": "Proc. Natl. Acad. Sci."
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib24",
+"doi-asserted-by": "crossref",
+"first-page": "80",
+"DOI": "10.1016/j.jas.2015.04.002",
+"article-title": "A supervised machine-learning approach towards geochemical predictive modelling in archaeology",
+"volume": "59",
+"author": "Oonk",
+"year": "2015",
+"journal-title": "J. Archaeol. Sci."
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib25",
+"doi-asserted-by": "crossref",
+"first-page": "49",
+"DOI": "10.1016/j.isprsjprs.2012.07.005",
+"article-title": "Combining terrestrial stereophotogrammetry, DGPS and GIS-based 3D voxel modelling in the volumetric recording of archaeological features",
+"volume": "76",
+"author": "Orengo",
+"year": "2013",
+"journal-title": "ISPRS J. Photogrammetry Remote Sens."
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib26",
+"doi-asserted-by": "crossref",
+"first-page": "100",
+"DOI": "10.1016/j.jas.2015.10.008",
+"article-title": "Photogrammetric re-discovery of the Eastern Thessalian hidden long-term landscapes",
+"volume": "64",
+"author": "Orengo",
+"year": "2015",
+"journal-title": "J. Archaeol. Sci."
+},
+{
+"issue": "3",
+"key": "10.1016/j.jas.2019.105013_bib27",
+"doi-asserted-by": "crossref",
+"first-page": "479",
+"DOI": "10.3764/aja.122.3.0479",
+"article-title": "Towards a definition of Minoan agro-pastoral landscapes: results of the survey at Palaikastro (Crete)",
+"volume": "122",
+"author": "Orengo",
+"year": "2018",
+"journal-title": "Am. J. Archaeol."
+},
+{
+"issue": "7",
+"key": "10.1016/j.jas.2019.105013_bib28",
+"doi-asserted-by": "crossref",
+"first-page": "735",
+"DOI": "10.3390/rs9070735",
+"article-title": "Large-scale, multi-temporal remote sensing of palaeo-river networks: a case study from Northwest India and its implications for the Indus civilisation",
+"volume": "9",
+"author": "Orengo",
+"year": "2017",
+"journal-title": "Remote Sens."
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib29",
+"doi-asserted-by": "crossref",
+"first-page": "1361",
+"DOI": "10.1002/esp.4317",
+"article-title": "Multi-scale relief model (MSRM): a new algorithm for the visualization of subtle topographic change of variable size in digital elevation models",
+"volume": "43",
+"author": "Orengo",
+"year": "2018",
+"journal-title": "Earth Surf. Process. Landforms"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib30",
+"series-title": "Submitted to Proceedings of the National Academy of Sciences",
+"article-title": "Living on the edge of the desert: automated detection of archaeological mounds in Cholistan (Pakistan) using machine learning classification of multi-sensor multi-temporal satellite data",
+"author": "Orengo",
+"year": "2019"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib31",
+"first-page": "154",
+"article-title": "How many trees in a random forest?",
+"volume": "vol. 7376",
+"author": "Oshiro",
+"year": "2012"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib32",
+"article-title": "Decision-making in modern surveys",
+"volume": "ume 1",
+"author": "Plog",
+"year": "1978"
+},
+{
+"issue": "4",
+"key": "10.1016/j.jas.2019.105013_bib33",
+"doi-asserted-by": "crossref",
+"first-page": "100",
+"DOI": "10.3390/geosciences7040100",
+"article-title": "From above and on the ground: geospatial methods for recording endangered archaeology in the Middle East and north africa",
+"volume": "7",
+"author": "Rayne",
+"year": "2017",
+"journal-title": "Geosciences"
+},
+{
+"issue": "1",
+"key": "10.1016/j.jas.2019.105013_bib34",
+"doi-asserted-by": "crossref",
+"first-page": "1",
+"DOI": "10.1080/00438243.1978.9979712",
+"article-title": "The design of archaeological surveys",
+"volume": "10",
+"author": "Schiffer",
+"year": "1978",
+"journal-title": "World Archaeol."
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib35",
+"series-title": "Experiments in the Collection and Analysis of Archaeological Survey Data: the East Hampshire Survey",
+"author": "Shennan",
+"year": "1985"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib36",
+"doi-asserted-by": "crossref",
+"first-page": "1066",
+"DOI": "10.1016/j.culher.2016.06.006",
+"article-title": "Drones over Mediterranean landscapes. The potential of small UAV's (drones) for site detection and heritage management in archaeological survey projects: a case study from Le Pianelle in the Tappino Valley, Molise (Italy)",
+"volume": "22",
+"author": "Stek",
+"year": "2016",
+"journal-title": "J. Cult. Herit."
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib37",
+"series-title": "Side-by-Side Survey. Comparative Regional Studies in the Mediterranean World",
+"first-page": "65",
+"article-title": "Side-by-side and back to front: exploring intra-regional latitudinal and longitudinal comparability in survey data. Three case studies from Metaponto, southern Italy",
+"author": "Thomson",
+"year": "2004"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib38",
+"series-title": "Digital Discovery. Exploring New Frontiers in Human Heritage. Computer Applications and Quantitative Methods in Archaeology",
+"article-title": "Computer vision and machine learning for archaeology",
+"author": "van der Maaten",
+"year": "2007"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib39",
+"doi-asserted-by": "crossref",
+"first-page": "1114",
+"DOI": "10.1111/j.1475-4754.2012.00667.x",
+"article-title": "Computer vision-based orthophoto mapping of complex archaeological sites: the ancient quarry of Pitaranha (Portugal-Spain)",
+"volume": "54",
+"author": "Verhoeven",
+"year": "2012",
+"journal-title": "Archaeometry"
+},
+{
+"key": "10.1016/j.jas.2019.105013_bib40",
+"series-title": "A Guide for Salvage Archeology",
+"author": "Wendorf",
+"year": "1962"
+}
+],
+"container-title": [
+"Journal of Archaeological Science"
+],
+"original-title": [
+
+],
+"language": "en",
+"link": [
+{
+"URL": "https://api.elsevier.com/content/article/PII:S0305440319301001?httpAccept=text/xml",
+"content-type": "text/xml",
+"content-version": "vor",
+"intended-application": "text-mining"
+},
+{
+"URL": "https://api.elsevier.com/content/article/PII:S0305440319301001?httpAccept=text/plain",
+"content-type": "text/plain",
+"content-version": "vor",
+"intended-application": "text-mining"
+}
+],
+"deposited": {
+"date-parts": [
+[
+2019,
+11,
+25
+]
+],
+"date-time": "2019-11-25T06:46:34Z",
+"timestamp": 1574664394000
+},
+"score": 1,
+"subtitle": [
+
+],
+"short-title": [
+
+],
+"issued": {
+"date-parts": [
+[
+2019,
+12
+]
+]
+},
+"references-count": 39,
+"alternative-id": [
+"S0305440319301001"
+],
+"URL": "http://dx.doi.org/10.1016/j.jas.2019.105013",
+"relation": {
+
+},
+"ISSN": [
+"0305-4403"
+],
+"issn-type": [
+{
+"value": "0305-4403",
+"type": "print"
+}
+],
+"subject": [
+"Archaeology",
+"Archaeology"
+],
+"published": {
+"date-parts": [
+[
+2019,
+12
+]
+]
+},
+"assertion": [
+{
+"value": "Elsevier",
+"name": "publisher",
+"label": "This article is maintained by"
+},
+{
+"value": "A brave new world for archaeological survey: Automated machine learning-based potsherd detection using high-resolution drone imagery",
+"name": "articletitle",
+"label": "Article Title"
+},
+{
+"value": "Journal of Archaeological Science",
+"name": "journaltitle",
+"label": "Journal Title"
+},
+{
+"value": "https://doi.org/10.1016/j.jas.2019.105013",
+"name": "articlelink",
+"label": "CrossRef DOI link to publisher maintained version"
+},
+{
+"value": "article",
+"name": "content_type",
+"label": "Content Type"
+},
+{
+"value": "© 2019 The Authors. Published by Elsevier Ltd.",
+"name": "copyright",
+"label": "Copyright"
+}
+],
+"article-number": "105013"
+}

@@ -1,0 +1,271 @@
+{
+  "DOI":"10.1016/j.carbpol.2020.115930",
+  "issued":{
+    "date-parts":[
+      [
+        2020,
+        4
+      ]
+    ]
+  },
+  "published-print":{
+    "date-parts":[
+      [
+        2020,
+        4
+      ]
+    ]
+  },
+  "prefix":"10.1016",
+  "subject":[
+    "Organic Chemistry",
+    "Materials Chemistry",
+    "Polymers and Plastics"
+  ],
+  "author":[
+    {
+      "affiliation":[
+
+      ],
+      "given":"Lei",
+      "family":"Fang",
+      "sequence":"first"
+    },
+    {
+      "affiliation":[
+
+      ],
+      "given":"Hua",
+      "family":"Lin",
+      "sequence":"additional"
+    },
+    {
+      "affiliation":[
+
+      ],
+      "given":"Zhenfeng",
+      "family":"Wu",
+      "sequence":"additional"
+    },
+    {
+      "affiliation":[
+
+      ],
+      "given":"Zhen",
+      "family":"Wang",
+      "sequence":"additional"
+    },
+    {
+      "affiliation":[
+
+      ],
+      "given":"Xinxin",
+      "family":"Fan",
+      "sequence":"additional"
+    },
+    {
+      "affiliation":[
+
+      ],
+      "given":"Ziting",
+      "family":"Cheng",
+      "sequence":"additional"
+    },
+    {
+      "affiliation":[
+
+      ],
+      "given":"Xiaoya",
+      "family":"Hou",
+      "sequence":"additional"
+    },
+    {
+      "authenticated-orcid":false,
+      "given":"Daquan",
+      "family":"Chen",
+      "sequence":"additional",
+      "affiliation":[
+
+      ],
+      "ORCID":"http://orcid.org/0000-0002-6796-0204"
+    }
+  ],
+  "reference-count":41,
+  "ISSN":[
+    "0144-8617"
+  ],
+  "assertion":[
+    {
+      "name":"publisher",
+      "value":"Elsevier",
+      "label":"This article is maintained by"
+    },
+    {
+      "name":"articletitle",
+      "value":"In vitro/vivo evaluation of novel mitochondrial targeting charge-reversal polysaccharide-based antitumor nanoparticle",
+      "label":"Article Title"
+    },
+    {
+      "name":"journaltitle",
+      "value":"Carbohydrate Polymers",
+      "label":"Journal Title"
+    },
+    {
+      "name":"articlelink",
+      "value":"https://doi.org/10.1016/j.carbpol.2020.115930",
+      "label":"CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "name":"content_type",
+      "value":"article",
+      "label":"Content Type"
+    },
+    {
+      "name":"copyright",
+      "value":"\\u00a9 2020 Elsevier Ltd. All rights reserved.",
+      "label":"Copyright"
+    }
+  ],
+  "member":"78",
+  "source":"Crossref",
+  "score":1.0,
+  "deposited":{
+    "timestamp":1584590965000,
+    "date-time":"2020-03-19T04:09:25Z",
+    "date-parts":[
+      [
+        2020,
+        3,
+        19
+      ]
+    ]
+  },
+  "indexed":{
+    "timestamp":1584592912467,
+    "date-time":"2020-03-19T04:41:52Z",
+    "date-parts":[
+      [
+        2020,
+        3,
+        19
+      ]
+    ]
+  },
+  "type":"journal-article",
+  "URL":"http://dx.doi.org/10.1016/j.carbpol.2020.115930",
+  "is-referenced-by-count":0,
+  "volume":"234",
+  "issn-type":[
+    {
+      "type":"print",
+      "value":"0144-8617"
+    }
+  ],
+  "link":[
+    {
+      "URL":"https://api.elsevier.com/content/article/PII:S0144861720301041?httpAccept=text/xml",
+      "intended-application":"text-mining",
+      "content-version":"vor",
+      "content-type":"text/xml"
+    },
+    {
+      "URL":"https://api.elsevier.com/content/article/PII:S0144861720301041?httpAccept=text/plain",
+      "intended-application":"text-mining",
+      "content-version":"vor",
+      "content-type":"text/plain"
+    }
+  ],
+  "update-policy":"http://dx.doi.org/10.1016/elsevier_cm_policy",
+  "references-count":41,
+  "short-container-title":[
+    "Carbohydrate Polymers"
+  ],
+  "publisher":"Elsevier BV",
+  "content-domain":{
+    "domain":[
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction":true
+  },
+  "language":"en",
+  "license":[
+    {
+      "URL":"https://www.elsevier.com/tdm/userlicense/1.0/",
+      "start":{
+        "timestamp":1585699200000,
+        "date-time":"2020-04-01T00:00:00Z",
+        "date-parts":[
+          [
+            2020,
+            4,
+            1
+          ]
+        ]
+      },
+      "content-version":"tdm",
+      "delay-in-days":0
+    }
+  ],
+  "created":{
+    "timestamp":1581759678000,
+    "date-time":"2020-02-15T09:41:18Z",
+    "date-parts":[
+      [
+        2020,
+        2,
+        15
+      ]
+    ]
+  },
+  "title":[
+    "In vitro/vivo evaluation of novel mitochondrial targeting charge-reversal polysaccharide-based antitumor nanoparticle"
+  ],
+  "alternative-id":[
+    "S0144861720301041"
+  ],
+  "container-title":[
+    "Carbohydrate Polymers"
+  ],
+  "funder":[
+    {
+      "doi-asserted-by":"publisher",
+      "DOI":"10.13039/501100007129",
+      "name":"Natural Science Foundation of Shandong Province",
+      "award":[
+        "ZR2019ZD24",
+        "ZR2019YQ30"
+      ]
+    },
+    {
+      "doi-asserted-by":"publisher",
+      "DOI":"10.13039/100010449",
+      "name":"Ministry of Education, Libya",
+      "award":[
+
+      ]
+    },
+    {
+      "doi-asserted-by":"publisher",
+      "DOI":"10.13039/501100012249",
+      "name":"Jiangxi University of Traditional Chinese Medicine",
+      "award":[
+        "TCM-0906"
+      ]
+    },
+    {
+      "name":"Taishan Scholar Program",
+      "award":[
+        "qnts20161035"
+      ]
+    },
+    {
+      "name":"Open fund project of Key Laboratory of Modern Preparation of TCM",
+      "award":[
+
+      ]
+    }
+  ],
+  "page":"115930",
+  "article-number":"115930"
+}

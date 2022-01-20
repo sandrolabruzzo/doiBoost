@@ -1,0 +1,8 @@
+[
+  {"paramName":"n",   "paramLongName":"hdfsServerUri",	"paramDescription": "the server uri",   "paramRequired": true},
+  {"paramName":"w",   "paramLongName":"workingPath",	"paramDescription": "the default work path",	"paramRequired": true},
+  {"paramName":"f",   "paramLongName":"crossrefFileNameTarGz",	"paramDescription": "the name of the activities orcid file",	"paramRequired": true},
+  {"paramName":"issm",   "paramLongName":"isSparkSessionManaged",	"paramDescription": "the name of the activities orcid file",	"paramRequired": false},
+  {"paramName":"o",   "paramLongName":"outputPath",	"paramDescription": "the name of the activities orcid file",	"paramRequired": true}
+
+]

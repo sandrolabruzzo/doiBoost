@@ -1,0 +1,265 @@
+<workflow-app name="Generate DOIBoost ActionSet - PROCESS" xmlns="uri:oozie:workflow:0.5">
+    <parameters>
+        <property>
+            <name>sparkDriverMemory</name>
+            <description>memory for driver process</description>
+        </property>
+        <property>
+            <name>sparkExecutorMemory</name>
+            <description>memory for individual executor</description>
+        </property>
+        <property>
+            <name>sparkExecutorIntersectionMemory</name>
+            <description>memory for individual executor</description>
+        </property>
+
+        <property>
+            <name>sparkExecutorCores</name>
+            <description>number of cores used by single executor</description>
+        </property>
+        <!-- Itersection Parameters -->
+        <property>
+            <name>workingPath</name>
+            <description>the working Path</description>
+        </property>
+
+        <property>
+            <name>hostedByMapPath</name>
+            <description>the hostedByMap Path</description>
+        </property>
+        <property>
+            <name>openaireOrganizationPath</name>
+            <description>the OpenAire Organizations Path</description>
+        </property>
+
+
+        <property>
+            <name>outputPath</name>
+            <description>the Path of the sequence file action set</description>
+        </property>
+
+
+        <!-- Crossref Parameters -->
+        <property>
+            <name>inputPathCrossref</name>
+            <description>the Crossref input path</description>
+        </property>
+
+        <!--    MAG Parameters    -->
+        <property>
+            <name>inputPathMAG</name>
+            <description>the MAG input path</description>
+        </property>
+
+
+        <!--    UnpayWall Parameters    -->
+        <property>
+            <name>inputPathUnpayWall</name>
+            <description>the UnpayWall working path</description>
+        </property>
+
+        <!--    ORCID Parameters    -->
+        <property>
+            <name>workingPathOrcid</name>
+            <description>the ORCID working path</description>
+        </property>
+
+    </parameters>
+
+    <global>
+        <job-tracker>${jobTracker}</job-tracker>
+        <name-node>${nameNode}</name-node>
+        <configuration>
+            <property>
+                <name>oozie.action.sharelib.for.spark</name>
+                <value>${oozieActionShareLibForSpark2}</value>
+            </property>
+        </configuration>
+    </global>
+
+    <start to="resume_from"/>
+
+    <decision name="resume_from">
+        <switch>
+            <case to="End">${wf:conf('resumeFrom') eq 'Skip'}</case>
+            <case to="ProcessMAG">${wf:conf('resumeFrom') eq 'PreprocessMag'}</case>
+            <case to="ProcessUW">${wf:conf('resumeFrom') eq 'PreprocessUW'}</case>
+            <case to="ProcessORCID">${wf:conf('resumeFrom') eq 'ProcessORCID'}</case>
+            <case to="CreateDOIBoost">${wf:conf('resumeFrom') eq 'CreateDOIBoost'}</case>
+            <case to="GenerateActionSet">${wf:conf('resumeFrom') eq 'GenerateActionSet'}</case>
+            <default to="ConvertCrossrefToOAF"/>
+        </switch>
+    </decision>
+
+    <kill name="Kill">
+        <message>Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+    </kill>
+
+    <action name="ConvertCrossrefToOAF">
+        <spark xmlns="uri:oozie:spark-action:0.2">
+            <master>yarn-cluster</master>
+            <mode>cluster</mode>
+            <name>ConvertCrossrefToOAF</name>
+            <class>eu.dnetlib.doiboost.crossref.SparkMapDumpIntoOAF</class>
+            <jar>dhp-doiboost-${projectVersion}.jar</jar>
+            <spark-opts>
+                --executor-memory=${sparkExecutorMemory}
+                --executor-cores=${sparkExecutorCores}
+                --driver-memory=${sparkDriverMemory}
+                --conf spark.sql.shuffle.partitions=7680
+                --conf spark.extraListeners=${spark2ExtraListeners}
+                --conf spark.sql.queryExecutionListeners=${spark2SqlQueryExecutionListeners}
+                --conf spark.yarn.historyServer.address=${spark2YarnHistoryServerAddress}
+                --conf spark.eventLog.dir=${nameNode}${spark2EventLogDir}
+            </spark-opts>
+            <arg>--sourcePath</arg><arg>${inputPathCrossref}/crossref_ds</arg>
+            <arg>--targetPath</arg><arg>${workingPath}</arg>
+            <arg>--master</arg><arg>yarn-cluster</arg>
+        </spark>
+        <ok to="ProcessMAG"/>
+        <error to="Kill"/>
+    </action>
+
+    <action name="ProcessMAG">
+        <spark xmlns="uri:oozie:spark-action:0.2">
+            <master>yarn-cluster</master>
+            <mode>cluster</mode>
+            <name>Convert Mag to OAF Dataset</name>
+            <class>eu.dnetlib.doiboost.mag.SparkProcessMAG</class>
+            <jar>dhp-doiboost-${projectVersion}.jar</jar>
+            <spark-opts>
+                --executor-memory=${sparkExecutorIntersectionMemory}
+                --executor-cores=${sparkExecutorCores}
+                --driver-memory=${sparkDriverMemory}
+                --conf spark.sql.shuffle.partitions=7680
+                --conf spark.extraListeners=${spark2ExtraListeners}
+                --conf spark.sql.queryExecutionListeners=${spark2SqlQueryExecutionListeners}
+                --conf spark.yarn.historyServer.address=${spark2YarnHistoryServerAddress}
+                --conf spark.eventLog.dir=${nameNode}${spark2EventLogDir}
+            </spark-opts>
+            <arg>--sourcePath</arg><arg>${inputPathMAG}/dataset</arg>
+            <arg>--workingPath</arg><arg>${workingPath}/MAG</arg>
+            <arg>--targetPath</arg><arg>${workingPath}</arg>
+            <arg>--master</arg><arg>yarn-cluster</arg>
+        </spark>
+        <ok to="ProcessUW"/>
+        <error to="Kill"/>
+    </action>
+
+    <!--  UnpayWall  SECTION -->
+
+    <action name="ProcessUW">
+        <spark xmlns="uri:oozie:spark-action:0.2">
+            <master>yarn-cluster</master>
+            <mode>cluster</mode>
+            <name>Convert UnpayWall to Dataset</name>
+            <class>eu.dnetlib.doiboost.uw.SparkMapUnpayWallToOAF</class>
+            <jar>dhp-doiboost-${projectVersion}.jar</jar>
+            <spark-opts>
+                --executor-memory=${sparkExecutorMemory}
+                --executor-cores=${sparkExecutorCores}
+                --driver-memory=${sparkDriverMemory}
+                --conf spark.sql.shuffle.partitions=3840
+                --conf spark.sql.shuffle.partitions=3840
+                --conf spark.extraListeners=${spark2ExtraListeners}
+                --conf spark.sql.queryExecutionListeners=${spark2SqlQueryExecutionListeners}
+                --conf spark.yarn.historyServer.address=${spark2YarnHistoryServerAddress}
+                --conf spark.eventLog.dir=${nameNode}${spark2EventLogDir}
+            </spark-opts>
+            <arg>--sourcePath</arg><arg>${inputPathUnpayWall}/uw_extracted</arg>
+            <arg>--targetPath</arg><arg>${workingPath}/uwPublication</arg>
+            <arg>--master</arg><arg>yarn-cluster</arg>
+        </spark>
+        <ok to="ProcessORCID"/>
+        <error to="Kill"/>
+    </action>
+
+    <!--  ORCID  SECTION -->
+    <action name="ProcessORCID">
+        <spark xmlns="uri:oozie:spark-action:0.2">
+            <master>yarn-cluster</master>
+            <mode>cluster</mode>
+            <name>Convert ORCID to Dataset</name>
+            <class>eu.dnetlib.doiboost.orcid.SparkConvertORCIDToOAF</class>
+            <jar>dhp-doiboost-${projectVersion}.jar</jar>
+            <spark-opts>
+                --executor-memory=${sparkExecutorMemory}
+                --executor-cores=${sparkExecutorCores}
+                --driver-memory=${sparkDriverMemory}
+                --conf spark.sql.shuffle.partitions=3840
+                --conf spark.extraListeners=${spark2ExtraListeners}
+                --conf spark.sql.queryExecutionListeners=${spark2SqlQueryExecutionListeners}
+                --conf spark.yarn.historyServer.address=${spark2YarnHistoryServerAddress}
+                --conf spark.eventLog.dir=${nameNode}${spark2EventLogDir}
+            </spark-opts>
+            <arg>--workingPath</arg><arg>${workingPathOrcid}</arg>
+            <arg>--targetPath</arg><arg>${workingPath}/orcidPublication</arg>
+            <arg>--master</arg><arg>yarn-cluster</arg>
+        </spark>
+        <ok to="CreateDOIBoost"/>
+        <error to="Kill"/>
+    </action>
+
+    <!-- INTERSECTION SECTION-->
+    <action name="CreateDOIBoost">
+        <spark xmlns="uri:oozie:spark-action:0.2">
+            <master>yarn-cluster</master>
+            <mode>cluster</mode>
+            <name>Create DOIBoost Infospace</name>
+            <class>eu.dnetlib.doiboost.SparkGenerateDoiBoost</class>
+            <jar>dhp-doiboost-${projectVersion}.jar</jar>
+            <spark-opts>
+                --executor-memory=${sparkExecutorIntersectionMemory}
+                --executor-cores=${sparkExecutorCores}
+                --driver-memory=${sparkDriverMemory}
+                --conf spark.sql.shuffle.partitions=3840
+                --conf spark.sql.shuffle.partitions=3840
+                --conf spark.extraListeners=${spark2ExtraListeners}
+                --conf spark.sql.queryExecutionListeners=${spark2SqlQueryExecutionListeners}
+                --conf spark.yarn.historyServer.address=${spark2YarnHistoryServerAddress}
+                --conf spark.eventLog.dir=${nameNode}${spark2EventLogDir}
+            </spark-opts>
+            <arg>--hostedByMapPath</arg><arg>${hostedByMapPath}</arg>
+            <arg>--openaireOrganizationPath</arg><arg>${openaireOrganizationPath}</arg>
+            <arg>--affiliationPath</arg><arg>${inputPathMAG}/dataset/Affiliations</arg>
+            <arg>--paperAffiliationPath</arg><arg>${inputPathMAG}/dataset/PaperAuthorAffiliations</arg>
+            <arg>--workingPath</arg><arg>${workingPath}</arg>
+            <arg>--master</arg><arg>yarn-cluster</arg>
+        </spark>
+        <ok to="GenerateActionSet"/>
+        <error to="Kill"/>
+    </action>
+
+
+    <action name="GenerateActionSet">
+        <spark xmlns="uri:oozie:spark-action:0.2">
+            <master>yarn-cluster</master>
+            <mode>cluster</mode>
+            <name>Generate DOIBoost ActionSet</name>
+            <class>eu.dnetlib.doiboost.SparkGenerateDOIBoostActionSet</class>
+            <jar>dhp-doiboost-${projectVersion}.jar</jar>
+            <spark-opts>
+                --executor-memory=${sparkExecutorMemory}
+                --executor-cores=${sparkExecutorCores}
+                --driver-memory=${sparkDriverMemory}
+                --conf spark.sql.shuffle.partitions=3840
+                --conf spark.extraListeners=${spark2ExtraListeners}
+                --conf spark.sql.queryExecutionListeners=${spark2SqlQueryExecutionListeners}
+                --conf spark.yarn.historyServer.address=${spark2YarnHistoryServerAddress}
+                --conf spark.eventLog.dir=${nameNode}${spark2EventLogDir}
+            </spark-opts>
+            <arg>--dbPublicationPath</arg><arg>${workingPath}/doiBoostPublicationFiltered</arg>
+            <arg>--dbDatasetPath</arg><arg>${workingPath}/crossrefDataset</arg>
+            <arg>--crossRefRelation</arg><arg>${workingPath}/crossrefRelation</arg>
+            <arg>--dbaffiliationRelationPath</arg><arg>${workingPath}/doiBoostPublicationAffiliation</arg>
+            <arg>--dbOrganizationPath</arg><arg>${workingPath}/doiBoostOrganization</arg>
+            <arg>--targetPath</arg><arg>${workingPath}/actionDataSet</arg>
+            <arg>--sFilePath</arg><arg>${outputPath}</arg>
+            <arg>--master</arg><arg>yarn-cluster</arg>
+        </spark>
+        <ok to="End"/>
+        <error to="Kill"/>
+    </action>
+
+    <end name="End"/>
+</workflow-app>

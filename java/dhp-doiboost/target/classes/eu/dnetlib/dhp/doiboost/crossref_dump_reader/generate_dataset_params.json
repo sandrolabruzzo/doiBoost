@@ -1,0 +1,16 @@
+[
+  {"paramName":"s",
+    "paramLongName":"sourcePath",
+    "paramDescription": "the source path",
+    "paramRequired": true},
+  {"paramName":"m",
+    "paramLongName":"master",
+    "paramDescription": "the master name",
+    "paramRequired": true},
+  {"paramName":"t",
+    "paramLongName":"targetPath",
+    "paramDescription": "the target path",
+    "paramRequired": true}
+
+]
+

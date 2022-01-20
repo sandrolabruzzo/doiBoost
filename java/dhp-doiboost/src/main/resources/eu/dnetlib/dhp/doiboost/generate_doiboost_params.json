@@ -1,0 +1,8 @@
+[
+  {"paramName": "m",    "paramLongName":"master",                    "paramDescription": "the master name",                 "paramRequired": true},
+  {"paramName": "hb",   "paramLongName":"hostedByMapPath",            "paramDescription": "the hosted By Map Path",         "paramRequired": true},
+  {"paramName": "oo",   "paramLongName":"openaireOrganizationPath",  "paramDescription": "the openaire Organization Path",  "paramRequired": true},
+  {"paramName": "ap",   "paramLongName":"affiliationPath",            "paramDescription": "the Affliation Path",            "paramRequired": true},
+  {"paramName": "pa",   "paramLongName":"paperAffiliationPath",      "paramDescription": "the paperAffiliation Path",       "paramRequired": true},
+  {"paramName": "w",    "paramLongName":"workingPath",                "paramDescription": "the Working Path",               "paramRequired": true}
+]
