@@ -1,0 +1,2583 @@
+[
+   {
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Ministry_of_Health_of_the_People's_Republic_of_China"
+                     }
+                  ],
+                  "official-page" : "http://www.moh.gov.cn/",
+                  "provenance" : "MAG",
+                  "value" : "Chinese Ministry of Health"
+               }
+            ],
+            "family" : "Liu",
+            "fullname" : "Bing Liu",
+            "given" : "Bing",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2606343796"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1016/j.jacc.2017.03.270",
+      "doi-url" : "http://dx.doi.org/10.1016/j.jacc.2017.03.270",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://api.elsevier.com/content/article/PII:S0735109717363829?httpAccept=text/xml"
+         },
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://api.elsevier.com/content/article/PII:S0735109717363829?httpAccept=text/plain"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0735-1097"
+         }
+      ],
+      "issued" : "2017-04-01",
+      "license" : [
+         {
+            "content-version" : "tdm",
+            "date-time" : "2017-04-01T00:00:00Z",
+            "url" : "http://www.elsevier.com/tdm/userlicense/1.0/"
+         }
+      ],
+      "published-print" : "2017-04-01",
+      "subject" : [
+         "Cardiology and Cardiovascular Medicine"
+      ],
+      "title" : [
+         "TCTAP C-047 LAD/D Bifurcation ISR After Crushed DES Implanted Treated with Kiss-balloon with Drug-coated Balloon"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Korea_University"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.222754.4"
+                     }
+                  ],
+                  "official-page" : "http://www.korea.edu/",
+                  "provenance" : "MAG",
+                  "value" : "Korea University"
+               }
+            ],
+            "family" : "Park",
+            "fullname" : "Moon Ho Park",
+            "given" : "Moon Ho",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2156277566"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Sungkyunkwan_University"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.264381.a"
+                     }
+                  ],
+                  "official-page" : "http://www.skku.edu/",
+                  "provenance" : "MAG",
+                  "value" : "Sungkyunkwan University"
+               }
+            ],
+            "family" : "Na",
+            "fullname" : "Duk L. Na",
+            "given" : "Duk L.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2328241152"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Memorial_Hospital_of_South_Bend"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.415273.6"
+                     }
+                  ],
+                  "official-page" : "https://qualityoflife.org/",
+                  "provenance" : "MAG",
+                  "value" : "Memorial Hospital of South Bend"
+               }
+            ],
+            "family" : "Na",
+            "fullname" : "Hae Ri Na",
+            "given" : "Hae Ri",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2151169228"
+               },
+               {
+                  "provenance" : "ORCID",
+                  "value" : "https://orcid.org/0000-0002-3419-8428"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG",
+         "ORCID"
+      ],
+      "doi" : "10.1016/j.jalz.2010.05.1175",
+      "doi-url" : "http://dx.doi.org/10.1016/j.jalz.2010.05.1175",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://api.elsevier.com/content/article/PII:S1552526010012951?httpAccept=text/xml"
+         },
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://api.elsevier.com/content/article/PII:S1552526010012951?httpAccept=text/plain"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "1552-5260"
+         }
+      ],
+      "issued" : "2010-07-01",
+      "license" : [
+         {
+            "content-version" : "tdm",
+            "date-time" : "2010-07-01T00:00:00Z",
+            "url" : "http://www.elsevier.com/tdm/userlicense/1.0/"
+         }
+      ],
+      "published-print" : "2010-07-01",
+      "subject" : [
+         "Health Policy",
+         "Developmental Neuroscience",
+         "Epidemiology",
+         "Cellular and Molecular Neuroscience",
+         "Geriatrics and Gerontology",
+         "Psychiatry and Mental health",
+         "Clinical Neurology"
+      ],
+      "title" : [
+         "Cardiovascular factors and white matter lesions affect on extrapyramidal signs in Alzheimer's disease"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "abstract" : [
+         {
+            "provenance" : "MAG",
+            "value" : "Abstract   Since its introduction in the 1970s the addition of a complete covering layer over the newly constructed urethra has positively influenced the outcome of hypospadias repairs. Originally applied by Smith during the second stage of a planned 2-stage repair and then to fistula repairs, the de-epithelialized flap has contributed to a marked reduction in post-hypospadias repair complications. The influence of this contribution as well as its application to a variation of the pedicle onlay hypospadias repair is reviewed."
+         }
+      ],
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Children's_National_Medical_Center"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.239560.b"
+                     }
+                  ],
+                  "official-page" : "http://childrensnational.org/",
+                  "provenance" : "MAG",
+                  "value" : "Children's National Medical Center"
+               }
+            ],
+            "family" : "Belman",
+            "fullname" : "A. Barry Belman",
+            "given" : "A. Barry",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2787864718"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1016/s0022-5347(17)31670-1",
+      "doi-url" : "http://dx.doi.org/10.1016/s0022-5347(17)31670-1",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://api.elsevier.com/content/article/PII:S0022534717316701?httpAccept=text/xml"
+         },
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://api.elsevier.com/content/article/PII:S0022534717316701?httpAccept=text/plain"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0022-5347"
+         }
+      ],
+      "issued" : "1994-12-01",
+      "license" : [
+         {
+            "content-version" : "tdm",
+            "date-time" : "1994-12-01T00:00:00Z",
+            "url" : "http://www.elsevier.com/tdm/userlicense/1.0/"
+         }
+      ],
+      "published-print" : "1994-12-01",
+      "subject" : [
+         "Urology"
+      ],
+      "title" : [
+         "The De-Epithelialized Flap and its Influence on Hypospadias Repair"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Harvard_University"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.38142.3c"
+                     }
+                  ],
+                  "official-page" : "http://www.harvard.edu/",
+                  "provenance" : "MAG",
+                  "value" : "Harvard University"
+               }
+            ],
+            "family" : "Cataldo",
+            "fullname" : "Anne M. Cataldo",
+            "given" : "Anne M.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2109219733"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/New_York_University"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.137628.9"
+                     }
+                  ],
+                  "official-page" : "http://www.nyu.edu/",
+                  "provenance" : "MAG",
+                  "value" : "New York University"
+               }
+            ],
+            "family" : "Mathews",
+            "fullname" : "Paul M. Mathews",
+            "given" : "Paul M.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/1993832364"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/New_York_University"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.137628.9"
+                     }
+                  ],
+                  "official-page" : "http://www.nyu.edu/",
+                  "provenance" : "MAG",
+                  "value" : "New York University"
+               }
+            ],
+            "family" : "Grbovic",
+            "fullname" : "Olivera M. Grbovic",
+            "given" : "Olivera M.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/1460701465"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Nathan_Kline_Institute_for_Psychiatric_Research"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.250263.0"
+                     }
+                  ],
+                  "official-page" : "http://www.rfmh.org/nki/",
+                  "provenance" : "MAG",
+                  "value" : "Nathan Kline Institute for Psychiatric Research"
+               }
+            ],
+            "family" : "Peterhoff",
+            "fullname" : "Corrinne M. Peterhoff",
+            "given" : "Corrinne M.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2062982811"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/University_of_Massachusetts_Amherst"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.266683.f"
+                     }
+                  ],
+                  "official-page" : "http://www.umass.edu/",
+                  "provenance" : "MAG",
+                  "value" : "University of Massachusetts Amherst"
+               }
+            ],
+            "family" : "Jiang",
+            "fullname" : "Ying Jiang",
+            "given" : "Ying",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2054979584"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/New_York_University"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.137628.9"
+                     }
+                  ],
+                  "official-page" : "http://www.nyu.edu/",
+                  "provenance" : "MAG",
+                  "value" : "New York University"
+               }
+            ],
+            "family" : "Nixon",
+            "fullname" : "Ralph A. Nixon",
+            "given" : "Ralph A.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2161986744"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1016/s0197-4580(04)80305-1",
+      "doi-url" : "http://dx.doi.org/10.1016/s0197-4580(04)80305-1",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://api.elsevier.com/content/article/PII:S0197458004803051?httpAccept=text/xml"
+         },
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://api.elsevier.com/content/article/PII:S0197458004803051?httpAccept=text/plain"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0197-4580"
+         }
+      ],
+      "issued" : "2004-07-01",
+      "license" : [
+         {
+            "content-version" : "tdm",
+            "date-time" : "2004-07-01T00:00:00Z",
+            "url" : "http://www.elsevier.com/tdm/userlicense/1.0/"
+         }
+      ],
+      "published-print" : "2004-07-01",
+      "subject" : [
+         "Developmental Biology",
+         "Ageing",
+         "General Neuroscience",
+         "Geriatrics and Gerontology",
+         "Clinical Neurology"
+      ],
+      "title" : [
+         "S5-02-03 Endosomal pathology in early stage Alzheimer's disease"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "abstract" : [
+         {
+            "provenance" : "CrossRef",
+            "value" : "<jats:p>Because Robert Grosseteste's translation of Aristotle's <jats:italic>Nicomachean Ethics</jats:italic> is now seen as having provided the framework for a dynamic study of Aristotle's moral philosophy, more significance must be attached to what itself became the standard translation in the Middle Ages. That Grosseteste was responsible both for the full translation of Aristotle's text and for the translation of the Greek commentaries which accompany the <jats:italic>Ethics</jats:italic> in twenty-one known manuscripts modern scholars are now in agreement. Grosseteste's work on the <jats:italic>Nicomachean Ethics</jats:italic> has been dated confidently to the 1240s, arguably to 1246â47, and scholars have tended to stress the rapidity with which the Aristotelian ethics were assimilated in the thirteenth century, in contrast, for example, with the slow progress recorded by John of Salisbury on the <jats:italic>Posterior Analytics</jats:italic> in the twelfth. These results of recent research seem, it should be notd in passing, strangely at odds with the verdict of Roger Bacon, that there was comparatively little work on the <jats:italic>Ethics</jats:italic> in his period. He, Grosseteste's most ardent admirer, appears not to have known that this master translated the text and comments: âTardius communicata est Ethica Aristotelis et nuper lecta a magistris et raro.â</jats:p>"
+         }
+      ],
+      "authors" : [
+         {
+            "family" : "Dunbabin",
+            "fullname" : "Jean Dunbabin",
+            "given" : "Jean",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2462753411"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1017/s0362152900011582",
+      "doi-url" : "http://dx.doi.org/10.1017/s0362152900011582",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0362152900011582"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0362-1529"
+         },
+         {
+            "type" : "electronic",
+            "value" : "2166-5508"
+         }
+      ],
+      "issued" : "1972-01-01",
+      "published-online" : "2016-07-29",
+      "published-print" : "1972-01-01",
+      "subject" : [
+         "Philosophy",
+         "Religious studies",
+         "Literature and Literary Theory",
+         "Visual Arts and Performing Arts"
+      ],
+      "title" : [
+         "Robert Grosseteste as Translator, Transmitter, and Commentator: The âNicomachean Ethicsâ"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "collectedFrom" : [
+         "CrossRef"
+      ],
+      "doi" : "10.1002/(sici)1099-0496(199609)22:3<>1.0.co;2-a",
+      "doi-url" : "http://dx.doi.org/10.1002/(sici)1099-0496(199609)22:3%3c%3e1.0.co;2-a",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F(SICI)1099-0496(199609)22:3%3C%3E1.0.CO;2-A"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "8755-6863"
+         },
+         {
+            "type" : "electronic",
+            "value" : "1099-0496"
+         }
+      ],
+      "issued" : "1996-09-01",
+      "license" : [
+         {
+            "content-version" : "tdm",
+            "date-time" : "2015-09-01T00:00:00Z",
+            "url" : "http://doi.wiley.com/10.1002/tdm_license_1"
+         }
+      ],
+      "published-print" : "1996-09-01",
+      "subject" : [
+         "Pediatrics, Perinatology, and Child Health",
+         "Pulmonary and Respiratory Medicine"
+      ],
+      "type" : "journal-issue"
+   },
+   {
+      "abstract" : [
+         {
+            "provenance" : "MAG",
+            "value" : "This unit describes two nonisotopic systems for reporter gene activity in cells transfected with the firefly luciferase"
+         }
+      ],
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/University_of_Texas_Medical_Branch"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.176731.5"
+                     }
+                  ],
+                  "official-page" : "http://www.utmb.edu/",
+                  "provenance" : "MAG",
+                  "value" : "University of Texas Medical Branch"
+               }
+            ],
+            "family" : "Brasier",
+            "fullname" : "Allan R. Brasier",
+            "given" : "Allan R.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/1964348103"
+               }
+            ]
+         },
+         {
+            "family" : "Fortin",
+            "fullname" : "John J. Fortin",
+            "given" : "John J.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2235796319"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1002/0471141755.ph0605s05",
+      "doi-url" : "http://dx.doi.org/10.1002/0471141755.ph0605s05",
+      "issued" : "2001-05-01",
+      "published-online" : "2001-05-01",
+      "title" : [
+         "Nonisotopic Assays for Reporter Gene Activity"
+      ],
+      "type" : "reference-entry"
+   },
+   {
+      "authors" : [
+         {
+            "family" : "Kayser",
+            "fullname" : "Lars Kayser",
+            "given" : "Lars"
+         },
+         {
+            "family" : "Roed",
+            "fullname" : "Tiny Roed",
+            "given" : "Tiny"
+         },
+         {
+            "family" : "Byskov",
+            "fullname" : "Anne Grete Byskov",
+            "given" : "Anne Grete"
+         },
+         {
+            "family" : "Hï¿½yer",
+            "fullname" : "Poul Erik Hï¿½yer",
+            "given" : "Poul Erik"
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef"
+      ],
+      "doi" : "10.1002/1097-010x(20010201)289:2<130::aid-jez6>3.0.co;2-#",
+      "doi-url" : "http://dx.doi.org/10.1002/1097-010x(20010201)289:2%3c130::aid-jez6%3e3.0.co;2-#",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F1097-010X(20010201)289:2%3C130::AID-JEZ6%3E3.0.CO;2-#"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0022-104X"
+         },
+         {
+            "type" : "electronic",
+            "value" : "1097-010X"
+         }
+      ],
+      "issued" : "2001-01-01",
+      "license" : [
+         {
+            "content-version" : "tdm",
+            "date-time" : "2015-09-01T00:00:00Z",
+            "url" : "http://doi.wiley.com/10.1002/tdm_license_1.1"
+         }
+      ],
+      "published-online" : "2001-01-01",
+      "published-print" : "2001-02-01",
+      "subject" : [
+         "Animal Science and Zoology",
+         "General Medicine"
+      ],
+      "title" : [
+         "Glucose and pyruvate metabolism during mouse gonadal sex differentiation"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "abstract" : [
+         {
+            "provenance" : "MAG",
+            "value" : "During the past several years, ASCA has nearly completed mapping of gas temperatures in bright nearby clusters of galaxies. In several clusters, it discovered strong and irregular spatial temperature variations indicative of ongoing violent subcluster mergers. In other systems, the temperature distribution appears symmetric, indicating a relaxed state which is a necessary condition for reliable hydrostatic total mass measurements. I present a (very incomplete) review of these results, discuss their implications for understanding of physical processes in the intracluster gas and for the cluster mass measurements. I also mention some interesting studies that will become possible with the forthcoming Chandra X-ray observatory."
+         }
+      ],
+      "authors" : [
+         {
+            "family" : "Markevitch",
+            "fullname" : "M. Markevitch",
+            "given" : "M.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2625140486"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1002/1521-3994(199908)320:4/5<185::aid-asna185>3.0.co;2-k",
+      "doi-url" : "http://dx.doi.org/10.1002/1521-3994(199908)320:4/5%3c185::aid-asna185%3e3.0.co;2-k",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F1521-3994(199908)320:4%2F5%3C185::AID-ASNA185%3E3.0.CO;2-K"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0004-6337"
+         },
+         {
+            "type" : "electronic",
+            "value" : "1521-3994"
+         }
+      ],
+      "issued" : "1999-08-01",
+      "license" : [
+         {
+            "content-version" : "tdm",
+            "date-time" : "2015-09-01T00:00:00Z",
+            "url" : "http://doi.wiley.com/10.1002/tdm_license_1.1"
+         }
+      ],
+      "published-print" : "1999-08-01",
+      "subject" : [
+         "Space and Planetary Science",
+         "Astronomy and Astrophysics"
+      ],
+      "title" : [
+         "Cluster gas temperature maps with ASCA and beyond"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "authors" : [
+         {
+            "family" : "RÃ¶sch",
+            "fullname" : "L. RÃ¶sch",
+            "given" : "L.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2698038566"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1002/9780470145241.ch85",
+      "doi-url" : "http://dx.doi.org/10.1002/9780470145241.ch85",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2F9780470145241.ch85"
+         },
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://onlinelibrary.wiley.com/wol1/doi/10.1002/9780470145241.ch85/fullpdf"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "electronic",
+            "value" : "1934-5100"
+         }
+      ],
+      "issued" : "2007-05-29",
+      "published-online" : "2007-05-29",
+      "title" : [
+         "By the Action of Diarylhalonium Fluoroborates"
+      ],
+      "type" : "book-chapter"
+   },
+   {
+      "authors" : [
+         {
+            "family" : "Upchurch",
+            "fullname" : "G.R. Upchurch",
+            "given" : "G.R.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2491102607"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1002/9780470999295.ch120",
+      "doi-url" : "http://dx.doi.org/10.1002/9780470999295.ch120",
+      "title" : [
+         "Climate - Modelling using Fossil Plants"
+      ],
+      "type" : "book-chapter"
+   },
+   {
+      "authors" : [
+         {
+            "family" : "Mighten",
+            "fullname" : "Janice Mighten",
+            "given" : "Janice",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2663272529"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1002/9781118702680.ch3",
+      "doi-url" : "http://dx.doi.org/10.1002/9781118702680.ch3",
+      "issued" : "2013-04-05",
+      "published-online" : "2013-04-05",
+      "title" : [
+         "Nursing Assessment, History Taking and Collaborative Working"
+      ],
+      "type" : "book-chapter"
+   },
+   {
+      "abstract" : [
+         {
+            "provenance" : "CrossRef",
+            "value" : "<jats:title>RÃ©sumÃ©</jats:title><jats:p>Cet article explore les dimensions variÃ©es du bureau (<jats:italic>office</jats:italic>) professoral comme espace âjuridiqueâ. Dans l'une de ses dimensions, l'office d'un professeur n'est qu'un endroit gÃ©omÃ©trique gÃ©nÃ©rique, sans objectif ou occupant, une potentialitÃ© formelle. Or, c'est Ã©galement un site dans la mesure que sa localisation, taille et organisation reflÃ¨tent une fonctionnalitÃ©âdes valeurs, processus et institutions dÃ©cisionnelles qui dÃ©terminent son occupation. En plus, l'office exprime un rÃ´le et une scÃ¨ne sur laquelle les occupants interagissent avec des collÃ¨gues, des Ã©tudiants, des Ã©trangers de maniÃ¨re Ã  confirmer ou infirmer des relations de pouvoir et de subordination. L'office professoral a aussi une dimension performative dans laquelle la normativitÃ© d'une communautÃ©âde professeurs, employÃ©s et Ã©tudiantsâest imaginÃ©e et agie. Par ailleurs, dans une autre dimension, il s'agit d'un espace rituel oÃ¹ des professeurs travaillent, se dÃ©tendent, rÃ©flÃ©chissent et contemplent rÃ©flexivement des modÃ¨les et formes de pensÃ©es. Un tel office existe oÃ¹ que ses occupants choisissent de le tenir. Finalement, l'office est un non-lieu de dÃ©couverte personnelleâl'indication d'un espace qui n'est que dans les relations qu'il crÃ©e et qui le crÃ©ent.</jats:p>"
+         },
+         {
+            "provenance" : "MAG",
+            "value" : "In the late 1980s one of us wrote a paper entitled 'Office Politics' for the Law and Leviathan symposium sponsored by the Law Reform Commission of Canada. The paper was the lead contribution to a panel addressing 'Normative order in the administrative state.' Conceived as a parable, the paper was composed as an exchange of memos among a dean and several professors in a law faculty about how offices should be allocated in an environment dominated by scarcity and non-substitutability of goods. While the terrain of inquiry thus evoked distributive justice, the primary ambition of the paper was to explore the complexities of normativity, and in particular what might be called 'implicit and inferential normativity' in organizations and public institutions."
+         }
+      ],
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/McGill_University"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.14709.3b"
+                     }
+                  ],
+                  "official-page" : "http://mcgill.ca/",
+                  "provenance" : "MAG",
+                  "value" : "McGill University"
+               }
+            ],
+            "family" : "Macdonald",
+            "fullname" : "Roderick A. Macdonald",
+            "given" : "Roderick A.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2106821258"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/McGill_University"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.14709.3b"
+                     }
+                  ],
+                  "official-page" : "http://mcgill.ca/",
+                  "provenance" : "MAG",
+                  "value" : "McGill University"
+               }
+            ],
+            "family" : "Widell",
+            "fullname" : "Jonathan Widell",
+            "given" : "Jonathan",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2614177322"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1353/jls.2006.0024",
+      "doi-url" : "http://dx.doi.org/10.1353/jls.2006.0024",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0829320100008541"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0829-3201"
+         },
+         {
+            "type" : "electronic",
+            "value" : "1911-0227"
+         }
+      ],
+      "issued" : "2005-08-01",
+      "published-online" : "2014-07-18",
+      "published-print" : "2005-08-01",
+      "subject" : [
+         "Sociology and Political Science",
+         "Law"
+      ],
+      "title" : [
+         "Office Politics (Again)!."
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "authors" : [
+         {
+            "fullname" : "Bernd Plietker",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2698614142"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1002/9783527623273",
+      "doi-url" : "http://dx.doi.org/10.1002/9783527623273",
+      "issued" : "2008-08-13",
+      "published-print" : "2008-08-13",
+      "title" : [
+         "Iron Catalysis in Organic Chemistry"
+      ],
+      "type" : "book"
+   },
+   {
+      "abstract" : [
+         {
+            "provenance" : "MAG",
+            "value" : "Cationic polyacrylamides (c-PAMs) bind to starch granules and decrease the temperature for the onset of gelatinization by 8ÃÂ°C. c-PAM increases the binding of ÃÂ±-amylase to cornstarch; the rate of cornstarch hydrolysis also increases. By analogy to previous work on the c-PAM promoted hydrolysis of cellulose, it is proposed that the polymer reduces the charge on the surface of starch through a charge-patch mechanism. Because both enzyme and substrate are negatively charged, the bound c-PAM reduces the charge repulsion experienced by the approaching enzyme, which leads to stronger enzyme-substrate binding and faster hydrolysis. Overall, the c-PAM reduces enzyme dose by up to 62% under the conditions used. There is a mirror image relationship between the viscosity of the medium and the hydrolysis rate, which allows optimization of these parameters with enzyme and c-PAM dosage. Low c-PAM levels increase viscosity by agglomerating the substrate, but the viscosity drops at higher c-PAM concentration. ÃÂ© 2012 American Institute of Chemical Engineers AIChE J, 59: 79Ã¢ÂÂ83, 2013"
+         }
+      ],
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "provenance" : "CrossRef",
+                  "value" : "Institute of Paper Science and Technology; School of Chemical and Biomolecular Engineering; Georgia Institute of Technology; 500 10th St.; NW Atlanta; GA; 30332"
+               },
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Institute_of_Paper_Science_and_Technology"
+                     }
+                  ],
+                  "official-page" : "http://ipst.gatech.edu/",
+                  "provenance" : "MAG",
+                  "value" : "Institute of Paper Science and Technology"
+               }
+            ],
+            "family" : "Maxwell",
+            "fullname" : "Kendra E. Maxwell",
+            "given" : "Kendra E.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2574891762"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "provenance" : "CrossRef",
+                  "value" : "Institute of Paper Science and Technology; School of Chemical and Biomolecular Engineering; Georgia Institute of Technology; 500 10th St.; NW Atlanta; GA; 30332"
+               },
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Institute_of_Paper_Science_and_Technology"
+                     }
+                  ],
+                  "official-page" : "http://ipst.gatech.edu/",
+                  "provenance" : "MAG",
+                  "value" : "Institute of Paper Science and Technology"
+               }
+            ],
+            "family" : "Krantz",
+            "fullname" : "Alison L. Krantz",
+            "given" : "Alison L.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2109419482"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "provenance" : "CrossRef",
+                  "value" : "Institute of Paper Science and Technology; School of Chemical and Biomolecular Engineering; Georgia Institute of Technology; 500 10th St.; NW Atlanta; GA; 30332"
+               },
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Institute_of_Paper_Science_and_Technology"
+                     }
+                  ],
+                  "official-page" : "http://ipst.gatech.edu/",
+                  "provenance" : "MAG",
+                  "value" : "Institute of Paper Science and Technology"
+               }
+            ],
+            "family" : "Banerjee",
+            "fullname" : "Sujit Banerjee",
+            "given" : "Sujit",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2585294961"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1002/aic.13811",
+      "doi-url" : "http://dx.doi.org/10.1002/aic.13811",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Faic.13811"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0001-1541"
+         }
+      ],
+      "issued" : "2012-04-27",
+      "license" : [
+         {
+            "content-version" : "tdm",
+            "date-time" : "2015-09-01T00:00:00Z",
+            "url" : "http://doi.wiley.com/10.1002/tdm_license_1.1"
+         }
+      ],
+      "published-online" : "2012-04-27",
+      "published-print" : "2013-01-01",
+      "subject" : [
+         "Biotechnology",
+         "Environmental Engineering",
+         "General Chemical Engineering"
+      ],
+      "title" : [
+         "Cationic polyacrylamides increase the rate of liquefaction and hydrolysis of cornstarch"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/University_of_California,_Berkeley"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.47840.3f"
+                     }
+                  ],
+                  "official-page" : "http://www.berkeley.edu/",
+                  "provenance" : "MAG",
+                  "value" : "University of California, Berkeley"
+               }
+            ],
+            "family" : "Cohn",
+            "fullname" : "Willi M. Cohn",
+            "given" : "Willi M.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2149498794"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1002/andp.19354130803",
+      "doi-url" : "http://dx.doi.org/10.1002/andp.19354130803",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fandp.19354130803"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0003-3804"
+         },
+         {
+            "type" : "electronic",
+            "value" : "1521-3889"
+         }
+      ],
+      "issued" : "1935-01-01",
+      "license" : [
+         {
+            "content-version" : "tdm",
+            "date-time" : "2015-09-01T00:00:00Z",
+            "url" : "http://doi.wiley.com/10.1002/tdm_license_1.1"
+         }
+      ],
+      "published-print" : "1935-01-01",
+      "subject" : [
+         "General Physics and Astronomy"
+      ],
+      "title" : [
+         "ViskositÃ¤tsmessungen bei hohen Temperaturen mittels frei fallender Kugeln"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "authors" : [
+         {
+            "family" : "Prosser",
+            "fullname" : "David C. Prosser",
+            "given" : "David C."
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "UnpayWall"
+      ],
+      "doi" : "10.7557/3137",
+      "doi-url" : "http://dx.doi.org/10.7557/3137",
+      "instances" : [
+         {
+            "access-rights" : "OPEN",
+            "provenance" : "UnpayWall",
+            "url" : "http://septentrio.uit.no/index.php/SCS/article/download/3137/2992"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "electronic",
+            "value" : "2387-3086"
+         }
+      ],
+      "issued" : "2014-09-10",
+      "published-online" : "2014-09-10",
+      "title" : [
+         "What's 'Open' about Open Access? The Vital Role of Copyright and Licenses"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/University_of_Washington"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.34477.33"
+                     }
+                  ],
+                  "official-page" : "http://www.washington.edu/",
+                  "provenance" : "MAG",
+                  "value" : "University of Washington"
+               }
+            ],
+            "family" : "Keyes",
+            "fullname" : "E. L. Keyes",
+            "given" : "E. L.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2475933466"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1002/ar.1090770303",
+      "doi-url" : "http://dx.doi.org/10.1002/ar.1090770303",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Far.1090770303"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0003-276X"
+         },
+         {
+            "type" : "electronic",
+            "value" : "1097-0185"
+         }
+      ],
+      "issued" : "1940-07-01",
+      "license" : [
+         {
+            "content-version" : "tdm",
+            "date-time" : "2015-09-01T00:00:00Z",
+            "url" : "http://doi.wiley.com/10.1002/tdm_license_1.1"
+         }
+      ],
+      "published-print" : "1940-07-01",
+      "subject" : [
+         "Agricultural and Biological Sciences (miscellaneous)",
+         "Anatomy"
+      ],
+      "title" : [
+         "Demonstration of the nerve to the levator glandulae thyreoideae muscle"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "authors" : [
+         {
+            "family" : "Wilsing",
+            "fullname" : "J. Wilsing",
+            "given" : "J.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2577376289"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1002/asna.18971420203",
+      "doi-url" : "http://dx.doi.org/10.1002/asna.18971420203",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fasna.18971420203"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0004-6337"
+         },
+         {
+            "type" : "electronic",
+            "value" : "1521-3994"
+         }
+      ],
+      "issued" : "1897-01-01",
+      "license" : [
+         {
+            "content-version" : "tdm",
+            "date-time" : "2015-09-01T00:00:00Z",
+            "url" : "http://doi.wiley.com/10.1002/tdm_license_1.1"
+         }
+      ],
+      "published-print" : "1897-01-01",
+      "subject" : [
+         "Space and Planetary Science",
+         "Astronomy and Astrophysics"
+      ],
+      "title" : [
+         "Bericht Ã¼ber Versuche zum Nachweis einer elektrodynamischen Sonnenstrahlung von J. Wilsing und J. Scheiner"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/University_of_Virginia"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.27755.32"
+                     }
+                  ],
+                  "official-page" : "http://www.virginia.edu/",
+                  "provenance" : "MAG",
+                  "value" : "University of Virginia"
+               }
+            ],
+            "family" : "Kirwan",
+            "fullname" : "Donald J. Kirwan",
+            "given" : "Donald J.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2019137623"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/University_of_Virginia"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.27755.32"
+                     }
+                  ],
+                  "official-page" : "http://www.virginia.edu/",
+                  "provenance" : "MAG",
+                  "value" : "University of Virginia"
+               }
+            ],
+            "family" : "Gainer",
+            "fullname" : "John L. Gainer",
+            "given" : "John L.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2138478333"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/University_of_Virginia"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.27755.32"
+                     }
+                  ],
+                  "official-page" : "http://www.virginia.edu/",
+                  "provenance" : "MAG",
+                  "value" : "University of Virginia"
+               }
+            ],
+            "family" : "Carta",
+            "fullname" : "Giorgio Carta",
+            "given" : "Giorgio",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2068273244"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1002/bit.24556",
+      "doi-url" : "http://dx.doi.org/10.1002/bit.24556",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fbit.24556"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0006-3592"
+         }
+      ],
+      "issued" : "2012-05-21",
+      "license" : [
+         {
+            "content-version" : "tdm",
+            "date-time" : "2015-09-01T00:00:00Z",
+            "url" : "http://doi.wiley.com/10.1002/tdm_license_1.1"
+         }
+      ],
+      "published-online" : "2012-05-21",
+      "published-print" : "2012-08-01",
+      "subject" : [
+         "Biotechnology",
+         "Applied Microbiology and Biotechnology",
+         "Bioengineering"
+      ],
+      "title" : [
+         "In memoriam-Elmer L. Gaden, Jr."
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "abstract" : [
+         {
+            "provenance" : "MAG",
+            "value" : "I would make several comments on Sol Yurick's article, \"The Political Economy of Junk,\" in the December 1970 MR. I have no quarrel with his basic thesis that the current spread of, and alarm over, drug addiction must be viewed in the context of the political and economic system from which it springs. I think, though, that Mr. Yurick depicts its genesis too much as a conscious, deliberate act of Nixon or \"the ruling class.\" Furthermore I think he tends to oversimplify or overemphasize the impacts on the legal and illicit subeconomies which addiction affects. This article can also be found at the   Monthly Review  website , where most recent articles are published in full.   Click here to purchase a PDF version of this article at the  Monthly Review  website."
+         }
+      ],
+      "authors" : [
+         {
+            "family" : "Light",
+            "fullname" : "Donald Light",
+            "given" : "Donald",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2656039040"
+               }
+            ]
+         },
+         {
+            "family" : "Yurick",
+            "fullname" : "Sol Yurick",
+            "given" : "Sol",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2329510319"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.14452/mr-023-01-1971-05_4",
+      "doi-url" : "http://dx.doi.org/10.14452/mr-023-01-1971-05_4",
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0027-0520"
+         },
+         {
+            "type" : "electronic",
+            "value" : "0027-0520"
+         }
+      ],
+      "issued" : "1971-05-04",
+      "published-online" : "1971-05-04",
+      "subject" : [
+         "Geography, Planning and Development",
+         "Sociology and Political Science",
+         "Management, Monitoring, Policy and Law",
+         "Gender Studies"
+      ],
+      "title" : [
+         "Response to Sol Yurick's \"Political Economy of Junk\"; Response to a Response"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "abstract" : [
+         {
+            "provenance" : "MAG",
+            "value" : "For an array {V nk ,kÃ¢ÂÂ¥1,nÃ¢ÂÂ¥1} of rowwise independent random elements in a real separable Banach space \\\\(X\\\\) with almost surely convergent row sums \\\\(S_n = \\\\sum {_{k = 1}^\\\\infty {\\\\text{ }}V_{nk} ,n \\\\geqslant 1} \\\\), we provide criteria for S n Ã¢ÂÂA n to be stochastically bounded or for the weak law of large numbers \\\\(S_n - A_n \\\\xrightarrow{P}0\\\\) to hold where {A n ,nÃ¢ÂÂ¥1} is a (nonrandom) sequence in \\\\(X\\\\)."
+         }
+      ],
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/University_of_Florida"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.15276.37"
+                     }
+                  ],
+                  "official-page" : "http://www.ufl.edu/",
+                  "provenance" : "MAG",
+                  "value" : "University of Florida"
+               }
+            ],
+            "family" : "Rosalsky",
+            "fullname" : "A. Rosalsky",
+            "given" : "A.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/13882261"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/University_of_Regina"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.57926.3f"
+                     }
+                  ],
+                  "official-page" : "http://www.uregina.ca/",
+                  "provenance" : "MAG",
+                  "value" : "University of Regina"
+               }
+            ],
+            "family" : "Volodin",
+            "fullname" : "A. I. Volodin",
+            "given" : "A. I.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2156371178"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1023/b:jotp.0000020697.69668.e7",
+      "doi-url" : "http://dx.doi.org/10.1023/b:jotp.0000020697.69668.e7",
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0894-9840"
+         }
+      ],
+      "issued" : "2004-04-01",
+      "published-print" : "2004-04-01",
+      "subject" : [
+         "Statistics, Probability and Uncertainty",
+         "Statistics and Probability",
+         "General Mathematics"
+      ],
+      "title" : [
+         "On the Weak Limiting Behavior of Almost Surely Convergent Row Sums from Infinite Arrays of Rowwise Independent Random Elements in Banach Spaces"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "abstract" : [
+         {
+            "provenance" : "MAG",
+            "value" : "For the pair (A,B), where A is a differential operator and B is a boundary operator in sections of bundles over the manifold M with boundary ÃÂ, one indicates the construction of a complex of sheaves of germs of sections of the bundles Ei, over M and Gi over ÃÂ and of differential-boundary operators\r\n\r\n$$\\\\underset{\\\\raise0.3em\\\\hbox{$\\\\smash{\\\\scriptscriptstyle-}$}}{E} _o \\\\xrightarrow{{(A, B)}} \\\\underset{\\\\raise0.3em\\\\hbox{$\\\\smash{\\\\scriptscriptstyle-}$}}{E} _1 \\\\times \\\\underset{\\\\raise0.3em\\\\hbox{$\\\\smash{\\\\scriptscriptstyle-}$}}{G} _1 \\\\to \\\\underset{\\\\raise0.3em\\\\hbox{$\\\\smash{\\\\scriptscriptstyle-}$}}{E} _2 \\\\times \\\\underset{\\\\raise0.3em\\\\hbox{$\\\\smash{\\\\scriptscriptstyle-}$}}{G} _2 \\\\to \\\\ldots \\\\to 0 .$$\r\n\r\nIn the real analytic case the cohomology of this complex in the termE 1 ÃÂG 1 is equal to zero (the local solvability of the boundary value problem under the compatibility conditions) if the conormal to the boundary ÃÂ is in the direction of the least degeneracy of the symbol of the operator A, while the complex is exact if the degeneracy of the symbol is the same in all directions (for example, if A is elliptic)."
+         }
+      ],
+      "authors" : [
+         {
+            "family" : "Samborskii",
+            "fullname" : "S. N. Samborskii",
+            "given" : "S. N.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2674423625"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1007/bf01788926",
+      "doi-url" : "http://dx.doi.org/10.1007/bf01788926",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://www.springerlink.com/index/pdf/10.1007/BF01788926"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0090-4104"
+         },
+         {
+            "type" : "electronic",
+            "value" : "1573-8795"
+         }
+      ],
+      "issued" : "1984-04-01",
+      "published-print" : "1984-04-01",
+      "subject" : [
+         "Statistics and Probability",
+         "Applied Mathematics",
+         "General Mathematics"
+      ],
+      "title" : [
+         "Formal properties of boundary-value problems for overdetermined systems of partial differential equations"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "abstract" : [
+         {
+            "provenance" : "MAG",
+            "value" : "The value of 'mesothelium-associated' antibodies in distinguishing between metastatic renal cell carcinomas and mesotheliomas Aim: Despite increasing usage of mesothelium-associated antibodies in diagnosis, a meta-analysis of studies analysing these antibodies in relation to distinguishing mesothelioma from renal cell carcinoma shows a paucity of published data. Given the clinical importance of elucidating this differential diagnosis, we compared the phenotypes of these two tumours using a panel of antibodies comprising recently described 'mesothelium-associated' antibodies and the more established 'epithelium-associated' antibodies.  Methods and results: We applied an antibody panel comprising calretinin, cytokeratin (CK)5/6, thrombomodulin, carcinoembryonic antigen (CEA), BerEP4 and BCA225 to 37 cases of pleural mesotheliomas and 40 cases of renal cell carcinoma (27 primary tumours and 13 metastatic to the pleura). All mesotheliomas were either purely epithelioid or of mixed type. Cases of renal cell carcinoma were graded and classified as to cell type and architecture. For mesotheliomas, 0% stained for CEA, 16% for BerEP4, 83% for BCA225, 78% for CK5/6, 86% for thrombomodulin and 97% showed nuclear staining for calretinin. For renal cell carcinomas, 0% stained for CEA, 50% for BerEP4, 88% for BCA225, 5% for CK5/6, 32% for thrombomodulin and 10% showed nuclear staining for calretinin.   Conclusion: Calretinin, CK5/6 and BerEP4 appear the most useful antibodies in helping to distinguish between renal cell carcinomas and mesotheliomas, although BerEP4 was not particularly sensitive for renal cell carcinomas. Thrombomodulin was not as specific as the other 'mesothelium-associated' antibodies in this study, reflecting how staining for mesothelium-associated antibodies varies in carcinomas from different primary sites, and such variations should be taken into account when assessing the differential diagnosis of mesothelioma. In cases where doubt remains over distinguishing metastatic renal cell carcinoma from mesothelioma, data from such a panel should be viewed with caution and assessed in association with clinical, imaging and morphological features."
+         }
+      ],
+      "authors" : [
+         {
+            "family" : "Osborn",
+            "fullname" : "M Osborn",
+            "given" : "M",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2485732568"
+               }
+            ]
+         },
+         {
+            "family" : "Pelling",
+            "fullname" : "N Pelling",
+            "given" : "N",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2678719667"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/St._Mary's_Hospital_(Montreal)"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.416526.2"
+                     }
+                  ],
+                  "official-page" : "",
+                  "provenance" : "MAG",
+                  "value" : "St Mary's Hospital"
+               }
+            ],
+            "family" : "Walker",
+            "fullname" : "M M Walker",
+            "given" : "M M",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2201095253"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/The_Royal_Marsden_NHS_Foundation_Trust"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.5072.0"
+                     }
+                  ],
+                  "official-page" : "http://www.royalmarsden.nhs.uk/",
+                  "provenance" : "MAG",
+                  "value" : "The Royal Marsden NHS Foundation Trust"
+               }
+            ],
+            "family" : "Fisher",
+            "fullname" : "C Fisher",
+            "given" : "C",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2217194653"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/National_Institutes_of_Health"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.94365.3d"
+                     }
+                  ],
+                  "official-page" : "http://www.nih.gov/",
+                  "provenance" : "MAG",
+                  "value" : "National Institutes of Health"
+               }
+            ],
+            "family" : "Nicholson",
+            "fullname" : "A G Nicholson",
+            "given" : "A G",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2106811908"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1046/j.1365-2559.2002.01527.x",
+      "doi-url" : "http://dx.doi.org/10.1046/j.1365-2559.2002.01527.x",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1046%2Fj.1365-2559.2002.01527.x"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0309-0167"
+         },
+         {
+            "type" : "electronic",
+            "value" : "1365-2559"
+         }
+      ],
+      "issued" : "2002-10-01",
+      "license" : [
+         {
+            "content-version" : "tdm",
+            "date-time" : "2015-09-01T00:00:00Z",
+            "url" : "http://doi.wiley.com/10.1002/tdm_license_1.1"
+         }
+      ],
+      "published-print" : "2002-10-01",
+      "subject" : [
+         "Pathology and Forensic Medicine",
+         "Histology",
+         "General Medicine"
+      ],
+      "title" : [
+         "The value of 'mesothelium-associated' antibodies in distinguishing between metastatic renal cell carcinomas and mesotheliomas"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "abstract" : [
+         {
+            "provenance" : "MAG",
+            "value" : "Non-local quantum correlations between distant particles cannot be explained by signals propagating slower than the speed of light. It is now shown that they cannot be explained by hidden influences propagating faster than the speed of light either, because that would permit faster-than-light communication."
+         }
+      ],
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/University_of_Geneva"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.8591.5"
+                     }
+                  ],
+                  "official-page" : "http://www.unige.ch/",
+                  "provenance" : "MAG",
+                  "value" : "University of Geneva"
+               }
+            ],
+            "family" : "Bancal",
+            "fullname" : "J-D. Bancal",
+            "given" : "J-D.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2028337704"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/UniversitÃ©_libre_de_Bruxelles"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.4989.c"
+                     }
+                  ],
+                  "official-page" : "http://www.ulb.ac.be/",
+                  "provenance" : "MAG",
+                  "value" : "UniversitÃ© libre de Bruxelles"
+               }
+            ],
+            "family" : "Pironio",
+            "fullname" : "S. Pironio",
+            "given" : "S.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2796584932"
+               }
+            ]
+         },
+         {
+            "family" : "AcÃ­n",
+            "fullname" : "A. AcÃ­n",
+            "given" : "A."
+         },
+         {
+            "family" : "Liang",
+            "fullname" : "Y-C. Liang",
+            "given" : "Y-C."
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/National_University_of_Singapore"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.4280.e"
+                     }
+                  ],
+                  "official-page" : "http://www.nus.edu.sg/",
+                  "provenance" : "MAG",
+                  "value" : "National University of Singapore"
+               }
+            ],
+            "family" : "Scarani",
+            "fullname" : "V. Scarani",
+            "given" : "V.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/1498996866"
+               },
+               {
+                  "provenance" : "ORCID",
+                  "value" : "https://orcid.org/0000-0001-5594-5616"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/University_of_Geneva"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.8591.5"
+                     }
+                  ],
+                  "official-page" : "http://www.unige.ch/",
+                  "provenance" : "MAG",
+                  "value" : "University of Geneva"
+               }
+            ],
+            "family" : "Gisin",
+            "fullname" : "N. Gisin",
+            "given" : "N.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2162237343"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG",
+         "ORCID"
+      ],
+      "doi" : "10.1038/nphys2460",
+      "doi-url" : "http://dx.doi.org/10.1038/nphys2460",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://www.nature.com/articles/nphys2460.pdf"
+         },
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://www.nature.com/articles/nphys2460"
+         },
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://www.nature.com/articles/nphys2460.pdf"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "1745-2473"
+         },
+         {
+            "type" : "electronic",
+            "value" : "1745-2481"
+         }
+      ],
+      "issued" : "2012-10-28",
+      "license" : [
+         {
+            "content-version" : "unspecified",
+            "date-time" : "2012-10-28T00:00:00Z",
+            "url" : "http://www.springer.com/tdm"
+         }
+      ],
+      "published-online" : "2012-10-28",
+      "published-print" : "2012-12-01",
+      "subject" : [
+         "General Physics and Astronomy"
+      ],
+      "title" : [
+         "Quantum non-locality based on finite-speed causal influences leads to superluminal signalling"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Technology_College"
+                     }
+                  ],
+                  "official-page" : "",
+                  "provenance" : "MAG",
+                  "value" : "Technology College"
+               }
+            ],
+            "family" : "Xu",
+            "fullname" : "Bing Xu",
+            "given" : "Bing",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2600914321"
+               }
+            ]
+         },
+         {
+            "family" : "Wang",
+            "fullname" : "Hong-li Wang",
+            "given" : "Hong-li",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2652750929"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Technology_College"
+                     }
+                  ],
+                  "official-page" : "",
+                  "provenance" : "MAG",
+                  "value" : "Technology College"
+               }
+            ],
+            "family" : "Wang",
+            "fullname" : "Han- Bing Wang",
+            "given" : "Han- Bing",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2708810919"
+               }
+            ]
+         },
+         {
+            "family" : "Liu",
+            "fullname" : "Fu-Li Liu",
+            "given" : "Fu-Li",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2734952768"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.2991/ipemec-15.2015.27",
+      "doi-url" : "http://dx.doi.org/10.2991/ipemec-15.2015.27",
+      "issued" : "2015-01-01",
+      "published-print" : "2015-01-01",
+      "title" : [
+         "The Method for Fault Diagnosis of Electric Actuator for a Type of Self-propelled Rocket Launcher Based on the Fuzzy Clustering"
+      ],
+      "type" : "proceedings-article"
+   },
+   {
+      "authors" : [
+         {
+            "family" : "Sun",
+            "fullname" : "Xiulan Sun",
+            "given" : "Xiulan"
+         },
+         {
+            "family" : "Zhan",
+            "fullname" : "Lijuan Zhan",
+            "given" : "Lijuan"
+         },
+         {
+            "family" : "Yang",
+            "fullname" : "Zhengliang Yang",
+            "given" : "Zhengliang"
+         },
+         {
+            "family" : "Liu",
+            "fullname" : "Baolin Liu",
+            "given" : "Baolin"
+         },
+         {
+            "family" : "Li",
+            "fullname" : "Cenglong Li",
+            "given" : "Cenglong"
+         },
+         {
+            "family" : "Zhu",
+            "fullname" : "Lin Zhu",
+            "given" : "Lin"
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef"
+      ],
+      "doi" : "10.19026/ajfst.9.1653",
+      "doi-url" : "http://dx.doi.org/10.19026/ajfst.9.1653",
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "2042-4868"
+         },
+         {
+            "type" : "electronic",
+            "value" : "2042-4876"
+         }
+      ],
+      "issued" : "2015-09-20",
+      "published-online" : "2015-09-20",
+      "subject" : [
+         "Food Science",
+         "Industrial and Manufacturing Engineering",
+         "General Chemistry"
+      ],
+      "title" : [
+         "Evaluation on the 'One Village One Product' Economic Development Benefit of Chengdu Shuangliu County Based on Entropy Weight TOPSIS Method"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "abstract" : [
+         {
+            "provenance" : "MAG",
+            "value" : "Background:  To evaluate gastrointestinal pathology in computed tomography (CT) scan, optimum distention, mural visualization and gastrointestinal tract discrimination are necessary. High attenuation oral contrast material in the form of iodine solution has drawbacks in mural visualization and tolerance. Milk can be used as a low attenuation CT oral contrast agent in gastrointestinal tract discrimination and mural visualization with better tolerance.    Objective:  The purpose of our study was to compare the effectiveness, cost, and tolerance of milk and iopamiro (iodinated positive contrast medium) in patients undergoing abdominal CT with oral and IV contrast media.    Materials and Methods:  Two hundred and twelve patients were purposively assigned to receive either whole milk (n = 110) or iopamiro (n = 100). Results were independently reviewed by radiologists. Degree of bowel distention, mural visualization and gastrointestinal tract discrimination were qualitatively scored on a 4- point scale. A questionnaire regarding oral contrast tolerability was provided to each patient. Cost comparison of the two agents was performed.    Results:  No statistically significant differences were seen between whole milk and iopamiro with respect to degree of bowel distention and gastrointestinal tract discrimination for all segments of bowel studied (p > 0.05). Mural visualization is better with whole milk compared with iopamiro (p < 0.05). Significantly more patients ranked milk as pleasant in taste compared with iopamiro (p < 0.05). Milk was better tolerated than iopamiro, with fewer gastrointestinal side effects, including abdominal discomfort (p = 0.065), cramping (p = 0.309), nausea (p = 0.001), vomiting (p = 0.003) and diarrhea (p = 0.347). The cost per patient for iopamiro is 900 BDT compared with 60 BDT for milk.    Conclusion:  Whole milk is comparable to iopamiro with respect to bowel distention and gastrointestinal tract discrimination and better in bowel wall visualization and has better patient acceptance, and fewer adverse symptoms. Milk is a costeffective alternative to iopamiro as a low-attenuation CT oral contrast agent.   Journal of Enam Medical  College; Vol 3 No 2 July 2013; Page 71-76   DOI:  http://dx.doi.org/10.3329/jemc.v3i2.16126"
+         }
+      ],
+      "authors" : [
+         {
+            "family" : "Rupa",
+            "fullname" : "Sharmin Akhtar Rupa",
+            "given" : "Sharmin Akhtar",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2642176486"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Bangabandhu_Sheikh_Mujib_Medical_University"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.411509.8"
+                     }
+                  ],
+                  "official-page" : "http://bsmmu.edu.bd/",
+                  "provenance" : "MAG",
+                  "value" : "Bangabandhu Sheikh Mujib Medical University"
+               }
+            ],
+            "family" : "Azad",
+            "fullname" : "Salahuddin Al Azad",
+            "given" : "Salahuddin Al",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2246846485"
+               }
+            ]
+         },
+         {
+            "family" : "Chakraborty",
+            "fullname" : "Nehar Ranjan Chakraborty",
+            "given" : "Nehar Ranjan",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2340254121"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG",
+         "UnpayWall"
+      ],
+      "doi" : "10.3329/jemc.v3i2.16126",
+      "doi-url" : "http://dx.doi.org/10.3329/jemc.v3i2.16126",
+      "instances" : [
+         {
+            "access-rights" : "OPEN",
+            "provenance" : "UnpayWall",
+            "url" : "http://doi.org/10.3329/jemc.v3i2.16126"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "2227-6688"
+         },
+         {
+            "type" : "electronic",
+            "value" : "2304-9316"
+         }
+      ],
+      "issued" : "2013-08-07",
+      "published-online" : "2013-08-07",
+      "title" : [
+         "Milk - An Effective Low-Attenuation Computed Tomography Oral Contrast Medium"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "abstract" : [
+         {
+            "provenance" : "MAG",
+            "value" : "As in the (k,l)-RSK (Robinson-Schensted-Knuth) of A. Berele and A. Regev (1987, Adv. Math.64, 118-175), other super-RSK algorithms can be applied to sequences of variables from the set {t\"1,...,t\"k,u\"1,...,u\"l}, where t\"1<..."
+         }
+      ],
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Weizmann_Institute_of_Science"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.13992.30"
+                     }
+                  ],
+                  "official-page" : "http://www.weizmann.ac.il/",
+                  "provenance" : "MAG",
+                  "value" : "Weizmann Institute of Science"
+               }
+            ],
+            "family" : "Regev",
+            "fullname" : "Amitai Regev",
+            "given" : "Amitai",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/1850544109"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Weizmann_Institute_of_Science"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.13992.30"
+                     }
+                  ],
+                  "official-page" : "http://www.weizmann.ac.il/",
+                  "provenance" : "MAG",
+                  "value" : "Weizmann Institute of Science"
+               }
+            ],
+            "family" : "Seeman",
+            "fullname" : "Tamar Seeman",
+            "given" : "Tamar",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2143215056"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG",
+         "UnpayWall"
+      ],
+      "doi" : "10.1006/aama.2001.0767",
+      "doi-url" : "http://dx.doi.org/10.1006/aama.2001.0767",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://api.elsevier.com/content/article/PII:S0196885801907675?httpAccept=text/xml"
+         },
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://api.elsevier.com/content/article/PII:S0196885801907675?httpAccept=text/plain"
+         },
+         {
+            "access-rights" : "OPEN",
+            "provenance" : "UnpayWall",
+            "url" : "http://doi.org/10.1006/aama.2001.0767"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0196-8858"
+         }
+      ],
+      "issued" : "2002-01-01",
+      "license" : [
+         {
+            "content-version" : "tdm",
+            "date-time" : "2002-01-01T00:00:00Z",
+            "url" : "http://www.elsevier.com/tdm/userlicense/1.0/"
+         },
+         {
+            "content-version" : "vor",
+            "date-time" : "2013-07-17T00:00:00Z",
+            "url" : "http://www.elsevier.com/open-access/userlicense/1.0/"
+         }
+      ],
+      "published-print" : "2002-01-01",
+      "subject" : [
+         "Applied Mathematics"
+      ],
+      "title" : [
+         "Shuffle Invariance of the Super-RSK Algorithm"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/University_of_Edinburgh"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.4305.2"
+                     }
+                  ],
+                  "official-page" : "http://www.ed.ac.uk/",
+                  "provenance" : "MAG",
+                  "value" : "University of Edinburgh"
+               }
+            ],
+            "family" : "Morrison",
+            "fullname" : "Carole A. Morrison",
+            "given" : "Carole A.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2330516693"
+               }
+            ]
+         },
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/Max_Planck_Society"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.4372.2"
+                     }
+                  ],
+                  "official-page" : "http://www.mpg.de/",
+                  "provenance" : "MAG",
+                  "value" : "Max Planck Society"
+               }
+            ],
+            "family" : "Kochman",
+            "fullname" : "Michal A. Kochman",
+            "given" : "Michal A.",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2135585169"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.1107/s0108767313098334",
+      "doi-url" : "http://dx.doi.org/10.1107/s0108767313098334",
+      "instances" : [
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://journals.iucr.org/a/issues/2013/a1/00/a50866/a50866.pdf"
+         },
+         {
+            "provenance" : "CrossRef",
+            "url" : "http://journals.iucr.org/a/issues/2013/a1/00/a50866/a50866.pdf"
+         }
+      ],
+      "issn" : [
+         {
+            "type" : "print",
+            "value" : "0108-7673"
+         }
+      ],
+      "issued" : "2013-08-25",
+      "license" : [
+         {
+            "content-version" : "vor",
+            "date-time" : "2013-08-25T00:00:00Z",
+            "url" : "http://journals.iucr.org/services/copyrightpolicy.html"
+         },
+         {
+            "content-version" : "tdm",
+            "date-time" : "2013-08-25T00:00:00Z",
+            "url" : "http://journals.iucr.org/services/copyrightpolicy.html#TDM"
+         }
+      ],
+      "published-print" : "2013-08-25",
+      "title" : [
+         "Exciting 'stuff': modelling photochemical reactions in the condensed phase. Applications in time-resolved diffraction"
+      ],
+      "type" : "journal-article"
+   },
+   {
+      "authors" : [
+         {
+            "affiliations" : [
+               {
+                  "identifiers" : [
+                     {
+                        "schema" : "wikpedia",
+                        "value" : "http://en.wikipedia.org/wiki/University_of_Helsinki"
+                     },
+                     {
+                        "schema" : "grid.ac",
+                        "value" : "grid.7737.4"
+                     }
+                  ],
+                  "official-page" : "https://www.helsinki.fi/en",
+                  "provenance" : "MAG",
+                  "value" : "University of Helsinki"
+               }
+            ],
+            "fullname" : "Ismo StrandÃ©n",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2291716478"
+               }
+            ]
+         },
+         {
+            "fullname" : "Riitta Kempe",
+            "identifiers" : [
+               {
+                  "provenance" : "MAG",
+                  "schema" : "URL",
+                  "value" : "https://academic.microsoft.com/#/detail/2324632299"
+               }
+            ]
+         }
+      ],
+      "collectedFrom" : [
+         "CrossRef",
+         "MAG"
+      ],
+      "doi" : "10.3920/978-90-8686-859-9",
+      "doi-url" : "http://dx.doi.org/10.3920/978-90-8686-859-9",
+      "issued" : "2017-07-25",
+      "published-online" : "2017-07-25",
+      "published-print" : "2017-08-29",
+      "title" : [
+         "Book of Abstracts of the 68th Annual Meeting of the European Association for Animal Production"
+      ],
+      "type" : "proceedings"
+   }
+]
